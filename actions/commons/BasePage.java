@@ -19,6 +19,11 @@ public class BasePage {
 	
 	private long longTime = 30;
 	
+	// Hàm khởi tạo
+	public static BasePage getBasePageObject() {
+		return new BasePage();
+	}
+	
 	// Chứa các hàm dùng chung cho Page Object
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
@@ -31,6 +36,7 @@ public class BasePage {
 	public String getCurrentUrl(WebDriver driver) {
 		return driver.getCurrentUrl();
 	}
+	
 	
 	public String getPageSource(WebDriver driver) {
 		return driver.getPageSource();
@@ -106,15 +112,15 @@ public class BasePage {
 		}
 	}
 	
-	public WebElement getElement(WebDriver driver, String xpathLocator) {
+	private WebElement getElement(WebDriver driver, String xpathLocator) {
 		return driver.findElement(By.xpath(xpathLocator));
 	}
 	
-	public List<WebElement> getElements(WebDriver driver, String xpathLocator) {
+	private List<WebElement> getElements(WebDriver driver, String xpathLocator) {
 		return driver.findElements(By.xpath(xpathLocator));
 	}
 	
-	public By getByXpath(String locator) {
+	private By getByXpath(String locator) {
 		return By.xpath(locator);
 	}
 	
@@ -134,7 +140,7 @@ public class BasePage {
 	
 	public void selectItemInDefaultDropDown(WebDriver driver, String xpathLocator, String textItem) {
 		Select select = new Select(getElement(driver, xpathLocator));
-		select.deselectByValue(textItem);
+		select.selectByValue(textItem);
 	}
 	
 	public boolean isDropdownMultiple(WebDriver driver, String xpathLocator) {
@@ -142,6 +148,10 @@ public class BasePage {
 		return select.isMultiple();
 	}
 	
+	public String getSelectedItemDefaultDropdown(WebDriver driver, String xpathLocator) {
+		Select select = new Select(getElement(driver, xpathLocator));
+		return select.getFirstSelectedOption().getText();
+	}
 	public void selectItemInCustomDropdown(WebDriver driver, String parentLocator, String childItemLocator, String expectedItem) {
 		getElement(driver, parentLocator).click();
 		sleepInSecond(1);
