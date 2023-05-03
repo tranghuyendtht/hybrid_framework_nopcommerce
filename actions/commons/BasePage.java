@@ -128,6 +128,12 @@ public class BasePage {
 		getElement(driver,xpathLocator).click();
 	}
 	
+	public void clickToElementByJS(WebDriver driver, String xpathLocator) {
+		WebElement element = getElement(driver,xpathLocator);
+		 JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+			jsExecutor.executeScript("arguments[0].click();", element);
+	}
+	
 	public void sendkeyToElement (WebDriver driver, String xpathLocator, String textValue) {
 		WebElement element = getElement(driver,xpathLocator);
 		element.clear();
@@ -140,7 +146,7 @@ public class BasePage {
 	
 	public void selectItemInDefaultDropDown(WebDriver driver, String xpathLocator, String textItem) {
 		Select select = new Select(getElement(driver, xpathLocator));
-		select.selectByValue(textItem);
+		select.selectByVisibleText(textItem);
 	}
 	
 	public boolean isDropdownMultiple(WebDriver driver, String xpathLocator) {
