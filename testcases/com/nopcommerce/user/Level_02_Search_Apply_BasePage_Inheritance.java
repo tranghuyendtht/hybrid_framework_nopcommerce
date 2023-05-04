@@ -30,7 +30,8 @@ public class Level_02_Search_Apply_BasePage_Inheritance extends BasePage {
 	String keywordAbsolute = "apple macbook pro";
 	String categoryText = "Computers";
 	// String keywordAbsolute = "Thinkpad X1 Carbon";
-	String manufacturerText = "HP";
+	String manufacturerTextIncorrect = "HP";
+	String manufacturerTextCorrect = "Apple";
 
 	@BeforeClass
 	public void beforeClass() {
@@ -81,7 +82,7 @@ public class Level_02_Search_Apply_BasePage_Inheritance extends BasePage {
 				"Search term minimum length is 3 characters");
 	}
 
-	 @Test
+	@Test
 	public void TC_02_Search_Data_Not_Exits() {
 		waitForElementVisible(driver, "//a[text()='Search']");
 		clickToElement(driver, "//a[text()='Search']");
@@ -104,7 +105,7 @@ public class Level_02_Search_Apply_BasePage_Inheritance extends BasePage {
 		clickToElement(driver, "//button[contains(@class,'search-button')]");
 		List<WebElement> listTitle = driver
 				.findElements(By.xpath("//div[@class = 'product-item']//h2[@class ='product-title']//a"));
-		
+
 		Assert.assertEquals(listTitle.size(), 2);
 
 		for (WebElement webElement : listTitle) {
@@ -132,7 +133,7 @@ public class Level_02_Search_Apply_BasePage_Inheritance extends BasePage {
 		Assert.assertTrue(listTitle.get(0).getText().toLowerCase().contains(keywordAbsolute));
 	}
 
-	 @Test
+	@Test
 	public void TC_05_Advanced_Search_Parent_Categories() {
 
 		waitForElementVisible(driver, "//a[text()='Search']");
@@ -147,7 +148,7 @@ public class Level_02_Search_Apply_BasePage_Inheritance extends BasePage {
 				"No products were found that matched your criteria.");
 	}
 
-	 @Test
+	@Test
 	public void TC_06_Advanced_Search_Sub_Categories() {
 
 		waitForElementVisible(driver, "//a[text()='Search']");
@@ -178,11 +179,33 @@ public class Level_02_Search_Apply_BasePage_Inheritance extends BasePage {
 		clickToElement(driver, "//input[@id='advs']");
 		selectItemInDefaultDropDown(driver, "//select[@id='cid']", categoryText);
 		clickToElement(driver, "//input[@id='isc']");
-		selectItemInDefaultDropDown(driver, "//select[@id='mid']", manufacturerText);
+		selectItemInDefaultDropDown(driver, "//select[@id='mid']", manufacturerTextIncorrect);
 		clickToElement(driver, "//button[contains(@class,'search-button')]");
 
 		Assert.assertEquals(getElementText(driver, "//div[@class='no-result']"),
 				"No products were found that matched your criteria.");
+	}
+
+	@Test
+	public void TC_08_Advanced_Search_Correct_Manufacturer() {
+
+		waitForElementVisible(driver, "//a[text()='Search']");
+		clickToElement(driver, "//a[text()='Search']");
+
+		sendkeyToElement(driver, "//input[@class='search-text']", keywordAbsolute);
+		clickToElement(driver, "//input[@id='advs']");
+		selectItemInDefaultDropDown(driver, "//select[@id='cid']", categoryText);
+		clickToElement(driver, "//input[@id='isc']");
+		selectItemInDefaultDropDown(driver, "//select[@id='mid']", manufacturerTextCorrect);
+		clickToElement(driver, "//button[contains(@class,'search-button')]");
+
+		// Chỉ có 1 sp match
+		List<WebElement> listTitle = driver
+				.findElements(By.xpath("//div[@class = 'product-item']//h2[@class ='product-title']//a"));
+		Assert.assertEquals(listTitle.size(), 1);
+
+		// Độ chính xác về tên
+		Assert.assertTrue(listTitle.get(0).getText().toLowerCase().contains(keywordAbsolute));
 	}
 
 //	@AfterMethod
