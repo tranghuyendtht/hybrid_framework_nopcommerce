@@ -20,4 +20,16 @@ public class HomePageObject extends BasePage{
 		
 	}
 
+
+	public void clickToLoginLink() {
+		clickToElement(driver, HomePageUI.LOGIN_LINK);
+		
+	}
+
+
+	public String getLoginSuccessMessage() {
+		waitForElementVisible(driver, HomePageUI.LOGIN_SUCCESS_MESSAGE);
+		return getElementText(driver, HomePageUI.LOGIN_SUCCESS_MESSAGE);
+	}
+
 }

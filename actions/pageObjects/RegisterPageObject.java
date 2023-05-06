@@ -91,5 +91,11 @@ public class RegisterPageObject extends BasePage{
 		
 	}
 
+	public void clickToLoginLink() {
+		waitForElementClickable(driver, RegisterPageUI.LOGIN_LINK);
+		clickToElement(driver, RegisterPageUI.LOGIN_LINK);
+		
+	}
+
 
 }
