@@ -23,7 +23,7 @@ import pageObjects.ProductDetailPageObject;
 import pageObjects.ProductListPageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_03_My_Account_Page_Object extends BasePage {
+public class Level_03_My_Account_Page_Object{
 	WebDriver driver;
 	HomePageObject homePage;
 	RegisterPageObject registerPage;
