@@ -1,6 +1,8 @@
 package pageObjects;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import PageUIs.HomePageUI;
 import commons.BasePage;
@@ -15,6 +17,8 @@ public class HomePageObject extends BasePage{
 	}
 
 
+	
+	
 	public void clickToRegisterLink() {
 		clickToElement(driver, HomePageUI.REGISTER_LINK);
 		
