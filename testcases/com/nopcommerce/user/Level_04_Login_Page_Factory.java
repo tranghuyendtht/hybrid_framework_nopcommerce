@@ -23,6 +23,7 @@ public class Level_04_Login_Page_Factory extends BaseTest{
 	LoginPageObject loginPage;
 	String emailAddress;
 	String firstName, lastName, password, invalidEmail, notFoundEmail;
+	
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
