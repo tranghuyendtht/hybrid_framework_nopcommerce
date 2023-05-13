@@ -13,7 +13,7 @@ import commons.BaseTest;
 import pageObjects.HomePageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_04_Register_Page_Factory extends BaseTest {
+public class Level_05_Register_Page_Factory extends BaseTest {
 
 	private HomePageObject homePage;
 	private RegisterPageObject registerPage;

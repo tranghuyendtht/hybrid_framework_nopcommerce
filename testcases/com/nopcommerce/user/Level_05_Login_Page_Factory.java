@@ -14,7 +14,7 @@ import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_04_Login_Page_Factory extends BaseTest{
+public class Level_05_Login_Page_Factory extends BaseTest{
 
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");

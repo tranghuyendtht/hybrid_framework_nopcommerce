@@ -25,7 +25,7 @@ import pageObjects.ProductDetailPageObject;
 import pageObjects.ProductListPageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_04_My_Account_Page_Factory extends BaseTest{
+public class Level_05_My_Account_Page_Factory extends BaseTest{
 	WebDriver driver;
 	HomePageObject homePage;
 	RegisterPageObject registerPage;
