@@ -20,7 +20,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class Level_06_Page_Generator_Manager_I extends BaseTest {
+public class Level_06_Login_Page_Generator_Manager_I extends BaseTest {
 
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");

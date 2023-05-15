@@ -32,7 +32,6 @@ public class HomePageObject extends BasePage{
 	public LoginPageObject clickToLoginLink() {
 		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
 		clickToElement(driver, HomePageUI.LOGIN_LINK);
-		//return new LoginPageObject(driver);
 		return PageGeneratorManager.getLoginPage(driver);
 	}
 
@@ -50,9 +49,10 @@ public class HomePageObject extends BasePage{
 	}
 
 
-	public void clickToMyAccountLink() {
+	public MyAccountPageObject clickToMyAccountLink() {
 		waitForElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, HomePageUI.MY_ACCOUNT_LINK);
+		return PageGeneratorManager.getMyAccountPage(driver);
 		
 	}
 
@@ -62,5 +62,7 @@ public class HomePageObject extends BasePage{
 		return isElementDisplayed(driver, HomePageUI.REGISTER_LINK);
 		
 	}
+
+
 
 }

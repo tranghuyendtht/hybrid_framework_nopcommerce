@@ -18,11 +18,13 @@ public class ProductListPageObject extends BasePage {
 		clickToElement(driver, ProductListUI.DESKTOP_LINK);
 	}
 
-	public void clickToAProduct() {
+	public ProductDetailPageObject clickToAProduct() {
 		waitForElementClickable(driver, ProductListUI.A_NAME_PRODUCT_LINK);
 		clickToElement(driver, ProductListUI.A_NAME_PRODUCT_LINK);
-
+		return PageGeneratorManager.getAProductInfoDetail(driver);
 	}
+	
+	
 
 
 }

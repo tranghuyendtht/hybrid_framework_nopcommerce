@@ -275,10 +275,10 @@ public class MyAccountPageObject extends BasePage {
 
 	}
 
-	public void clickToComputerLink() {
+	public ProductListPageObject clickToComputerLink() {
 		waitForElementClickable(driver, MyAccountPageUI.PRODUCT_LIST_COMPUTERS_LINK);
 		clickToElement(driver, MyAccountPageUI.PRODUCT_LIST_COMPUTERS_LINK);
-
+		return PageGeneratorManager.getProductListPageObject(driver);
 	}
 
 	public void clickToMyProductReview() {

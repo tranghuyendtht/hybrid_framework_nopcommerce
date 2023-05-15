@@ -6,6 +6,7 @@ import commons.BasePage;
 import commons.BaseTest;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
+import pageObjects.PageGeneratorManager;
 import pageObjects.RegisterPageObject;
 
 import org.testng.annotations.BeforeClass;
@@ -20,7 +21,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class Level_06_Page_Generator_Manager_II extends BaseTest {
+public class Level_06_Login_Page_Generator_Manager_III extends BaseTest {
 
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
@@ -35,7 +36,7 @@ public class Level_06_Page_Generator_Manager_II extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		// 1
-		homePage = new HomePageObject(driver);
+		homePage = PageGeneratorManager.getHomePage(driver);
 
 		emailAddress = "automation" + fakeNumber() + "@mail.com";
 		firstName = "Automation";
