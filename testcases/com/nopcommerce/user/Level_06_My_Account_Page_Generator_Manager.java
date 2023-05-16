@@ -20,7 +20,7 @@ import commons.BasePage;
 import commons.BaseTest;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
-import pageObjects.MyAccountPageObject;
+import pageObjects.CustomerInfoPageObject;
 import pageObjects.PageGeneratorManager;
 import pageObjects.ProductDetailPageObject;
 import pageObjects.ProductListPageObject;
@@ -31,7 +31,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 	HomePageObject homePage;
 	RegisterPageObject registerPage;
 	LoginPageObject loginPage;
-	MyAccountPageObject myAccount;
+	CustomerInfoPageObject myAccount;
 	ProductListPageObject productList;
 	ProductDetailPageObject productDetail;
 
@@ -91,7 +91,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 	public void Customer_Info_001_Update_Info() {
 
 		System.out.println("Customer-Info - Step 01: Click to My Account Link");
-		myAccount = homePage.clickToMyAccountLink();
+		homePage.openMyAccountPage(driver);
 
 		System.out.println("Customer-Info - Step 02: Click to Customer Info Link");
 		myAccount.clickToCustomerInfoLink();
@@ -135,7 +135,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 		String addPostalCode = "100000";
 		String addPhoneNumber = "03588452134";
 
-		myAccount = homePage.clickToMyAccountLink();
+		homePage.openMyAccountPage(driver);
 		myAccount.clickToAddressLink();
 		myAccount.clickToAddNewButton();
 		myAccount.inputToAddFirstNameTextbox(addFirstName);
@@ -248,7 +248,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 		Assert.assertEquals(productDetail.getSuccessfulReviewMessage(), "Product review is successfully added.");
 
 		System.out.println("HomePage - 09: Click to My Account Link");
-		myAccount = homePage.clickToMyAccountLink();
+		homePage.openMyAccountPage(driver);
 
 		System.out.println("My Account - 10: Click to my product review link");
 		myAccount.clickToMyProductReview();

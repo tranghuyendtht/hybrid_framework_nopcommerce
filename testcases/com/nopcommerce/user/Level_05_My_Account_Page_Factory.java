@@ -20,7 +20,7 @@ import commons.BasePage;
 import commons.BaseTest;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
-import pageObjects.MyAccountPageObject;
+import pageObjects.CustomerInfoPageObject;
 import pageObjects.ProductDetailPageObject;
 import pageObjects.ProductListPageObject;
 import pageObjects.RegisterPageObject;
@@ -30,7 +30,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 	HomePageObject homePage;
 	RegisterPageObject registerPage;
 	LoginPageObject loginPage;
-	MyAccountPageObject myAccount;
+	CustomerInfoPageObject customerInfoPage;
 	ProductListPageObject producList;
 	ProductDetailPageObject productDetail;
 
@@ -92,38 +92,38 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 	public void Customer_Info_001_Update_Info() {
 
 		System.out.println("Customer-Info - Step 01: Click to My Account Link");
-		homePage.clickToMyAccountLink();
-		myAccount = new MyAccountPageObject(driver);
+		homePage.openMyAccountPage(driver);
+		customerInfoPage = new CustomerInfoPageObject(driver);
 		
 
 		System.out.println("Customer-Info - Step 02: Click to Customer Info Link");
-		myAccount.clickToCustomerInfoLink();
+		customerInfoPage.clickToCustomerInfoLink();
 
 		System.out.println("Customer-Info - Step 03: Input data to required fields");
-		myAccount.clickToGenderRadio();
-		myAccount.inputToFirstNameTextbox(newFirstName);
-		myAccount.inputToLastNameTextbox(newLastName);
-		myAccount.selectDayOfBirth(day);
-		myAccount.selectMonthOfBirth(month);
-		myAccount.selectYearOfBirth(year);
-		myAccount.inputToEmailTextbox(newEmail);
-		myAccount.inputToCompanyTextbox(newCompanyName);
+		customerInfoPage.clickToGenderRadio();
+		customerInfoPage.inputToFirstNameTextbox(newFirstName);
+		customerInfoPage.inputToLastNameTextbox(newLastName);
+		customerInfoPage.selectDayOfBirth(day);
+		customerInfoPage.selectMonthOfBirth(month);
+		customerInfoPage.selectYearOfBirth(year);
+		customerInfoPage.inputToEmailTextbox(newEmail);
+		customerInfoPage.inputToCompanyTextbox(newCompanyName);
 
 		System.out.println("Customer-Info - Step 04: Click to Save Button");
-		myAccount.clickToSaveButton();
+		customerInfoPage.clickToSaveButton();
 
 		System.out.println("Customer-Info - Step 05: Verify result");
-		Assert.assertTrue(myAccount.isGenderIsSelected());
-		Assert.assertTrue(myAccount.isFirstNameTextboxIsUpdated(newFirstName));
-		Assert.assertTrue(myAccount.isLastNameTextboxIsUpdated(newLastName));
-		Assert.assertTrue(myAccount.isDayOfBirthIsUpdated(day));
-		Assert.assertTrue(myAccount.isMonthOfBirthIsUpdated(month));
-		Assert.assertTrue(myAccount.isYearOfBirthIsUpdated(year));
-		Assert.assertTrue(myAccount.isEmailTextboxIsUpdated(newEmail));
-		Assert.assertTrue(myAccount.isCompanyTextboxIsUpdated(newCompanyName));
+		Assert.assertTrue(customerInfoPage.isGenderIsSelected());
+		Assert.assertTrue(customerInfoPage.isFirstNameTextboxIsUpdated(newFirstName));
+		Assert.assertTrue(customerInfoPage.isLastNameTextboxIsUpdated(newLastName));
+		Assert.assertTrue(customerInfoPage.isDayOfBirthIsUpdated(day));
+		Assert.assertTrue(customerInfoPage.isMonthOfBirthIsUpdated(month));
+		Assert.assertTrue(customerInfoPage.isYearOfBirthIsUpdated(year));
+		Assert.assertTrue(customerInfoPage.isEmailTextboxIsUpdated(newEmail));
+		Assert.assertTrue(customerInfoPage.isCompanyTextboxIsUpdated(newCompanyName));
 
 		System.out.println("Customer-Info - Step 06: Close popup");
-		myAccount.closePopup();
+		customerInfoPage.closePopup();
 
 	}
 
@@ -138,33 +138,33 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		String addPostalCode = "100000";
 		String addPhoneNumber = "03588452134";
 
-		homePage.clickToMyAccountLink();
-		myAccount = new MyAccountPageObject(driver);
-		myAccount.clickToAddressLink();
-		myAccount.clickToAddNewButton();
-		myAccount.inputToAddFirstNameTextbox(addFirstName);
-		myAccount.inputToAddLastNameTextbox(addLastName);
-		myAccount.inputToAddEmailTextbox(addEmail);
-		myAccount.selectToAddCountryDropdownList(addCountry);
-		myAccount.inputToAddCityTextbox(addCity);
-		myAccount.inputToAddAdressOneTextbox(addAddress1);
-		myAccount.inputToAddAdressOneTextbox(addAddress1);
-		myAccount.inputToZipCodePortalTextbox(addPostalCode);
-		myAccount.inputToPhoneNumberTextbox(addPhoneNumber);
-		myAccount.clickToSaveAddressButton();
+		homePage.openMyAccountPage(driver);
+		customerInfoPage = new CustomerInfoPageObject(driver);
+		customerInfoPage.clickToAddressLink();
+		customerInfoPage.clickToAddNewButton();
+		customerInfoPage.inputToAddFirstNameTextbox(addFirstName);
+		customerInfoPage.inputToAddLastNameTextbox(addLastName);
+		customerInfoPage.inputToAddEmailTextbox(addEmail);
+		customerInfoPage.selectToAddCountryDropdownList(addCountry);
+		customerInfoPage.inputToAddCityTextbox(addCity);
+		customerInfoPage.inputToAddAdressOneTextbox(addAddress1);
+		customerInfoPage.inputToAddAdressOneTextbox(addAddress1);
+		customerInfoPage.inputToZipCodePortalTextbox(addPostalCode);
+		customerInfoPage.inputToPhoneNumberTextbox(addPhoneNumber);
+		customerInfoPage.clickToSaveAddressButton();
 
 		// Verify
-		Assert.assertTrue(myAccount.isTitleIsDisplayed(addFirstName));
-		Assert.assertTrue(myAccount.isAddFirstNameTextboxIsUpdated(addFirstName));
-		Assert.assertTrue(myAccount.isAddLastNameTextboxIsUpdated(addLastName));
-		Assert.assertTrue(myAccount.isAddEmailTextboxIsUpdated(addEmail));
-		Assert.assertTrue(myAccount.isAddPhoneTextboxIsUpdated(addPhoneNumber));
-		Assert.assertTrue(myAccount.isAddAddress1TextboxIsUpdated(addAddress1));
-		Assert.assertTrue(myAccount.isAddCityStateZipTextboxIsUpdated(addCity));
-		Assert.assertTrue(myAccount.isAddCityStateZipTextboxIsUpdated(addPostalCode));
-		Assert.assertTrue(myAccount.isAddCountryDropdownListIsUpdated(addCountry));
-		Assert.assertTrue(myAccount.isSuccessNotiBarIsDisplayed("The new address has been added successfully."));
-		myAccount.clickToCloseNotiBar();
+		Assert.assertTrue(customerInfoPage.isTitleIsDisplayed(addFirstName));
+		Assert.assertTrue(customerInfoPage.isAddFirstNameTextboxIsUpdated(addFirstName));
+		Assert.assertTrue(customerInfoPage.isAddLastNameTextboxIsUpdated(addLastName));
+		Assert.assertTrue(customerInfoPage.isAddEmailTextboxIsUpdated(addEmail));
+		Assert.assertTrue(customerInfoPage.isAddPhoneTextboxIsUpdated(addPhoneNumber));
+		Assert.assertTrue(customerInfoPage.isAddAddress1TextboxIsUpdated(addAddress1));
+		Assert.assertTrue(customerInfoPage.isAddCityStateZipTextboxIsUpdated(addCity));
+		Assert.assertTrue(customerInfoPage.isAddCityStateZipTextboxIsUpdated(addPostalCode));
+		Assert.assertTrue(customerInfoPage.isAddCountryDropdownListIsUpdated(addCountry));
+		Assert.assertTrue(customerInfoPage.isSuccessNotiBarIsDisplayed("The new address has been added successfully."));
+		customerInfoPage.clickToCloseNotiBar();
 	}
 
 	@Test
@@ -172,23 +172,23 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		String newPassword = "123465";
 		String confirmNewPassword = "123465";
 		System.out.println("Change Password - Step 02: Click to change password link");
-		myAccount.clickToChangePasswordLink();
+		customerInfoPage.clickToChangePasswordLink();
 		
 		System.out.println("Change Password - Step 03: Input to required fields");
-		myAccount.inputToOldPasswordTextbox(password);
-		myAccount.inputToNewPasswordTextbox(newPassword);
-		myAccount.inputToConfirmNewPasswordTextbox(confirmNewPassword);
+		customerInfoPage.inputToOldPasswordTextbox(password);
+		customerInfoPage.inputToNewPasswordTextbox(newPassword);
+		customerInfoPage.inputToConfirmNewPasswordTextbox(confirmNewPassword);
 		
 		System.out.println("Change Password - Step 04: Click to Change Password button");
-		myAccount.clickToChangePasswordButton();
+		customerInfoPage.clickToChangePasswordButton();
 		
 		System.out.println("Change Password - Step 05: Verify Successful Notification At Bar");
-		Assert.assertEquals(myAccount.getSuccessfulNotificationAtBar(),"Password was changed");
+		Assert.assertEquals(customerInfoPage.getSuccessfulNotificationAtBar(),"Password was changed");
 		
 		System.out.println("Change Password - Step 06: Close the bar");
-		myAccount.clickToClosePopup();
+		customerInfoPage.clickToClosePopup();
 		System.out.println("Change Password - Step 07: Click to logout link");
-		myAccount.clickToLogOutLink();
+		customerInfoPage.clickToLogOutLink();
 		
 		System.out.println("Change Password - Step 08: Verify register link is displayed");
 		homePage.isRegisterLinkIsDisplayed();
@@ -228,7 +228,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		String reviewBody = "First review bacd" + fakeNumber();
 
 		System.out.println("My Account - 01: Click to Computers Link");
-		myAccount.clickToComputerLink();
+		customerInfoPage.clickToComputerLink();
 		producList = new ProductListPageObject(driver);
 		
 		System.out.println("Product List - 02: Click to Desktop Link");
@@ -255,15 +255,15 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		Assert.assertEquals(productDetail.getSuccessfulReviewMessage(), "Product review is successfully added.");
 		
 		System.out.println("HomePage - 09: Click to My Account Link");
-		homePage.clickToMyAccountLink();
-		myAccount = new MyAccountPageObject(driver);
+		homePage.openMyAccountPage(driver);
+		customerInfoPage = new CustomerInfoPageObject(driver);
 		
 		System.out.println("My Account - 10: Click to my product review link");
-		myAccount.clickToMyProductReview();
+		customerInfoPage.clickToMyProductReview();
 		
 		System.out.println("My Account - 10: Veriry After Update Review");
-		Assert.assertTrue(myAccount.isReviewTitleIsUpdated(reviewTitle));
-		Assert.assertTrue(myAccount.isReviewBodyIsUpdated(reviewBody));
+		Assert.assertTrue(customerInfoPage.isReviewTitleIsUpdated(reviewTitle));
+		Assert.assertTrue(customerInfoPage.isReviewBodyIsUpdated(reviewBody));
 
 	}
 

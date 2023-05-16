@@ -1,7 +1,7 @@
 package PageUIs;
 
-public class MyAccountPageUI {
-	public static final String CUSTOMER_INFO_LINK = "//a[text()='Customer info']";
+public class CustomerInfoPageUI {
+	public static final String ADDRESS_LINK = "//div[@class ='master-wrapper-content']//a[text()='Addresses']";
 	public static final String GENDER_RADIO = "//input[@id='gender-female']";
 	public static final String FIRST_NAME_TEXTBOX = "//input[@id='FirstName']";
 	public static final String LAST_NAME_TEXTBOX = "//input[@id='LastName']";
@@ -12,7 +12,7 @@ public class MyAccountPageUI {
 	public static final String COMPANY_TEXTBOX = "//input[@id='Company']";
 	public static final String SAVE_BUTTON = "//button[@id='save-info-button']";
 	public static final String POPUP = "//span[@class ='close']";
-	public static final String ADDRESS_LINK = "//div[@class ='master-wrapper-content']//a[text()='Addresses']";
+	public static final String CUSTOMER_INFO_LINK = "//a[text()='Customer info']";
 	public static final String ADD_NEW_BUTTON = "//button[contains(@class,'add-address-button')]";
 	public static final String ADD_FIRST_NAME_TEXTBOX = "//input[@id='Address_FirstName']";
 	public static final String ADD_LAST_NAME_TEXTBOX = "//input[@id='Address_LastName']";
