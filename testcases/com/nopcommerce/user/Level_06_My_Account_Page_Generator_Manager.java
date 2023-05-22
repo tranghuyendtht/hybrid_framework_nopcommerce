@@ -18,22 +18,22 @@ import org.testng.annotations.Test;
 
 import commons.BasePage;
 import commons.BaseTest;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.PageGeneratorManager;
-import pageObjects.ProductDetailPageObject;
-import pageObjects.ProductListPageObject;
-import pageObjects.RegisterPageObject;
+import commons.PageGeneratorManager;
+import pageObjects.nopcommerce.User.UserCustomerInfoPageObject;
+import pageObjects.nopcommerce.User.UserHomePageObject;
+import pageObjects.nopcommerce.User.UserLoginPageObject;
+import pageObjects.nopcommerce.User.UserProductDetailPageObject;
+import pageObjects.nopcommerce.User.UserProductListPageObject;
+import pageObjects.nopcommerce.User.UserRegisterPageObject;
 
 public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 	WebDriver driver;
-	HomePageObject homePage;
-	RegisterPageObject registerPage;
-	LoginPageObject loginPage;
-	CustomerInfoPageObject myAccount;
-	ProductListPageObject productList;
-	ProductDetailPageObject productDetail;
+	UserHomePageObject homePage;
+	UserRegisterPageObject registerPage;
+	UserLoginPageObject loginPage;
+	UserCustomerInfoPageObject myAccount;
+	UserProductListPageObject productList;
+	UserProductDetailPageObject productDetail;
 
 	String projectPath = System.getProperty("user.dir");
 	String emailAddress = "automation" + fakeNumber() + "@mail.com";;
@@ -53,7 +53,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		// Register
 		System.out.println("Pre-Condition - Step 01: Click to register link ");
@@ -74,7 +74,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 
 		// Login
 		System.out.println("Pre-Condition - Step 05: Click to login link ");
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		System.out.println("Pre-Condition - Step 06: Input data to required fields ");
 		loginPage.inputToEmailTextbox(emailAddress);
@@ -191,7 +191,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 
 		System.out.println("Change Password - Step 09: Login with old password");
 		System.out.println("Change Password - Step 09.1: Click to login link");
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 
 		System.out.println("Change Password - Step 09.2: Input to required fields");
 		loginPage.inputToEmailTextbox(emailAddress);
@@ -205,7 +205,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 
 		System.out.println("Change Password - Step 10: Login with new password");
 		System.out.println("Change Password - Step 10.1: Click to Login link");
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 
 		System.out.println("Change Password - Step 10.2: Input to required fields");
 		loginPage.inputToEmailTextbox(emailAddress);

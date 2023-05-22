@@ -18,21 +18,21 @@ import org.testng.annotations.Test;
 
 import commons.BasePage;
 import commons.BaseTest;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.ProductDetailPageObject;
-import pageObjects.ProductListPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.nopcommerce.User.UserCustomerInfoPageObject;
+import pageObjects.nopcommerce.User.UserHomePageObject;
+import pageObjects.nopcommerce.User.UserLoginPageObject;
+import pageObjects.nopcommerce.User.UserProductDetailPageObject;
+import pageObjects.nopcommerce.User.UserProductListPageObject;
+import pageObjects.nopcommerce.User.UserRegisterPageObject;
 
 public class Level_05_My_Account_Page_Factory extends BaseTest{
 	WebDriver driver;
-	HomePageObject homePage;
-	RegisterPageObject registerPage;
-	LoginPageObject loginPage;
-	CustomerInfoPageObject customerInfoPage;
-	ProductListPageObject producList;
-	ProductDetailPageObject productDetail;
+	UserHomePageObject homePage;
+	UserRegisterPageObject registerPage;
+	UserLoginPageObject loginPage;
+	UserCustomerInfoPageObject customerInfoPage;
+	UserProductListPageObject producList;
+	UserProductDetailPageObject productDetail;
 
 	String projectPath = System.getProperty("user.dir");
 	String emailAddress = "automation" + fakeNumber() + "@mail.com";;
@@ -52,12 +52,12 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePageObject(driver);
 
 		// Register
 		System.out.println("Pre-Condition - Step 01: Click to register link ");
 		homePage.clickToRegisterLink();
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		System.out.println("Pre-Condition - Step 02: Input data to required fields ");
 		registerPage.inputToFirstNameTextbox(firstName);
@@ -74,8 +74,8 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 
 		// Login
 		System.out.println("Pre-Condition - Step 05: Click to login link ");
-		homePage.clickToLoginLink();
-		loginPage = new LoginPageObject(driver);
+		homePage.openLoginPage();
+		loginPage = new UserLoginPageObject(driver);
 
 		System.out.println("Pre-Condition - Step 06: Input data to required fields ");
 		loginPage.inputToEmailTextbox(emailAddress);
@@ -93,7 +93,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 
 		System.out.println("Customer-Info - Step 01: Click to My Account Link");
 		homePage.openMyAccountPage(driver);
-		customerInfoPage = new CustomerInfoPageObject(driver);
+		customerInfoPage = new UserCustomerInfoPageObject(driver);
 		
 
 		System.out.println("Customer-Info - Step 02: Click to Customer Info Link");
@@ -139,7 +139,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		String addPhoneNumber = "03588452134";
 
 		homePage.openMyAccountPage(driver);
-		customerInfoPage = new CustomerInfoPageObject(driver);
+		customerInfoPage = new UserCustomerInfoPageObject(driver);
 		customerInfoPage.clickToAddressLink();
 		customerInfoPage.clickToAddNewButton();
 		customerInfoPage.inputToAddFirstNameTextbox(addFirstName);
@@ -195,7 +195,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 
 		System.out.println("Change Password - Step 09: Login with old password");
 		System.out.println("Change Password - Step 09.1: Click to login link");
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		
 		System.out.println("Change Password - Step 09.2: Input to required fields");
 		loginPage.inputToEmailTextbox(emailAddress);
@@ -209,7 +209,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		
 		System.out.println("Change Password - Step 10: Login with new password");
 		System.out.println("Change Password - Step 10.1: Click to Login link");
-		homePage.clickToLoginLink();
+		homePage.openLoginPage();
 		
 		System.out.println("Change Password - Step 10.2: Input to required fields");
 		loginPage.inputToEmailTextbox(emailAddress);
@@ -229,7 +229,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 
 		System.out.println("My Account - 01: Click to Computers Link");
 		customerInfoPage.clickToComputerLink();
-		producList = new ProductListPageObject(driver);
+		producList = new UserProductListPageObject(driver);
 		
 		System.out.println("Product List - 02: Click to Desktop Link");
 		producList.clickToDesktopLink();
@@ -237,7 +237,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		producList.clickToAProduct();
 		
 		System.out.println("Product Detail - 04: Click to A Product");
-		productDetail = new ProductDetailPageObject(driver);
+		productDetail = new UserProductDetailPageObject(driver);
 		
 		System.out.println("Product Detail - 05: Click to Add Your Review");
 		productDetail.clickToAddYourReview();
@@ -256,7 +256,7 @@ public class Level_05_My_Account_Page_Factory extends BaseTest{
 		
 		System.out.println("HomePage - 09: Click to My Account Link");
 		homePage.openMyAccountPage(driver);
-		customerInfoPage = new CustomerInfoPageObject(driver);
+		customerInfoPage = new UserCustomerInfoPageObject(driver);
 		
 		System.out.println("My Account - 10: Click to my product review link");
 		customerInfoPage.clickToMyProductReview();

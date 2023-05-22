@@ -1,23 +1,18 @@
-package pageFactory;
+package pageObjects.nopcommerce.User;
 
 import org.openqa.selenium.WebDriver;
 
 import PageUIs.nopcommerce.user.BasePageUI;
 import PageUIs.nopcommerce.user.UserCustomerInfoPageUI;
 import commons.BasePage;
+import commons.PageGeneratorManager;
 
-public class MyAccountPageFactory extends BasePage {
+public class UserCustomerInfoPageObject extends BasePage {
 
 	private WebDriver driver;
 
-	public MyAccountPageFactory(WebDriver driver) {
+	public UserCustomerInfoPageObject(WebDriver driver) {
 		this.driver = driver;
-	}
-
-	public void clickToCustomerInfoLink() {
-		waitForElementClickable(driver, BasePageUI.CUSTOMER_INFO_LINK);
-		clickToElement(driver, BasePageUI.CUSTOMER_INFO_LINK);
-
 	}
 
 	public void clickToGenderRadio() {
@@ -93,7 +88,8 @@ public class MyAccountPageFactory extends BasePage {
 	}
 
 	public boolean isMonthOfBirthIsUpdated(String month) {
-		return getSelectedItemDefaultDropdown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_MONTH_DROPDOWN_LIST).equals(month);
+		return getSelectedItemDefaultDropdown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_MONTH_DROPDOWN_LIST)
+				.equals(month);
 	}
 
 	public boolean isYearOfBirthIsUpdated(String year) {
@@ -113,12 +109,6 @@ public class MyAccountPageFactory extends BasePage {
 	public void closePopup() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.POPUP);
 		clickToElement(driver, UserCustomerInfoPageUI.POPUP);
-	}
-
-	public void clickToAddressLink() {
-		waitForElementVisible(driver, BasePageUI.ADDRESS_LINK);
-		clickToElement(driver, BasePageUI.ADDRESS_LINK);
-
 	}
 
 	public void clickToAddNewButton() {
@@ -276,10 +266,10 @@ public class MyAccountPageFactory extends BasePage {
 
 	}
 
-	public void clickToComputerLink() {
+	public UserProductListPageObject clickToComputerLink() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.PRODUCT_LIST_COMPUTERS_LINK);
 		clickToElement(driver, UserCustomerInfoPageUI.PRODUCT_LIST_COMPUTERS_LINK);
-
+		return PageGeneratorManager.getUserProductListPageObject(driver);
 	}
 
 	public void clickToMyProductReview() {
@@ -295,6 +285,16 @@ public class MyAccountPageFactory extends BasePage {
 	public boolean isReviewBodyIsUpdated(String reviewBody) {
 		waitForAllElementVisible(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_BODY_TEXT);
 		return getElementText(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_BODY_TEXT).contains(reviewBody);
+	}
+	public void clickToAddressLink() {
+		waitForElementClickable(driver, UserCustomerInfoPageUI.ADDRESS_LINK);
+		clickToElement(driver, UserCustomerInfoPageUI.ADDRESS_LINK);
+		
+	}
+	public void clickToCustomerInfoLink() {
+		waitForElementClickable(driver, UserCustomerInfoPageUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, UserCustomerInfoPageUI.CUSTOMER_INFO_LINK);
+
 	}
 
 }

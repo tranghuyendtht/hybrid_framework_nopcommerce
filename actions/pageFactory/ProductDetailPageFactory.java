@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import PageUIs.ProductDetailUI;
+import PageUIs.nopcommerce.user.UserProductDetailUI;
 import commons.BasePage;
 import commons.BasePageFactory;
 

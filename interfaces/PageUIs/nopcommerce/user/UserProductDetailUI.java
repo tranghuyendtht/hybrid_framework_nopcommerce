@@ -1,6 +1,6 @@
-package PageUIs;
+package PageUIs.nopcommerce.user;
 
-public class ProductDetailUI {
+public class UserProductDetailUI {
 	public static final String ADD_YOUR_REVIEW_LINK = "//a[text()='Add your review']";
 	public static final String REVIEW_TITLE_TEXTBOX =  "//input[@id='AddProductReview_Title']";
 	public static final String REVIEW_BODY_TEXTAREA = "//textarea[@id='AddProductReview_ReviewText']";

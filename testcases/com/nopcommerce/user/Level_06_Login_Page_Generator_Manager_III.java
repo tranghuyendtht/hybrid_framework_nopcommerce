@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 import commons.BasePage;
 import commons.BaseTest;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.PageGeneratorManager;
-import pageObjects.RegisterPageObject;
+import commons.PageGeneratorManager;
+import pageObjects.nopcommerce.User.UserHomePageObject;
+import pageObjects.nopcommerce.User.UserLoginPageObject;
+import pageObjects.nopcommerce.User.UserRegisterPageObject;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -25,9 +25,9 @@ public class Level_06_Login_Page_Generator_Manager_III extends BaseTest {
 
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
-	HomePageObject homePage;
-	RegisterPageObject registerPage;
-	LoginPageObject loginPage;
+	UserHomePageObject homePage;
+	UserRegisterPageObject registerPage;
+	UserLoginPageObject loginPage;
 	String emailAddress;
 	String firstName, lastName, password, invalidEmail, notFoundEmail;
 
@@ -36,7 +36,7 @@ public class Level_06_Login_Page_Generator_Manager_III extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		// 1
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		emailAddress = "automation" + fakeNumber() + "@mail.com";
 		firstName = "Automation";
@@ -66,7 +66,7 @@ public class Level_06_Login_Page_Generator_Manager_III extends BaseTest {
 	public void Login_001_Empty_Data() {
 
 		System.out.println("HomePage - Step 01: Click to Login Link");
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 		System.out.println("LoginPage - Step 02: Click to Login Button");
 		loginPage.clickToLoginButton();
 		System.out.println("LoginPage - Step 03: Verify error message at email textbox");
@@ -77,7 +77,7 @@ public class Level_06_Login_Page_Generator_Manager_III extends BaseTest {
 	@Test
 	public void Login_002_Invalid_Email() {
 		System.out.println("HomePage - Step 01: Click to Login Link");
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		System.out.println("LoginPage - Step 02: Input to required fields");
 		loginPage.inputToEmailTextbox(invalidEmail);
@@ -93,7 +93,7 @@ public class Level_06_Login_Page_Generator_Manager_III extends BaseTest {
 	@Test
 	public void Login_003_Not_Found_Email() {
 		System.out.println("HomePage - Step 01: Click to Login Link");
-		loginPage = homePage.clickToLoginLink();
+		loginPage = homePage.openLoginPage();
 
 		System.out.println("LoginPage - Step 02: Input to required fields");
 		loginPage.inputToEmailTextbox(notFoundEmail);
