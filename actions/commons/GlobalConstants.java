@@ -9,11 +9,11 @@ public class GlobalConstants {
 	public static final String ADMIN_TESTING_URL = "";
 	public static final String PROJECT_PATH = System.getProperty("user.dir");
 	public static final String OS_NAME = System.getProperty("os.name");
-	public static final String UPLOAD_FILE_FOLDER = PROJECT_PATH + File.pathSeparator + "uploadFiles";
-	public static final String DOWNLOAD_FILE_FOLDER = PROJECT_PATH + File.pathSeparator + "downloadFiles";
-	public static final String BROWSER_LOGS_FOLDER = PROJECT_PATH + File.pathSeparator + "browserLogs";
-	public static final String REPORT_HTML = PROJECT_PATH + File.pathSeparator + "reportHTML";
-	public static final String AUTO_IT_SCRIPT = PROJECT_PATH + File.pathSeparator + "autoITScript";
+	public static final String UPLOAD_FILE_FOLDER = PROJECT_PATH + File.separator + "uploadFiles" + File.separator;
+	public static final String DOWNLOAD_FILE_FOLDER = PROJECT_PATH + File.separator + "downloadFiles";
+	public static final String BROWSER_LOGS_FOLDER = PROJECT_PATH + File.separator + "browserLogs";
+	public static final String REPORT_HTML = PROJECT_PATH + File.separator + "reportHTML";
+	public static final String AUTO_IT_SCRIPT = PROJECT_PATH + File.separator + "autoITScript";
 	public static final String DB_DEV_URL = "32.18.152.185:9860";
 	public static final String DB_DEV_USER = "automationFC";
 	public static final String DB_DEV_PASSWORD = "PassWord@$12";
@@ -23,6 +23,7 @@ public class GlobalConstants {
 	public static final long SHORT_TIMEOUT = 5;
 	public static final long LONG_TIMEOUT = 30;
 	public static final long RETRY_TEST_FAIl = 3;
+	
 	
 	
 	

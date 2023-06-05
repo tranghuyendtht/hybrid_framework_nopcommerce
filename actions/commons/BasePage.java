@@ -441,11 +441,33 @@ public class BasePage {
 		return (String) jsExecutor.executeScript("return arguments[0].validationMessage;", getElement(driver, locator));
 	}
 
-	public boolean isImageLoaded(WebDriver driver, String locator) {
+	public void uploadFiles(WebDriver driver, String...fileNames) {
+		String filePath = GlobalConstants.UPLOAD_FILE_FOLDER;
+		
+		String fullFileName = "";
+		for (String fileName : fileNames) {
+			fullFileName = fullFileName + filePath + fileName + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		getElement(driver, BasePageUI.UPLOAD_FILE_TYPE).sendKeys(fullFileName);
+	}
+	
+	public boolean isImageUpLoaded(WebDriver driver, String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		boolean status = (boolean) jsExecutor.executeScript(
 				"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
 				getElement(driver, locator));
+		if (status) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	public boolean isImageUpLoaded(WebDriver driver, String locatorType, String...dynamicParams ) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		boolean status = (boolean) jsExecutor.executeScript(
+				"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
+				getElement(driver, (getDynamicXpath(locatorType, dynamicParams))));
 		if (status) {
 			return true;
 		} else {

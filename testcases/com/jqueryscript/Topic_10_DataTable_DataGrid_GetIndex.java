@@ -1,4 +1,4 @@
-package com.jqueryscript.datatable;
+package com.jqueryscript;
 
 import java.util.List;
 

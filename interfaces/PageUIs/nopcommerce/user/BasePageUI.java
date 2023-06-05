@@ -16,6 +16,7 @@ public class BasePageUI {
 	public static final String MY_ACCOUNT_LINK ="xpath=//a[@class='ico-account']";
 	public static final String LOG_OUT_LINK_AT_USER_PAGE ="class=ico-logout";
 	public static final String LOG_OUT_LINK_AT_ADMIN_PAGE = "xpath=//a[text()='Logout']";
+	public static final String UPLOAD_FILE_TYPE = "xpath=//input[@type='file']";
 	
 	
 	
