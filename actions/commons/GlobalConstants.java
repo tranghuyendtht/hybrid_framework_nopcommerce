@@ -14,6 +14,8 @@ public class GlobalConstants {
 	public static final String BROWSER_LOGS_FOLDER = PROJECT_PATH + File.separator + "browserLogs";
 	public static final String REPORT_HTML = PROJECT_PATH + File.separator + "reportHTML";
 	public static final String AUTO_IT_SCRIPT = PROJECT_PATH + File.separator + "autoITScript";
+	public static final String REPORTING_SCREENSHORT = PROJECT_PATH + File.separator + "ReportNGScreenShots" + File.separator;
+	public static final String JAVA_VERSION = System.getProperty("java.version");
 	public static final String DB_DEV_URL = "32.18.152.185:9860";
 	public static final String DB_DEV_USER = "automationFC";
 	public static final String DB_DEV_PASSWORD = "PassWord@$12";

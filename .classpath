@@ -11,6 +11,11 @@
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="src" path="javaTester"/>
 	<classpathentry kind="src" path="testdata"/>
+	<classpathentry kind="lib" path="libLogs/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="libLogs/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="libLogs/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="libLogs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libLogs/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="libraries/testng-6.14.3.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/bcpkix-jdk15on-1.64.jar"/>
@@ -33,9 +38,18 @@
 	<classpathentry kind="lib" path="libWebDriverManager/jackson-annotations-2.10.3.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/jackson-core-2.10.3.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/jackson-databind-2.10.3.jar"/>
-	<classpathentry kind="lib" path="libWebDriverManager/jcl-over-slf4j-1.7.30.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/jna-5.8.0.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/slf4j-api-2.0.3.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/webdrivermanager-5.3.1.jar"/>
+	<classpathentry kind="lib" path="libsReportNG/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libsReportNG/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="libsReportNG/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="libsReportNG/velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="libsExtentReportV5/extentreports-5.0.8.jar"/>
+	<classpathentry kind="lib" path="libsExtentReportV5/freemarker-2.3.30.jar"/>
+	<classpathentry kind="lib" path="libsExtentReportV5/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="libsExtentReportV5/lombok-1.18.12.jar"/>
+	<classpathentry kind="lib" path="libsExtentReportV5/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libsExtentReportV5/rxjava-3.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

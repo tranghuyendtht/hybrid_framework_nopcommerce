@@ -1,0 +1,19 @@
+package javaOOPPolymorphismOverriding;
+
+public class Pig extends Annimal{
+	
+	/*
+	 * Phương thức ghi đè
+	 * Class Pig có method eat, giống hệt method của class Annimal mà nó kế thừa
+	 * Pig thực hiện viết lại method này ==> Đó là overriding
+	 *  Lưu ý: 
+	 *  - Phương thức phải có tên giống với pt của lớp cha
+	 *  - Phương thức phải có tham số giống với pt của lớp cha
+	 *  - Lớp con và lớp cha có mối quan hệ kế thừa
+	 *  - Việc gọi phương thức nào được quyết định bởi JVM (Java Virtual Machine) chứ ko phải Compiler
+	 */
+	@Override
+	public void eat() {
+		System.out.println("I am a Pig");
+	}
+}

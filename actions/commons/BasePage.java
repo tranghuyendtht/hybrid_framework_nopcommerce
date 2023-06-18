@@ -546,6 +546,7 @@ public class BasePage {
 	public void waitForElementUndisplayed(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, GlobalConstants.SHORT_TIMEOUT);
 		overrideGlobalTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
+		
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
 		overrideGlobalTimeout(driver, GlobalConstants.LONG_TIMEOUT);
 
