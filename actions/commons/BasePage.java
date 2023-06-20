@@ -18,8 +18,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageUIs.nopcommerce.user.BasePageUI;
-import PageUIs.nopcommerce.user.UserCustomerInfoPageUI;
-import PageUIs.nopcommerce.user.UserHomePageUI;
+import io.qameta.allure.Step;
 import pageObjects.nopcommerce.Admin.AdminLoginPageObject;
 import pageObjects.nopcommerce.User.UserAddressPageObject;
 import pageObjects.nopcommerce.User.UserBackInStockSubscriptionsPageObject;
@@ -575,6 +574,7 @@ public class BasePage {
 	
 
 // Level 07_ Switch Page
+	@Step ("Click to Customer Info Link")
 	public UserCustomerInfoPageObject openCustomerInfoPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.CUSTOMER_INFO_LINK);
 		clickToElement(driver, BasePageUI.CUSTOMER_INFO_LINK);
@@ -629,6 +629,7 @@ public class BasePage {
 		return PageGeneratorManager.getUserMyProductReviewsPage(driver);
 	}
 
+	@Step ("Click to My Account Link")
 	public UserMyAccountPageObject openMyAccountPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, BasePageUI.MY_ACCOUNT_LINK);

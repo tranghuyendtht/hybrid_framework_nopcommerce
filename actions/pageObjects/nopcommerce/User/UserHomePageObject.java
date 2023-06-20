@@ -1,13 +1,12 @@
 package pageObjects.nopcommerce.User;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 
 import PageUIs.nopcommerce.user.BasePageUI;
 import PageUIs.nopcommerce.user.UserHomePageUI;
 import commons.BasePage;
 import commons.PageGeneratorManager;
+import io.qameta.allure.Step;
 
 public class UserHomePageObject extends BasePage {
 
@@ -17,6 +16,7 @@ public class UserHomePageObject extends BasePage {
 		this.driver = driver;
 	}
 
+	@Step("Click to register link")
 	public UserRegisterPageObject clickToRegisterLink() {
 		waitForElementClickable(driver, UserHomePageUI.REGISTER_LINK);
 		clickToElement(driver, UserHomePageUI.REGISTER_LINK);
@@ -31,6 +31,7 @@ public class UserHomePageObject extends BasePage {
 		clickToElement(driver, UserHomePageUI.LOGIN_LINK);
 		return PageGeneratorManager.getUserLoginPage(driver);
 	}
+
 	public UserMyAccountPageObject clickToMyAccountLink(WebDriver driver) {
 		waitForElementClickable(driver, UserHomePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, UserHomePageUI.MY_ACCOUNT_LINK);
@@ -42,6 +43,7 @@ public class UserHomePageObject extends BasePage {
 		return getElementText(driver, UserHomePageUI.LOGIN_SUCCESS_MESSAGE);
 	}
 
+	@Step("Verify success message displayed")
 	public boolean isMyAccountLinkIsDisplay() {
 		waitForElementVisible(driver, BasePageUI.MY_ACCOUNT_LINK);
 		return isElementDisplayed(driver, BasePageUI.MY_ACCOUNT_LINK);

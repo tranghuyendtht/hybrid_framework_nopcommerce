@@ -1,5 +1,6 @@
 package commons;
 
+import java.io.File;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.BeforeSuite;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -18,6 +20,11 @@ public class BaseTest {
 	// Init log
 	protected final Log log;
 
+	
+	@BeforeSuite
+	public void initBeforeSuit() {
+		deleteAllOldFileAllureReport();
+	}
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
@@ -137,6 +144,20 @@ public class BaseTest {
 		return pass;
 	}
 
+	public void deleteAllOldFileAllureReport() {
+		try {
+			String pathFolderDownload = GlobalConstants.PROJECT_PATH + "/allure-json";
+			File file = new File (pathFolderDownload);
+			File[] listOfFiles = file.listFiles();
+			for (int i = 0; i < listOfFiles.length; i++) {
+				if(listOfFiles[i].isFile()) {
+					new File(listOfFiles[i].toString()).delete();
+				}
+			}
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
 	private String getEnvironmentUrl(String serverName) {
 		String envUrl = null;
 		EnvironmentList environment = EnvironmentList.valueOf(serverName.toUpperCase());

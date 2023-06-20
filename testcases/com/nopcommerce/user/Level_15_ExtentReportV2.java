@@ -157,6 +157,7 @@ public class Level_15_ExtentReportV2 extends BaseTest {
 		customerInfoPage.closePopup();
 	}
 
+	
 	@AfterClass
 	public void afterClass() {
 		driver.quit();

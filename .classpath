@@ -51,5 +51,24 @@
 	<classpathentry kind="lib" path="libsExtentReportV5/lombok-1.18.12.jar"/>
 	<classpathentry kind="lib" path="libsExtentReportV5/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="libsExtentReportV5/rxjava-3.0.4.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/allure-java-commons-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/allure-model-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/allure-testng-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/aspectjlib-1.6.2.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/aspectjrt-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/aspectjtools-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/aspectjweaver-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/jackson-core-2.9.8.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/jackson-databind-2.9.8.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/joor-java-8-0.9.10.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="libsAllureReport/tika-core-1.20.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

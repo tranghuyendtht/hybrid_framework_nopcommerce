@@ -2,10 +2,10 @@ package pageObjects.nopcommerce.User;
 
 import org.openqa.selenium.WebDriver;
 
-import PageUIs.nopcommerce.user.BasePageUI;
 import PageUIs.nopcommerce.user.UserCustomerInfoPageUI;
 import commons.BasePage;
 import commons.PageGeneratorManager;
+import io.qameta.allure.Step;
 
 public class UserCustomerInfoPageObject extends BasePage {
 
@@ -15,102 +15,122 @@ public class UserCustomerInfoPageObject extends BasePage {
 		this.driver = driver;
 	}
 
+	@Step ("Click to Gender Radio")
 	public void clickToGenderRadio() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.GENDER_RADIO);
 		clickToElement(driver, UserCustomerInfoPageUI.GENDER_RADIO);
 
 	}
 
+	@Step ("Input data to firstname textbox with value: {0}")
 	public void inputToFirstNameTextbox(String newFirstName) {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.FIRST_NAME_TEXTBOX);
 		sendkeyToElement(driver, UserCustomerInfoPageUI.FIRST_NAME_TEXTBOX, newFirstName);
 
 	}
-
+	
+	@Step ("Input data to lastname textbox with value: {0}")
 	public void inputToLastNameTextbox(String newLastName) {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.LAST_NAME_TEXTBOX);
 		sendkeyToElement(driver, UserCustomerInfoPageUI.LAST_NAME_TEXTBOX, newLastName);
 
 	}
 
+	@Step ("Select day of birth")
 	public void selectDayOfBirth(String day) {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_DAY_DROPDOWN_LIST);
 		selectItemInDefaultDropDown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_DAY_DROPDOWN_LIST, day);
 
 	}
 
+	@Step ("Select month of birth")
 	public void selectMonthOfBirth(String month) {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_MONTH_DROPDOWN_LIST);
 		selectItemInDefaultDropDown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_MONTH_DROPDOWN_LIST, month);
 
 	}
 
+
+	@Step ("Select year of birth")
 	public void selectYearOfBirth(String year) {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_YEAR_DROPDOWN_LIST);
 		selectItemInDefaultDropDown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_YEAR_DROPDOWN_LIST, year);
 
 	}
-
+	
+	@Step ("Input data to email textbox with value: {0}")
 	public void inputToEmailTextbox(String newEmail) {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, UserCustomerInfoPageUI.EMAIL_TEXTBOX, newEmail);
 
 	}
 
+	@Step ("Input data to company textbox with value: {0}")
 	public void inputToCompanyTextbox(String newCompanyName) {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.COMPANY_TEXTBOX);
 		sendkeyToElement(driver, UserCustomerInfoPageUI.COMPANY_TEXTBOX, newCompanyName);
 
 	}
-
+	
+	@Step ("Input data to save button")
 	public void clickToSaveButton() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.SAVE_BUTTON);
 		clickToElement(driver, UserCustomerInfoPageUI.SAVE_BUTTON);
 	}
 
+	@Step ("Verify result")
 	public boolean isGenderIsSelected() {
 		return getElementAtribute(driver, UserCustomerInfoPageUI.GENDER_RADIO, "checked").equalsIgnoreCase("true");
 
 	}
-
+	
+	@Step ("Verify result")
 	public boolean isFirstNameTextboxIsUpdated(String newFirstName) {
 
 		return getElementAtribute(driver, UserCustomerInfoPageUI.FIRST_NAME_TEXTBOX, "value").equals(newFirstName);
 	}
-
+	
+	@Step ("Verify result")
 	public boolean isLastNameTextboxIsUpdated(String newLastName) {
 
 		return getElementAtribute(driver, UserCustomerInfoPageUI.LAST_NAME_TEXTBOX, "value").equals(newLastName);
 	}
 
+	@Step ("Verify result")
 	public boolean isDayOfBirthIsUpdated(String day) {
 		return getSelectedItemDefaultDropdown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_DAY_DROPDOWN_LIST).equals(day);
 	}
 
+	@Step ("Verify result")
 	public boolean isMonthOfBirthIsUpdated(String month) {
 		return getSelectedItemDefaultDropdown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_MONTH_DROPDOWN_LIST)
 				.equals(month);
 	}
 
+	@Step ("Verify result")
 	public boolean isYearOfBirthIsUpdated(String year) {
 
 		return getSelectedItemDefaultDropdown(driver, UserCustomerInfoPageUI.DATE_OF_BIRTH_YEAR_DROPDOWN_LIST).equals(year);
 	}
 
+	@Step ("Verify result")
 	public boolean isCompanyTextboxIsUpdated(String newCompany) {
 		return getElementAtribute(driver, UserCustomerInfoPageUI.COMPANY_TEXTBOX, "value").equals(newCompany);
 	}
 
+	@Step ("Verify result")
 	public boolean isEmailTextboxIsUpdated(String newEmail) {
 
 		return getElementAtribute(driver, UserCustomerInfoPageUI.EMAIL_TEXTBOX, "value").equals(newEmail);
 	}
-
+	
+	@Step ("Click to close popup")
 	public void closePopup() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.POPUP);
 		clickToElement(driver, UserCustomerInfoPageUI.POPUP);
 	}
 
+	@Step ("Click to Add new button")
 	public void clickToAddNewButton() {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.ADD_NEW_BUTTON);
 		clickToElement(driver, UserCustomerInfoPageUI.ADD_NEW_BUTTON);
