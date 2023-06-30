@@ -3,7 +3,6 @@ package com.nopcommerce.user;
 import org.testng.annotations.Test;
 
 
-import commons.BasePage;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.nopcommerce.User.UserAddressPageObject;
@@ -20,19 +19,9 @@ import pageObjects.nopcommerce.User.UserRegisterPageObject;
 import pageObjects.nopcommerce.User.UserRewardPointsPageObject;
 
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
-
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.lang3.concurrent.BackgroundInitializer;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-
 
 public class Level_14_Log_ReportNG extends BaseTest {
 

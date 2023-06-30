@@ -1,2 +1,5 @@
-[2023-06-20 16:27:56,426] Run on FIREFOX
-[2023-06-20 16:28:05,032]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:08:57,883] Run on FIREFOX
+[2023-06-30 10:09:01,316] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 10:09:02,340] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 10:09:07,251] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 10:09:07,293]  -------------------------- PASSED -------------------------- 
