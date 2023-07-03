@@ -846,3 +846,379 @@
 [2023-06-30 10:09:02,340] Pre-Condition - Step 02: Set Cookie and reload page
 [2023-06-30 10:09:07,251] Pre-Condition - Step 03: Verify success message displayed
 [2023-06-30 10:09:07,293]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:45:21,525] Run on FIREFOX
+[2023-06-30 10:45:24,954] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 10:46:05,729] OS name = windows 10
+[2023-06-30 10:46:05,729] Driver instance name = firefoxdriver: firefox on windows (1a7f83f6-584f-43a4-aebb-89b6b4eec7f2)
+[2023-06-30 10:48:58,268] Run on FIREFOX
+[2023-06-30 10:49:01,643] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 10:49:02,656] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 10:49:06,887] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 10:49:06,928]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:49:06,983] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 10:49:07,164] OS name = windows 10
+[2023-06-30 10:49:07,164] Driver instance name = firefoxdriver: firefox on windows (4bf3696a-1b73-4f0d-9f9d-028ac8188d11)
+[2023-06-30 10:50:41,100] Run on FIREFOX
+[2023-06-30 10:50:44,151] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 10:50:45,167] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 10:50:49,416] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 10:50:49,451]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:50:49,509] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 10:50:49,619] OS name = windows 10
+[2023-06-30 10:50:49,619] Driver instance name = firefoxdriver: firefox on windows (28ead602-d657-4777-b8a3-d21c0436848c)
+[2023-06-30 10:53:11,683] Run on FIREFOX
+[2023-06-30 10:53:15,191] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 10:53:16,222] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 10:53:20,494] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 10:53:20,540]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:53:20,596] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 10:53:20,770] OS name = windows 10
+[2023-06-30 10:53:20,771] Driver instance name = firefoxdriver: firefox on windows (b000e1ae-7fc5-45df-9687-fa720ee57a74)
+[2023-06-30 10:56:15,178] Run on FIREFOX
+[2023-06-30 10:56:18,752] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 10:56:19,765] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 10:56:24,034] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 10:56:24,074]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:56:24,133] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 10:56:24,253] OS name = windows 10
+[2023-06-30 10:56:24,253] Driver instance name = firefoxdriver: firefox on windows (506ee5a2-ddfb-4ae1-ad90-33e1a7ccdd9e)
+[2023-06-30 10:58:29,957] Run on FIREFOX
+[2023-06-30 10:58:33,734] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 10:58:34,984] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 10:58:38,715] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 10:58:38,765]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:58:38,820] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 10:58:38,987] OS name = windows 10
+[2023-06-30 10:58:38,988] Driver instance name = firefoxdriver: firefox on windows (250a56b0-85c3-42cc-8a80-68547e4829a4)
+[2023-06-30 10:58:57,405] Run on FIREFOX
+[2023-06-30 10:59:00,842] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 10:59:01,398] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 10:59:05,595] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 10:59:05,629]  -------------------------- PASSED -------------------------- 
+[2023-06-30 10:59:05,684] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 10:59:05,796] OS name = windows 10
+[2023-06-30 10:59:05,797] Driver instance name = firefoxdriver: firefox on windows (85681161-683c-4213-a67a-b064919a7a68)
+[2023-06-30 11:02:31,964] Run on FIREFOX
+[2023-06-30 11:02:35,539] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 11:02:36,533] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 11:03:06,115] Run on FIREFOX
+[2023-06-30 11:03:09,667] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 11:03:10,672] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 11:03:54,879] Pre-Condition - Step 03: Verify success message displayed....
+[2023-06-30 11:05:53,843] Run on FIREFOX
+[2023-06-30 11:05:57,398] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 11:05:58,401] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 11:06:02,931] Pre-Condition - Step 03: Verify success message displayed....
+[2023-06-30 11:06:02,974]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:06:03,027] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 11:06:03,136] OS name = windows 10
+[2023-06-30 11:06:03,136] Driver instance name = firefoxdriver: firefox on windows (e4186ceb-88cc-4ef2-a896-28924c3e1fb3)
+[2023-06-30 11:06:52,571] Run on FIREFOX
+[2023-06-30 11:06:56,271] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 11:06:57,250] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 11:07:04,827] Pre-Condition - Step 03: Verify success message displayed....
+[2023-06-30 11:07:04,891]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:07:04,948] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 11:07:05,118] OS name = windows 10
+[2023-06-30 11:07:05,119] Driver instance name = firefoxdriver: firefox on windows (15aa6854-bf79-4203-ae79-feac47c6c36e)
+[2023-06-30 11:08:06,248] Run on FIREFOX
+[2023-06-30 11:08:09,723] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 11:08:10,692] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 11:08:18,207] Pre-Condition - Step 03: Verify success message displayed....
+[2023-06-30 11:08:18,242]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:18,297] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 11:08:18,335] Customer-Info - Step 02: Click to Customer Info Link
+[2023-06-30 11:08:19,021] Customer-Info - Step 03: Input data to required fields
+[2023-06-30 11:08:20,201] Customer-Info - Step 04: Click to Save Button
+[2023-06-30 11:08:20,895] Customer-Info - Step 05: Verify result
+[2023-06-30 11:08:20,921]  -------------------------- FAILED -------------------------- 
+[2023-06-30 11:08:20,931]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:20,941]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:20,967]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:20,992]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:21,151]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:21,161]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:21,171]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:08:21,171] Customer-Info - Step 06: Close popup
+[2023-06-30 11:08:21,479] OS name = windows 10
+[2023-06-30 11:08:21,479] Driver instance name = firefoxdriver: firefox on windows (e3042b9a-2c72-4f59-a7ff-0264c5dfef86)
+[2023-06-30 11:10:42,307] Run on FIREFOX
+[2023-06-30 11:10:45,823] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 11:10:46,833] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 11:10:54,310] Pre-Condition - Step 03: Verify success message displayed....
+[2023-06-30 11:10:54,343]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:54,396] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 11:10:54,435] Customer-Info - Step 02: Click to Customer Info Link
+[2023-06-30 11:10:55,604] Customer-Info - Step 03: Input data to required fields
+[2023-06-30 11:10:56,782] Customer-Info - Step 04: Click to Save Button
+[2023-06-30 11:10:57,422] Customer-Info - Step 05: Verify result
+[2023-06-30 11:10:57,447]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,463]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,474]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,515]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,540]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,687]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,697]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,706]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:10:57,707] Customer-Info - Step 06: Close popup
+[2023-06-30 11:10:57,943] OS name = windows 10
+[2023-06-30 11:10:57,943] Driver instance name = firefoxdriver: firefox on windows (22db2fa1-d8be-4836-97bc-d66cbf8a6c24)
+[2023-06-30 11:12:36,285] Run on FIREFOX
+[2023-06-30 11:12:39,912] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 11:13:15,020] Run on FIREFOX
+[2023-06-30 11:13:18,491] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 11:13:59,240] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 11:14:00,334] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 11:14:07,846] Pre-Condition - Step 03: Verify success message displayed....
+[2023-06-30 11:14:07,885]  -------------------------- PASSED -------------------------- 
+[2023-06-30 11:14:07,948] OS name = windows 10
+[2023-06-30 11:14:07,948] Driver instance name = firefoxdriver: firefox on windows (557696ec-11ca-4e12-8e74-9e3cc529dd81)
+[2023-06-30 14:55:10,815] Run on FIREFOX
+[2023-06-30 14:55:14,368] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 14:56:09,330] Run on FIREFOX
+[2023-06-30 14:56:12,738] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 14:56:53,507] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 14:56:54,071] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 14:57:01,613] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 14:57:01,646]  -------------------------- PASSED -------------------------- 
+[2023-06-30 14:57:01,653] OS name = windows 10
+[2023-06-30 14:57:01,653] Driver instance name = firefoxdriver: firefox on windows (09dd1a47-e84d-46bc-a5a6-c9f1b291c20e)
+[2023-06-30 14:58:28,121] Run on FIREFOX
+[2023-06-30 14:58:31,092] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 14:58:56,416] OS name = windows 10
+[2023-06-30 14:58:56,416] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-06-30 14:59:06,922] Run on FIREFOX
+[2023-06-30 14:59:10,440] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:00:28,044] OS name = windows 10
+[2023-06-30 15:00:28,045] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-06-30 15:00:38,769] Run on FIREFOX
+[2023-06-30 15:00:42,116] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:01:22,878] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 15:01:24,208] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 15:01:28,458] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 15:01:28,494]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:01:28,497] OS name = windows 10
+[2023-06-30 15:01:28,497] Driver instance name = firefoxdriver: firefox on windows (df15b1af-d998-4ffa-bb7b-90a47dc678b5)
+[2023-06-30 15:02:16,694] Run on FIREFOX
+[2023-06-30 15:02:20,206] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:03:00,960] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 15:03:02,010] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 15:03:08,034] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 15:03:08,074]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:03:08,140] OS name = windows 10
+[2023-06-30 15:03:08,141] Driver instance name = firefoxdriver: firefox on windows (350c3a51-82fd-4294-a01b-222837d43c6e)
+[2023-06-30 15:05:26,734] Run on FIREFOX
+[2023-06-30 15:05:30,163] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:06:10,935] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 15:06:12,005] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 15:06:20,945] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 15:06:20,980]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:06:20,983] OS name = windows 10
+[2023-06-30 15:06:20,984] Driver instance name = firefoxdriver: firefox on windows (e914b38f-defe-4c2e-b48a-8c17d5cb9975)
+[2023-06-30 15:09:58,352] Run on FIREFOX
+[2023-06-30 15:10:01,838] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:14:10,382] Run on FIREFOX
+[2023-06-30 15:14:13,331] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 15:14:14,359] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 15:14:17,600] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 15:14:17,643]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:12,517] Run on FIREFOX
+[2023-06-30 15:16:16,018] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 15:16:17,034] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 15:16:19,823] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 15:16:19,857]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:19,913] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:16:19,947] Customer-Info - Step 02: Click to Customer Info Link
+[2023-06-30 15:16:21,132] Customer-Info - Step 03: Input data to required fields
+[2023-06-30 15:16:22,314] Customer-Info - Step 04: Click to Save Button
+[2023-06-30 15:16:23,006] Customer-Info - Step 05: Verify result
+[2023-06-30 15:16:23,031]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,048]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,057]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,083]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,107]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,262]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,270]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,280]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:16:23,280] Customer-Info - Step 06: Close popup
+[2023-06-30 15:16:23,562] OS name = windows 10
+[2023-06-30 15:16:23,562] Driver instance name = firefoxdriver: firefox on windows (9eb27695-45f9-4af6-82a7-9a42be0fe891)
+[2023-06-30 15:17:51,882] Run on FIREFOX
+[2023-06-30 15:17:55,298] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 15:17:56,576] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 15:17:59,783] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 15:17:59,818]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:17:59,870] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:17:59,904] Customer-Info - Step 02: Click to Customer Info Link
+[2023-06-30 15:18:00,985] Customer-Info - Step 03: Input data to required fields
+[2023-06-30 15:18:02,160] Customer-Info - Step 04: Click to Save Button
+[2023-06-30 15:18:02,782] Customer-Info - Step 05: Verify result
+[2023-06-30 15:18:02,810]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:02,828]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:02,839]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:02,899]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:02,923]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:03,074]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:03,084]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:03,093]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:18:03,093] Customer-Info - Step 06: Close popup
+[2023-06-30 15:18:03,374] OS name = windows 10
+[2023-06-30 15:18:03,374] Driver instance name = firefoxdriver: firefox on windows (72d74f8a-625f-424d-bea8-9d4f7fecae89)
+[2023-06-30 15:20:43,350] Run on FIREFOX
+[2023-06-30 15:20:47,019] Pre-Condition - Step 01: Navigate to Login Page
+[2023-06-30 15:20:48,181] Pre-Condition - Step 02: Set Cookie and reload page
+[2023-06-30 15:20:51,204] Pre-Condition - Step 03: Verify success message displayed
+[2023-06-30 15:20:51,245]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:51,298] Customer-Info - Step 01: Click to My Account Link
+[2023-06-30 15:20:51,333] Customer-Info - Step 02: Click to Customer Info Link
+[2023-06-30 15:20:52,567] Customer-Info - Step 03: Input data to required fields
+[2023-06-30 15:20:53,753] Customer-Info - Step 04: Click to Save Button
+[2023-06-30 15:20:54,435] Customer-Info - Step 05: Verify result
+[2023-06-30 15:20:54,458]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,475]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,484]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,509]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,534]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,692]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,702]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,711]  -------------------------- PASSED -------------------------- 
+[2023-06-30 15:20:54,711] Customer-Info - Step 06: Close popup
+[2023-06-30 15:20:54,997] OS name = windows 10
+[2023-06-30 15:20:54,997] Driver instance name = firefoxdriver: firefox on windows (c42afc8b-17d7-4659-8bef-1d24c1b2a687)
+[2023-07-01 16:39:32,422] Run on FIREFOX
+[2023-07-01 16:39:38,591] Register - Step 01: Click to register link
+[2023-07-01 16:39:39,541] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-01 16:39:39,598] Register - Step 03: Input data FC to lastName textbox
+[2023-07-01 16:39:39,648] Register - Step 04: Input data automation1349@mail.com to emailAddress textbox
+[2023-07-01 16:39:39,690] Register - Step 05: Input data 123456 to password textbox
+[2023-07-01 16:39:39,811] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-01 16:39:39,846] Register - Step 07: Click to Register Button
+[2023-07-01 16:39:40,098] Register - Step 08: Verify result register successfully
+[2023-07-01 16:40:05,731] Run on FIREFOX
+[2023-07-01 16:40:09,621] Register - Step 01: Click to register link
+[2023-07-01 16:40:10,570] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-01 16:40:10,625] Register - Step 03: Input data FC to lastName textbox
+[2023-07-01 16:40:10,669] Register - Step 04: Input data automation9442@mail.com to emailAddress textbox
+[2023-07-01 16:40:10,715] Register - Step 05: Input data 123456 to password textbox
+[2023-07-01 16:40:10,755] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-01 16:40:10,795] Register - Step 07: Click to Register Button
+[2023-07-01 16:40:11,598] Register - Step 08: Verify result register successfully
+[2023-07-01 16:40:11,754] Login - Step 01: Click to Login Link
+[2023-07-01 16:40:12,101] Login - Step 02: Input to required fields
+[2023-07-01 16:40:12,197] Login - Step 03: Click to Login Button
+[2023-07-01 16:40:12,804] Login - Step 04: Verify success message displayed
+[2023-07-01 16:40:12,856]  -------------------------- PASSED -------------------------- 
+[2023-07-01 16:40:12,856] Customer-Info - Step 01: Click to My Account Link
+[2023-07-01 16:40:12,885] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-01 16:40:13,516] Customer-Info - Step 03: Input data to required fields
+[2023-07-01 16:40:14,731] Customer-Info - Step 04: Click to Save Button
+[2023-07-01 16:40:15,337] Customer-Info - Step 05: Verify result
+[2023-07-01 16:40:15,629] Customer-Info - Step 06: Close popup
+[2023-07-03 11:51:50,659] Run on FIREFOX
+[2023-07-03 11:51:56,707] Register - Step 01: Click to register link
+[2023-07-03 11:51:57,705] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-03 11:51:57,764] Register - Step 03: Input data FC to lastName textbox
+[2023-07-03 11:51:57,812] Register - Step 04: Input data automation8036@mail.com to emailAddress textbox
+[2023-07-03 11:51:57,859] Register - Step 05: Input data 123456 to password textbox
+[2023-07-03 11:51:57,900] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-03 11:51:57,940] Register - Step 07: Click to Register Button
+[2023-07-03 11:51:58,573] Register - Step 08: Verify result register successfully
+[2023-07-03 11:51:58,796] Login - Step 01: Click to Login Link
+[2023-07-03 11:51:59,119] Login - Step 02: Input to required fields
+[2023-07-03 11:51:59,214] Login - Step 03: Click to Login Button
+[2023-07-03 11:51:59,785] Login - Step 04: Verify success message displayed
+[2023-07-03 11:51:59,835]  -------------------------- PASSED -------------------------- 
+[2023-07-03 11:51:59,835] Customer-Info - Step 01: Click to My Account Link
+[2023-07-03 11:51:59,863] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-03 11:52:00,460] Customer-Info - Step 03: Input data to required fields
+[2023-07-03 11:52:01,724] Customer-Info - Step 04: Click to Save Button
+[2023-07-03 11:52:02,383] Customer-Info - Step 05: Verify result
+[2023-07-03 11:52:02,673] Customer-Info - Step 06: Close popup
+[2023-07-03 12:08:15,963] Run on FIREFOX
+[2023-07-03 12:08:19,776] Register - Step 01: Click to register link
+[2023-07-03 12:08:20,231] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-03 12:08:20,293] Register - Step 03: Input data FC to lastName textbox
+[2023-07-03 12:08:20,339] Register - Step 04: Input data automation4057@mail.com to emailAddress textbox
+[2023-07-03 12:08:20,388] Register - Step 05: Input data 123456 to password textbox
+[2023-07-03 12:08:20,429] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-03 12:08:20,467] Register - Step 07: Click to Register Button
+[2023-07-03 12:08:21,158] Register - Step 08: Verify result register successfully
+[2023-07-03 12:08:21,316] Login - Step 01: Click to Login Link
+[2023-07-03 12:08:21,658] Login - Step 02: Input to required fields
+[2023-07-03 12:08:21,752] Login - Step 03: Click to Login Button
+[2023-07-03 12:08:22,330] Login - Step 04: Verify success message displayed
+[2023-07-03 12:08:22,381]  -------------------------- PASSED -------------------------- 
+[2023-07-03 12:08:22,381] Customer-Info - Step 01: Click to My Account Link
+[2023-07-03 12:08:22,411] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-03 12:08:23,088] Customer-Info - Step 03: Input data to required fields
+[2023-07-03 12:09:33,171] Run on FIREFOX
+[2023-07-03 12:09:36,963] Register - Step 01: Click to register link
+[2023-07-03 12:09:38,027] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-03 12:09:38,081] Register - Step 03: Input data FC to lastName textbox
+[2023-07-03 12:09:38,124] Register - Step 04: Input data automation1213@mail.com to emailAddress textbox
+[2023-07-03 12:09:38,168] Register - Step 05: Input data 123456 to password textbox
+[2023-07-03 12:09:38,210] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-03 12:09:38,249] Register - Step 07: Click to Register Button
+[2023-07-03 12:09:38,875] Register - Step 08: Verify result register successfully
+[2023-07-03 12:09:39,030] Login - Step 01: Click to Login Link
+[2023-07-03 12:09:39,381] Login - Step 02: Input to required fields
+[2023-07-03 12:09:39,475] Login - Step 03: Click to Login Button
+[2023-07-03 12:09:40,068] Login - Step 04: Verify success message displayed
+[2023-07-03 12:09:40,117]  -------------------------- PASSED -------------------------- 
+[2023-07-03 12:09:40,117] Customer-Info - Step 01: Click to My Account Link
+[2023-07-03 12:09:40,146] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-03 12:09:40,829] Customer-Info - Step 03: Input data to required fields
+[2023-07-03 12:13:42,821] Run on FIREFOX
+[2023-07-03 12:13:46,933] Register - Step 01: Click to register link
+[2023-07-03 12:13:47,962] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-03 12:13:48,016] Register - Step 03: Input data FC to lastName textbox
+[2023-07-03 12:13:48,061] Register - Step 04: Input data automation5089@mail.com to emailAddress textbox
+[2023-07-03 12:13:48,105] Register - Step 05: Input data 123456 to password textbox
+[2023-07-03 12:13:48,146] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-03 12:13:48,184] Register - Step 07: Click to Register Button
+[2023-07-03 12:13:48,851] Register - Step 08: Verify result register successfully
+[2023-07-03 12:13:49,007] Login - Step 01: Click to Login Link
+[2023-07-03 12:13:49,389] Login - Step 02: Input to required fields
+[2023-07-03 12:13:49,481] Login - Step 03: Click to Login Button
+[2023-07-03 12:13:50,098] Login - Step 04: Verify success message displayed
+[2023-07-03 12:13:50,145]  -------------------------- PASSED -------------------------- 
+[2023-07-03 12:13:50,146] Customer-Info - Step 01: Click to My Account Link
+[2023-07-03 12:13:50,174] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-03 12:13:50,845] Customer-Info - Step 03: Input data to required fields
+[2023-07-03 12:18:43,249] Run on FIREFOX
+[2023-07-03 12:18:47,351] Register - Step 01: Click to register link
+[2023-07-03 12:18:48,341] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-03 12:18:48,393] Register - Step 03: Input data FC to lastName textbox
+[2023-07-03 12:18:48,437] Register - Step 04: Input data automation9287@mail.com to emailAddress textbox
+[2023-07-03 12:18:48,480] Register - Step 05: Input data 123456 to password textbox
+[2023-07-03 12:18:48,522] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-03 12:18:48,563] Register - Step 07: Click to Register Button
+[2023-07-03 12:18:49,229] Register - Step 08: Verify result register successfully
+[2023-07-03 12:18:49,379] Login - Step 01: Click to Login Link
+[2023-07-03 12:18:49,745] Login - Step 02: Input to required fields
+[2023-07-03 12:18:49,838] Login - Step 03: Click to Login Button
+[2023-07-03 12:18:50,458] Login - Step 04: Verify success message displayed
+[2023-07-03 12:18:50,507]  -------------------------- PASSED -------------------------- 
+[2023-07-03 12:18:50,508] Customer-Info - Step 01: Click to My Account Link
+[2023-07-03 12:18:50,536] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-03 12:18:51,210] Customer-Info - Step 03: Input data to required fields
+[2023-07-03 12:20:37,418] Run on FIREFOX
+[2023-07-03 12:20:41,586] Register - Step 01: Click to register link
+[2023-07-03 12:20:42,524] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-03 12:20:42,578] Register - Step 03: Input data FC to lastName textbox
+[2023-07-03 12:20:42,623] Register - Step 04: Input data automation1494@mail.com to emailAddress textbox
+[2023-07-03 12:20:42,670] Register - Step 05: Input data 123456 to password textbox
+[2023-07-03 12:20:42,708] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-03 12:20:42,747] Register - Step 07: Click to Register Button
+[2023-07-03 12:20:43,443] Register - Step 08: Verify result register successfully
+[2023-07-03 12:20:43,594] Login - Step 01: Click to Login Link
+[2023-07-03 12:20:43,941] Login - Step 02: Input to required fields
+[2023-07-03 12:20:44,033] Login - Step 03: Click to Login Button
+[2023-07-03 12:20:44,642] Login - Step 04: Verify success message displayed
+[2023-07-03 12:20:44,691]  -------------------------- PASSED -------------------------- 
+[2023-07-03 12:20:44,691] Customer-Info - Step 01: Click to My Account Link
+[2023-07-03 12:20:44,721] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-03 12:20:45,401] Customer-Info - Step 03: Input data to required fields
+[2023-07-03 12:20:46,535] Customer-Info - Step 04: Click to Save Button
+[2023-07-03 12:20:47,126] Customer-Info - Step 05: Verify result
+[2023-07-03 12:20:47,391] Customer-Info - Step 06: Close popup

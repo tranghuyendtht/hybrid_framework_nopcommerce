@@ -52,6 +52,15 @@ public class UserLoginPageObject extends BasePage{
 		return getElementText(driver, UserLoginPageUI.EMAIL_ERROR_MESSAGE);
 	}
 
+	public UserHomePageObject getUserHomePage(WebDriver driver) {
+		return PageGeneratorManager.getUserHomePage(driver);
+	}
+	
+	public void clickToCloseIcon() {
+		waitForElementClickable(driver, UserLoginPageUI.CLOSE_ICON);
+		clickToElement(driver, UserLoginPageUI.CLOSE_ICON);
+	}
+
 
 
 }

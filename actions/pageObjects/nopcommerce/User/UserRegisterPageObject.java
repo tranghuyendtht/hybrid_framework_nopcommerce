@@ -111,5 +111,7 @@ public class UserRegisterPageObject extends BasePage{
 		return PageGeneratorManager.getUserLoginPage(driver);
 	}
 
+	
+
 
 }

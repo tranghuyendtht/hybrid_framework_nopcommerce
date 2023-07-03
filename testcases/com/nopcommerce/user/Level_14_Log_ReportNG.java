@@ -95,7 +95,7 @@ public class Level_14_Log_ReportNG extends BaseTest {
 	}
 
 	@Test
-	public void User_02_Login() {
+	public void User_02_Create_Account_Info() {
 		// Login
 		log.info("Login - Step 01: Click to Login Link");
 		loginPage = registerPage.clickToLoginLink();

@@ -13,8 +13,8 @@
 		<parameter name="browser" value="firefox" />
 		<classes>
 		<!-- Trigger Common register run fist-->
-			<class name="com.nopcommerce.common.Common_01_Register_Cookie" />
-			<class name="com.nopcommerce.user.Level_16_Share_Class_Data_C_Cookie" />
+			<!-- <class name="com.nopcommerce.common.Common_01_Register_Cookie" />-->
+			<class name="com.nopcommerce.user.Level_18_Pattern_Object" />
 		</classes>
 	</test>
 

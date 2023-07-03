@@ -1,5 +1,20 @@
-[2023-06-30 10:08:57,883] Run on FIREFOX
-[2023-06-30 10:09:01,316] Pre-Condition - Step 01: Navigate to Login Page
-[2023-06-30 10:09:02,340] Pre-Condition - Step 02: Set Cookie and reload page
-[2023-06-30 10:09:07,251] Pre-Condition - Step 03: Verify success message displayed
-[2023-06-30 10:09:07,293]  -------------------------- PASSED -------------------------- 
+[2023-07-03 12:20:37,418] Run on FIREFOX
+[2023-07-03 12:20:41,586] Register - Step 01: Click to register link
+[2023-07-03 12:20:42,524] Register - Step 02: Input data Automation to firstname textbox
+[2023-07-03 12:20:42,578] Register - Step 03: Input data FC to lastName textbox
+[2023-07-03 12:20:42,623] Register - Step 04: Input data automation1494@mail.com to emailAddress textbox
+[2023-07-03 12:20:42,670] Register - Step 05: Input data 123456 to password textbox
+[2023-07-03 12:20:42,708] Register - Step 06: Input data 123456 to confirm password textbox
+[2023-07-03 12:20:42,747] Register - Step 07: Click to Register Button
+[2023-07-03 12:20:43,443] Register - Step 08: Verify result register successfully
+[2023-07-03 12:20:43,594] Login - Step 01: Click to Login Link
+[2023-07-03 12:20:43,941] Login - Step 02: Input to required fields
+[2023-07-03 12:20:44,033] Login - Step 03: Click to Login Button
+[2023-07-03 12:20:44,642] Login - Step 04: Verify success message displayed
+[2023-07-03 12:20:44,691]  -------------------------- PASSED -------------------------- 
+[2023-07-03 12:20:44,691] Customer-Info - Step 01: Click to My Account Link
+[2023-07-03 12:20:44,721] Customer-Info - Step 02: Click to Customer Info Link
+[2023-07-03 12:20:45,401] Customer-Info - Step 03: Input data to required fields
+[2023-07-03 12:20:46,535] Customer-Info - Step 04: Click to Save Button
+[2023-07-03 12:20:47,126] Customer-Info - Step 05: Verify result
+[2023-07-03 12:20:47,391] Customer-Info - Step 06: Close popup

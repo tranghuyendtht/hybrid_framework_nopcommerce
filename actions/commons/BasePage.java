@@ -19,6 +19,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageUIs.nopcommerce.user.BasePageUI;
+import PageUIs.nopcommerce.user.UserCustomerInfoPageUI;
+import PageUIs.nopcommerce.user.UserLoginPageUI;
+import PageUIs.nopcommerce.user.UserRegisterPageUI;
 import io.qameta.allure.Step;
 import pageObjects.nopcommerce.Admin.AdminLoginPageObject;
 import pageObjects.nopcommerce.User.UserAddressPageObject;
@@ -73,7 +76,7 @@ public class BasePage {
 		for (Cookie cookie : cookies) {
 			driver.manage().addCookie(cookie);
 		}
-		sleepInSecond(3);
+		sleepInSecond(2);
 	}
 	
 	public Set<Cookie> getAllCookies (WebDriver driver) {
@@ -644,7 +647,7 @@ public class BasePage {
 	@Step ("Click to My Account Link")
 	public UserMyAccountPageObject openMyAccountPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageUI.MY_ACCOUNT_LINK);
-		clickToElement(driver, BasePageUI.MY_ACCOUNT_LINK);
+		clickToElementByJS(driver, BasePageUI.MY_ACCOUNT_LINK);
 		return PageGeneratorManager.getUserMyAccountPage(driver);
 
 	}
@@ -697,6 +700,41 @@ public class BasePage {
 	
 	public void overrideGlobalTimeout(WebDriver driver, long timeOut) {
 		driver.manage().timeouts().implicitlyWait(timeOut, TimeUnit.SECONDS);
+	}
+	
+	/**
+	 *  Enter to dynamic Textbox by ID
+	 * @author TrangDTH
+	 * @param driver
+	 * @param idTextbox
+	 * @param textValue
+	 */
+	public void inputToTextboxByIdTextbox(WebDriver driver, String idTextbox, String textValue) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, idTextbox);
+		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textValue, idTextbox);
+	}
+	
+	/**
+	 * Click to Button by Text
+	 * @param driver
+	 * @param textButton
+	 * @author TrangDTH
+	 */
+	public void clickToButtonByText(WebDriver driver, String textButton) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, textButton);
+		clickToElement(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, textButton);
+	}
+	/** 
+	 * Select item in dropdown by Name Attribute
+	 * @param driver
+	 * @param itemvalue
+	 * @param dropdownAttributeName
+	 * @author TrangDTH
+	 */
+	public void selectDropDownByTitle(WebDriver driver, String itemvalue, String dropdownAttributeName) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_DROPDOWN_LIST_BY_TITLE, dropdownAttributeName);
+		selectItemInDefaultDropDown(driver, BasePageUI.DYNAMIC_DROPDOWN_LIST_BY_TITLE, itemvalue, dropdownAttributeName);
+
 	}
 
 }
