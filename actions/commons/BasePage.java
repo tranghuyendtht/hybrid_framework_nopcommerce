@@ -19,11 +19,13 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageUIs.nopcommerce.user.BasePageUI;
+import PageUIs.nopcommerce.admin.AdminBasePageUI;
 import PageUIs.nopcommerce.user.UserCustomerInfoPageUI;
 import PageUIs.nopcommerce.user.UserLoginPageUI;
 import PageUIs.nopcommerce.user.UserRegisterPageUI;
 import io.qameta.allure.Step;
 import pageObjects.nopcommerce.Admin.AdminLoginPageObject;
+import pageObjects.nopcommerce.Admin.AdminProductPageObject;
 import pageObjects.nopcommerce.User.UserAddressPageObject;
 import pageObjects.nopcommerce.User.UserBackInStockSubscriptionsPageObject;
 import pageObjects.nopcommerce.User.UserChangePasswordPageObject;
@@ -70,6 +72,7 @@ public class BasePage {
 
 	public void refreshPage(WebDriver driver) {
 		driver.navigate().refresh();
+		sleepInSecond(2);
 	}
 
 	public void setCookies(WebDriver driver, Set<Cookie> cookies) {
@@ -256,7 +259,7 @@ public class BasePage {
 	public void selectItemInCustomDropdown(WebDriver driver, String parentLocator, String childItemLocator,
 			String expectedItem) {
 		getElement(driver, parentLocator).click();
-		sleepInSecond(1);
+		sleepInSecond(2);
 
 		WebDriverWait explicitWait = new WebDriverWait(driver, GlobalConstants.LONG_TIMEOUT);
 		List<WebElement> allItems = explicitWait
@@ -266,7 +269,7 @@ public class BasePage {
 			if (item.getText().trim().equals(expectedItem)) {
 				JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 				jsExecutor.executeScript("arguments[0].scrollIntoView(true);", item);
-				sleepInSecond(1);
+				//sleepInSecond(3);
 
 				item.click();
 				sleepInSecond(1);
@@ -444,6 +447,11 @@ public class BasePage {
 	public void scrollToElement(WebDriver driver, String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getElement(driver, locator));
+	}
+	
+	public void scrollToElement(WebDriver driver, String locator, String...dynamicParams) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getElement(driver, (getDynamicXpath(locator, dynamicParams))));
 	}
 
 	public void sendkeyToElementByJS(WebDriver driver, String locator, String value) {
@@ -737,4 +745,13 @@ public class BasePage {
 
 	}
 
+	public void clickToMenuLinkTextByName(WebDriver driver, String menuChild) {
+		waitForElementClickable(driver, AdminBasePageUI.DYNAMIC_MENU_LINKTEXT_BY_NAME, menuChild);
+		clickToElementByJS(driver,AdminBasePageUI.DYNAMIC_MENU_LINKTEXT_BY_NAME, menuChild);
+	}
+	public void clickToSubMenuLinkTextByName(WebDriver driver, String parentMenuName, String subMenuName) {
+		waitForElementClickable(driver, AdminBasePageUI.DYNAMIC_CATEGORY_LINKTEXT_BY_NAME, parentMenuName, subMenuName);
+		clickToElementByJS(driver,AdminBasePageUI.DYNAMIC_CATEGORY_LINKTEXT_BY_NAME, parentMenuName, subMenuName);
+		sleepInSecond(3);
+	}
 }

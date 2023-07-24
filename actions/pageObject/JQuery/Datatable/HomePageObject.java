@@ -63,6 +63,7 @@ public class HomePageObject extends BasePage {
 		return allRowValueAllPage;
 	}
 
+	// Lấy giá trị trong 1 cột của bảng từ tên của của cột
 	public List<String> getValueColumnByTitleName(String titleName) {
 		int totalPage = getElementSize(driver, HomePageUI.TOTAL_PAGINATION);
 		System.out.println("Total Size = " + totalPage);

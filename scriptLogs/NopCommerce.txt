@@ -1,20 +1,75 @@
-[2023-07-03 12:20:37,418] Run on FIREFOX
-[2023-07-03 12:20:41,586] Register - Step 01: Click to register link
-[2023-07-03 12:20:42,524] Register - Step 02: Input data Automation to firstname textbox
-[2023-07-03 12:20:42,578] Register - Step 03: Input data FC to lastName textbox
-[2023-07-03 12:20:42,623] Register - Step 04: Input data automation1494@mail.com to emailAddress textbox
-[2023-07-03 12:20:42,670] Register - Step 05: Input data 123456 to password textbox
-[2023-07-03 12:20:42,708] Register - Step 06: Input data 123456 to confirm password textbox
-[2023-07-03 12:20:42,747] Register - Step 07: Click to Register Button
-[2023-07-03 12:20:43,443] Register - Step 08: Verify result register successfully
-[2023-07-03 12:20:43,594] Login - Step 01: Click to Login Link
-[2023-07-03 12:20:43,941] Login - Step 02: Input to required fields
-[2023-07-03 12:20:44,033] Login - Step 03: Click to Login Button
-[2023-07-03 12:20:44,642] Login - Step 04: Verify success message displayed
-[2023-07-03 12:20:44,691]  -------------------------- PASSED -------------------------- 
-[2023-07-03 12:20:44,691] Customer-Info - Step 01: Click to My Account Link
-[2023-07-03 12:20:44,721] Customer-Info - Step 02: Click to Customer Info Link
-[2023-07-03 12:20:45,401] Customer-Info - Step 03: Input data to required fields
-[2023-07-03 12:20:46,535] Customer-Info - Step 04: Click to Save Button
-[2023-07-03 12:20:47,126] Customer-Info - Step 05: Verify result
-[2023-07-03 12:20:47,391] Customer-Info - Step 06: Close popup
+[2023-07-24 15:25:09,647] Pre-Condition - Step 01: Navigate to Login Admin Page
+[2023-07-24 15:25:09,647] Run on FIREFOX
+[2023-07-24 15:25:14,562] Pre-Condition - Step 02: Login Account Admin
+[2023-07-24 15:25:17,294] Pre-Condition - Step 03: Go to Customer Menu
+[2023-07-24 15:25:17,334] Pre-Condition - Step 04: Go to Sub Menu - Product
+[2023-07-24 15:25:20,951] Create_New_Customer - Step 01: Click to Add new Button
+[2023-07-24 15:25:20,992] Create_New_Customer - Step 02: Enter To Email Textbox with value: automationFC4808@mail.com
+[2023-07-24 15:25:21,374] Create_New_Customer - Step 03: Enter To Password Textbox with value: 123456
+[2023-07-24 15:25:21,417] Create_New_Customer - Step 04: Enter To FirstName Textbox with value: automation
+[2023-07-24 15:25:21,459] Create_New_Customer - Step 05: Enter To LastName Textbox with value: FC
+[2023-07-24 15:25:21,493] Create_New_Customer - Step 06: Enter To Gender with value: null
+[2023-07-24 15:25:21,732] Create_New_Customer - Step 07: Enter To Date of Birth with value: 7/19/2001
+[2023-07-24 15:25:26,784] Create_New_Customer - Step 08: Enter To Company Name Textbox with value: automationFC4808
+[2023-07-24 15:25:26,851] Create_New_Customer - Step 09: Enter To Customer Role Textbox with value: Guests
+[2023-07-24 15:25:33,377] Create_New_Customer - Step 10: Enter To Admin Comment with value: automationFC4808
+[2023-07-24 15:25:33,434] Create_New_Customer - Step 11: Click to Save And Continue Edit
+[2023-07-24 15:25:34,350] Create_New_Customer - Step 12: Verify success message
+[2023-07-24 15:25:34,473]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,474] Create_New_Customer - Step 13: Verify Email Info
+[2023-07-24 15:25:34,525]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,525] Create_New_Customer - Step 14: Verify firstName Info
+[2023-07-24 15:25:34,555]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,555] Create_New_Customer - Step 15: Verify lastName Info
+[2023-07-24 15:25:34,581]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,581] Create_New_Customer - Step 16: Verify Gender Info
+[2023-07-24 15:25:34,604]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,604] Create_New_Customer - Step 17: Verify Date of Birth Info
+[2023-07-24 15:25:34,634]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,634] Create_New_Customer - Step 18: Verify Company Name Info
+[2023-07-24 15:25:34,671]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,671] Create_New_Customer - Step 19: Verify Customer Role Info
+[2023-07-24 15:25:34,709]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,709] Create_New_Customer - Step 20: Verify AdminComment Info
+[2023-07-24 15:25:34,751]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:25:34,751] Create_New_Customer - Step 22: Click to Back to Customer List LinkText
+[2023-07-24 15:25:37,788] Create_New_Customer - Step 23: Search customer with company name value: automationFC4808
+[2023-07-24 15:25:38,835] Create_New_Customer - Step 24: Search customer with customer role value: automationFC4808
+[2023-07-24 15:25:44,358] Create_New_Customer - Step 25: Click to Search Button
+[2023-07-24 15:25:46,399] Create_New_Customer - Step 26: Verify Info
+[2023-07-24 15:25:47,766] Search_Customer_With_Email - Step 01: Refresh page
+[2023-07-24 15:25:51,368] Search_Customer_With_Email - Step 02: Search customer with email value: automationFC4808@mail.com
+[2023-07-24 15:25:52,429] Search_Customer_With_Email - Step 03: Clear data on customer role field
+[2023-07-24 15:25:53,483] Search_Customer_With_Email - Step 04: Click to Search Button
+[2023-07-24 15:25:55,519] Search_Customer_With_Email - Step 05: Verify Info
+[2023-07-24 15:25:56,802]  -------------------------- FAILED -------------------------- 
+[2023-07-24 15:25:56,886] Search_Customer_With_FirstName_LastName - Step 01: Refresh page
+[2023-07-24 15:26:01,394] Search_Customer_With_FirstName_LastName - Step 02: Search customer with firstName value: automation
+[2023-07-24 15:26:02,441] Search_Customer_With_FirstName_LastName - Step 03: Search customer with lastName value: FC
+[2023-07-24 15:26:03,484] Search_Customer_With_FirstName_LastName - Step 04: Clear data on customer role field
+[2023-07-24 15:26:04,514] Search_Customer_With_FirstName_LastName - Step 05: Click to Search Button
+[2023-07-24 15:26:06,568] Search_Customer_With_FirstName_LastName - Step 06: Verify Info
+[2023-07-24 15:26:07,868]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:26:09,128]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:26:09,132] Search_Customer_With_Company - Step 01: Refresh page
+[2023-07-24 15:26:12,806] Search_Customer_With_Company - Step 02: Search customer with company Name value: automationFC4808
+[2023-07-24 15:26:13,861] Search_Customer_With_Company - Step 03: Clear data on customer role field
+[2023-07-24 15:26:14,896] Search_Customer_With_Company - Step 04: Click to Search Button
+[2023-07-24 15:26:16,968] Search_Customer_With_Company - Step 05: Verify Info
+[2023-07-24 15:26:18,246]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:26:18,250] Search_Customer_With_Full_Data - Step 01: Refresh page
+[2023-07-24 15:26:21,381] Search_Customer_With_Full_Data - Step 02: Search customer with email value: automationFC4808@mail.com
+[2023-07-24 15:26:22,436] Search_Customer_With_Full_Data - Step 03: Search customer with firstName value: automation
+[2023-07-24 15:26:23,495] Search_Customer_With_Full_Data - Step 04: Search customer with lastName value: FC
+[2023-07-24 15:26:24,528] Search_Customer_With_Full_Data - Step 05: Search customer with date of birth value: 7/19/2001
+[2023-07-24 15:26:25,033] Search_Customer_With_Full_Data - Step 06: Search customer with company Name value: automationFC4808
+[2023-07-24 15:26:26,077] Search_Customer_With_Full_Data - Step 07: Search customer with customer role value: Guests
+[2023-07-24 15:26:31,618] Search_Customer_With_Full_Data - Step 08: Click to Search Button
+[2023-07-24 15:26:33,670] Search_Customer_With_Full_Data - Step 09: Verify Info
+[2023-07-24 15:26:34,959]  -------------------------- FAILED -------------------------- 
+[2023-07-24 15:26:36,204]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:26:37,453]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:26:38,703]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:26:39,953]  -------------------------- PASSED -------------------------- 
+[2023-07-24 15:26:40,049] OS name = windows 10
+[2023-07-24 15:26:40,049] Driver instance name = firefoxdriver: firefox on windows (8f28a368-6932-4604-861c-9b0d307ad63b)

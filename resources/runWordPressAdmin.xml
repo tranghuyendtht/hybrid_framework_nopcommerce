@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WordPress-User">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<!-- <listener class-name = "reportConfig.ReportNGListener"/> -->
+		<!-- <listener class-name = "reportConfig.ExtentTestListener"/> -->
+		<listener class-name="reportConfig.AllureTestListener" />
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+	</listeners>
+
+	<parameter name="urlAdmin" value="https://lovefood.blog/wp-admin" />
+	<parameter name="urlUser" value="https://lovefood.blog" />
+
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+
+		<!-- 	<classes>
+			<class name="com.wordpress.user.Level_18_Pattern_Object" />
+		</classes>
+		-->
+
+		<package>
+			<package name="com.wordpress.admin" />
+		</package>
+	</test>
+
+
+</suite>
+

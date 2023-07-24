@@ -2,6 +2,7 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -60,7 +61,7 @@ public class BaseTest {
 			throw new RuntimeException("Please check your browser name!");
 
 		}
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(GlobalConstants.USER_PAGE_URL);
 
 		return driver;
@@ -178,6 +179,16 @@ public class BaseTest {
 		Random rand = new Random();
 		return rand.nextInt(9999);
 	}
+	
+	public String[] getSubStringBeforeCharacter(String text) {
+		String[] itext = text.split("/");
+		for (int i = 0; i < itext.length; i++) {
+			System.out.println(itext[i]);
+			
+		}
+		return itext;
+	}
+	
 	protected void closeBrowserDriver() {
 		String cmd = null;
 		try {
@@ -226,5 +237,7 @@ public class BaseTest {
 			}
 		}
 	}
+	
+	
 
 }

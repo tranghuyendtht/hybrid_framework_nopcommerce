@@ -158,9 +158,9 @@ public class Level_18_Pattern_Object extends BaseTest {
 		customerInfoPage.closePopup();
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		driver.quit();
+		closeBrowserDriver();
 	}
 
 }

@@ -10,6 +10,7 @@ import pageObjects.nopcommerce.User.UserRewardPointsPageObject;
 import pageObjects.Facebook.LoginPageObject;
 import pageObjects.nopcommerce.Admin.AdminDashboardPageObject;
 import pageObjects.nopcommerce.Admin.AdminLoginPageObject;
+import pageObjects.nopcommerce.Admin.AdminProductPageObject;
 import pageObjects.nopcommerce.User.UserAddressPageObject;
 import pageObjects.nopcommerce.User.UserBackInStockSubscriptionsPageObject;
 import pageObjects.nopcommerce.User.UserChangePasswordPageObject;
@@ -86,5 +87,8 @@ public class PageGeneratorManager {
 		return new AdminDashboardPageObject(driver);
 	}
 
+	public static AdminProductPageObject getAdminProductPage(WebDriver driver) {
+		return new AdminProductPageObject(driver);
+	}
 
 }
