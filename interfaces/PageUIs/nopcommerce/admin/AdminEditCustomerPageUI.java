@@ -14,8 +14,8 @@ public class AdminEditCustomerPageUI {
 	public static final String DYNAMIC_TEXTBOX_BY_ID = "xpath=//input[@id='%s']";
 	public static final String DATE_OF_BIRTH_DATE_VIEW = "xpath=//input[@id='DateOfBirth']";
 	public static final String DYNAMIC_TEXTAREA_BY_ID = "xpath=//textarea[@id='%s']";
-	public static final String SAVE_BUTTON_ON_EDIT_CUSTOMER_PAGE = "xpath=//button[@class='btn btn-primary' and contains(string(),'Save')]";
-	public static final String DYNAMIC_BUTTON_ON_COLUMN_BY_TEXT = "xpath=//button[contains(string(),'%s')]";
-	public static final String NO_DATA_AVAILABLE_ON_TABLE_MESSAGE = "xpath=//td[@class='dataTables_empty']";
+	public static final String DYNAMIC_BUTTON_ON_EDIT_CUSTOMER_PAGE_BY_TEXT = "xpath=//button[@class='btn btn-primary' and contains(string(),'%s')]";
+	public static final String DYNAMIC_BUTTON_ON_COLUMN_BY_TEXT = "xpath=//a[@class='btn btn-default' and contains(text(),'%s')]";
+	public static final String NO_DATA_AVAILABLE_ON_TABLE_MESSAGE = "xpath=	//table[@id='customer-addresses-grid']//td[@class='dataTables_empty' and text()='No data available in table']";
 
 }

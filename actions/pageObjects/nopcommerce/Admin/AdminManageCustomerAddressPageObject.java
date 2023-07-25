@@ -23,6 +23,7 @@ public class AdminManageCustomerAddressPageObject extends BasePage{
 	public void setValueOnDropDownListById(String idDropdownList, String textValue) {
 		waitForElementVisible(driver, AdminManageCustomerAddressPageUI.DYNAMIC_DROPDOWN_LIST_BY_ID,idDropdownList);
 		selectItemInDefaultDropDown(driver, AdminManageCustomerAddressPageUI.DYNAMIC_DROPDOWN_LIST_BY_ID, textValue, idDropdownList);
+		sleepInSecond(1);
 	}
 
 	public void clickToDynamicButtonByText(String textButton) {
@@ -50,7 +51,7 @@ public class AdminManageCustomerAddressPageObject extends BasePage{
 	public AdminEditCustomerPageObject clickBackToCustomerDetail() {
 		waitForElementClickable(driver, AdminManageCustomerAddressPageUI.BACK_TO_CUSTOMER_DETAIL_LINKTEXT);
 		clickToElementByJS(driver, AdminManageCustomerAddressPageUI.BACK_TO_CUSTOMER_DETAIL_LINKTEXT);
-		sleepInSecond(3);
+		sleepInSecond(1);
 		return PageGeneratorManager.getAdminEditCustomerPage(driver);
 	}
 		

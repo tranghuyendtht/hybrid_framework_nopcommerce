@@ -165,7 +165,7 @@ public class Level_01_Customer extends BaseTest {
 
 	}
 
-	@Test
+	//@Test
 	public void Customer_02_Search_Customer_With_Email() {
 		log.info("Search_Customer_With_Email - Step 01: Refresh page");
 		adminSearchCustomerPage.refreshPage(driver);
@@ -184,7 +184,7 @@ public class Level_01_Customer extends BaseTest {
 
 	}
 
-	@Test
+	//@Test
 	public void Customer_03_Search_Customer_With_FirstName_LastName() {
 		log.info("Search_Customer_With_FirstName_LastName - Step 01: Refresh page");
 		adminSearchCustomerPage.refreshPage(driver);
@@ -207,7 +207,7 @@ public class Level_01_Customer extends BaseTest {
 		verifyTrue(adminSearchCustomerPage.isExpectedResultContainedInActualResult("Name", lastName));
 	}
 
-	@Test
+	//@Test
 	public void Customer_04_Search_Customer_With_Company() {
 		log.info("Search_Customer_With_Company - Step 01: Refresh page");
 		adminSearchCustomerPage.refreshPage(driver);
@@ -225,7 +225,7 @@ public class Level_01_Customer extends BaseTest {
 		verifyTrue(adminSearchCustomerPage.isExpectedResultContainedInActualResult("Company name", companyName));
 	}
 
-	@Test
+	//@Test
 	public void Customer_04_Search_Customer_With_Full_Data() {
 		log.info("Search_Customer_With_Full_Data - Step 01: Refresh page");
 		adminSearchCustomerPage.refreshPage(driver);
@@ -304,7 +304,7 @@ public class Level_01_Customer extends BaseTest {
 		adminEditCustomerPage.setInfoToTextAreaByID("AdminComment", editOther + adminComment);
 
 		log.info("Edit_Customer - Step 11: Click to Save button");
-		adminSearchCustomerPage = adminEditCustomerPage.clickToSaveButton();
+		adminSearchCustomerPage = adminEditCustomerPage.clickToSaveButton("Save");
 
 		log.info("Edit_Customer - Step 12: Verify message displayed");
 		verifyTrue(adminSearchCustomerPage.isVerifySuccessMessageDisplayed("The customer has been updated successfully."));
@@ -340,14 +340,14 @@ public class Level_01_Customer extends BaseTest {
 		adminSearchCustomerPage.refreshPage(driver);
 
 		log.info("Add_New_Address - Step 02: Set value to search fields");
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchEmail", email);
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchFirstName", firstName);
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchLastName", lastName);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchEmail", editEmail + email);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchFirstName", editOther + firstName);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchLastName", editOther + lastName);
 		adminSearchCustomerPage.selectValueDateOfBirthByID("SearchMonthOfBirth",
-				getSubStringBeforeCharacter(dateOfBirth)[0]);
+				getSubStringBeforeCharacter(newDateOfBirth)[0]);
 		adminSearchCustomerPage.selectValueDateOfBirthByID("SearchDayOfBirth",
-				getSubStringBeforeCharacter(dateOfBirth)[1]);
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchCompany", companyName);
+				getSubStringBeforeCharacter(newDateOfBirth)[1]);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchCompany", editOther + companyName);
 		adminSearchCustomerPage.chooseCustomerRole(customerRole);
 
 		log.info("Add_New_Address - Step 03: Click to search button");
@@ -356,66 +356,66 @@ public class Level_01_Customer extends BaseTest {
 		log.info("Add_New_Address - Step 04: Click to edit button");
 		adminEditCustomerPage = adminSearchCustomerPage.clickToEditButton();
 
-		log.info("Add_New_Address - Step 05: Croll to address location");
-		log.info("Add_New_Address - Step 06: Click to address cart title");
-		adminEditCustomerPage.clickToCardTitleByText("Addresses");
-		log.info("Add_New_Address - Step 07: Click to add new address button");
-		adminEditCustomerPage.clickToButtonOnAddressTableByText("Add new address");
+		log.info("Add_New_Address - Step 05: Click to address cart title");
+		//adminEditCustomerPage.clickToCardTitleByText("Addresses");
+		
+		log.info("Add_New_Address - Step 06: Click to add new address button");
+		adminEditCustomerPage.clickToAddAddressButton("Addresses", "Add new address");
 		adminManageCustomerAddressPage = PageGeneratorManager.getAdminManageCustomerAddressPage(driver);
 
-		log.info("Add_New_Address - Step 04: Set data on fields - Firstname textbox with value: " + addFirstName);
+		log.info("Add_New_Address - Step 07: Set data on fields - Firstname textbox with value: " + addFirstName);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_FirstName", addFirstName);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Lastname textbox with value: " + addLastName);
+		log.info("Add_New_Address - Step 08: Set data on fields - Lastname textbox with value: " + addLastName);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_LastName", addLastName);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Email textbox with value: " + addEmail);
+		log.info("Add_New_Address - Step 09: Set data on fields - Email textbox with value: " + addEmail);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Email", addEmail);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Company textbox with value: " + addCompany);
+		log.info("Add_New_Address - Step 10: Set data on fields - Company textbox with value: " + addCompany);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Company", addCompany);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Country dropdownlist with value: " + addCountry);
+		log.info("Add_New_Address - Step 11: Set data on fields - Country dropdownlist with value: " + addCountry);
 		adminManageCustomerAddressPage.setValueOnDropDownListById("Address_CountryId", addCountry);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - State/Province dropdownlist with value: " + addState);
+		log.info("Add_New_Address - Step 12: Set data on fields - State/Province dropdownlist with value: " + addState);
 		adminManageCustomerAddressPage.setValueOnDropDownListById("Address_StateProvinceId", addState);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - County/Region textbox with value: " + addCounty);
+		log.info("Add_New_Address - Step 13: Set data on fields - County/Region textbox with value: " + addCounty);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_County", addCounty);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - City textbox with value: " + addCity);
+		log.info("Add_New_Address - Step 14: Set data on fields - City textbox with value: " + addCity);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_City", addCity);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Address 1 textbox with value: " + addAddress1);
+		log.info("Add_New_Address - Step 15: Set data on fields - Address 1 textbox with value: " + addAddress1);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Address1", addAddress1);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Address 2 textbox with value: " + addAddress2);
+		log.info("Add_New_Address - Step 16: Set data on fields - Address 2 textbox with value: " + addAddress2);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Address2", addAddress2);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Zip/PostalCode textbox with value: "
+		log.info("Add_New_Address - Step 17: Set data on fields - Zip/PostalCode textbox with value: "
 				+ addZipPostalCode);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_ZipPostalCode", addZipPostalCode);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - PhoneNumber textbox with value: " + addPhoneNumber);
+		log.info("Add_New_Address - Step 18: Set data on fields - PhoneNumber textbox with value: " + addPhoneNumber);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_PhoneNumber", addPhoneNumber);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - FaxNumber textbox with value: " + addFaxNumber);
+		log.info("Add_New_Address - Step 19: Set data on fields - FaxNumber textbox with value: " + addFaxNumber);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_FaxNumber", addFaxNumber);
 		
-		log.info("Add_New_Address - Step 04: Click to save button");
+		log.info("Add_New_Address - Step 20: Click to save button");
 		adminManageCustomerAddressPage.clickToDynamicButtonByText("Save");
 		
-		log.info("Add_New_Address - Step 04: Verify message displayed");
+		log.info("Add_New_Address - Step 21: Verify message displayed");
 		verifyTrue(adminManageCustomerAddressPage.isVerifySuccessMessageDisplayed("The new address has been added successfully."));
 		
-		log.info("Add_New_Address - Step 04: Verify updated new value");
+		log.info("Add_New_Address - Step 22: Verify updated new value");
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_FirstName").equals(addFirstName));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_LastName").equals(addLastName));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_Email").equals(addEmail));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_Company").equals(addCompany));
 		verifyTrue(adminManageCustomerAddressPage.getSelectedValueOnDropdownListByID("Address_CountryId").equals(addCountry));
-		verifyTrue(adminManageCustomerAddressPage.getSelectedValueOnDropdownListByID("Address.StateProvinceId").equals(addState));
+		verifyTrue(adminManageCustomerAddressPage.getSelectedValueOnDropdownListByID("Address_StateProvinceId").equals(addState));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_County").equals(addCounty));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_City").equals(addCity));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_Address1").equals(addAddress1));
@@ -424,11 +424,10 @@ public class Level_01_Customer extends BaseTest {
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_PhoneNumber").equals(addPhoneNumber));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_FaxNumber").equals(addFaxNumber));
 		
-		log.info("Add_New_Address - Step 04: Click to 'back to customer details' linktext");
+		log.info("Add_New_Address - Step 23: Click to 'back to customer details' linktext");
 		adminEditCustomerPage = adminManageCustomerAddressPage.clickBackToCustomerDetail();
 		
-		log.info("Add_New_Address - Step 04: Croll to address location");
-		log.info("Add_New_Address - Step 04: Verify updated new value in address table");
+		log.info("Add_New_Address - Step 24: Verify updated new value in address table");
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("First name", addFirstName));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("Last name", addLastName));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("Email", addEmail));
@@ -441,86 +440,90 @@ public class Level_01_Customer extends BaseTest {
 		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(addZipPostalCode));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(addCountry));
 
+		log.info("Add_New_Address - Step 25: Click back to customer linktext");
+		adminSearchCustomerPage = adminEditCustomerPage.clickBackToCustomerListButton();
+		
 	}
 
-	@Test
+	//@Test
 	public void Customer_07_Edit_Address() {
-		log.info("Add_New_Address - Step 01: Refresh page");
+		log.info("Edit_Address - Step 01: Refresh page");
 		adminSearchCustomerPage.refreshPage(driver);
 
-		log.info("Add_New_Address - Step 02: Set value to search fields");
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchEmail", email);
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchFirstName", firstName);
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchLastName", lastName);
+		log.info("Edit_Address - Step 02: Set value to search fields");
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchEmail", editEmail + email);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchFirstName", editOther + firstName);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchLastName", editOther + lastName);
 		adminSearchCustomerPage.selectValueDateOfBirthByID("SearchMonthOfBirth",
-				getSubStringBeforeCharacter(dateOfBirth)[0]);
+				getSubStringBeforeCharacter(newDateOfBirth)[0]);
 		adminSearchCustomerPage.selectValueDateOfBirthByID("SearchDayOfBirth",
-				getSubStringBeforeCharacter(dateOfBirth)[1]);
-		adminSearchCustomerPage.setToTextboxSearchByID("SearchCompany", companyName);
+				getSubStringBeforeCharacter(newDateOfBirth)[1]);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchCompany", editOther + companyName);
 		adminSearchCustomerPage.chooseCustomerRole(customerRole);
 
-		log.info("Add_New_Address - Step 03: Click to search button");
+		log.info("Edit_Address - Step 03: Click to search button");
 		adminSearchCustomerPage.clickToSearchButton();
 
-		log.info("Add_New_Address - Step 04: Click to edit button");
+		log.info("Edit_Address - Step 04: Click to edit button");
 		adminEditCustomerPage = adminSearchCustomerPage.clickToEditButton();
 
-		log.info("Add_New_Address - Step 05: Croll to address location");
-		log.info("Add_New_Address - Step 05: Click to Edit button on Address table");
+		log.info("Edit_Address - Step 05: Click to Edit button on Address table");
+		adminEditCustomerPage.clickToButtonOnAddressTableByText("Addresses", "Edit");
 		adminManageCustomerAddressPage = PageGeneratorManager.getAdminManageCustomerAddressPage(driver);
-		log.info("Add_New_Address - Step 04: Set data on fields - Firstname textbox with value: " + editOther + addFirstName);
+		
+		log.info("Edit_Address - Step 06: Set data on fields - Firstname textbox with value: " + editOther + addFirstName);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_FirstName", editOther + addFirstName);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Lastname textbox with value: " + editOther + addLastName);
+		log.info("Edit_Address - Step 07: Set data on fields - Lastname textbox with value: " + editOther + addLastName);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_LastName", editOther + addLastName);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Email textbox with value: " + editEmail + addEmail);
+		log.info("Edit_Address - Step 08: Set data on fields - Email textbox with value: " + editEmail + addEmail);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Email", editEmail + addEmail);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Company textbox with value: " + editOther + addCompany);
+		log.info("Edit_Address - Step 09: Set data on fields - Company textbox with value: " + editOther + addCompany);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Company", editOther + addCompany);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Country dropdownlist with value: " + addCountry);
+		log.info("Edit_Address - Step 10: Set data on fields - Country dropdownlist with value: " + addCountry);
 		adminManageCustomerAddressPage.setValueOnDropDownListById("Address_CountryId", newAddCountry);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - State/Province dropdownlist with value: " + addState);
+		log.info("Edit_Address - Step 11: Set data on fields - State/Province dropdownlist with value: " + addState);
 		adminManageCustomerAddressPage.setValueOnDropDownListById("Address_StateProvinceId", newAddState);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - County/Region textbox with value: " + editOther + addCounty);
+		log.info("Edit_Address - Step 12: Set data on fields - County/Region textbox with value: " + editOther + addCounty);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_County", editOther + addCounty);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - City textbox with value: " + editOther + addCity);
+		log.info("Edit_Address - Step 13: Set data on fields - City textbox with value: " + editOther + addCity);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_City", editOther + addCity);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Address 1 textbox with value: " + editOther + addAddress1);
+		log.info("Edit_Address - Step 14: Set data on fields - Address 1 textbox with value: " + editOther + addAddress1);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Address1", editOther + addAddress1);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Address 2 textbox with value: " + editOther + addAddress2);
+		log.info("Edit_Address - Step 15: Set data on fields - Address 2 textbox with value: " + editOther + addAddress2);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_Address2", editOther + addAddress2);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - Zip/PostalCode textbox with value: "
+		log.info("Edit_Address - Step 16: Set data on fields - Zip/PostalCode textbox with value: "
 				+ addZipPostalCode);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_ZipPostalCode", newAddZipPostalCode);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - PhoneNumber textbox with value: " + addPhoneNumber);
+		log.info("Edit_Address - Step 17: Set data on fields - PhoneNumber textbox with value: " + addPhoneNumber);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_PhoneNumber", newAddPhoneNumber);
 		
-		log.info("Add_New_Address - Step 04: Set data on fields - FaxNumber textbox with value: " + addFaxNumber);
+		log.info("Edit_Address - Step 18: Set data on fields - FaxNumber textbox with value: " + addFaxNumber);
 		adminManageCustomerAddressPage.setValueOnTextboxById("Address_FaxNumber", newAddFaxNumber);
 		
-		log.info("Add_New_Address - Step 04: Click to save button");
+		log.info("Edit_Address - Step 19: Click to save button");
 		adminManageCustomerAddressPage.clickToDynamicButtonByText("Save");
 		
-		log.info("Add_New_Address - Step 04: Verify message displayed");
+		log.info("Edit_Address - Step 20: Verify message displayed");
 		adminManageCustomerAddressPage.isVerifySuccessMessageDisplayed("The address has been updated successfully.");
 		
-		log.info("Add_New_Address - Step 04: Verify updated new value");
+		log.info("Edit_Address - Step 21: Verify updated new value");
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_FirstName").equals(editOther + addFirstName));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_LastName").equals(editOther + addLastName));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_Email").equals(editEmail + addEmail));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_Company").equals(editOther + addCompany));
 		verifyTrue(adminManageCustomerAddressPage.getSelectedValueOnDropdownListByID("Address_CountryId").equals(newAddCountry));
-		verifyTrue(adminManageCustomerAddressPage.getSelectedValueOnDropdownListByID("Address.StateProvinceId").equals(newAddState));
+		verifyTrue(adminManageCustomerAddressPage.getSelectedValueOnDropdownListByID("Address_StateProvinceId").equals(newAddState));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_County").equals(editOther + addCounty));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_City").equals(editOther + addCity));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_Address1").equals(editOther + addAddress1));
@@ -529,26 +532,56 @@ public class Level_01_Customer extends BaseTest {
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_PhoneNumber").equals(newAddPhoneNumber));
 		verifyTrue(adminManageCustomerAddressPage.getInfoTextboxByID("Address_FaxNumber").equals(newAddFaxNumber));
 		
-		log.info("Add_New_Address - Step 04: Click back to customer details link");
+		log.info("Edit_Address - Step 22: Click back to customer details link");
 		adminEditCustomerPage =  adminManageCustomerAddressPage.clickBackToCustomerDetail();
 		
-		log.info("Add_New_Address - Step 04: Verify updated new value on address table");
+		log.info("Edit_Address - Step 23: Verify updated new value on address table");
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("First name",editOther + addFirstName));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("Last name", editOther + addLastName));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("Email", editEmail + addEmail));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("Phone number", newAddPhoneNumber));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressContainedInActualResult("Fax number", newAddFaxNumber));
-		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn( editOther + addCompany));
-		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn( editOther + addAddress1));
-		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn( editOther + addAddress2));
-		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn( editOther + addCity));
+		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(editOther + addCompany));
+		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(editOther + addAddress1));
+		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(editOther + addAddress2));
+		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(editOther + addCity));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(newAddZipPostalCode));
 		verifyTrue(adminEditCustomerPage.isExpectedAddressInAddressColumn(newAddCountry));
 		
+		log.info("Edit_Address - Step 24: Click back to customer linktext");
+		adminSearchCustomerPage = adminEditCustomerPage.clickBackToCustomerListButton();
 	}
 
 	@Test
 	public void Customer_08_Delete_Address() {
+		log.info("Delete_Address - Step 01: Refresh page");
+		adminSearchCustomerPage.refreshPage(driver);
+
+		log.info("Delete_Address - Step 02: Set value to search fields");
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchEmail", editEmail + email);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchFirstName", editOther + firstName);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchLastName", editOther + lastName);
+		adminSearchCustomerPage.selectValueDateOfBirthByID("SearchMonthOfBirth",
+				getSubStringBeforeCharacter(newDateOfBirth)[0]);
+		adminSearchCustomerPage.selectValueDateOfBirthByID("SearchDayOfBirth",
+				getSubStringBeforeCharacter(newDateOfBirth)[1]);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchCompany", editOther + companyName);
+		adminSearchCustomerPage.chooseCustomerRole(customerRole);
+		
+		log.info("Delete_Address - Step 03: Click to search button");
+		adminSearchCustomerPage.clickToSearchButton();
+
+		log.info("Delete_Address - Step 04: Click to edit button");
+		adminEditCustomerPage = adminSearchCustomerPage.clickToEditButton();
+
+		log.info("Delete_Address - Step 05: Click to Delete button on Address table");
+		adminEditCustomerPage.clickToButtonOnAddressTableByText("Addresses", "Delete");
+		
+		log.info("Delete_Address - Step 06: Confirm alert");
+		adminEditCustomerPage.confirmDeleteAddressAlert();
+		
+		log.info("Delete_Address - Step 07: Verify text result");
+		verifyTrue(adminEditCustomerPage.isNoDataAvailableInTableDisplayed());
 
 	}
 

@@ -22,11 +22,14 @@ public class AdminEditCustomerPageObject extends BasePage {
 	public void clickToCardTitleByText(String titleText) {
 		scrollToElement(driver, AdminEditCustomerPageUI.CARD_TITLE_ON_DETAIL_CUSTOMER_BY_TEXT, titleText);
 		sleepInSecond(1);
+		System.out.println("1");
 		
 		waitForElementClickable(driver, AdminEditCustomerPageUI.CARD_TITLE_ON_DETAIL_CUSTOMER_BY_TEXT, titleText);
 		if (isElementDisplayed(driver, AdminEditCustomerPageUI.ADDRESS_COLLAPSED_CARD)) {
 			clickToElementByJS(driver, AdminEditCustomerPageUI.CARD_TITLE_ON_DETAIL_CUSTOMER_BY_TEXT, titleText);
-		} else if(isElementUndisplayed(driver, AdminEditCustomerPageUI.ADDRESS_COLLAPSED_CARD)) {
+			System.out.println("2");
+		} else if (isElementUndisplayed(driver, AdminEditCustomerPageUI.ADDRESS_COLLAPSED_CARD)) {
+			System.out.println("3");
 			return;
 		}
 
@@ -130,15 +133,15 @@ public class AdminEditCustomerPageObject extends BasePage {
 		sendkeyToElement(driver, AdminEditCustomerPageUI.DYNAMIC_TEXTAREA_BY_ID, textValue, idTextarea);
 	}
 
-	public AdminSearchCustomerPageObject clickToSaveButton() {
-		waitForElementClickable(driver, AdminEditCustomerPageUI.SAVE_BUTTON_ON_EDIT_CUSTOMER_PAGE);
-		clickToElementByJS(driver, AdminEditCustomerPageUI.SAVE_BUTTON_ON_EDIT_CUSTOMER_PAGE);
+	public AdminSearchCustomerPageObject clickToSaveButton(String textButton) {
+		waitForElementClickable(driver, AdminEditCustomerPageUI.DYNAMIC_BUTTON_ON_EDIT_CUSTOMER_PAGE_BY_TEXT, textButton);
+		clickToElementByJS(driver, AdminEditCustomerPageUI.DYNAMIC_BUTTON_ON_EDIT_CUSTOMER_PAGE_BY_TEXT, textButton);
 		sleepInSecond(1);
 		return PageGeneratorManager.getAdminSearchCustomerPage(driver);
 	}
 
-	public void clickToButtonOnAddressTableByText(String textButton) {
-		scrollToElement(driver, AdminEditCustomerPageUI.DYNAMIC_BUTTON_ON_COLUMN_BY_TEXT, textButton);
+	public void clickToButtonOnAddressTableByText(String cartTitleName, String textButton) {
+		scrollToElement(driver, AdminEditCustomerPageUI.CARD_TITLE_ON_DETAIL_CUSTOMER_BY_TEXT, cartTitleName);
 		sleepInSecond(1);
 		waitForElementClickable(driver, AdminEditCustomerPageUI.DYNAMIC_BUTTON_ON_COLUMN_BY_TEXT, textButton);
 		clickToElementByJS(driver, AdminEditCustomerPageUI.DYNAMIC_BUTTON_ON_COLUMN_BY_TEXT, textButton);
@@ -153,10 +156,20 @@ public class AdminEditCustomerPageObject extends BasePage {
 
 	public void confirmDeleteAddressAlert() {
 		acceptAlert(driver);
+		sleepInSecond(2);
 	}
 
-	public String isNoDataAvailableInTableDisplayed() {
+	public boolean isNoDataAvailableInTableDisplayed() {
 		waitForElementVisible(driver, AdminEditCustomerPageUI.NO_DATA_AVAILABLE_ON_TABLE_MESSAGE);
-		return getElementText(driver, AdminEditCustomerPageUI.NO_DATA_AVAILABLE_ON_TABLE_MESSAGE);
+		return isElementDisplayed(driver, AdminEditCustomerPageUI.NO_DATA_AVAILABLE_ON_TABLE_MESSAGE);
+	}
+
+	public void clickToAddAddressButton(String cartTitleName, String buttonName) {
+		//scrollToElement(driver, AdminEditCustomerPageUI.CARD_TITLE_ON_DETAIL_CUSTOMER_BY_TEXT, cartTitleName);
+		
+		waitForElementClickable(driver, AdminEditCustomerPageUI.DYNAMIC_BUTTON_ON_EDIT_CUSTOMER_PAGE_BY_TEXT, buttonName);
+		clickToElementByJS(driver, AdminEditCustomerPageUI.DYNAMIC_BUTTON_ON_EDIT_CUSTOMER_PAGE_BY_TEXT, buttonName);
+		System.out.println("2");
+		sleepInSecond(1);
 	}
 }
