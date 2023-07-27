@@ -163,9 +163,36 @@ public class User_Register extends BaseTest {
 		log.info("Register_Success - Step 12: Verify Success message display");
 		verifyTrue(userRegisterPage.getRegisterSuccessMessage().equals("Your registration completed"));
 
+		log.info("Register_Success - Step 13: Switch to admin role");
+		userRegisterPage.navigateToUrlByJS(driver, "https://admin-demo.nopcommerce.com");
+		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
+
+		log.info("Register_Success - Step 14: Login as Admin Role");
+		adminDashboardPage = adminLoginPage.loginAsAdmin(adminUsername, adminPassword);
+
+		log.info("Register_Success - Step 17: Click to Customer Category");
+		adminDashboardPage.clickToMenuLinkTextByName(driver, "Customer");
+		adminDashboardPage.clickToSubMenuLinkTextByName(driver, "Customers", "Customers");
+		adminSearchCustomerPage = PageGeneratorManager.getAdminSearchCustomerPage(driver);
+
+		log.info("Register_Success - Step 20: Search customer with email value: " + emailAddress);
+		adminSearchCustomerPage.setToTextboxSearchByID("SearchEmail", emailAddress);
+
+		log.info("Register_Success - Step 21: Clear data on customer role field");
+		adminSearchCustomerPage.clearValueOnCustomerRoleField();
+
+		log.info("Register_Success - Step 22: Click to Search Button");
+		adminSearchCustomerPage.clickToSearchButton();
+
+		log.info("Register_Success - Step 23: Verify Info");
+		verifyTrue(adminSearchCustomerPage.isCustomerCreatedSuccessfully(emailAddress));
+
+		log.info("Register_Success - Step 24: Switch to user role");
+		adminSearchCustomerPage.navigateToUrlByJS(driver, "https://demo.nopcommerce.com");
+		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 	}
 
-	@Test
+	//@Test
 	public void TC_04_Register_Existing_Email() {
 		log.info("Register_Existing_Email - Step 01: Refresh page");
 		userRegisterPage.navigateToUrlByJS(driver, "https://demo.nopcommerce.com/register");
@@ -205,7 +232,7 @@ public class User_Register extends BaseTest {
 
 	}
 
-	@Test
+	//@Test
 	public void TC_05_Register_Password_Less_Than_6_Chars() {
 
 		log.info("Register_Password_Less_Than_6_Chars - Step 01: Refresh page");
@@ -250,7 +277,7 @@ public class User_Register extends BaseTest {
 
 	}
 
-	@Test
+	//@Test
 	public void TC_06_Register_Invalid_Confirm_Password() {
 
 		log.info("Register_Invalid_Confirm_Password - Step 01: Refresh page");

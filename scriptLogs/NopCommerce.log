@@ -5253,3 +5253,901 @@ Session ID: 301ac6dd-eefd-4af9-aeed-1454d83edfe0
 [2023-07-27 12:38:02,931]  -------------------------- PASSED -------------------------- 
 [2023-07-27 12:38:02,934] OS name = windows 10
 [2023-07-27 12:38:02,934] Driver instance name = firefoxdriver: firefox on windows (41a8d4c0-9be5-4dab-9e79-f10fa9bdde29)
+[2023-07-27 14:34:34,466] Pre-Condition - Step 01: Go page
+[2023-07-27 14:34:34,466] Run on FIREFOX
+[2023-07-27 14:34:39,004] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 14:34:39,972] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 14:34:40,234] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 14:34:40,267]  -------------------------- PASSED -------------------------- 
+[2023-07-27 14:34:40,267] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 14:34:40,293]  -------------------------- PASSED -------------------------- 
+[2023-07-27 14:34:40,293] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 14:34:40,318]  -------------------------- PASSED -------------------------- 
+[2023-07-27 14:34:40,318] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 14:34:40,343]  -------------------------- PASSED -------------------------- 
+[2023-07-27 14:34:40,344] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 14:34:40,376]  -------------------------- PASSED -------------------------- 
+[2023-07-27 14:34:40,429] Register_Success - Step 01: Refresh Page
+[2023-07-27 14:34:43,630] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 14:34:43,675] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 14:34:43,717] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 14:34:44,970] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 14:34:46,220] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 14:34:47,466] Register_Success - Step 07: Input to email textbox with value: automation5090@mail.com
+[2023-07-27 14:34:47,510] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 14:34:47,551] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 14:34:47,586] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 14:34:47,620] Register_Success - Step 11: Click to Register Button
+[2023-07-27 14:34:49,556] Register_Success - Step 12: Verify Success message display
+[2023-07-27 14:34:49,593]  -------------------------- PASSED -------------------------- 
+[2023-07-27 14:34:49,593] Register_Success - Step 13: Switch to admin role
+[2023-07-27 14:34:50,605] Register_Success - Step 14: Login as Admin Role
+[2023-07-27 14:34:55,867] Register_Success - Step 17: Click to Customer Category
+[2023-07-27 14:34:59,498] Register_Success - Step 20: Search customer with email value: automation5090@mail.com
+[2023-07-27 14:35:00,559] Register_Success - Step 21: Clear data on customer role field
+[2023-07-27 14:35:01,588] Register_Success - Step 22: Click to Search Button
+[2023-07-27 14:35:03,628] Register_Success - Step 23: Verify Info
+[2023-07-27 14:35:23,736] OS name = windows 10
+[2023-07-27 14:35:23,736] Driver instance name = firefoxdriver: firefox on windows (3e74a638-2486-4b2c-acbc-0868337d428f)
+[2023-07-27 16:21:56,852] Run on FIREFOX
+[2023-07-27 16:22:00,155] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:22:01,170] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:22:03,195] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:22:06,369] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:22:06,401]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:06,446] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:22:06,556] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:22:06,612] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:22:06,647] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:22:07,315] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:22:07,569] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:22:07,615] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:22:07,648] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:22:07,906] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:22:08,154] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:22:08,403] Update_Info - Step 09: Input to email textbox with value: Automation6828@mail.com
+[2023-07-27 16:22:08,445] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:22:08,481] Update_Info - Step 11: Click to save button
+[2023-07-27 16:22:09,161] Update_Info - Step 12: Verify result
+[2023-07-27 16:22:09,184]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:09,203]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:22:09,213]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:09,236]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:09,261]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:09,403]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:09,413]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:09,423]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:22:09,423] Update_Info - Step 13: Close popup
+[2023-07-27 16:22:09,735] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:22:09,764] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:22:10,766] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:22:10,858] OS name = windows 10
+[2023-07-27 16:22:10,858] Driver instance name = firefoxdriver: firefox on windows (8aa8268c-be8e-45bb-b2e3-d067478b7c1d)
+[2023-07-27 16:24:38,408] Run on FIREFOX
+[2023-07-27 16:24:41,738] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:24:42,645] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:24:44,673] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:24:47,822] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:24:47,872]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:47,927] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:24:48,056] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:24:48,168] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:24:48,202] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:24:49,424] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:24:49,683] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:24:49,732] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:24:49,768] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:24:50,018] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:24:50,285] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:24:50,530] Update_Info - Step 09: Input to email textbox with value: Automation7699@mail.com
+[2023-07-27 16:24:50,577] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:24:50,611] Update_Info - Step 11: Click to save button
+[2023-07-27 16:24:51,236] Update_Info - Step 12: Verify result
+[2023-07-27 16:24:51,260]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:51,274]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:24:51,285]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:51,310]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:51,335]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:51,487]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:51,497]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:51,506]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:24:51,506] Update_Info - Step 13: Close popup
+[2023-07-27 16:24:51,813] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:24:51,841] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:24:52,798] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:24:52,891] OS name = windows 10
+[2023-07-27 16:24:52,891] Driver instance name = firefoxdriver: firefox on windows (34a7557a-03e0-42cc-bedb-8e7380f5f429)
+[2023-07-27 16:26:43,211] Run on FIREFOX
+[2023-07-27 16:26:46,589] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:26:47,553] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:26:49,580] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:26:52,672] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:26:52,706]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:52,759] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:26:52,877] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:26:52,938] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:26:52,972] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:26:54,148] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:26:54,398] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:26:54,447] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:26:54,477] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:26:54,726] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:26:54,969] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:26:55,218] Update_Info - Step 09: Input to email textbox with value: Automation8689@mail.com
+[2023-07-27 16:26:55,261] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:26:55,295] Update_Info - Step 11: Click to save button
+[2023-07-27 16:26:55,942] Update_Info - Step 12: Verify result
+[2023-07-27 16:26:55,967]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:55,982]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:26:55,993]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:56,017]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:56,043]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:56,198]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:56,208]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:56,218]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:26:56,218] Update_Info - Step 13: Close popup
+[2023-07-27 16:26:56,281] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:26:56,310] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:26:57,869] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:26:58,003] OS name = windows 10
+[2023-07-27 16:26:58,003] Driver instance name = firefoxdriver: firefox on windows (7fbda726-a9e7-461f-9bd1-965a470dcc94)
+[2023-07-27 16:30:34,846] Run on FIREFOX
+[2023-07-27 16:30:38,218] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:30:39,230] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:30:41,257] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:30:44,475] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:30:44,512]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:44,566] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:30:44,684] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:30:44,745] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:30:44,780] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:30:45,977] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:30:46,235] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:30:46,306] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:30:46,337] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:30:46,593] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:30:46,846] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:30:47,097] Update_Info - Step 09: Input to email textbox with value: Automation5364@mail.com
+[2023-07-27 16:30:47,150] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:30:47,184] Update_Info - Step 11: Click to save button
+[2023-07-27 16:30:47,793] Update_Info - Step 12: Verify result
+[2023-07-27 16:30:47,816]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:47,834]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:30:47,844]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:47,873]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:47,897]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:48,045]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:48,054]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:48,064]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:30:48,064] Update_Info - Step 13: Close popup
+[2023-07-27 16:30:48,122] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:30:48,156] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:30:49,701] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:30:49,790] OS name = windows 10
+[2023-07-27 16:30:49,790] Driver instance name = firefoxdriver: firefox on windows (3de88007-b783-448a-832f-511dab937c9b)
+[2023-07-27 16:33:25,516] Run on FIREFOX
+[2023-07-27 16:33:28,620] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:33:29,598] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:33:31,625] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:33:34,888] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:33:34,934]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:34,985] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:33:35,101] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:33:35,165] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:33:35,198] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:33:36,964] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:33:37,214] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:33:37,255] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:33:37,288] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:33:37,536] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:33:37,780] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:33:38,032] Update_Info - Step 09: Input to email textbox with value: Automation3652@mail.com
+[2023-07-27 16:33:38,081] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:33:38,117] Update_Info - Step 11: Click to save button
+[2023-07-27 16:33:39,042] Update_Info - Step 12: Verify result
+[2023-07-27 16:33:39,068]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:39,086]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:33:39,096]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:39,122]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:39,147]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:39,303]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:39,312]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:39,323]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:33:39,323] Update_Info - Step 13: Close popup
+[2023-07-27 16:33:39,379] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:33:39,409] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:33:40,633] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:33:40,723] OS name = windows 10
+[2023-07-27 16:33:40,723] Driver instance name = firefoxdriver: firefox on windows (5fccbccb-97d7-442d-9eb2-9f5dc26cbfb4)
+[2023-07-27 16:39:45,447] Run on FIREFOX
+[2023-07-27 16:39:48,962] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:39:49,916] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:39:51,942] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:39:55,136] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:39:55,169]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:55,213] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:39:55,323] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:39:55,379] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:39:55,413] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:39:56,599] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:39:56,848] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:39:56,914] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:39:56,951] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:39:57,199] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:39:57,442] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:39:57,689] Update_Info - Step 09: Input to email textbox with value: Automation6171@mail.com
+[2023-07-27 16:39:57,733] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:39:57,768] Update_Info - Step 11: Click to save button
+[2023-07-27 16:39:58,434] Update_Info - Step 12: Verify result
+[2023-07-27 16:39:58,457]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:58,476]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:39:58,485]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:58,509]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:58,533]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:58,689]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:58,698]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:58,708]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:39:58,708] Update_Info - Step 13: Close popup
+[2023-07-27 16:39:58,762] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:39:58,794] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:39:59,768] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:39:59,857] OS name = windows 10
+[2023-07-27 16:39:59,858] Driver instance name = firefoxdriver: firefox on windows (c3c335d0-7f30-45bf-b1ba-74d9e5010389)
+[2023-07-27 16:41:16,419] Run on FIREFOX
+[2023-07-27 16:41:19,677] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:41:20,124] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:41:22,151] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:41:25,292] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:41:25,338]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:25,390] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:41:25,507] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:41:25,542] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:41:26,714] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:41:26,965] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:41:27,030] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:41:27,063] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:41:27,309] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:41:27,604] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:41:27,850] Update_Info - Step 09: Input to email textbox with value: Automation3383@mail.com
+[2023-07-27 16:41:27,929] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:41:27,963] Update_Info - Step 11: Click to save button
+[2023-07-27 16:41:28,588] Update_Info - Step 12: Verify result
+[2023-07-27 16:41:28,615]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:28,634]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:41:28,644]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:28,668]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:28,693]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:28,841]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:28,850]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:28,860]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:41:28,860] Update_Info - Step 13: Close popup
+[2023-07-27 16:41:29,153] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:41:29,180] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:41:30,215] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:41:30,311] OS name = windows 10
+[2023-07-27 16:41:30,311] Driver instance name = firefoxdriver: firefox on windows (61134171-67c7-4566-b233-1116bf2d0533)
+[2023-07-27 16:47:21,804] Run on FIREFOX
+[2023-07-27 16:47:25,110] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:47:26,087] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:47:28,111] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:47:31,243] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:47:31,280]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:47:31,332] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:47:31,368] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:47:32,586] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:47:32,838] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:47:32,902] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:47:32,935] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:47:33,186] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:47:33,443] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:47:33,688] Update_Info - Step 09: Input to email textbox with value: Automation2367@mail.com
+[2023-07-27 16:47:33,749] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:47:33,783] Update_Info - Step 11: Click to save button
+[2023-07-27 16:47:34,460] Update_Info - Step 12: Verify result
+[2023-07-27 16:47:54,923] OS name = windows 10
+[2023-07-27 16:47:54,923] Driver instance name = firefoxdriver: firefox on windows (f11c0122-a136-4f95-83ce-a126b08630d9)
+[2023-07-27 16:48:58,421] Run on FIREFOX
+[2023-07-27 16:49:01,905] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:49:02,844] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:49:04,870] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:49:08,025] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:49:08,066]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:49:08,117] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:49:08,153] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:49:09,328] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:49:09,575] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:49:09,656] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:49:09,689] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:49:09,945] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:49:10,203] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:49:10,462] Update_Info - Step 09: Input to email textbox with value: Automation9031@mail.com
+[2023-07-27 16:49:10,504] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:49:10,538] Update_Info - Step 11: Click to save button
+[2023-07-27 16:49:12,179] Update_Info - Step 12: Verify result
+[2023-07-27 16:49:32,661] OS name = windows 10
+[2023-07-27 16:49:32,661] Driver instance name = firefoxdriver: firefox on windows (b064d3e3-a563-4d38-8a8a-0a76759b1d44)
+[2023-07-27 16:50:49,458] OS name = windows 10
+[2023-07-27 16:50:49,458] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-27 16:51:04,360] Run on FIREFOX
+[2023-07-27 16:51:07,771] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:51:08,787] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:51:10,816] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:51:13,911] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:51:13,960]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:14,010] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:51:14,047] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:51:15,216] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:51:15,464] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:51:15,534] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:51:15,569] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:51:15,820] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:51:16,071] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:51:16,319] Update_Info - Step 09: Input to email textbox with value: Automation8362@mail.com
+[2023-07-27 16:51:16,374] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:51:16,409] Update_Info - Step 11: Click to save button
+[2023-07-27 16:51:18,092] Update_Info - Step 12: Verify result
+[2023-07-27 16:51:18,122]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,131]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,141]  -------------------------- FAILED -------------------------- 
+[2023-07-27 16:51:18,151]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,177]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,201]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,335]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,344]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,354]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:51:18,354] Update_Info - Step 13: Close popup
+[2023-07-27 16:51:18,691] OS name = windows 10
+[2023-07-27 16:51:18,692] Driver instance name = firefoxdriver: firefox on windows (1d9f485a-5308-445a-9b59-72d667320eff)
+[2023-07-27 16:52:34,453] Run on FIREFOX
+[2023-07-27 16:52:37,784] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:52:38,734] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:52:40,761] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:52:43,948] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:52:43,986]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:52:44,039] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:52:44,075] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:52:44,749] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:52:44,998] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:52:45,044] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:53:05,168] OS name = windows 10
+[2023-07-27 16:53:05,168] Driver instance name = firefoxdriver: firefox on windows (3595b299-9a0f-4b30-b064-0a45d846d2d1)
+[2023-07-27 16:54:00,611] Run on FIREFOX
+[2023-07-27 16:54:03,463] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:54:04,442] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:54:06,467] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:54:09,676] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:54:09,728]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:09,784] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:54:09,820] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:54:10,974] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:54:11,222] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:54:11,309] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:54:11,348] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:54:11,597] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:54:11,847] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:54:12,095] Update_Info - Step 09: Input to email textbox with value: Automation5306@mail.com
+[2023-07-27 16:54:12,159] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:54:12,193] Update_Info - Step 11: Click to save button
+[2023-07-27 16:54:13,817] Update_Info - Step 12: Verify result
+[2023-07-27 16:54:13,846]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:13,856]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:13,865]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:13,874]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:13,898]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:13,919]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:14,055]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:14,064]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:14,073]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:54:14,073] Update_Info - Step 13: Close popup
+[2023-07-27 16:54:14,348] OS name = windows 10
+[2023-07-27 16:54:14,348] Driver instance name = firefoxdriver: firefox on windows (8426f639-9b87-4e0a-9916-63f6689a0a0c)
+[2023-07-27 16:54:50,588] OS name = windows 10
+[2023-07-27 16:54:50,589] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-27 16:55:01,771] Run on FIREFOX
+[2023-07-27 16:55:04,728] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:55:05,620] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:55:07,644] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:55:10,294] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:55:10,331]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:10,383] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:55:10,502] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:55:10,560] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:55:10,592] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:55:11,776] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:55:12,022] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:55:12,065] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:55:12,100] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:55:12,346] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:55:12,640] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:55:12,892] Update_Info - Step 09: Input to email textbox with value: Automation3887@mail.com
+[2023-07-27 16:55:12,938] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:55:12,974] Update_Info - Step 11: Click to save button
+[2023-07-27 16:55:14,607] Update_Info - Step 12: Verify result
+[2023-07-27 16:55:14,642]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,652]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,661]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,671]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,696]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,721]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,861]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,870]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,879]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:55:14,879] Update_Info - Step 13: Close popup
+[2023-07-27 16:55:15,109] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:55:15,147] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:55:16,215] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:55:16,309] OS name = windows 10
+[2023-07-27 16:55:16,309] Driver instance name = firefoxdriver: firefox on windows (0aa3a5bf-12bf-496b-ba62-0ab93d82f5fb)
+[2023-07-27 16:56:30,495] Run on FIREFOX
+[2023-07-27 16:56:33,977] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 16:56:34,916] Pre-Condition - Step 02: Login page 
+[2023-07-27 16:56:36,942] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 16:56:39,598] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 16:56:39,638]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:39,691] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 16:56:39,811] Change_Password - Step 01: Click to change password link
+[2023-07-27 16:56:39,871] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 16:56:39,906] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 16:56:41,116] Update_Info - Step 03: Choose Gender
+[2023-07-27 16:56:41,366] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 16:56:41,427] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 16:56:41,465] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 16:56:41,713] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 16:56:41,975] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 16:56:42,228] Update_Info - Step 09: Input to email textbox with value: Automation9141@mail.com
+[2023-07-27 16:56:42,276] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 16:56:42,311] Update_Info - Step 11: Click to save button
+[2023-07-27 16:56:43,937] Update_Info - Step 12: Verify result
+[2023-07-27 16:56:43,969]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:43,978]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:43,988]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:43,997]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:44,022]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:44,045]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:44,184]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:44,194]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:44,203]  -------------------------- PASSED -------------------------- 
+[2023-07-27 16:56:44,203] Update_Info - Step 13: Close popup
+[2023-07-27 16:56:44,442] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 16:56:44,473] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 16:56:45,409] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 16:56:45,499] OS name = windows 10
+[2023-07-27 16:56:45,499] Driver instance name = firefoxdriver: firefox on windows (431f482f-cc22-4844-a8d3-82ce9f0b1a20)
+[2023-07-27 17:01:12,288] Run on FIREFOX
+[2023-07-27 17:01:19,345] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:01:19,573] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:01:19,741] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:01:19,772] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:01:20,445] Update_Info - Step 03: Choose Gender
+[2023-07-27 17:01:20,692] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-27 17:01:20,733] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-27 17:01:20,777] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-27 17:01:21,030] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-27 17:01:21,310] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-27 17:01:21,563] Update_Info - Step 09: Input to email textbox with value: Automation439@mail.com
+[2023-07-27 17:01:21,605] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-27 17:01:21,641] Update_Info - Step 11: Click to save button
+[2023-07-27 17:01:23,279] Update_Info - Step 12: Verify result
+[2023-07-27 17:01:23,313]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,365]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,390]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,409]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,433]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,456]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,588]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,598]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,606]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:01:23,607] Update_Info - Step 13: Close popup
+[2023-07-27 17:01:23,841] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:01:23,875] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 17:01:24,385] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 17:01:24,529] OS name = windows 10
+[2023-07-27 17:01:24,529] Driver instance name = firefoxdriver: firefox on windows (bc412b00-e646-4a52-ba19-b8326853e67b)
+[2023-07-27 17:04:46,773] Run on FIREFOX
+[2023-07-27 17:04:49,992] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:04:50,473] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:04:52,499] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:04:55,641] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:04:55,684]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:04:55,739] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:04:55,778] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:04:56,962] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:05:00,366] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:05:00,742] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:05:00,798] Add_Address - Step 04: Input data to lastname textbox with value: FC5061
+[2023-07-27 17:05:00,837] Add_Address - Step 05: Input data to email textbox with value: FC6907@mail.com
+[2023-07-27 17:05:00,879] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:05:01,133] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:05:01,183] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:05:01,217] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:05:01,251] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:05:01,283] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:05:01,318] Add_Address - Step 12: Click to save button
+[2023-07-27 17:05:01,990] Add_Address - Step 13: Verify result
+[2023-07-27 17:05:02,007]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:05:22,430] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:05:22,792] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:05:22,846] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:05:22,886] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:05:22,920] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:05:23,267] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:05:43,686] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:05:43,734] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 17:05:44,925] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 17:05:45,018] OS name = windows 10
+[2023-07-27 17:05:45,018] Driver instance name = firefoxdriver: firefox on windows (4d29b8d8-6141-4e4a-814e-f9e89ce2bbf2)
+[2023-07-27 17:13:31,982] OS name = windows 10
+[2023-07-27 17:13:31,982] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-27 17:13:42,628] Run on FIREFOX
+[2023-07-27 17:13:46,138] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:13:47,063] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:13:49,089] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:13:51,686] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:13:51,732]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:13:51,784] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:13:51,823] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:13:53,024] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:13:56,412] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:13:56,785] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:13:56,839] Add_Address - Step 04: Input data to lastname textbox with value: FC1182
+[2023-07-27 17:13:56,877] Add_Address - Step 05: Input data to email textbox with value: FC664@mail.com
+[2023-07-27 17:13:56,916] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:13:57,166] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:13:57,198] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:13:57,230] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:13:57,263] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:13:57,297] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:13:57,331] Add_Address - Step 12: Click to save button
+[2023-07-27 17:13:57,983] Add_Address - Step 13: Verify result
+[2023-07-27 17:13:57,998]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:14:18,446] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:14:18,792] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:14:18,845] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:14:18,886] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:14:18,919] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:14:19,278] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:14:39,620] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:14:39,666] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 17:14:40,803] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 17:14:40,957] OS name = windows 10
+[2023-07-27 17:14:40,957] Driver instance name = firefoxdriver: firefox on windows (4d7e000c-aec3-43ae-a691-23d085a18144)
+[2023-07-27 17:18:45,934] Run on FIREFOX
+[2023-07-27 17:18:49,219] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:18:50,176] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:18:52,202] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:18:55,355] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:18:55,400]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:18:55,453] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:18:55,490] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:18:56,654] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:19:00,043] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:19:00,440] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:19:00,495] Add_Address - Step 04: Input data to lastname textbox with value: FC4288
+[2023-07-27 17:19:00,532] Add_Address - Step 05: Input data to email textbox with value: FC2889@mail.com
+[2023-07-27 17:19:00,573] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:19:00,826] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:19:00,860] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:19:00,893] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:19:00,931] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:19:00,966] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:19:01,012] Add_Address - Step 12: Click to save button
+[2023-07-27 17:19:01,696] Add_Address - Step 13: Verify result
+[2023-07-27 17:19:01,706]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:19:22,148] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:19:22,506] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:19:22,557] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:19:22,596] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:19:22,628] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:19:23,967] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:19:23,995]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:19:23,995] Change_Password - Step 07: Close the bar
+[2023-07-27 17:19:44,306] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:19:44,354] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-27 17:19:45,592] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-27 17:19:46,879] Create_New_Review - Step 04: Click to A Product
+[2023-07-27 17:19:47,650] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-27 17:19:47,802] OS name = windows 10
+[2023-07-27 17:19:47,802] Driver instance name = firefoxdriver: firefox on windows (bd412c7f-26da-45a1-bb83-18de0122cd8f)
+[2023-07-27 17:24:00,128] OS name = windows 10
+[2023-07-27 17:24:00,128] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-27 17:24:10,016] Run on FIREFOX
+[2023-07-27 17:24:13,580] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:24:14,002] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:24:16,029] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:24:19,148] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:24:19,193]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:19,246] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:24:19,281] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:24:20,464] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:24:23,845] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:24:24,217] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:24:24,273] Add_Address - Step 04: Input data to lastname textbox with value: FC4488
+[2023-07-27 17:24:24,313] Add_Address - Step 05: Input data to email textbox with value: FC2147@mail.com
+[2023-07-27 17:24:24,355] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:24:24,605] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:24:24,638] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:24:24,671] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:24:24,704] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:24:24,736] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:24:24,770] Add_Address - Step 12: Click to save button
+[2023-07-27 17:24:25,458] Add_Address - Step 13: Verify result
+[2023-07-27 17:24:25,468]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:25,495]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:25,516]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:25,539]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:25,562]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:25,585]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:46,023] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:24:46,373] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:24:46,426] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:24:46,466] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:24:46,500] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:24:47,865] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:24:47,901]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:47,901] Change_Password - Step 07: Close the bar
+[2023-07-27 17:24:48,131] Change_Password - Step 08: Click to  logout link
+[2023-07-27 17:24:48,162] Change_Password - Step 09: Verify register link is displayed
+[2023-07-27 17:24:48,789]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:48,789] Change_Password - Step 10: Click to login link
+[2023-07-27 17:24:49,150] Change_Password - Step 11: Input to email textbox with value: automation9980@mail.com
+[2023-07-27 17:24:49,204] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-27 17:24:49,244] Change_Password - Step 13: Click to Login button
+[2023-07-27 17:24:49,582] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-27 17:24:49,629]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:24:49,629] Change_Password - Step 15: Refresh page
+[2023-07-27 17:24:51,702] Change_Password - Step 16: Input to email textbox with value: automation9980@mail.com
+[2023-07-27 17:24:51,765] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:25:09,318] OS name = windows 10
+[2023-07-27 17:25:09,318] Driver instance name = firefoxdriver: firefox on windows (badf74e0-c4bc-4764-9739-56f6b68fa4c6)
+[2023-07-27 17:25:09,324] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17268, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: badf74e0-c4bc-4764-9739-56f6b68fa4c6
+[2023-07-27 17:27:09,360] Run on FIREFOX
+[2023-07-27 17:27:12,736] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:27:13,705] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:27:15,732] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:27:18,848] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:27:18,883]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:18,936] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:27:18,972] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:27:20,203] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:27:23,575] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:27:23,979] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:27:24,033] Add_Address - Step 04: Input data to lastname textbox with value: FC3419
+[2023-07-27 17:27:24,073] Add_Address - Step 05: Input data to email textbox with value: FC5548@mail.com
+[2023-07-27 17:27:24,111] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:27:24,367] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:27:24,404] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:27:24,447] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:27:24,480] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:27:24,524] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:27:24,569] Add_Address - Step 12: Click to save button
+[2023-07-27 17:27:25,263] Add_Address - Step 13: Verify result
+[2023-07-27 17:27:25,275]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,299]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,320]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,343]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,366]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,389]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,411]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,433]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,453]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,476]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:25,476] Add_Address - Step 14: Click to close noti bar
+[2023-07-27 17:27:25,762] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:27:26,091] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:27:26,137] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:27:26,173] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:27:26,210] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:27:27,552] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:27:27,584]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:27,584] Change_Password - Step 07: Close the bar
+[2023-07-27 17:27:27,812] Change_Password - Step 08: Click to  logout link
+[2023-07-27 17:27:27,843] Change_Password - Step 09: Verify register link is displayed
+[2023-07-27 17:27:28,479]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:28,479] Change_Password - Step 10: Click to login link
+[2023-07-27 17:27:28,822] Change_Password - Step 11: Input to email textbox with value: automation7037@mail.com
+[2023-07-27 17:27:28,891] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-27 17:27:28,934] Change_Password - Step 13: Click to Login button
+[2023-07-27 17:27:29,269] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-27 17:27:29,310]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:27:29,310] Change_Password - Step 15: Refresh page
+[2023-07-27 17:27:30,334] Change_Password - Step 16: Input to email textbox with value: automation7037@mail.com
+[2023-07-27 17:27:30,387] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-27 17:27:30,419] Change_Password - Step 18: Click to Login button
+[2023-07-27 17:27:31,275] Change_Password - Step 19: Verify successful messsage
+[2023-07-27 17:27:31,386] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:27:45,344] OS name = windows 10
+[2023-07-27 17:27:45,344] Driver instance name = firefoxdriver: firefox on windows (76593d29-1ad6-4dae-b569-ba375c7cfc0d)
+[2023-07-27 17:27:45,351] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12992, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 76593d29-1ad6-4dae-b569-ba375c7cfc0d
+[2023-07-27 17:29:16,350] Run on FIREFOX
+[2023-07-27 17:29:19,808] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:29:20,715] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:29:22,741] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:29:25,839] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:29:25,876]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:25,927] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:29:25,964] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:29:27,999] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:29:31,428] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:29:31,818] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:29:31,872] Add_Address - Step 04: Input data to lastname textbox with value: FC2365
+[2023-07-27 17:29:31,910] Add_Address - Step 05: Input data to email textbox with value: FC7586@mail.com
+[2023-07-27 17:29:31,949] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:29:32,205] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:29:32,246] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:29:32,279] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:29:32,312] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:29:32,344] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:29:32,377] Add_Address - Step 12: Click to save button
+[2023-07-27 17:29:33,017] Add_Address - Step 13: Verify result
+[2023-07-27 17:29:33,033]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,059]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,079]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,102]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,124]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,146]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,167]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,187]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,208]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,231]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:33,231] Add_Address - Step 14: Click to close noti bar
+[2023-07-27 17:29:33,536] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:29:33,850] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:29:33,902] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:29:33,937] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:29:33,968] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:29:35,314] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:29:35,353]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:35,353] Change_Password - Step 07: Close the bar
+[2023-07-27 17:29:35,583] Change_Password - Step 08: Click to  logout link
+[2023-07-27 17:29:35,617] Change_Password - Step 09: Verify register link is displayed
+[2023-07-27 17:29:36,248]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:36,248] Change_Password - Step 10: Click to login link
+[2023-07-27 17:29:36,571] Change_Password - Step 11: Input to email textbox with value: automation2465@mail.com
+[2023-07-27 17:29:36,625] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-27 17:29:36,662] Change_Password - Step 13: Click to Login button
+[2023-07-27 17:29:36,996] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-27 17:29:37,033]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:29:37,033] Change_Password - Step 15: Refresh page
+[2023-07-27 17:29:38,044] Change_Password - Step 16: Input to email textbox with value: automation2465@mail.com
+[2023-07-27 17:29:38,089] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-27 17:29:38,120] Change_Password - Step 18: Click to Login button
+[2023-07-27 17:29:38,962] Change_Password - Step 19: Verify successful messsage
+[2023-07-27 17:29:39,001] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:29:44,768] OS name = windows 10
+[2023-07-27 17:29:44,769] Driver instance name = firefoxdriver: firefox on windows (bfaa98d9-3ea4-4f7d-a280-6f5b06d0bd8f)
+[2023-07-27 17:29:44,853] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9916, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfaa98d9-3ea4-4f7d-a280-6f5b06d0bd8f
+[2023-07-27 17:32:39,913] Run on FIREFOX
+[2023-07-27 17:32:43,254] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:32:44,203] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:32:46,229] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:32:49,674] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:32:49,709]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:49,762] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:32:49,798] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:32:50,985] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:32:54,341] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:32:54,743] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:32:54,798] Add_Address - Step 04: Input data to lastname textbox with value: FC9689
+[2023-07-27 17:32:54,837] Add_Address - Step 05: Input data to email textbox with value: FC490@mail.com
+[2023-07-27 17:32:54,872] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:32:55,127] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:32:55,166] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:32:55,204] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:32:55,240] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:32:55,273] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:32:55,312] Add_Address - Step 12: Click to save button
+[2023-07-27 17:32:55,987] Add_Address - Step 13: Verify result
+[2023-07-27 17:32:56,005]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,032]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,053]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,075]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,097]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,119]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,141]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,162]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,183]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,205]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:56,205] Add_Address - Step 14: Click to close noti bar
+[2023-07-27 17:32:56,483] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:32:56,826] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:32:56,877] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:32:56,920] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:32:56,952] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:32:58,312] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:32:58,343]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:58,343] Change_Password - Step 07: Close the bar
+[2023-07-27 17:32:58,572] Change_Password - Step 08: Click to  logout link
+[2023-07-27 17:32:58,611] Change_Password - Step 09: Verify register link is displayed
+[2023-07-27 17:32:59,240]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:32:59,241] Change_Password - Step 10: Click to login link
+[2023-07-27 17:32:59,564] Change_Password - Step 11: Input to email textbox with value: automation2944@mail.com
+[2023-07-27 17:32:59,641] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-27 17:32:59,682] Change_Password - Step 13: Click to Login button
+[2023-07-27 17:33:00,049] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-27 17:33:00,091]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:33:00,091] Change_Password - Step 15: Refresh page
+[2023-07-27 17:33:01,103] Change_Password - Step 16: Input to email textbox with value: automation2944@mail.com
+[2023-07-27 17:33:01,148] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-27 17:33:01,181] Change_Password - Step 18: Click to Login button
+[2023-07-27 17:33:01,513] Change_Password - Step 19: Verify successful messsage
+[2023-07-27 17:33:01,612] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:33:12,158] OS name = windows 10
+[2023-07-27 17:33:12,158] Driver instance name = firefoxdriver: firefox on windows (bb692d10-df06-43f2-9a08-2840286998cb)
+[2023-07-27 17:33:12,267] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15156, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bb692d10-df06-43f2-9a08-2840286998cb
+[2023-07-27 17:34:13,231] Run on FIREFOX
+[2023-07-27 17:34:16,252] Pre-Condition - Step 01: Go to Login page 
+[2023-07-27 17:34:17,236] Pre-Condition - Step 02: Login page 
+[2023-07-27 17:34:19,262] Pre-Condition - Step 03: Refresh page 
+[2023-07-27 17:34:22,368] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-27 17:34:22,413]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:22,461] Update_Info - Step 01: Click to My Account Link
+[2023-07-27 17:34:22,496] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-27 17:34:23,670] Add_Address - Step 01: Click to Address Linktext
+[2023-07-27 17:34:27,039] Add_Address - Step 02: Click to Add new button
+[2023-07-27 17:34:27,416] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-27 17:34:27,471] Add_Address - Step 04: Input data to lastname textbox with value: FC6403
+[2023-07-27 17:34:27,510] Add_Address - Step 05: Input data to email textbox with value: FC6403@mail.com
+[2023-07-27 17:34:27,551] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-27 17:34:27,805] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-27 17:34:27,858] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-27 17:34:27,894] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-27 17:34:27,934] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-27 17:34:27,981] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-27 17:34:28,026] Add_Address - Step 12: Click to save button
+[2023-07-27 17:34:28,712] Add_Address - Step 13: Verify result
+[2023-07-27 17:34:28,722]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,748]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,769]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,792]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,815]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,837]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,859]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,881]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,902]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,925]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:28,925] Add_Address - Step 14: Click to close noti bar
+[2023-07-27 17:34:29,217] Change_Password - Step 01: Click to change password link
+[2023-07-27 17:34:29,581] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-27 17:34:29,630] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-27 17:34:29,664] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-27 17:34:29,696] Change_Password - Step 05: Click to Change Password button
+[2023-07-27 17:34:31,036] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-27 17:34:31,073]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:31,073] Change_Password - Step 07: Close the bar
+[2023-07-27 17:34:31,302] Change_Password - Step 08: Click to  logout link
+[2023-07-27 17:34:31,361] Change_Password - Step 09: Verify register link is displayed
+[2023-07-27 17:34:32,026]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:32,026] Change_Password - Step 10: Click to login link
+[2023-07-27 17:34:32,380] Change_Password - Step 11: Input to email textbox with value: automation6403@mail.com
+[2023-07-27 17:34:32,461] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-27 17:34:32,500] Change_Password - Step 13: Click to Login button
+[2023-07-27 17:34:32,847] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-27 17:34:32,887]  -------------------------- PASSED -------------------------- 
+[2023-07-27 17:34:32,887] Change_Password - Step 15: Refresh page
+[2023-07-27 17:34:33,900] Change_Password - Step 16: Input to email textbox with value: automation6403@mail.com
+[2023-07-27 17:34:33,943] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-27 17:34:33,977] Change_Password - Step 18: Click to Login button
+[2023-07-27 17:34:34,808] Change_Password - Step 19: Verify successful messsage
+[2023-07-27 17:34:34,849] Create_New_Review - Step 01: Click to My Account link
+[2023-07-27 17:34:54,977] OS name = windows 10
+[2023-07-27 17:34:54,977] Driver instance name = firefoxdriver: firefox on windows (17217380-b8ee-47d5-8742-914459980c57)

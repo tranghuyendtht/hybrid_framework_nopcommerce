@@ -24,11 +24,11 @@ public class UserCustomerInfoPageUI {
 	public static final String ADD_ZIP_POSTAL_CODE_TEXTBOX = "id=Address_ZipPostalCode";
 	public static final String SAVE_ADDRESS_BUTTON = "xpath=//button[contains(@class,'save-address-button')]";
 	public static final String TITLE_RESULT = "xpath=//div[@class='section address-item']//strong";
-	public static final String ADD_NAME_UPDATED = "css=//li[@class = 'name']";
-	public static final String ADD_EMAIL_UPDATED = "css=//li[@class = 'email']";
-	public static final String ADD_PHONE_UPDATED = "css=//li[@class = 'phone']";
-	public static final String ADD_ADDRESS1_UPDATED = "css=//li[@class = 'address1']";
-	public static final String ADD_CITY_STATE_ZIP_UPDATED = "css=//li[@class = 'city-state-zip']";
+	public static final String ADD_NAME_UPDATED = "xpath=//li[@class = 'name']";
+	public static final String ADD_EMAIL_UPDATED = "xpath=//li[@class = 'email']";
+	public static final String ADD_PHONE_UPDATED = "xpath=//li[@class = 'phone']";
+	public static final String ADD_ADDRESS1_UPDATED = "xpath=//li[@class = 'address1']";
+	public static final String ADD_CITY_STATE_ZIP_UPDATED = "xpath=//li[@class = 'city-state-zip']";
 	public static final String ADD_COUNTRY_UPDATED = "css=li[class = 'country']";
 	public static final String ADD_SUCCESSFUL_NOTI_BAR = "xpath=//div[@class='bar-notification success']//p";
 	public static final String ADD_SUCCESSFUL_NOTI_CLOSE_ICON = "xpath=//div[@class='bar-notification success']//span";
@@ -37,12 +37,13 @@ public class UserCustomerInfoPageUI {
 	public static final String NEW_PASSWORD_TEXTBOX = "id=NewPassword";
 	public static final String CONFIRM_NEW_PASSWORD_TEXTBOX = "id=ConfirmNewPassword";
 	public static final String CHANGE_PASSWORD_BUTTON = "xpath=//button[contains(@class,'change-password-button')]";
-	public static final String SUCCESSFUL_NOTIFICATION_BAR = "css=div[class ='bar-notification success']//p";
-	public static final String SUCCESSFUL_NOTIFICATION_CLOSE_ICON = "css=div[class ='bar-notification success']//span";
+	public static final String SUCCESSFUL_NOTIFICATION_BAR = "xpath=//p[text()='Password was changed']";
+	public static final String SUCCESSFUL_NOTIFICATION_CLOSE_ICON = "xpath=//span[@class='close']";
 	public static final String LOGOUT_LINK = "css=a[class='ico-logout']";
 	public static final String PRODUCT_LIST_COMPUTERS_LINK = "xpath=//ul[@class='top-menu notmobile']//a[text()='Computers ']";
 	public static final String PRODUCT_DESKTOP_LINK = "xpath=//h2[@class='title']//a[text()=' Desktops ']";
 	public static final String MY_PRODUCT_REVIEW_LINK = "xpath=//a[text()='My product reviews']";
 	public static final String MY_PRODUCT_REVIEW_TITLE_TEXT = "css=div[class='review-title']//strong";
 	public static final String MY_PRODUCT_REVIEW_BODY_TEXT = "css=div[class='review-text']";
+	public static final String SUCCESS_MESSAGE_UPDATE_CUSTOMER_INFO = "xpath=//p[text()='The customer info has been updated successfully.']";
 }

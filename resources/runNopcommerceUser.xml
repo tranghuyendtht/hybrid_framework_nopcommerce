@@ -14,8 +14,8 @@
 		<parameter name="url" value="https://demo.nopcommerce.com/" />
 		
 		<classes>
-			<class name="com.nopcommerce.common.Common_01_Register_Cookie"/>
-			<class name="com.nopcommerce.user.User_Login" />
+			<class name="com.nopcommerce.common.Common_01_Register_Cookie"/> 
+			<class name="com.nopcommerce.user.User_My_Account" />
 		</classes>
 	</test>
 

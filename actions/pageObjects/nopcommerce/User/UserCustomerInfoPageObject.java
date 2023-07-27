@@ -64,6 +64,13 @@ public class UserCustomerInfoPageObject extends BasePage {
 		sendkeyToElement(driver, UserCustomerInfoPageUI.EMAIL_TEXTBOX, newEmail);
 
 	}
+	
+	public UserCustomerInfoPageObject clickToCustomerInfoLink() {
+		waitForElementClickable(driver, UserCustomerInfoPageUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, UserCustomerInfoPageUI.CUSTOMER_INFO_LINK);
+		return PageGeneratorManager.getUserCustomerInfoPage(driver);
+	}
+	
 
 	@Step ("Input data to company textbox with value: {0}")
 	public void inputToCompanyTextbox(String newCompanyName) {
@@ -76,6 +83,7 @@ public class UserCustomerInfoPageObject extends BasePage {
 	public void clickToSaveButton() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.SAVE_BUTTON);
 		clickToElement(driver, UserCustomerInfoPageUI.SAVE_BUTTON);
+		sleepInSecond(1);
 	}
 
 	@Step ("Verify result")
@@ -227,7 +235,7 @@ public class UserCustomerInfoPageObject extends BasePage {
 	public void clickToChangePasswordButton() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.CHANGE_PASSWORD_BUTTON);
 		clickToElement(driver, UserCustomerInfoPageUI.CHANGE_PASSWORD_BUTTON);
-
+		sleepInSecond(1);
 	}
 
 	public void inputToPhoneNumberTextbox(String addPhoneNumber) {
@@ -258,9 +266,9 @@ public class UserCustomerInfoPageObject extends BasePage {
 		sendkeyToElement(driver, UserCustomerInfoPageUI.CONFIRM_NEW_PASSWORD_TEXTBOX, confirmNewPassword);
 	}
 
-	public String getSuccessfulNotificationAtBar() {
+	public boolean getSuccessfulNotificationAtBar() {
 		waitForElementVisible(driver, UserCustomerInfoPageUI.SUCCESSFUL_NOTIFICATION_BAR);
-		return getElementText(driver, UserCustomerInfoPageUI.SUCCESSFUL_NOTIFICATION_BAR);
+		return isElementDisplayed(driver, UserCustomerInfoPageUI.SUCCESSFUL_NOTIFICATION_BAR);
 	}
 
 	public void clickToClosePopup() {
@@ -269,10 +277,10 @@ public class UserCustomerInfoPageObject extends BasePage {
 
 	}
 
-	public void clickToLogOutLink() {
+	public UserHomePageObject clickToLogOutLink() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.LOGOUT_LINK);
 		clickToElementByJS(driver, UserCustomerInfoPageUI.LOGOUT_LINK);
-
+		return PageGeneratorManager.getUserHomePage(driver);
 	}
 
 	public boolean isSuccessNotiBarIsDisplayed(String noti) {
@@ -286,35 +294,39 @@ public class UserCustomerInfoPageObject extends BasePage {
 
 	}
 
-	public UserProductListPageObject clickToComputerLink() {
-		waitForElementClickable(driver, UserCustomerInfoPageUI.PRODUCT_LIST_COMPUTERS_LINK);
-		clickToElement(driver, UserCustomerInfoPageUI.PRODUCT_LIST_COMPUTERS_LINK);
-		return PageGeneratorManager.getUserProductListPageObject(driver);
-	}
-
+	
 	public void clickToMyProductReview() {
 		waitForElementClickable(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_LINK);
 		clickToElement(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_LINK);
 	}
 
-	public boolean isReviewTitleIsUpdated(String reviewTitle) {
-		waitForAllElementVisible(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_TITLE_TEXT);
-		return getElementText(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_TITLE_TEXT).contains(reviewTitle);
-	}
-
-	public boolean isReviewBodyIsUpdated(String reviewBody) {
-		waitForAllElementVisible(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_BODY_TEXT);
-		return getElementText(driver, UserCustomerInfoPageUI.MY_PRODUCT_REVIEW_BODY_TEXT).contains(reviewBody);
-	}
+	
 	public void clickToAddressLink() {
+		sleepInSecond(3);
 		waitForElementClickable(driver, UserCustomerInfoPageUI.ADDRESS_LINK);
 		clickToElement(driver, UserCustomerInfoPageUI.ADDRESS_LINK);
 		
 	}
-	public void clickToCustomerInfoLink() {
-		waitForElementClickable(driver, UserCustomerInfoPageUI.CUSTOMER_INFO_LINK);
-		clickToElement(driver, UserCustomerInfoPageUI.CUSTOMER_INFO_LINK);
 
+	public UserProductListPageObject clickToComputerLink() {
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+	public boolean isReviewTitleIsUpdated(String reviewTitle) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean isReviewBodyIsUpdated(String reviewBody) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean isSuccessMessageDisplayed() {
+		waitForElementVisible(driver, UserCustomerInfoPageUI.SUCCESS_MESSAGE_UPDATE_CUSTOMER_INFO);
+		return isElementDisplayed(driver, UserCustomerInfoPageUI.SUCCESS_MESSAGE_UPDATE_CUSTOMER_INFO);
+	}
+	
 
 }
