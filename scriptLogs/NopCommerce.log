@@ -5043,3 +5043,213 @@ Session ID: d23920ea-0e91-4b0c-9e8c-5600c326e211
 [2023-07-27 11:15:11,891]  -------------------------- PASSED -------------------------- 
 [2023-07-27 11:15:11,897] OS name = windows 10
 [2023-07-27 11:15:11,898] Driver instance name = firefoxdriver: firefox on windows (3d7e6505-608c-4d0b-9638-ae07d1ae211a)
+[2023-07-27 12:22:02,857] Run on FIREFOX
+[2023-07-27 12:22:07,320] Empty_Data - Step 01: Click to Login link
+[2023-07-27 12:22:08,281] Empty_Data - Step 02: Click to Login button
+[2023-07-27 12:22:08,543] Empty_Data - Step 03: Verify error message at email textbox
+[2023-07-27 12:22:08,600]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:22:08,651] Invalid_Email - Step 01: Refresh page
+[2023-07-27 12:22:11,761] Invalid_Email - Step 02: Input to email textbox with value: automation4508@mail.com
+[2023-07-27 12:22:11,801] Invalid_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:22:11,844] Invalid_Email - Step 04: Click to Login Button
+[2023-07-27 12:22:12,084] Invalid_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:22:12,134]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:22:12,138] Not_Found_Email - Step 01: Refresh page
+[2023-07-27 12:22:14,720] Not_Found_Email - Step 02: Input to email textbox with value: 123xjha@mail.com
+[2023-07-27 12:22:14,763] Not_Found_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:22:14,812] Not_Found_Email - Step 04: Click to Login Button
+[2023-07-27 12:22:15,705] Not_Found_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:22:15,744]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:22:15,747] Empty_Password - Step 01: Refresh page
+[2023-07-27 12:22:17,812] Empty_Password - Step 02: Input to email textbox with value: automation4508@mail.com
+[2023-07-27 12:22:17,947] Invalid_Password - Step 01: Refresh page
+[2023-07-27 12:22:19,982] Invalid_Password - Step 02: Input to email textbox with value: automation4508@mail.com
+[2023-07-27 12:22:20,064] Login_Success - Step 01: Refresh page
+[2023-07-27 12:22:22,099] Login_Success - Step 02: Set Cookie and reload page
+[2023-07-27 12:22:22,114] OS name = windows 10
+[2023-07-27 12:22:22,114] Driver instance name = firefoxdriver: firefox on windows (1eed3156-02f5-4f98-97a2-d2d9ae187d5a)
+[2023-07-27 12:23:45,945] Run on FIREFOX
+[2023-07-27 12:23:49,994] Empty_Data - Step 01: Click to Login link
+[2023-07-27 12:23:50,927] Empty_Data - Step 02: Click to Login button
+[2023-07-27 12:23:51,182] Empty_Data - Step 03: Verify error message at email textbox
+[2023-07-27 12:23:51,229]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:23:51,282] Invalid_Email - Step 01: Refresh page
+[2023-07-27 12:23:52,293] Invalid_Email - Step 02: Input to email textbox with value: automation4750@mail.com
+[2023-07-27 12:23:52,348] Invalid_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:23:52,392] Invalid_Email - Step 04: Click to Login Button
+[2023-07-27 12:23:52,634] Invalid_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:24:00,349] Not_Found_Email - Step 01: Refresh page
+[2023-07-27 12:24:00,358] Empty_Password - Step 01: Refresh page
+[2023-07-27 12:24:00,420] Invalid_Password - Step 01: Refresh page
+[2023-07-27 12:24:00,432] Login_Success - Step 01: Refresh page
+[2023-07-27 12:24:00,441] OS name = windows 10
+[2023-07-27 12:24:00,441] Driver instance name = firefoxdriver: firefox on windows (301ac6dd-eefd-4af9-aeed-1454d83edfe0)
+[2023-07-27 12:24:00,444] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15260, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 301ac6dd-eefd-4af9-aeed-1454d83edfe0
+[2023-07-27 12:24:45,757] Run on FIREFOX
+[2023-07-27 12:24:49,564] Empty_Data - Step 01: Click to Login link
+[2023-07-27 12:24:50,566] Empty_Data - Step 02: Click to Login button
+[2023-07-27 12:24:50,824] Empty_Data - Step 03: Verify error message at email textbox
+[2023-07-27 12:24:50,854]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:24:50,909] Invalid_Email - Step 01: Refresh page
+[2023-07-27 12:24:51,246] Invalid_Email - Step 02: Input to email textbox with value: automation6171@mail.com
+[2023-07-27 12:24:51,301] Invalid_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:24:51,350] Invalid_Email - Step 04: Click to Login Button
+[2023-07-27 12:24:51,587] Invalid_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:24:51,612]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:24:51,616] Not_Found_Email - Step 01: Refresh page
+[2023-07-27 12:24:51,970] Not_Found_Email - Step 02: Input to email textbox with value: 123xjha@mail.com
+[2023-07-27 12:24:52,024] Not_Found_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:24:52,064] Not_Found_Email - Step 04: Click to Login Button
+[2023-07-27 12:24:52,411] Not_Found_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:24:52,453]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:24:52,457] Empty_Password - Step 01: Refresh page
+[2023-07-27 12:24:52,789] Empty_Password - Step 02: Input to email textbox with value: automation6171@mail.com
+[2023-07-27 12:24:52,839] Empty_Password - Step 03: Click to Login Button
+[2023-07-27 12:24:53,185] Empty_Password - Step 04: Verify error message at email textbox
+[2023-07-27 12:24:53,226]  -------------------------- FAILED -------------------------- 
+[2023-07-27 12:24:53,282] Invalid_Password - Step 01: Refresh page
+[2023-07-27 12:24:53,629] Invalid_Password - Step 02: Input to email textbox with value: automation6171@mail.com
+[2023-07-27 12:24:53,674] Invalid_Password - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:24:53,713] Invalid_Password - Step 04: Click to Login Button
+[2023-07-27 12:24:54,060] Invalid_Password - Step 05: Verify error message at email textbox
+[2023-07-27 12:24:54,101]  -------------------------- FAILED -------------------------- 
+[2023-07-27 12:24:54,154] Login_Success - Step 01: Refresh page
+[2023-07-27 12:24:54,507] Login_Success - Step 02: Set Cookie and reload page
+[2023-07-27 12:24:54,572] OS name = windows 10
+[2023-07-27 12:24:54,572] Driver instance name = firefoxdriver: firefox on windows (314785ce-e914-49fb-9894-0c235861524d)
+[2023-07-27 12:26:30,553] Run on FIREFOX
+[2023-07-27 12:26:34,305] Empty_Data - Step 01: Click to Login link
+[2023-07-27 12:26:35,311] Empty_Data - Step 02: Click to Login button
+[2023-07-27 12:26:35,574] Empty_Data - Step 03: Verify error message at email textbox
+[2023-07-27 12:26:35,605]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:26:35,660] Invalid_Email - Step 01: Refresh page
+[2023-07-27 12:26:36,007] Invalid_Email - Step 02: Input to email textbox with value: automation3128@mail.com
+[2023-07-27 12:26:36,063] Invalid_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:26:36,116] Invalid_Email - Step 04: Click to Login Button
+[2023-07-27 12:26:36,354] Invalid_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:26:36,394]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:26:36,412] Not_Found_Email - Step 01: Refresh page
+[2023-07-27 12:26:36,763] Not_Found_Email - Step 02: Input to email textbox with value: 123xjha@mail.com
+[2023-07-27 12:26:36,819] Not_Found_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:26:36,856] Not_Found_Email - Step 04: Click to Login Button
+[2023-07-27 12:26:37,193] Not_Found_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:26:37,231]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:26:37,235] Empty_Password - Step 01: Refresh page
+[2023-07-27 12:26:37,569] Empty_Password - Step 02: Input to email textbox with value: automation3128@mail.com
+[2023-07-27 12:26:37,620] Empty_Password - Step 03: Click to Login Button
+[2023-07-27 12:26:37,967] Empty_Password - Step 04: Verify error message at email textbox
+[2023-07-27 12:26:38,005]  -------------------------- FAILED -------------------------- 
+[2023-07-27 12:26:38,060] Invalid_Password - Step 01: Refresh page
+[2023-07-27 12:26:38,372] Invalid_Password - Step 02: Input to email textbox with value: automation3128@mail.com
+[2023-07-27 12:26:38,421] Invalid_Password - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:26:38,457] Invalid_Password - Step 04: Click to Login Button
+[2023-07-27 12:26:38,786] Invalid_Password - Step 05: Verify error message at email textbox
+[2023-07-27 12:26:38,820]  -------------------------- FAILED -------------------------- 
+[2023-07-27 12:26:38,872] Login_Success - Step 01: Refresh page
+[2023-07-27 12:26:39,215] Login_Success - Step 02: Set Cookie and reload page
+[2023-07-27 12:26:39,280] OS name = windows 10
+[2023-07-27 12:26:39,280] Driver instance name = firefoxdriver: firefox on windows (22b57769-6bea-49a2-8e82-c53fda938bdb)
+[2023-07-27 12:28:33,242] Run on FIREFOX
+[2023-07-27 12:28:37,400] Empty_Data - Step 01: Click to Login link
+[2023-07-27 12:28:38,354] Empty_Data - Step 02: Click to Login button
+[2023-07-27 12:28:38,611] Empty_Data - Step 03: Verify error message at email textbox
+[2023-07-27 12:28:38,662]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:28:38,713] Invalid_Email - Step 01: Refresh page
+[2023-07-27 12:28:39,074] Invalid_Email - Step 02: Input to email textbox with value: automation9947@mail.com
+[2023-07-27 12:28:39,130] Invalid_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:28:39,178] Invalid_Email - Step 04: Click to Login Button
+[2023-07-27 12:28:39,418] Invalid_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:28:39,464]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:28:39,468] Not_Found_Email - Step 01: Refresh page
+[2023-07-27 12:28:39,808] Not_Found_Email - Step 02: Input to email textbox with value: 123xjha@mail.com
+[2023-07-27 12:28:39,864] Not_Found_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:28:39,900] Not_Found_Email - Step 04: Click to Login Button
+[2023-07-27 12:28:40,229] Not_Found_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:28:40,268]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:28:40,273] Empty_Password - Step 01: Refresh page
+[2023-07-27 12:28:40,610] Empty_Password - Step 02: Input to email textbox with value: automation9947@mail.com
+[2023-07-27 12:28:40,659] Empty_Password - Step 03: Click to Login Button
+[2023-07-27 12:28:41,006] Empty_Password - Step 04: Verify error message at email textbox
+[2023-07-27 12:28:41,043]  -------------------------- FAILED -------------------------- 
+[2023-07-27 12:28:41,158] Invalid_Password - Step 01: Refresh page
+[2023-07-27 12:28:41,466] Invalid_Password - Step 02: Input to email textbox with value: automation9947@mail.com
+[2023-07-27 12:28:41,513] Invalid_Password - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:28:41,551] Invalid_Password - Step 04: Click to Login Button
+[2023-07-27 12:28:41,880] Invalid_Password - Step 05: Verify error message at email textbox
+[2023-07-27 12:28:41,918]  -------------------------- FAILED -------------------------- 
+[2023-07-27 12:28:41,969] Login_Success - Step 01: Refresh page
+[2023-07-27 12:28:42,307] Login_Success - Step 02: Set Cookie and reload page
+[2023-07-27 12:28:42,372] OS name = windows 10
+[2023-07-27 12:28:42,372] Driver instance name = firefoxdriver: firefox on windows (a1d703d7-9ca6-4226-9b1c-77a33292af93)
+[2023-07-27 12:34:54,066] Run on FIREFOX
+[2023-07-27 12:34:58,531] Empty_Data - Step 01: Click to Login link
+[2023-07-27 12:34:59,605] Empty_Data - Step 02: Click to Login button
+[2023-07-27 12:34:59,861] Empty_Data - Step 03: Verify error message at email textbox
+[2023-07-27 12:34:59,900]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:34:59,953] Invalid_Email - Step 01: Refresh page
+[2023-07-27 12:35:00,317] Invalid_Email - Step 02: Input to email textbox with value: automation7123@mail.com
+[2023-07-27 12:35:00,372] Invalid_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:35:00,418] Invalid_Email - Step 04: Click to Login Button
+[2023-07-27 12:35:00,658] Invalid_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:35:00,685]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:35:00,742] Not_Found_Email - Step 01: Refresh page
+[2023-07-27 12:35:01,095] Not_Found_Email - Step 02: Input to email textbox with value: 123xjha@mail.com
+[2023-07-27 12:35:01,147] Not_Found_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:35:01,185] Not_Found_Email - Step 04: Click to Login Button
+[2023-07-27 12:35:01,518] Not_Found_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:35:01,560]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:35:01,563] Empty_Password - Step 01: Refresh page
+[2023-07-27 12:35:01,893] Empty_Password - Step 02: Input to email textbox with value: automation7123@mail.com
+[2023-07-27 12:35:01,942] Empty_Password - Step 03: Click to Login Button
+[2023-07-27 12:35:02,274] Empty_Password - Step 04: Verify error message at email textbox
+[2023-07-27 12:35:02,313]  -------------------------- FAILED -------------------------- 
+[2023-07-27 12:35:02,366] Invalid_Password - Step 01: Refresh page
+[2023-07-27 12:35:02,683] Invalid_Password - Step 02: Input to email textbox with value: automation7123@mail.com
+[2023-07-27 12:35:02,740] Invalid_Password - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:35:02,781] Invalid_Password - Step 04: Click to Login Button
+[2023-07-27 12:35:03,128] Invalid_Password - Step 05: Verify error message at email textbox
+[2023-07-27 12:35:03,165]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:35:03,172] Login_Success - Step 01: Refresh page
+[2023-07-27 12:35:03,496] Login_Success - Step 02: Set Cookie and reload page
+[2023-07-27 12:35:03,563] OS name = windows 10
+[2023-07-27 12:35:03,564] Driver instance name = firefoxdriver: firefox on windows (326edbc6-514d-4a7b-9bb8-9671cb7bc899)
+[2023-07-27 12:37:49,597] Run on FIREFOX
+[2023-07-27 12:37:53,011] Empty_Data - Step 01: Click to Login link
+[2023-07-27 12:37:53,958] Empty_Data - Step 02: Click to Login button
+[2023-07-27 12:37:54,212] Empty_Data - Step 03: Verify error message at email textbox
+[2023-07-27 12:37:54,241]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:37:54,294] Invalid_Email - Step 01: Refresh page
+[2023-07-27 12:37:54,638] Invalid_Email - Step 02: Input to email textbox with value: automation9412@mail.com
+[2023-07-27 12:37:54,692] Invalid_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:37:54,731] Invalid_Email - Step 04: Click to Login Button
+[2023-07-27 12:37:54,971] Invalid_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:37:54,995]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:37:55,055] Not_Found_Email - Step 01: Refresh page
+[2023-07-27 12:37:55,404] Not_Found_Email - Step 02: Input to email textbox with value: 123xjha@mail.com
+[2023-07-27 12:37:55,459] Not_Found_Email - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:37:55,496] Not_Found_Email - Step 04: Click to Login Button
+[2023-07-27 12:37:55,829] Not_Found_Email - Step 05: Verify error message at email textbox
+[2023-07-27 12:37:55,866]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:37:55,869] Empty_Password - Step 01: Refresh page
+[2023-07-27 12:37:56,218] Empty_Password - Step 02: Input to email textbox with value: automation9412@mail.com
+[2023-07-27 12:37:56,266] Empty_Password - Step 03: Click to Login Button
+[2023-07-27 12:37:56,606] Empty_Password - Step 04: Verify error message at email textbox
+[2023-07-27 12:37:56,648]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:37:56,651] Invalid_Password - Step 01: Refresh page
+[2023-07-27 12:37:56,990] Invalid_Password - Step 02: Input to email textbox with value: automation9412@mail.com
+[2023-07-27 12:37:57,039] Invalid_Password - Step 03: Input to password textbox with value: 123456
+[2023-07-27 12:37:57,075] Invalid_Password - Step 04: Click to Login Button
+[2023-07-27 12:37:57,405] Invalid_Password - Step 05: Verify error message at email textbox
+[2023-07-27 12:37:57,442]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:37:57,445] Login_Success - Step 01: Refresh page
+[2023-07-27 12:37:57,780] Login_Success - Step 02: Set Cookie and reload page
+[2023-07-27 12:37:59,801] Login_Success - Step 03: Refresh page
+[2023-07-27 12:38:02,898] Login_Success - Step 04: Verify success message displayed
+[2023-07-27 12:38:02,931]  -------------------------- PASSED -------------------------- 
+[2023-07-27 12:38:02,934] OS name = windows 10
+[2023-07-27 12:38:02,934] Driver instance name = firefoxdriver: firefox on windows (41a8d4c0-9be5-4dab-9e79-f10fa9bdde29)
