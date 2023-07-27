@@ -62,7 +62,7 @@ public class Level_04_Register_Multiple_Browser extends BaseTest {
 
 	}
 
-	//@Test
+	@Test
 	public void TC_02_Register_Invalid_Email() {
 
 		System.out.println("HomePage - Step 1: Click to register link");
@@ -85,7 +85,7 @@ public class Level_04_Register_Multiple_Browser extends BaseTest {
 
 	}
 
-	//@Test
+	@Test
 	public void TC_03_Register_Success() {
 		System.out.println("HomePage - Step 1: Click to register link");
 		homePage.clickToRegisterLink();
@@ -108,7 +108,7 @@ public class Level_04_Register_Multiple_Browser extends BaseTest {
 
 	}
 
-	//@Test
+	@Test
 	public void TC_04_Register_Existing_Email() {
 
 		System.out.println("HomePage - Step 1: Click to register link");
@@ -132,7 +132,7 @@ public class Level_04_Register_Multiple_Browser extends BaseTest {
 
 	}
 
-	//@Test
+	@Test
 	public void TC_05_Register_Password_Less_Than_6_Chars() {
 
 		System.out.println("HomePage - Step 1: Click to register link");
@@ -157,7 +157,7 @@ public class Level_04_Register_Multiple_Browser extends BaseTest {
 
 	}
 
-	//@Test
+	@Test
 	public void TC_06_Register_Invalid_Confirm_Password() {
 
 		System.out.println("HomePage - Step 1: Click to register link");

@@ -429,6 +429,7 @@ public class BasePage {
 	}
 
 	public void navigateToUrlByJS(WebDriver driver, String url) {
+		sleepInSecond(1);
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("window.location = '" + url + "'");
 	}

@@ -16,6 +16,8 @@ public class UserRegisterPageUI {
 	public static final String REGISTER_SUCCESS_MESSAGE = "css=div[class = 'result']";
 	public static final String LOGOUT_LINK = "css=a[class = 'ico-logout']";
 	public static final String EMAIL_EXISTING_ERROR_MESSAGE = "xpath=//div[contains(@class, 'message-error')]//li";
+	public static final String DYNAMIC_DATE_PICKER_BY_NAME = "xpath=//div[@class='date-picker-wrapper']//select[@name='%s']";
+	public static final String WRONG_EMAIL_MESSAGE = "xpath=//span[@id='Email-error' and text()='Wrong email']";
 	public static final String LOGIN_LINK = "css=a[class = 'ico-login']";
 	
 

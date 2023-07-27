@@ -1,120 +1,67 @@
-[2023-07-25 15:34:04,352] Pre-Condition - Step 01: Navigate to Login Admin Page
-[2023-07-25 15:34:04,353] Run on FIREFOX
-[2023-07-25 15:34:08,663] Pre-Condition - Step 02: Login Account Admin
-[2023-07-25 15:34:10,233] Pre-Condition - Step 03: Go to Customer Menu
-[2023-07-25 15:34:10,321] Pre-Condition - Step 04: Go to Sub Menu - Product
-[2023-07-25 15:34:14,467] Create_New_Customer - Step 01: Click to Add new Button
-[2023-07-25 15:34:14,507] Create_New_Customer - Step 02: Enter To Email Textbox with value: automationFC7359@mail.com
-[2023-07-25 15:34:14,869] Create_New_Customer - Step 03: Enter To Password Textbox with value: 123456
-[2023-07-25 15:34:14,908] Create_New_Customer - Step 04: Enter To FirstName Textbox with value: automation
-[2023-07-25 15:34:14,944] Create_New_Customer - Step 05: Enter To LastName Textbox with value: FC
-[2023-07-25 15:34:14,979] Create_New_Customer - Step 06: Enter To Gender with value: null
-[2023-07-25 15:34:15,244] Create_New_Customer - Step 07: Enter To Date of Birth with value: 7/19/2001
-[2023-07-25 15:34:20,303] Create_New_Customer - Step 08: Enter To Company Name Textbox with value: automationFC7359
-[2023-07-25 15:34:20,371] Create_New_Customer - Step 09: Enter To Customer Role Textbox with value: Guests
-[2023-07-25 15:34:26,901] Create_New_Customer - Step 10: Enter To Admin Comment with value: automationFC7359
-[2023-07-25 15:34:26,989] Create_New_Customer - Step 11: Click to Save And Continue Edit
-[2023-07-25 15:34:27,878] Create_New_Customer - Step 12: Verify success message
-[2023-07-25 15:34:27,990]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:27,990] Create_New_Customer - Step 13: Verify Email Info
-[2023-07-25 15:34:28,043]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,043] Create_New_Customer - Step 14: Verify firstName Info
-[2023-07-25 15:34:28,071]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,071] Create_New_Customer - Step 15: Verify lastName Info
-[2023-07-25 15:34:28,096]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,096] Create_New_Customer - Step 16: Verify Gender Info
-[2023-07-25 15:34:28,117]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,117] Create_New_Customer - Step 17: Verify Date of Birth Info
-[2023-07-25 15:34:28,142]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,142] Create_New_Customer - Step 18: Verify Company Name Info
-[2023-07-25 15:34:28,169]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,169] Create_New_Customer - Step 19: Verify Customer Role Info
-[2023-07-25 15:34:28,192]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,192] Create_New_Customer - Step 20: Verify AdminComment Info
-[2023-07-25 15:34:28,228]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:34:28,228] Create_New_Customer - Step 22: Click to Back to Customer List LinkText
-[2023-07-25 15:34:31,272] Create_New_Customer - Step 23: Search customer with company name value: automationFC7359
-[2023-07-25 15:34:32,321] Create_New_Customer - Step 24: Search customer with customer role value: automationFC7359
-[2023-07-25 15:34:37,842] Create_New_Customer - Step 25: Click to Search Button
-[2023-07-25 15:34:39,890] Create_New_Customer - Step 26: Verify Info
-[2023-07-25 15:34:41,227] Edit_Customer - Step 01: Refresh page
-[2023-07-25 15:34:44,914] Edit_Customer - Step 02: Set value to search fields
-[2023-07-25 15:34:55,170] Edit_Customer - Step 03: Click to search button
-[2023-07-25 15:34:57,225] Edit_Customer - Step 04: Click to edit button
-[2023-07-25 15:34:59,268] Edit_Customer - Step 05: Edit customer with data - Email value: edit_automationFC7359@mail.com
-[2023-07-25 15:34:59,340] Edit_Customer - Step 06: Edit customer with data - Firstname value: 
-[2023-07-25 15:34:59,387] Edit_Customer - Step 07: Edit customer with data - Lastname value: 
-[2023-07-25 15:34:59,427] Edit_Customer - Step 08: Edit customer with data - Date of birth value: 
-[2023-07-25 15:35:00,473] Edit_Customer - Step 09: Edit customer with data - Company name value: 
-[2023-07-25 15:35:00,532] Edit_Customer - Step 10: Edit customer with data - Admin comment value: 
-[2023-07-25 15:35:00,585] Edit_Customer - Step 11: Click to Save button
-[2023-07-25 15:35:01,634] Edit_Customer - Step 12: Verify message displayed
-[2023-07-25 15:35:01,703]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:35:01,703] Edit_Customer - Step 13: Set new value to search fields
-[2023-07-25 15:35:12,160] Edit_Customer - Step 14: Click to search button
-[2023-07-25 15:35:14,204] Edit_Customer - Step 15: Verify new updated data
-[2023-07-25 15:35:15,469]  -------------------------- FAILED -------------------------- 
-[2023-07-25 15:35:16,735]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:35:17,981]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:35:19,237]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:35:20,488]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:35:20,631] Add_New_Address - Step 01: Refresh page
-[2023-07-25 15:35:25,288] Add_New_Address - Step 02: Set value to search fields
-[2023-07-25 15:35:35,559] Add_New_Address - Step 03: Click to search button
-[2023-07-25 15:35:37,602] Add_New_Address - Step 04: Click to edit button
-[2023-07-25 15:35:39,642] Add_New_Address - Step 05: Click to address cart title
-[2023-07-25 15:35:39,642] Add_New_Address - Step 06: Click to add new address button
-[2023-07-25 15:35:40,677] Add_New_Address - Step 07: Set data on fields - Firstname textbox with value: add_automation
-[2023-07-25 15:35:42,729] Add_New_Address - Step 08: Set data on fields - Lastname textbox with value: add_FC
-[2023-07-25 15:35:44,796] Add_New_Address - Step 09: Set data on fields - Email textbox with value: add_automationFC7359@mail.com
-[2023-07-25 15:35:46,845] Add_New_Address - Step 10: Set data on fields - Company textbox with value: add_automationFC7359
-[2023-07-25 15:35:48,902] Add_New_Address - Step 11: Set data on fields - Country dropdownlist with value: Viet Nam
-[2023-07-25 15:35:50,152] Add_New_Address - Step 12: Set data on fields - State/Province dropdownlist with value: Other
-[2023-07-25 15:35:51,190] Add_New_Address - Step 13: Set data on fields - County/Region textbox with value: add_County
-[2023-07-25 15:35:53,241] Add_New_Address - Step 14: Set data on fields - City textbox with value: Hanoi
-[2023-07-25 15:35:55,288] Add_New_Address - Step 15: Set data on fields - Address 1 textbox with value: Hoan Kiem
-[2023-07-25 15:35:57,346] Add_New_Address - Step 16: Set data on fields - Address 2 textbox with value: Hai Ba Trung
-[2023-07-25 15:35:59,391] Add_New_Address - Step 17: Set data on fields - Zip/PostalCode textbox with value: 650000
-[2023-07-25 15:36:01,440] Add_New_Address - Step 18: Set data on fields - PhoneNumber textbox with value: 3512541245
-[2023-07-25 15:36:03,488] Add_New_Address - Step 19: Set data on fields - FaxNumber textbox with value: +84125124511
-[2023-07-25 15:36:05,548] Add_New_Address - Step 20: Click to save button
-[2023-07-25 15:36:05,595] Add_New_Address - Step 21: Verify message displayed
-[2023-07-25 15:36:06,240]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,241] Add_New_Address - Step 22: Verify updated new value
-[2023-07-25 15:36:06,264]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,290]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,407]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,434]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,824]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,854]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,877]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,903]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,926]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,948]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,970]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:06,992]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:07,015]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:07,015] Add_New_Address - Step 23: Click to 'back to customer details' linktext
-[2023-07-25 15:36:08,046] Add_New_Address - Step 24: Verify updated new value in address table
-[2023-07-25 15:36:29,316]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:30,586]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:31,846]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:33,104]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:34,349]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:35,598]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:36,838]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:38,085]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:39,330]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:40,578]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:41,823]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:36:41,823] Add_New_Address - Step 25: Click back to customer linktext
-[2023-07-25 15:36:42,870] Delete_Address - Step 01: Refresh page
-[2023-07-25 15:36:46,458] Delete_Address - Step 02: Set value to search fields
-[2023-07-25 15:36:56,632] Delete_Address - Step 03: Click to search button
-[2023-07-25 15:36:58,671] Delete_Address - Step 04: Click to edit button
-[2023-07-25 15:37:00,713] Delete_Address - Step 05: Click to Delete button on Address table
-[2023-07-25 15:37:02,638] Delete_Address - Step 06: Confirm alert
-[2023-07-25 15:37:04,652] Delete_Address - Step 07: Verify text result
-[2023-07-25 15:37:04,686]  -------------------------- PASSED -------------------------- 
-[2023-07-25 15:37:04,689] OS name = windows 10
-[2023-07-25 15:37:04,689] Driver instance name = firefoxdriver: firefox on windows (f7e7a097-e68c-4771-8d84-99f08662c3d3)
+[2023-07-27 11:14:39,169] Pre-Condition - Step 01: Go page
+[2023-07-27 11:14:39,169] Run on FIREFOX
+[2023-07-27 11:14:43,082] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:14:44,092] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:14:44,355] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:14:44,386]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,386] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:14:44,415]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,415] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:14:44,444]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,444] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:14:44,471]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,471] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:14:44,504]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,554] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:14:47,799] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:14:47,845] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:14:47,889] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:14:49,145] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:14:50,396] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:14:51,650] Register_Success - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:14:51,705] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:14:51,743] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:14:51,776] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:14:51,810] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:14:55,348] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:14:55,386]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:56,412] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:14:56,763] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:14:56,803] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:14:58,052] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:14:59,306] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:15:00,562] Register_Existing_Email - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:15:00,609] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:15:00,644] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:15:00,675] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:15:00,710] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:15:01,063] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:15:01,105]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:15:01,108] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 11:15:02,121] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:15:02,161] Register_Password_Less_Than_6_Chars - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:15:02,197] Register_Password_Less_Than_6_Chars - Step 04: Select day of birth with value: 20
+[2023-07-27 11:15:03,231] Register_Password_Less_Than_6_Chars - Step 05: Select month of birth with value: January
+[2023-07-27 11:15:04,488] Register_Password_Less_Than_6_Chars - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:15:05,732] Register_Password_Less_Than_6_Chars - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:15:05,775] Register_Password_Less_Than_6_Chars - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:15:05,810] Register_Password_Less_Than_6_Chars - Step 09: Input to password textbox with value: 123
+[2023-07-27 11:15:05,842] Register_Password_Less_Than_6_Chars - Step 10: Input to confirmPassword textbox with value: 123
+[2023-07-27 11:15:05,876] Register_Password_Less_Than_6_Chars - Step 11: Click to Register Button
+[2023-07-27 11:15:06,118] Register_Password_Less_Than_6_Chars - Step 12: Verify message 'must have at least 6 characters' is displayed
+[2023-07-27 11:15:06,144]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:15:06,152] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-27 11:15:07,165] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:15:07,212] Register_Invalid_Confirm_Password - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:15:07,246] Register_Invalid_Confirm_Password - Step 04: Select day of birth with value: 20
+[2023-07-27 11:15:08,465] Register_Invalid_Confirm_Password - Step 05: Select month of birth with value: January
+[2023-07-27 11:15:09,715] Register_Invalid_Confirm_Password - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:15:10,968] Register_Invalid_Confirm_Password - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:15:11,033] Register_Invalid_Confirm_Password - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:15:11,066] Register_Invalid_Confirm_Password - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:15:11,099] Register_Invalid_Confirm_Password - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:15:11,132] Register_Invalid_Confirm_Password - Step 11: Click to Register Button
+[2023-07-27 11:15:11,861] Register_Invalid_Confirm_Password - Step 12: Verify message 'The password and confirmation password do not match' is displayed
+[2023-07-27 11:15:11,891]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:15:11,897] OS name = windows 10
+[2023-07-27 11:15:11,898] Driver instance name = firefoxdriver: firefox on windows (3d7e6505-608c-4d0b-9638-ae07d1ae211a)

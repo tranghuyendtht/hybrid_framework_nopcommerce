@@ -3466,3 +3466,1580 @@ Session ID: bc18c7e3-0c38-4bd9-b91b-ac29cbfddb9d
 [2023-07-25 15:37:04,686]  -------------------------- PASSED -------------------------- 
 [2023-07-25 15:37:04,689] OS name = windows 10
 [2023-07-25 15:37:04,689] Driver instance name = firefoxdriver: firefox on windows (f7e7a097-e68c-4771-8d84-99f08662c3d3)
+[2023-07-26 16:34:23,068] OS name = windows 10
+[2023-07-26 16:34:23,079] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-26 16:35:21,323] Pre-Condition - Step 01: Go page
+[2023-07-26 16:35:21,323] Run on FIREFOX
+[2023-07-26 16:35:27,441] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:35:28,492] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:35:28,755] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:35:28,788]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:35:28,789] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:35:28,815]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:35:28,815] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:35:28,840]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:35:28,840] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:35:28,869]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:35:28,869] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:35:28,894]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:35:28,947] Register_Invalid_Email - Step 01: Refresh Page
+[2023-07-26 16:35:32,160] Register_Invalid_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:35:32,209] Register_Invalid_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:35:32,249] Register_Invalid_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 16:35:52,398] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:35:55,519] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:35:55,555] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:35:55,596] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:35:58,646] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:35:58,806] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:35:58,815] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:35:58,825] OS name = windows 10
+[2023-07-26 16:35:58,825] Driver instance name = firefoxdriver: firefox on windows (66c6de33-6ed2-4d65-8603-f7ff25acf5c9)
+[2023-07-26 16:35:58,828] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16468, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66c6de33-6ed2-4d65-8603-f7ff25acf5c9
+[2023-07-26 16:37:44,615] Pre-Condition - Step 01: Go page
+[2023-07-26 16:37:44,616] Run on FIREFOX
+[2023-07-26 16:37:47,940] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:38:08,066] Register_Invalid_Email - Step 01: Refresh Page
+[2023-07-26 16:38:08,108] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:38:08,149] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:38:11,511] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:38:11,692] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:38:14,988] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:38:15,232] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:38:18,401] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:38:18,575] OS name = windows 10
+[2023-07-26 16:38:18,575] Driver instance name = firefoxdriver: firefox on windows (9539f5fc-93d8-4433-a3ac-583ce78b34ac)
+[2023-07-26 16:38:41,655] Pre-Condition - Step 01: Go page
+[2023-07-26 16:38:41,655] Run on FIREFOX
+[2023-07-26 16:38:45,607] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:38:46,582] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:38:46,849] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:38:46,882]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:38:46,882] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:38:46,909]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:38:46,909] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:38:46,934]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:38:46,934] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:38:46,961]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:38:46,961] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:38:46,991]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:38:47,040] Register_Invalid_Email - Step 01: Refresh Page
+[2023-07-26 16:38:50,172] Register_Invalid_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:38:50,216] Register_Invalid_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:38:50,261] Register_Invalid_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 16:38:51,596] Register_Invalid_Email - Step 05: Select month of birth with value: January
+[2023-07-26 16:38:52,845] Register_Invalid_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:38:54,103] Register_Invalid_Email - Step 07: Input wrong email to email textbox with value: automation.com
+[2023-07-26 16:38:54,148] Register_Invalid_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:38:54,189] Register_Invalid_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:38:54,222] Register_Invalid_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:38:54,256] Register_Invalid_Email - Step 11: Click to Register Button
+[2023-07-26 16:38:54,498] Register_Invalid_Email - Step 12: Verify error message on email textbox
+[2023-07-26 16:38:54,533]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:38:54,551] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:38:57,097] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:38:57,140] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:38:57,177] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:38:58,422] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 16:39:10,059] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:39:10,151] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:39:10,159] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:39:10,166] OS name = windows 10
+[2023-07-26 16:39:10,166] Driver instance name = firefoxdriver: firefox on windows (7450612f-1486-4bc9-8042-370ba3c77d62)
+[2023-07-26 16:39:10,168] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17224, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7450612f-1486-4bc9-8042-370ba3c77d62
+[2023-07-26 16:39:24,991] Pre-Condition - Step 01: Go page
+[2023-07-26 16:39:24,992] Run on FIREFOX
+[2023-07-26 16:39:28,841] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:39:29,290] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:39:29,551] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:39:29,592]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:39:29,592] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:39:29,619]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:39:29,619] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:39:29,644]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:39:29,645] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:39:29,675]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:39:29,675] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:39:29,704]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:39:29,880] Register_Invalid_Email - Step 01: Refresh Page
+[2023-07-26 16:39:33,096] Register_Invalid_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:39:33,137] Register_Invalid_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:39:33,178] Register_Invalid_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 16:39:35,431] Register_Invalid_Email - Step 05: Select month of birth with value: January
+[2023-07-26 16:39:37,685] Register_Invalid_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:39:39,958] Register_Invalid_Email - Step 07: Input wrong email to email textbox with value: automation.com
+[2023-07-26 16:39:40,001] Register_Invalid_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:39:40,040] Register_Invalid_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:39:40,075] Register_Invalid_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:39:40,109] Register_Invalid_Email - Step 11: Click to Register Button
+[2023-07-26 16:39:40,350] Register_Invalid_Email - Step 12: Verify error message on email textbox
+[2023-07-26 16:39:40,381]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:39:40,385] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:39:43,774] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:39:43,813] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:39:43,850] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:39:46,098] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 16:39:55,033] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:39:55,042] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:39:55,054] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:39:55,063] OS name = windows 10
+[2023-07-26 16:39:55,063] Driver instance name = firefoxdriver: firefox on windows (9666ad4e-3d7a-43b7-9596-f2ebac1c6d63)
+[2023-07-26 16:39:55,068] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9668, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9666ad4e-3d7a-43b7-9596-f2ebac1c6d63
+[2023-07-26 16:40:45,596] Pre-Condition - Step 01: Go page
+[2023-07-26 16:40:45,596] Run on FIREFOX
+[2023-07-26 16:40:49,162] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:40:49,602] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:40:49,864] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:40:49,892]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:40:49,893] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:40:49,919]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:40:49,919] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:40:49,946]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:40:49,946] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:40:49,972]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:40:49,972] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:40:50,003]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:40:50,056] Register_Invalid_Email - Step 01: Refresh Page
+[2023-07-26 16:40:53,143] Register_Invalid_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:40:53,185] Register_Invalid_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:40:53,227] Register_Invalid_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 16:40:55,481] Register_Invalid_Email - Step 05: Select month of birth with value: January
+[2023-07-26 16:40:57,728] Register_Invalid_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:40:59,991] Register_Invalid_Email - Step 07: Input wrong email to email textbox with value: automation.com
+[2023-07-26 16:41:00,033] Register_Invalid_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:41:00,072] Register_Invalid_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:41:00,106] Register_Invalid_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:41:00,141] Register_Invalid_Email - Step 11: Click to Register Button
+[2023-07-26 16:41:00,385] Register_Invalid_Email - Step 12: Verify error message on email textbox
+[2023-07-26 16:41:00,419]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:41:00,428] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:41:03,107] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:41:03,153] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:41:03,191] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:41:05,440] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 16:41:07,700] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:41:09,946] Register_Success - Step 07: Input to email textbox with value: automation2823@mail.com
+[2023-07-26 16:41:09,993] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:41:10,031] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:41:10,064] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:41:10,099] Register_Success - Step 11: Click to Register Button
+[2023-07-26 16:41:11,286] Register_Success - Step 12: Verify Success message display
+[2023-07-26 16:41:11,325]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:41:11,325] Register_Success - Step 13: Switch to admin role
+[2023-07-26 16:41:11,331] Register_Success - Step 14: Input to username textbox with value: admin@yourstore.com
+[2023-07-26 16:41:12,673] Register_Success - Step 15: Input to username textbox with value: admin
+[2023-07-26 16:41:12,715] Register_Success - Step 16: Click to login button
+[2023-07-26 16:41:14,776] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 16:41:35,201] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:41:39,611] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:41:59,746] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:42:04,443] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:42:24,558] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:42:28,030] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:42:35,148] OS name = windows 10
+[2023-07-26 16:42:35,149] Driver instance name = firefoxdriver: firefox on windows (1a972bfb-ac1b-4282-88e6-13f0f0485250)
+[2023-07-26 16:42:35,153] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6272, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1a972bfb-ac1b-4282-88e6-13f0f0485250
+[2023-07-26 16:43:47,315] Pre-Condition - Step 01: Go page
+[2023-07-26 16:43:47,315] Run on FIREFOX
+[2023-07-26 16:43:51,171] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:43:51,418] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:43:54,671] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:43:54,848] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:43:57,865] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:43:58,084] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:44:01,231] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:44:01,378] OS name = windows 10
+[2023-07-26 16:44:01,379] Driver instance name = firefoxdriver: firefox on windows (8dd63339-32c0-411e-8176-d5ad339b94ec)
+[2023-07-26 16:44:32,368] Pre-Condition - Step 01: Go page
+[2023-07-26 16:44:32,368] Run on FIREFOX
+[2023-07-26 16:44:36,297] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:44:36,621] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:44:40,102] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:44:40,281] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:44:43,399] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:44:43,486] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:44:43,499] OS name = windows 10
+[2023-07-26 16:44:43,499] Driver instance name = firefoxdriver: firefox on windows (eaf6d55a-f158-43ac-8a0a-01478f015843)
+[2023-07-26 16:44:43,502] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13060, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eaf6d55a-f158-43ac-8a0a-01478f015843
+[2023-07-26 16:44:53,353] Pre-Condition - Step 01: Go page
+[2023-07-26 16:44:53,353] Run on FIREFOX
+[2023-07-26 16:44:57,176] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:44:57,681] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:44:57,945] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:44:57,973]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:44:57,973] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:44:57,999]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:44:58,000] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:44:58,025]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:44:58,025] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:44:58,051]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:44:58,051] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:44:58,079]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:44:58,131] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:45:01,241] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:45:01,285] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:45:01,328] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:45:03,584] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 16:45:05,838] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:45:08,091] Register_Success - Step 07: Input to email textbox with value: automation5181@mail.com
+[2023-07-26 16:45:08,140] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:45:08,177] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:45:08,211] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:45:08,244] Register_Success - Step 11: Click to Register Button
+[2023-07-26 16:45:09,441] Register_Success - Step 12: Verify Success message display
+[2023-07-26 16:45:09,480]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:45:09,480] Register_Success - Step 13: Switch to admin role
+[2023-07-26 16:45:09,486] Register_Success - Step 14: Input to username textbox with value: admin@yourstore.com
+[2023-07-26 16:45:10,841] Register_Success - Step 15: Input to username textbox with value: admin
+[2023-07-26 16:45:10,876] Register_Success - Step 16: Click to login button
+[2023-07-26 16:45:14,220] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 16:45:37,566] Register_Success - Step 18: Click to Customer Category
+[2023-07-26 16:45:37,566] Register_Success - Step 19: Refresh page
+[2023-07-26 16:45:40,876] Register_Success - Step 20: Search customer with email value: automation5181@mail.com
+[2023-07-26 16:45:41,929] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 16:45:42,965] Register_Success - Step 22: Click to Search Button
+[2023-07-26 16:45:45,002] Register_Success - Step 23: Verify Info
+[2023-07-26 16:46:02,130] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:46:03,041] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:46:03,053] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:46:03,060] OS name = windows 10
+[2023-07-26 16:46:03,060] Driver instance name = firefoxdriver: firefox on windows (d92d72f7-3b7a-42ff-9f0d-b6a968b11182)
+[2023-07-26 16:46:03,062] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6544, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d92d72f7-3b7a-42ff-9f0d-b6a968b11182
+[2023-07-26 16:49:42,259] Pre-Condition - Step 01: Go page
+[2023-07-26 16:49:42,259] Run on FIREFOX
+[2023-07-26 16:49:46,594] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:49:47,546] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:49:47,808] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:49:47,840]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:49:47,840] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:49:47,865]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:49:47,865] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:49:47,892]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:49:47,892] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:49:47,919]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:49:47,919] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:49:47,950]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:49:48,002] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:49:51,132] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:49:51,176] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:49:51,220] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:49:53,474] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 16:49:55,724] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:49:57,988] Register_Success - Step 07: Input to email textbox with value: automation5541@mail.com
+[2023-07-26 16:49:58,031] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:49:58,070] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:49:58,105] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:49:58,139] Register_Success - Step 11: Click to Register Button
+[2023-07-26 16:49:59,304] Register_Success - Step 12: Verify Success message display
+[2023-07-26 16:49:59,342]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:49:59,342] Register_Success - Step 13: Switch to admin role
+[2023-07-26 16:49:59,348] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 16:50:04,182] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 16:50:07,776] Register_Success - Step 20: Search customer with email value: automation5541@mail.com
+[2023-07-26 16:50:08,833] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 16:50:09,860] Register_Success - Step 22: Click to Search Button
+[2023-07-26 16:50:11,895] Register_Success - Step 23: Verify Info
+[2023-07-26 16:50:31,908]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:50:31,908] Register_Success - Step 24: Switch to user role
+[2023-07-26 16:50:31,923] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:50:35,377] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:50:55,487] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:50:59,660] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:51:05,168] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:51:06,097] OS name = windows 10
+[2023-07-26 16:51:06,097] Driver instance name = firefoxdriver: firefox on windows (dadea909-7bb5-480c-9a87-9b905f638c2e)
+[2023-07-26 16:51:06,099] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7544, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dadea909-7bb5-480c-9a87-9b905f638c2e
+[2023-07-26 16:56:02,264] Pre-Condition - Step 01: Go page
+[2023-07-26 16:56:02,264] Run on FIREFOX
+[2023-07-26 16:56:06,340] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:56:07,360] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:56:07,624] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:56:07,664]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:56:07,664] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:56:07,692]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:56:07,692] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:56:07,722]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:56:07,722] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:56:07,748]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:56:07,748] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:56:07,776]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:56:07,826] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:56:11,007] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:56:11,049] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:56:11,091] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:56:13,345] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 16:56:15,592] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:56:17,854] Register_Success - Step 07: Input to email textbox with value: automation8446@mail.com
+[2023-07-26 16:56:17,901] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:56:17,940] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:56:17,974] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:56:18,020] Register_Success - Step 11: Click to Register Button
+[2023-07-26 16:56:19,211] Register_Success - Step 12: Verify Success message display
+[2023-07-26 16:56:19,250]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:56:19,250] Register_Success - Step 13: Switch to admin role
+[2023-07-26 16:56:20,269] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 16:56:25,056] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 16:56:28,664] Register_Success - Step 20: Search customer with email value: automation8446@mail.com
+[2023-07-26 16:56:29,722] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 16:56:30,752] Register_Success - Step 22: Click to Search Button
+[2023-07-26 16:56:32,816] Register_Success - Step 23: Verify Info
+[2023-07-26 16:56:52,831]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:56:52,831] Register_Success - Step 24: Switch to user role
+[2023-07-26 16:56:53,853] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:56:54,569] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:56:54,625] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:56:54,662] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 16:56:56,910] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 16:56:59,165] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:57:01,411] Register_Existing_Email - Step 07: Input to email textbox with value: automation8446@mail.com
+[2023-07-26 16:57:01,449] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:57:01,482] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:57:01,515] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:57:01,547] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 16:57:01,896] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 16:57:01,935]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:57:01,938] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 16:57:04,007] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:57:04,087] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 16:57:06,119] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:57:06,180] OS name = windows 10
+[2023-07-26 16:57:06,180] Driver instance name = firefoxdriver: firefox on windows (1cc2b174-98fb-48df-9b6f-7ecf68e05d46)
+[2023-07-26 16:59:02,242] Pre-Condition - Step 01: Go page
+[2023-07-26 16:59:02,242] Run on FIREFOX
+[2023-07-26 16:59:06,136] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 16:59:07,070] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 16:59:07,333] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 16:59:07,364]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:59:07,364] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 16:59:07,392]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:59:07,392] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 16:59:07,417]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:59:07,417] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 16:59:07,443]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:59:07,444] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 16:59:07,476]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:59:07,532] Register_Success - Step 01: Refresh Page
+[2023-07-26 16:59:10,656] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:59:10,703] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:59:10,749] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 16:59:13,003] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 16:59:15,261] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 16:59:17,517] Register_Success - Step 07: Input to email textbox with value: automation678@mail.com
+[2023-07-26 16:59:17,565] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 16:59:17,601] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 16:59:17,635] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 16:59:17,671] Register_Success - Step 11: Click to Register Button
+[2023-07-26 16:59:18,819] Register_Success - Step 12: Verify Success message display
+[2023-07-26 16:59:18,856]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:59:18,856] Register_Success - Step 13: Switch to admin role
+[2023-07-26 16:59:19,883] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 16:59:24,647] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 16:59:28,246] Register_Success - Step 20: Search customer with email value: automation678@mail.com
+[2023-07-26 16:59:29,310] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 16:59:30,340] Register_Success - Step 22: Click to Search Button
+[2023-07-26 16:59:32,383] Register_Success - Step 23: Verify Info
+[2023-07-26 16:59:52,405]  -------------------------- PASSED -------------------------- 
+[2023-07-26 16:59:52,405] Register_Success - Step 24: Switch to user role
+[2023-07-26 16:59:53,420] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 16:59:54,150] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 16:59:54,208] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 16:59:54,243] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 16:59:56,488] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 16:59:58,739] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:00:00,981] Register_Existing_Email - Step 07: Input to email textbox with value: automation678@mail.com
+[2023-07-26 17:00:01,038] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:00:01,072] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:00:01,105] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:00:01,139] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:00:01,495] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:00:01,533]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:00:01,535] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:00:03,594] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:00:03,687] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:00:05,756] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:00:05,817] OS name = windows 10
+[2023-07-26 17:00:05,817] Driver instance name = firefoxdriver: firefox on windows (1f6231ca-8763-4742-9fae-69d3bebec98d)
+[2023-07-26 17:01:15,742] Pre-Condition - Step 01: Go page
+[2023-07-26 17:01:15,743] Run on FIREFOX
+[2023-07-26 17:01:19,670] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:01:20,160] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:01:20,420] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:01:20,447]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:01:20,447] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:01:20,478]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:01:20,478] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:01:20,504]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:01:20,504] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:01:20,530]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:01:20,530] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:01:20,560]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:01:20,615] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:01:23,952] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:01:23,997] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:01:24,038] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:01:26,293] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:01:28,542] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:01:30,810] Register_Success - Step 07: Input to email textbox with value: automation1995@mail.com
+[2023-07-26 17:01:30,857] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:01:30,894] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:01:30,927] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:01:30,963] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:01:32,185] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:01:32,228]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:01:32,228] Register_Success - Step 13: Switch to admin role
+[2023-07-26 17:01:33,247] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 17:01:38,431] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 17:01:42,063] Register_Success - Step 20: Search customer with email value: automation1995@mail.com
+[2023-07-26 17:01:43,110] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 17:01:44,146] Register_Success - Step 22: Click to Search Button
+[2023-07-26 17:01:46,188] Register_Success - Step 23: Verify Info
+[2023-07-26 17:02:06,203]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:02:06,204] Register_Success - Step 24: Switch to user role
+[2023-07-26 17:02:07,226] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 17:02:07,941] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:02:08,000] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:02:08,036] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 17:02:10,282] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 17:02:12,531] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:02:14,777] Register_Existing_Email - Step 07: Input to email textbox with value: automation1995@mail.com
+[2023-07-26 17:02:14,816] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:02:14,851] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:02:14,883] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:02:14,916] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:02:15,254] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:02:15,292]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:02:15,360] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:02:17,419] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:02:17,505] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:02:19,536] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:02:19,604] OS name = windows 10
+[2023-07-26 17:02:19,604] Driver instance name = firefoxdriver: firefox on windows (412afff2-5cb1-471e-84ec-97e7a3b860c4)
+[2023-07-26 17:04:54,034] Pre-Condition - Step 01: Go page
+[2023-07-26 17:04:54,034] Run on FIREFOX
+[2023-07-26 17:04:57,439] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:04:58,406] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:04:58,670] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:04:58,725]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:04:58,725] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:04:58,753]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:04:58,754] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:04:58,779]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:04:58,779] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:04:58,806]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:04:58,806] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:04:58,835]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:04:58,885] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:05:02,022] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:05:02,065] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:05:02,106] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:05:04,361] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:05:06,608] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:05:08,871] Register_Success - Step 07: Input to email textbox with value: automation803@mail.com
+[2023-07-26 17:05:08,936] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:05:08,973] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:05:09,008] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:05:09,043] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:05:09,719] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:05:09,756]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:05:09,756] Register_Success - Step 13: Switch to admin role
+[2023-07-26 17:05:10,775] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 17:05:15,500] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 17:05:19,107] Register_Success - Step 20: Search customer with email value: automation803@mail.com
+[2023-07-26 17:05:20,164] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 17:05:21,203] Register_Success - Step 22: Click to Search Button
+[2023-07-26 17:05:23,239] Register_Success - Step 23: Verify Info
+[2023-07-26 17:05:43,251]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:05:43,252] Register_Success - Step 24: Switch to user role
+[2023-07-26 17:05:44,277] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 17:05:44,998] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:05:45,055] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:05:45,090] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 17:05:47,335] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 17:05:49,578] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:05:51,849] Register_Existing_Email - Step 07: Input to email textbox with value: automation803@mail.com
+[2023-07-26 17:05:51,893] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:05:51,927] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:05:51,961] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:05:51,993] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:05:52,320] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:05:52,358]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:05:52,361] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:05:54,422] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:05:54,493] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:05:56,525] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:05:56,665] OS name = windows 10
+[2023-07-26 17:05:56,665] Driver instance name = firefoxdriver: firefox on windows (33f30ff3-9f58-44eb-8ff5-b09452c349b8)
+[2023-07-26 17:07:15,848] Pre-Condition - Step 01: Go page
+[2023-07-26 17:07:15,848] Run on FIREFOX
+[2023-07-26 17:07:19,826] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:07:20,798] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:07:21,061] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:07:21,090]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:07:21,090] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:07:21,118]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:07:21,118] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:07:21,143]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:07:21,143] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:07:21,170]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:07:21,170] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:07:21,204]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:07:21,250] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:07:24,297] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:07:24,341] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:07:24,382] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:07:26,637] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:07:28,887] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:07:31,146] Register_Success - Step 07: Input to email textbox with value: automation6590@mail.com
+[2023-07-26 17:07:31,194] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:07:31,231] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:07:31,265] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:07:31,300] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:07:32,482] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:07:32,519]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:07:32,519] Register_Success - Step 13: Switch to admin role
+[2023-07-26 17:07:33,546] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 17:07:38,160] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 17:07:41,748] Register_Success - Step 20: Search customer with email value: automation6590@mail.com
+[2023-07-26 17:07:42,807] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 17:07:43,838] Register_Success - Step 22: Click to Search Button
+[2023-07-26 17:07:45,875] Register_Success - Step 23: Verify Info
+[2023-07-26 17:08:05,888]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:08:05,888] Register_Success - Step 24: Switch to user role
+[2023-07-26 17:08:06,987] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 17:08:07,637] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:08:07,696] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:08:07,734] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 17:08:09,979] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 17:08:12,229] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:08:14,475] Register_Existing_Email - Step 07: Input to email textbox with value: automation6590@mail.com
+[2023-07-26 17:08:14,520] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:08:14,554] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:08:14,587] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:08:14,622] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:08:14,966] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:08:15,006]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:08:15,010] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:08:17,128] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:08:17,226] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:08:19,342] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:08:19,402] OS name = windows 10
+[2023-07-26 17:08:19,402] Driver instance name = firefoxdriver: firefox on windows (04703d62-5318-4b7e-b0d7-832d3dc371be)
+[2023-07-26 17:08:56,497] Pre-Condition - Step 01: Go page
+[2023-07-26 17:08:56,497] Run on FIREFOX
+[2023-07-26 17:09:00,458] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:09:01,444] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:09:01,710] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:09:01,743]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:01,743] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:09:01,770]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:01,770] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:09:01,798]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:01,798] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:09:01,824]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:01,824] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:09:01,854]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:01,909] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:09:05,008] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:09:05,052] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:09:05,091] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:09:07,345] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:09:09,596] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:09:11,861] Register_Success - Step 07: Input to email textbox with value: automation2048@mail.com
+[2023-07-26 17:09:11,902] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:09:11,938] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:09:11,972] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:09:12,007] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:09:12,635] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:09:12,673]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:12,674] Register_Success - Step 13: Switch to admin role
+[2023-07-26 17:09:13,698] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 17:09:18,662] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 17:09:22,293] Register_Success - Step 20: Search customer with email value: automation2048@mail.com
+[2023-07-26 17:09:23,352] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 17:09:24,380] Register_Success - Step 22: Click to Search Button
+[2023-07-26 17:09:26,440] Register_Success - Step 23: Verify Info
+[2023-07-26 17:09:46,446]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:46,446] Register_Success - Step 24: Switch to user role
+[2023-07-26 17:09:47,461] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 17:09:48,171] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:09:48,226] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:09:48,263] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 17:09:50,508] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 17:09:52,756] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:09:54,999] Register_Existing_Email - Step 07: Input to email textbox with value: automation2048@mail.com
+[2023-07-26 17:09:55,037] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:09:55,071] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:09:55,104] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:09:55,135] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:09:55,446] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:09:55,485]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:09:55,488] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:09:57,600] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:09:57,721] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:09:59,801] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:09:59,872] OS name = windows 10
+[2023-07-26 17:09:59,872] Driver instance name = firefoxdriver: firefox on windows (e7e46595-89a0-4906-ad81-a1bef8aee778)
+[2023-07-26 17:10:29,480] Pre-Condition - Step 01: Go page
+[2023-07-26 17:10:29,480] Run on FIREFOX
+[2023-07-26 17:10:33,556] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:10:34,147] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:10:34,406] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:10:34,440]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:10:34,440] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:10:34,468]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:10:34,468] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:10:34,494]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:10:34,494] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:10:34,522]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:10:34,522] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:10:34,554]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:10:34,604] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:10:37,771] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:10:37,811] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:10:37,848] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:10:40,105] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:10:42,356] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:10:44,614] Register_Success - Step 07: Input to email textbox with value: automation715@mail.com
+[2023-07-26 17:10:44,658] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:10:44,695] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:10:44,728] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:10:44,762] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:10:45,986] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:10:46,017]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:10:46,017] Register_Success - Step 13: Switch to admin role
+[2023-07-26 17:10:47,032] Register_Success - Step 14: Login as Admin Role
+[2023-07-26 17:10:52,165] Register_Success - Step 17: Click to Customer Category
+[2023-07-26 17:10:55,772] Register_Success - Step 20: Search customer with email value: automation715@mail.com
+[2023-07-26 17:10:56,827] Register_Success - Step 21: Clear data on customer role field
+[2023-07-26 17:10:57,851] Register_Success - Step 22: Click to Search Button
+[2023-07-26 17:10:59,890] Register_Success - Step 23: Verify Info
+[2023-07-26 17:11:19,899]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:11:19,899] Register_Success - Step 24: Switch to user role
+[2023-07-26 17:11:20,985] Register_Existing_Email - Step 01: Refresh page
+[2023-07-26 17:11:21,697] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:11:21,752] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:11:21,788] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 17:11:24,036] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 17:11:26,282] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:11:28,532] Register_Existing_Email - Step 07: Input to email textbox with value: automation715@mail.com
+[2023-07-26 17:11:28,579] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:11:28,612] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:11:28,644] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:11:28,676] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:11:29,035] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:11:29,074]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:11:29,077] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:11:31,138] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:11:31,216] Register_Password_Less_Than_6_Chars - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:11:31,252] Register_Password_Less_Than_6_Chars - Step 04: Select day of birth with value: 20
+[2023-07-26 17:11:33,285] Register_Password_Less_Than_6_Chars - Step 05: Select month of birth with value: January
+[2023-07-26 17:11:35,319] Register_Password_Less_Than_6_Chars - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:11:37,357] Register_Password_Less_Than_6_Chars - Step 07: Input to email textbox with value: automation715@mail.com
+[2023-07-26 17:11:37,403] Register_Password_Less_Than_6_Chars - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:11:37,444] Register_Password_Less_Than_6_Chars - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:11:37,476] Register_Password_Less_Than_6_Chars - Step 10: Input to confirmPassword textbox with value: 123
+[2023-07-26 17:11:37,508] Register_Password_Less_Than_6_Chars - Step 11: Click to Register Button
+[2023-07-26 17:11:38,239] Register_Password_Less_Than_6_Chars - Step 12: Verify message 'must have at least 6 characters' is displayed
+[2023-07-26 17:11:58,306] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:12:00,346] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:12:00,404] Register_Invalid_Confirm_Password - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:12:00,443] Register_Invalid_Confirm_Password - Step 04: Select day of birth with value: 20
+[2023-07-26 17:12:02,478] Register_Invalid_Confirm_Password - Step 05: Select month of birth with value: January
+[2023-07-26 17:12:04,519] Register_Invalid_Confirm_Password - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:12:06,556] Register_Invalid_Confirm_Password - Step 07: Input to email textbox with value: automation715@mail.com
+[2023-07-26 17:12:06,612] Register_Invalid_Confirm_Password - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:12:06,649] Register_Invalid_Confirm_Password - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:12:06,691] Register_Invalid_Confirm_Password - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:12:06,729] Register_Invalid_Confirm_Password - Step 11: Click to Register Button
+[2023-07-26 17:12:06,968] Register_Invalid_Confirm_Password - Step 12: Verify message 'The password and confirmation password do not match' is displayed
+[2023-07-26 17:12:06,993]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:12:06,999] OS name = windows 10
+[2023-07-26 17:12:07,000] Driver instance name = firefoxdriver: firefox on windows (2bf48dc9-80c6-4e9b-abad-be1e2c411158)
+[2023-07-26 17:13:25,035] Run on FIREFOX
+[2023-07-26 17:13:56,312] Run on FIREFOX
+[2023-07-26 17:14:24,047] Run on FIREFOX
+[2023-07-26 17:16:00,673] Pre-Condition - Step 01: Go page
+[2023-07-26 17:16:00,673] Run on FIREFOX
+[2023-07-26 17:16:04,538] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:16:05,792] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:16:06,053] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:16:06,085]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:16:06,086] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:16:06,112]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:16:06,112] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:16:06,138]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:16:06,138] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:16:06,165]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:16:06,165] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:16:06,196]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:16:06,246] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:16:10,030] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:16:10,080] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:16:10,120] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:16:12,382] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:16:14,638] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:16:16,891] Register_Success - Step 07: Input to email textbox with value: automation5730@mail.com
+[2023-07-26 17:16:16,940] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:16:16,979] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:16:17,013] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:16:17,045] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:16:18,271] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:16:18,307]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:16:21,469] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:16:37,011] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:16:37,204] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:16:37,211] OS name = windows 10
+[2023-07-26 17:16:37,211] Driver instance name = firefoxdriver: firefox on windows (1c9bfbd9-fd16-43f9-ad9e-9ec85000ce04)
+[2023-07-26 17:16:37,213] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 628, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1c9bfbd9-fd16-43f9-ad9e-9ec85000ce04
+[2023-07-26 17:16:57,013] Pre-Condition - Step 01: Go page
+[2023-07-26 17:16:57,013] Run on FIREFOX
+[2023-07-26 17:17:00,887] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:17:01,932] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:17:02,193] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:17:02,225]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:17:02,225] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:17:02,253]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:17:02,253] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:17:02,282]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:17:02,282] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:17:02,309]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:17:02,309] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:17:02,345]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:17:02,398] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:17:05,552] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:17:05,599] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:17:05,642] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:17:07,896] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:17:10,146] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:17:12,399] Register_Success - Step 07: Input to email textbox with value: automation3717@mail.com
+[2023-07-26 17:17:12,448] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:17:12,486] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:17:12,519] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:17:12,552] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:17:13,813] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:17:13,851]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:17:16,539] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:17:36,624] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:17:41,153] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:18:01,233] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:18:04,389] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:18:24,469] OS name = windows 10
+[2023-07-26 17:18:24,469] Driver instance name = firefoxdriver: firefox on windows (050fafba-b70c-484e-ad05-3ec0eaa8d232)
+[2023-07-26 17:18:31,707] Pre-Condition - Step 01: Go page
+[2023-07-26 17:18:31,708] Run on FIREFOX
+[2023-07-26 17:18:35,763] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:18:36,880] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:18:37,143] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:18:37,185]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:18:37,185] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:18:37,216]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:18:37,216] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:18:37,246]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:18:37,246] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:18:37,275]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:18:37,275] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:18:37,305]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:18:37,354] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:18:40,510] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:18:40,580] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:18:40,619] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:18:42,875] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:18:45,126] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:18:47,389] Register_Success - Step 07: Input to email textbox with value: automation1493@mail.com
+[2023-07-26 17:18:47,439] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:18:47,481] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:18:47,519] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:18:47,552] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:18:48,798] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:18:48,836]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:18:51,980] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:19:12,062] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:19:15,244] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:19:17,171] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:19:17,867] OS name = windows 10
+[2023-07-26 17:19:17,867] Driver instance name = firefoxdriver: firefox on windows (d23920ea-0e91-4b0c-9e8c-5600c326e211)
+[2023-07-26 17:19:17,869] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3200, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d23920ea-0e91-4b0c-9e8c-5600c326e211
+[2023-07-26 17:20:14,851] Pre-Condition - Step 01: Go page
+[2023-07-26 17:20:14,851] Run on FIREFOX
+[2023-07-26 17:20:18,640] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:20:19,162] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:20:19,425] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:20:19,453]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:20:19,453] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:20:19,481]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:20:19,481] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:20:19,507]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:20:19,507] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:20:19,533]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:20:19,533] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:20:19,562]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:20:19,615] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:20:22,745] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:20:22,784] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:20:22,829] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:20:25,085] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:20:27,340] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:20:29,600] Register_Success - Step 07: Input to email textbox with value: automation1749@mail.com
+[2023-07-26 17:20:29,647] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:20:29,683] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:20:29,718] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:20:29,753] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:20:30,958] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:20:30,998]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:20:32,026] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:20:32,388] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:20:32,441] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 17:20:34,691] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 17:20:36,952] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:20:39,221] Register_Existing_Email - Step 07: Input to email textbox with value: automation1749@mail.com
+[2023-07-26 17:20:39,266] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:20:39,306] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:20:39,339] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:20:39,371] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:20:39,738] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:20:39,783]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:20:39,787] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:20:41,848] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:20:41,982] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:20:44,013] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:20:44,073] OS name = windows 10
+[2023-07-26 17:20:44,073] Driver instance name = firefoxdriver: firefox on windows (2cad6a62-34f4-497c-847e-7ac87c664c65)
+[2023-07-26 17:20:57,251] Pre-Condition - Step 01: Go page
+[2023-07-26 17:20:57,251] Run on FIREFOX
+[2023-07-26 17:21:01,137] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-26 17:21:02,161] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-26 17:21:02,419] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-26 17:21:02,449]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:21:02,449] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-26 17:21:02,476]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:21:02,476] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-26 17:21:02,503]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:21:02,503] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-26 17:21:02,530]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:21:02,530] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-26 17:21:02,560]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:21:02,616] Register_Success - Step 01: Refresh Page
+[2023-07-26 17:21:05,269] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:21:05,314] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:21:05,354] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-26 17:21:07,609] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-26 17:21:09,858] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:21:12,114] Register_Success - Step 07: Input to email textbox with value: automation9731@mail.com
+[2023-07-26 17:21:12,160] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:21:12,196] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:21:12,230] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:21:12,264] Register_Success - Step 11: Click to Register Button
+[2023-07-26 17:21:13,423] Register_Success - Step 12: Verify Success message display
+[2023-07-26 17:21:13,464]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:21:14,477] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:21:14,817] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-26 17:21:14,865] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-26 17:21:17,113] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-26 17:21:19,369] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-26 17:21:21,614] Register_Existing_Email - Step 07: Input to email textbox with value: automation9731@mail.com
+[2023-07-26 17:21:21,662] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-26 17:21:21,700] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-26 17:21:21,732] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-26 17:21:21,765] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-26 17:21:22,183] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-26 17:21:22,225]  -------------------------- PASSED -------------------------- 
+[2023-07-26 17:21:22,229] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-26 17:21:24,288] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:21:24,356] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-26 17:21:26,386] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-26 17:21:26,446] OS name = windows 10
+[2023-07-26 17:21:26,446] Driver instance name = firefoxdriver: firefox on windows (ea9a2619-372e-4c51-87cd-dc1f70cd328e)
+[2023-07-27 10:29:09,585] Pre-Condition - Step 01: Go page
+[2023-07-27 10:29:09,602] Run on FIREFOX
+[2023-07-27 10:29:14,668] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 10:29:15,665] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 10:29:15,925] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 10:29:15,958]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:29:15,958] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 10:29:15,985]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:29:15,985] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 10:29:16,011]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:29:16,011] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 10:29:16,040]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:29:16,040] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 10:29:16,067]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:29:16,120] Register_Success - Step 01: Refresh Page
+[2023-07-27 10:29:19,234] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:29:19,304] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 10:29:19,345] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 10:29:21,690] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 10:29:23,939] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 10:29:26,192] Register_Success - Step 07: Input to email textbox with value: automation2572@mail.com
+[2023-07-27 10:29:26,238] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 10:29:26,277] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 10:29:26,318] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 10:29:26,363] Register_Success - Step 11: Click to Register Button
+[2023-07-27 10:29:26,979] Register_Success - Step 12: Verify Success message display
+[2023-07-27 10:29:27,017]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:29:28,038] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:29:28,366] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 10:29:28,406] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 10:29:30,651] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 10:29:32,908] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 10:29:35,153] Register_Existing_Email - Step 07: Input to email textbox with value: automation2572@mail.com
+[2023-07-27 10:29:35,202] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 10:29:35,241] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 10:29:35,276] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 10:29:35,309] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 10:29:35,639] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 10:29:35,680]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:29:35,710] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 10:29:37,773] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:29:37,900] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-27 10:29:39,933] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:29:39,995] OS name = windows 10
+[2023-07-27 10:29:39,995] Driver instance name = firefoxdriver: firefox on windows (f0ab6ead-e37e-477c-b83f-3c7aa4921284)
+[2023-07-27 10:49:25,885] Pre-Condition - Step 01: Go page
+[2023-07-27 10:49:25,885] Run on FIREFOX
+[2023-07-27 10:49:30,062] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 10:49:30,518] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 10:49:30,781] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 10:49:30,810]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:49:30,810] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 10:49:30,837]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:49:30,837] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 10:49:30,864]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:49:30,864] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 10:49:30,890]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:49:30,890] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 10:49:30,920]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:49:30,969] Register_Success - Step 01: Refresh Page
+[2023-07-27 10:49:34,111] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:49:34,153] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 10:49:34,196] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 10:49:36,450] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 10:49:38,700] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 10:49:40,957] Register_Success - Step 07: Input to email textbox with value: automation1129@mail.com
+[2023-07-27 10:49:41,004] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 10:49:41,042] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 10:49:41,076] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 10:49:41,111] Register_Success - Step 11: Click to Register Button
+[2023-07-27 10:49:42,240] Register_Success - Step 12: Verify Success message display
+[2023-07-27 10:49:42,275]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:49:43,373] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:49:43,707] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 10:49:43,746] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 10:49:45,993] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 10:49:48,255] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 10:49:50,503] Register_Existing_Email - Step 07: Input to email textbox with value: automation1129@mail.com
+[2023-07-27 10:49:50,548] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 10:49:50,587] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 10:49:50,620] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 10:49:50,653] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 10:49:51,008] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 10:49:51,053]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:49:51,057] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 10:49:53,116] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:49:53,180] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-27 10:49:55,211] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:49:55,271] OS name = windows 10
+[2023-07-27 10:49:55,272] Driver instance name = firefoxdriver: firefox on windows (c0b395f2-a4d0-42bd-a30e-e51b38a1fad9)
+[2023-07-27 10:57:54,485] Run on FIREFOX
+[2023-07-27 10:58:29,248] Run on FIREFOX
+[2023-07-27 10:59:14,417] Pre-Condition - Step 01: Go page
+[2023-07-27 10:59:14,418] Run on FIREFOX
+[2023-07-27 10:59:18,313] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 10:59:19,249] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 10:59:19,513] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 10:59:19,548]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:59:19,548] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 10:59:19,575]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:59:19,575] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 10:59:19,605]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:59:19,605] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 10:59:19,631]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:59:19,631] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 10:59:19,660]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:59:19,708] Register_Success - Step 01: Refresh Page
+[2023-07-27 10:59:22,874] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:59:22,915] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 10:59:22,957] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 10:59:25,208] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 10:59:27,455] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 10:59:29,714] Register_Success - Step 07: Input to email textbox with value: automation6578@mail.com
+[2023-07-27 10:59:29,760] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 10:59:29,798] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 10:59:29,834] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 10:59:29,869] Register_Success - Step 11: Click to Register Button
+[2023-07-27 10:59:31,002] Register_Success - Step 12: Verify Success message display
+[2023-07-27 10:59:31,041]  -------------------------- PASSED -------------------------- 
+[2023-07-27 10:59:32,132] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:59:32,457] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 10:59:32,500] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 10:59:34,750] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 10:59:37,012] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 10:59:39,262] Register_Existing_Email - Step 07: Input to email textbox with value: automation6578@mail.com
+[2023-07-27 10:59:39,308] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 10:59:39,345] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 10:59:39,376] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 10:59:39,409] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 10:59:39,772] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 10:59:41,860] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:59:41,942] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-27 10:59:43,974] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 10:59:44,039] OS name = windows 10
+[2023-07-27 10:59:44,039] Driver instance name = firefoxdriver: firefox on windows (087aa651-3631-4b2f-945e-f0e10a2e0f2d)
+[2023-07-27 11:01:13,678] Pre-Condition - Step 01: Go page
+[2023-07-27 11:01:13,678] Run on FIREFOX
+[2023-07-27 11:01:17,191] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:01:18,149] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:01:18,411] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:01:18,443]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:18,443] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:01:18,469]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:18,469] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:01:18,495]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:18,495] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:01:18,523]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:18,523] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:01:18,551]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:18,600] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:01:21,716] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:01:21,762] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:01:21,804] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:01:24,060] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:01:26,310] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:01:28,569] Register_Success - Step 07: Input to email textbox with value: automation3600@mail.com
+[2023-07-27 11:01:28,616] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:01:28,653] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:01:28,696] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:01:28,734] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:01:29,875] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:01:29,915]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:30,933] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:01:31,273] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:01:31,313] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:01:33,560] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:01:35,817] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:01:38,062] Register_Existing_Email - Step 07: Input to email textbox with value: automation3600@mail.com
+[2023-07-27 11:01:38,108] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:01:38,145] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:01:38,176] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:01:38,210] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:01:38,217] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 11:01:41,298] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:01:41,343] Register_Password_Less_Than_6_Chars - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:01:41,383] Register_Password_Less_Than_6_Chars - Step 04: Select day of birth with value: 20
+[2023-07-27 11:01:43,633] Register_Password_Less_Than_6_Chars - Step 05: Select month of birth with value: January
+[2023-07-27 11:01:45,879] Register_Password_Less_Than_6_Chars - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:01:48,134] Register_Password_Less_Than_6_Chars - Step 07: Input to email textbox with value: automation3600@mail.com
+[2023-07-27 11:01:48,172] Register_Password_Less_Than_6_Chars - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:01:48,208] Register_Password_Less_Than_6_Chars - Step 09: Input to password textbox with value: 123
+[2023-07-27 11:01:48,246] Register_Password_Less_Than_6_Chars - Step 10: Input to confirmPassword textbox with value: 123
+[2023-07-27 11:01:48,281] Register_Password_Less_Than_6_Chars - Step 11: Click to Register Button
+[2023-07-27 11:01:48,527] Register_Password_Less_Than_6_Chars - Step 12: Verify message 'must have at least 6 characters' is displayed
+[2023-07-27 11:01:48,555]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:48,562] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-27 11:01:51,666] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:01:51,699] Register_Invalid_Confirm_Password - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:01:51,737] Register_Invalid_Confirm_Password - Step 04: Select day of birth with value: 20
+[2023-07-27 11:01:53,980] Register_Invalid_Confirm_Password - Step 05: Select month of birth with value: January
+[2023-07-27 11:01:56,235] Register_Invalid_Confirm_Password - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:01:58,475] Register_Invalid_Confirm_Password - Step 07: Input to email textbox with value: automation3600@mail.com
+[2023-07-27 11:01:58,546] Register_Invalid_Confirm_Password - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:01:58,586] Register_Invalid_Confirm_Password - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:01:58,619] Register_Invalid_Confirm_Password - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:01:58,656] Register_Invalid_Confirm_Password - Step 11: Click to Register Button
+[2023-07-27 11:01:59,384] Register_Invalid_Confirm_Password - Step 12: Verify message 'The password and confirmation password do not match' is displayed
+[2023-07-27 11:01:59,416]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:01:59,422] OS name = windows 10
+[2023-07-27 11:01:59,422] Driver instance name = firefoxdriver: firefox on windows (53c6f8ae-7700-465e-ac0b-12e55b34783e)
+[2023-07-27 11:03:30,584] Pre-Condition - Step 01: Go page
+[2023-07-27 11:03:30,584] Run on FIREFOX
+[2023-07-27 11:03:34,592] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:03:35,537] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:03:35,798] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:03:35,843]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:03:35,843] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:03:35,869]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:03:35,870] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:03:35,896]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:03:35,896] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:03:35,922]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:03:35,922] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:03:35,954]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:03:36,005] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:03:39,150] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:03:39,194] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:03:39,237] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:03:40,491] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:03:41,738] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:03:42,983] Register_Success - Step 07: Input to email textbox with value: automation9255@mail.com
+[2023-07-27 11:03:43,027] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:03:43,066] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:03:43,105] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:03:43,138] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:03:44,261] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:03:44,300]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:03:45,315] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:03:45,661] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:03:45,700] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:03:46,945] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:03:48,204] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:03:49,451] Register_Existing_Email - Step 07: Input to email textbox with value: automation9255@mail.com
+[2023-07-27 11:03:49,491] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:03:49,526] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:03:49,559] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:03:49,594] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:03:49,597] OS name = windows 10
+[2023-07-27 11:03:49,597] Driver instance name = firefoxdriver: firefox on windows (579340c7-03ed-45f2-a344-66329da10e6e)
+[2023-07-27 11:04:10,852] Pre-Condition - Step 01: Go page
+[2023-07-27 11:04:10,852] Run on FIREFOX
+[2023-07-27 11:04:14,881] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:04:15,850] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:04:16,113] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:04:16,159]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:16,159] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:04:16,186]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:16,186] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:04:16,212]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:16,212] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:04:16,238]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:16,238] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:04:16,271]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:16,320] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:04:19,412] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:04:19,458] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:04:19,500] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:04:20,753] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:04:22,004] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:04:23,248] Register_Success - Step 07: Input to email textbox with value: automation8040@mail.com
+[2023-07-27 11:04:23,296] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:04:23,345] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:04:23,379] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:04:23,413] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:04:24,600] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:04:24,640]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:25,664] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:04:25,997] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:04:26,037] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:04:27,288] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:04:28,546] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:04:29,791] Register_Existing_Email - Step 07: Input to email textbox with value: automation8040@mail.com
+[2023-07-27 11:04:29,832] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:04:29,866] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:04:29,898] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:04:29,931] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:04:30,317] OS name = windows 10
+[2023-07-27 11:04:30,317] Driver instance name = firefoxdriver: firefox on windows (97a76555-a376-4219-a09a-a40c7d70ff49)
+[2023-07-27 11:04:44,376] Pre-Condition - Step 01: Go page
+[2023-07-27 11:04:44,376] Run on FIREFOX
+[2023-07-27 11:04:48,184] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:04:49,176] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:04:49,441] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:04:49,473]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:49,473] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:04:49,500]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:49,500] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:04:49,531]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:49,531] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:04:49,557]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:49,558] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:04:49,586]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:49,636] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:04:52,256] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:04:52,301] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:04:52,341] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:04:53,597] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:04:54,846] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:04:56,095] Register_Success - Step 07: Input to email textbox with value: automation6826@mail.com
+[2023-07-27 11:04:56,146] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:04:56,186] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:04:56,222] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:04:56,256] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:04:57,400] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:04:57,437]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:04:58,458] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:04:58,806] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:04:58,847] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:05:00,096] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:05:01,353] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:05:02,599] Register_Existing_Email - Step 07: Input to email textbox with value: automation6826@mail.com
+[2023-07-27 11:05:02,638] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:05:02,672] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:05:02,705] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:05:02,739] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:05:03,101] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:05:03,144]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:03,146] OS name = windows 10
+[2023-07-27 11:05:03,146] Driver instance name = firefoxdriver: firefox on windows (68357ba1-a22b-4ef3-9e78-15137226225b)
+[2023-07-27 11:05:10,050] Pre-Condition - Step 01: Go page
+[2023-07-27 11:05:10,051] Run on FIREFOX
+[2023-07-27 11:05:13,938] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:05:14,423] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:05:14,687] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:05:14,733]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:14,733] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:05:14,760]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:14,760] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:05:14,785]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:14,785] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:05:14,813]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:14,813] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:05:14,842]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:14,895] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:05:18,006] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:05:18,051] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:05:18,093] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:05:19,348] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:05:20,599] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:05:21,842] Register_Success - Step 07: Input to email textbox with value: automation1753@mail.com
+[2023-07-27 11:05:21,888] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:05:21,927] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:05:21,961] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:05:21,996] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:05:23,173] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:05:23,211]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:24,236] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:05:24,568] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:05:24,619] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:05:25,868] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:05:27,126] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:05:28,373] Register_Existing_Email - Step 07: Input to email textbox with value: automation1753@mail.com
+[2023-07-27 11:05:28,412] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:05:28,445] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:05:28,478] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:05:28,512] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:05:28,864] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:05:28,907]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:05:28,912] OS name = windows 10
+[2023-07-27 11:05:28,913] Driver instance name = firefoxdriver: firefox on windows (66515116-b701-4f49-9077-d1797d3b40f6)
+[2023-07-27 11:06:00,419] Pre-Condition - Step 01: Go page
+[2023-07-27 11:06:00,420] Run on FIREFOX
+[2023-07-27 11:06:03,724] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:06:04,629] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:06:04,895] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:06:04,924]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:06:04,924] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:06:04,950]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:06:04,950] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:06:04,975]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:06:04,975] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:06:05,002]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:06:05,002] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:06:05,031]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:06:05,088] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:06:08,236] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:06:08,278] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:06:08,321] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:06:09,575] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:06:10,821] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:06:12,077] Register_Success - Step 07: Input to email textbox with value: automation2628@mail.com
+[2023-07-27 11:06:12,126] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:06:12,169] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:06:12,204] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:06:12,241] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:06:13,399] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:06:13,437]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:06:14,460] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:06:14,799] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:06:14,837] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:06:16,092] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:06:17,350] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:06:18,600] Register_Existing_Email - Step 07: Input to email textbox with value: automation2628@mail.com
+[2023-07-27 11:06:18,641] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:06:18,677] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:06:18,710] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:06:18,742] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:06:19,097] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:06:19,143]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:06:19,146] OS name = windows 10
+[2023-07-27 11:06:19,146] Driver instance name = firefoxdriver: firefox on windows (4f193a6a-1660-4f16-a987-5034a119a57a)
+[2023-07-27 11:10:55,837] Pre-Condition - Step 01: Go page
+[2023-07-27 11:10:55,838] Run on FIREFOX
+[2023-07-27 11:10:59,747] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:11:00,746] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:11:01,004] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:11:01,034]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:01,034] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:11:01,062]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:01,062] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:11:01,090]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:01,090] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:11:01,120]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:01,120] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:11:01,149]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:01,202] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:11:04,276] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:11:04,321] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:11:04,359] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:11:05,614] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:11:06,860] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:11:08,112] Register_Success - Step 07: Input to email textbox with value: automation2882@mail.com
+[2023-07-27 11:11:08,160] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:11:08,202] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:11:08,245] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:11:08,277] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:11:09,446] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:11:09,483]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:10,496] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:11:10,852] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:11:10,891] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:11:12,138] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:11:13,415] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:11:14,663] Register_Existing_Email - Step 07: Input to email textbox with value: automation2882@mail.com
+[2023-07-27 11:11:14,707] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:11:14,741] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:11:14,773] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:11:14,808] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:11:15,159] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:11:15,203]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:15,205] OS name = windows 10
+[2023-07-27 11:11:15,205] Driver instance name = firefoxdriver: firefox on windows (2bc3d752-8642-4087-9d85-20ce0ad0efb9)
+[2023-07-27 11:11:32,574] Pre-Condition - Step 01: Go page
+[2023-07-27 11:11:32,574] Run on FIREFOX
+[2023-07-27 11:11:36,495] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:11:37,510] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:11:37,767] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:11:37,796]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:37,796] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:11:37,826]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:37,827] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:11:37,854]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:37,854] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:11:37,880]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:37,880] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:11:37,910]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:37,963] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:11:41,102] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:11:41,145] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:11:41,185] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:11:42,440] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:11:43,695] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:11:44,940] Register_Success - Step 07: Input to email textbox with value: automation4056@mail.com
+[2023-07-27 11:11:44,998] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:11:45,037] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:11:45,071] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:11:45,104] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:11:46,252] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:11:46,296]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:47,345] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:11:47,676] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:11:47,717] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:11:48,966] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:11:50,230] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:11:51,507] Register_Existing_Email - Step 07: Input to email textbox with value: automation4056@mail.com
+[2023-07-27 11:11:51,549] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:11:51,584] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:11:51,616] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:11:51,650] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:11:52,001] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:11:52,044]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:11:52,048] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-27 11:11:54,106] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:11:54,171] OS name = windows 10
+[2023-07-27 11:11:54,171] Driver instance name = firefoxdriver: firefox on windows (a1676705-f5d7-45f8-a486-a191618fb3fc)
+[2023-07-27 11:13:05,405] Pre-Condition - Step 01: Go page
+[2023-07-27 11:13:05,405] Run on FIREFOX
+[2023-07-27 11:13:09,244] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:13:09,697] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:13:09,960] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:13:09,991]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:09,992] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:13:10,019]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:10,019] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:13:10,048]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:10,048] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:13:10,073]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:10,074] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:13:10,102]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:10,152] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:13:12,776] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:13:12,819] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:13:12,857] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:13:14,112] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:13:15,363] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:13:16,617] Register_Success - Step 07: Input to email textbox with value: automation6945@mail.com
+[2023-07-27 11:13:16,656] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:13:16,691] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:13:16,735] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:13:16,801] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:13:17,963] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:13:18,001]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:19,015] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:13:19,370] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:13:19,408] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:13:20,656] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:13:21,913] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:13:23,172] Register_Existing_Email - Step 07: Input to email textbox with value: automation6945@mail.com
+[2023-07-27 11:13:23,212] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:13:23,245] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:13:23,277] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:13:23,309] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:13:23,654] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:13:23,697]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:23,704] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 11:13:25,763] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:13:25,833] OS name = windows 10
+[2023-07-27 11:13:25,834] Driver instance name = firefoxdriver: firefox on windows (3911cec3-82b5-4d86-9a5c-fddd4f37f592)
+[2023-07-27 11:13:50,881] Pre-Condition - Step 01: Go page
+[2023-07-27 11:13:50,882] Run on FIREFOX
+[2023-07-27 11:13:54,873] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:13:55,826] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:13:56,090] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:13:56,121]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:56,121] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:13:56,149]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:56,149] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:13:56,175]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:56,175] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:13:56,206]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:56,206] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:13:56,235]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:13:56,286] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:13:59,408] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:13:59,451] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:13:59,491] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:14:00,745] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:14:01,997] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:14:03,248] Register_Success - Step 07: Input to email textbox with value: automation3131@mail.com
+[2023-07-27 11:14:03,296] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:14:03,335] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:14:03,368] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:14:03,401] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:14:04,552] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:14:04,588]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:05,608] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:14:05,963] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:14:06,008] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:14:07,254] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:14:08,507] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:14:09,751] Register_Existing_Email - Step 07: Input to email textbox with value: automation3131@mail.com
+[2023-07-27 11:14:09,810] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:14:09,845] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:14:09,876] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:14:09,910] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:14:10,266] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:14:10,310]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:10,377] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 11:14:11,395] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:14:11,444] Register_Password_Less_Than_6_Chars - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:14:11,482] Register_Password_Less_Than_6_Chars - Step 04: Select day of birth with value: 20
+[2023-07-27 11:14:12,514] Register_Password_Less_Than_6_Chars - Step 05: Select month of birth with value: January
+[2023-07-27 11:14:13,779] Register_Password_Less_Than_6_Chars - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:14:15,026] Register_Password_Less_Than_6_Chars - Step 07: Input to email textbox with value: automation3131@mail.com
+[2023-07-27 11:14:15,077] Register_Password_Less_Than_6_Chars - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:14:15,115] Register_Password_Less_Than_6_Chars - Step 09: Input to password textbox with value: 123
+[2023-07-27 11:14:15,147] Register_Password_Less_Than_6_Chars - Step 10: Input to confirmPassword textbox with value: 123
+[2023-07-27 11:14:15,181] Register_Password_Less_Than_6_Chars - Step 11: Click to Register Button
+[2023-07-27 11:14:15,424] Register_Password_Less_Than_6_Chars - Step 12: Verify message 'must have at least 6 characters' is displayed
+[2023-07-27 11:14:15,452]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:15,455] OS name = windows 10
+[2023-07-27 11:14:15,455] Driver instance name = firefoxdriver: firefox on windows (f1a1e484-8211-4079-ba85-704053ed4757)
+[2023-07-27 11:14:39,169] Pre-Condition - Step 01: Go page
+[2023-07-27 11:14:39,169] Run on FIREFOX
+[2023-07-27 11:14:43,082] Register_Empty_Data - Step 01: Click to My Account Link
+[2023-07-27 11:14:44,092] Register_Empty_Data - Step 02: Click to Register Button
+[2023-07-27 11:14:44,355] Register_Empty_Data - Step 03: Verify error message on firstname textbox
+[2023-07-27 11:14:44,386]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,386] Register_Empty_Data - Step 04: Verify error message on lastname textbox
+[2023-07-27 11:14:44,415]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,415] Register_Empty_Data - Step 05: Verify error message on email textbox
+[2023-07-27 11:14:44,444]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,444] Register_Empty_Data - Step 06: Verify error message on password textbox
+[2023-07-27 11:14:44,471]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,471] Register_Empty_Data - Step 07: Verify error message on confirmPassword textbox
+[2023-07-27 11:14:44,504]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:44,554] Register_Success - Step 01: Refresh Page
+[2023-07-27 11:14:47,799] Register_Success - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:14:47,845] Register_Success - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:14:47,889] Register_Success - Step 04: Select day of birth with value: 20
+[2023-07-27 11:14:49,145] Register_Success - Step 05: Select month of birth with value: January
+[2023-07-27 11:14:50,396] Register_Success - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:14:51,650] Register_Success - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:14:51,705] Register_Success - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:14:51,743] Register_Success - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:14:51,776] Register_Success - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:14:51,810] Register_Success - Step 11: Click to Register Button
+[2023-07-27 11:14:55,348] Register_Success - Step 12: Verify Success message display
+[2023-07-27 11:14:55,386]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:14:56,412] Register_Existing_Email - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:14:56,763] Register_Existing_Email - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:14:56,803] Register_Existing_Email - Step 04: Select day of birth with value: 20
+[2023-07-27 11:14:58,052] Register_Existing_Email - Step 05: Select month of birth with value: January
+[2023-07-27 11:14:59,306] Register_Existing_Email - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:15:00,562] Register_Existing_Email - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:15:00,609] Register_Existing_Email - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:15:00,644] Register_Existing_Email - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:15:00,675] Register_Existing_Email - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:15:00,710] Register_Existing_Email - Step 11: Click to Register Button
+[2023-07-27 11:15:01,063] Register_Existing_Email - Step 12: Verify message 'The specified email already exists' is displayed
+[2023-07-27 11:15:01,105]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:15:01,108] Register_Password_Less_Than_6_Chars - Step 01: Refresh page
+[2023-07-27 11:15:02,121] Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:15:02,161] Register_Password_Less_Than_6_Chars - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:15:02,197] Register_Password_Less_Than_6_Chars - Step 04: Select day of birth with value: 20
+[2023-07-27 11:15:03,231] Register_Password_Less_Than_6_Chars - Step 05: Select month of birth with value: January
+[2023-07-27 11:15:04,488] Register_Password_Less_Than_6_Chars - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:15:05,732] Register_Password_Less_Than_6_Chars - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:15:05,775] Register_Password_Less_Than_6_Chars - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:15:05,810] Register_Password_Less_Than_6_Chars - Step 09: Input to password textbox with value: 123
+[2023-07-27 11:15:05,842] Register_Password_Less_Than_6_Chars - Step 10: Input to confirmPassword textbox with value: 123
+[2023-07-27 11:15:05,876] Register_Password_Less_Than_6_Chars - Step 11: Click to Register Button
+[2023-07-27 11:15:06,118] Register_Password_Less_Than_6_Chars - Step 12: Verify message 'must have at least 6 characters' is displayed
+[2023-07-27 11:15:06,144]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:15:06,152] Register_Invalid_Confirm_Password - Step 01: Refresh page
+[2023-07-27 11:15:07,165] Register_Invalid_Confirm_Password - Step 02: Input to firstName textbox with value: automation
+[2023-07-27 11:15:07,212] Register_Invalid_Confirm_Password - Step 03: Input to lastname textbox with value: FC
+[2023-07-27 11:15:07,246] Register_Invalid_Confirm_Password - Step 04: Select day of birth with value: 20
+[2023-07-27 11:15:08,465] Register_Invalid_Confirm_Password - Step 05: Select month of birth with value: January
+[2023-07-27 11:15:09,715] Register_Invalid_Confirm_Password - Step 06: Select year of birth with value: 1999
+[2023-07-27 11:15:10,968] Register_Invalid_Confirm_Password - Step 07: Input to email textbox with value: automation5549@mail.com
+[2023-07-27 11:15:11,033] Register_Invalid_Confirm_Password - Step 08: Input to company name textbox with value: automationFC
+[2023-07-27 11:15:11,066] Register_Invalid_Confirm_Password - Step 09: Input to password textbox with value: 123456
+[2023-07-27 11:15:11,099] Register_Invalid_Confirm_Password - Step 10: Input to confirmPassword textbox with value: 123456
+[2023-07-27 11:15:11,132] Register_Invalid_Confirm_Password - Step 11: Click to Register Button
+[2023-07-27 11:15:11,861] Register_Invalid_Confirm_Password - Step 12: Verify message 'The password and confirmation password do not match' is displayed
+[2023-07-27 11:15:11,891]  -------------------------- PASSED -------------------------- 
+[2023-07-27 11:15:11,897] OS name = windows 10
+[2023-07-27 11:15:11,898] Driver instance name = firefoxdriver: firefox on windows (3d7e6505-608c-4d0b-9638-ae07d1ae211a)

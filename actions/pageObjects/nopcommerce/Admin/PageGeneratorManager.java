@@ -2,6 +2,8 @@ package pageObjects.nopcommerce.Admin;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.nopcommerce.User.UserHomePageObject;
+
 public class PageGeneratorManager {
 	
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
@@ -29,6 +31,10 @@ public class PageGeneratorManager {
 
 	public static AdminEditCustomerPageObject getAdminEditCustomerPage(WebDriver driver) {
 		return new AdminEditCustomerPageObject(driver);
+	}
+	
+	public static UserHomePageObject getUserHomePage(WebDriver driver) {
+		return new UserHomePageObject(driver);
 	}
 	
 

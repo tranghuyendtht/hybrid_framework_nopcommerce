@@ -73,6 +73,7 @@ public class BaseTest {
 		switch (browserName) {
 		case "FIREFOX":
 			driver = WebDriverManager.firefoxdriver().create();
+			
 			break;
 		case "CHROME":
 			driver = WebDriverManager.chromedriver().create();
