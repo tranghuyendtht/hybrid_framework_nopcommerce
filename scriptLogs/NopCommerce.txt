@@ -1,91 +1,61 @@
-[2023-07-28 10:49:52,590] Run on FIREFOX
-[2023-07-28 10:49:59,400]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:49:59,454] Update_Info - Step 01: Click to My Account Link
-[2023-07-28 10:49:59,486] Update_Info - Step 02: Click to Customer Info Link
-[2023-07-28 10:50:00,148] Update_Info - Step 03: Choose Gender
-[2023-07-28 10:50:00,400] Update_Info - Step 04: Input to firstname textbox with value: Automation
-[2023-07-28 10:50:00,461] Update_Info - Step 05: Input to lastname textbox with value: FC
-[2023-07-28 10:50:00,499] Update_Info - Step 06: Select day of birth with value: 1
-[2023-07-28 10:50:00,751] Update_Info - Step 07: Select month of birth with value: February
-[2023-07-28 10:50:00,999] Update_Info - Step 08: Select year of birth with value: 1988
-[2023-07-28 10:50:01,242] Update_Info - Step 09: Input to email textbox with value: edit_automation952@mail.com
-[2023-07-28 10:50:01,285] Update_Info - Step 10: Input to company name textbox with value: Automation FC
-[2023-07-28 10:50:01,319] Update_Info - Step 11: Click to save button
-[2023-07-28 10:50:02,962] Update_Info - Step 12: Verify result
-[2023-07-28 10:50:02,991]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,001]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,010]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,020]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,045]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,068]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,208]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,216]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,226]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:03,226] Update_Info - Step 13: Close popup
-[2023-07-28 10:50:03,528] Update_Info - Step 01: Click to My Account Link
-[2023-07-28 10:50:03,559] Update_Info - Step 02: Click to Customer Info Link
-[2023-07-28 10:50:04,439] Add_Address - Step 01: Click to Address Linktext
-[2023-07-28 10:50:07,816] Add_Address - Step 02: Click to Add new button
-[2023-07-28 10:50:08,232] Add_Address - Step 03: Input data to firstname textbox with value: automation
-[2023-07-28 10:50:08,286] Add_Address - Step 04: Input data to lastname textbox with value: FC952
-[2023-07-28 10:50:08,325] Add_Address - Step 05: Input data to email textbox with value: FC952@mail.com
-[2023-07-28 10:50:08,375] Add_Address - Step 06: Select Country with value: Albania
-[2023-07-28 10:50:08,635] Add_Address - Step 07: Input data to city textbox with value: HaNoi
-[2023-07-28 10:50:08,681] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
-[2023-07-28 10:50:08,712] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
-[2023-07-28 10:50:08,745] Add_Address - Step 10: Input data to postal code textbox with value: 100000
-[2023-07-28 10:50:08,777] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
-[2023-07-28 10:50:08,811] Add_Address - Step 12: Click to save button
-[2023-07-28 10:50:09,505] Add_Address - Step 13: Verify result
-[2023-07-28 10:50:09,522]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,547]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,568]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,589]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,611]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,631]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,652]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,674]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,696]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,718]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:09,718] Add_Address - Step 14: Click to close noti bar
-[2023-07-28 10:50:09,962] Change_Password - Step 01: Click to change password link
-[2023-07-28 10:50:10,318] Change_Password - Step 02: Input to old password textbox with value: 123456
-[2023-07-28 10:50:10,367] Change_Password - Step 03: Input to new password textbox with value: 123465
-[2023-07-28 10:50:10,402] Change_Password - Step 04: Input to confirm password textbox with value: 123465
-[2023-07-28 10:50:10,433] Change_Password - Step 05: Click to Change Password button
-[2023-07-28 10:50:11,781] Change_Password - Step 06: Verify Successful Notification At Bar
-[2023-07-28 10:50:11,812]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:11,813] Change_Password - Step 07: Close the bar
-[2023-07-28 10:50:12,040] Change_Password - Step 08: Click to  logout link
-[2023-07-28 10:50:12,070] Change_Password - Step 09: Verify register link is displayed
-[2023-07-28 10:50:12,683]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:12,683] Change_Password - Step 10: Click to login link
-[2023-07-28 10:50:13,038] Change_Password - Step 11: Input to email textbox with value: edit_automation952@mail.com
-[2023-07-28 10:50:13,087] Change_Password - Step 12: Input to password textbox with old value: 123456
-[2023-07-28 10:50:13,124] Change_Password - Step 13: Click to Login button
-[2023-07-28 10:50:13,482] Change_Password - Step 14: Verify error messsage for incorrect input
-[2023-07-28 10:50:13,520]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:13,521] Change_Password - Step 15: Refresh page
-[2023-07-28 10:50:14,539] Change_Password - Step 16: Input to email textbox with value: edit_automation952@mail.com
-[2023-07-28 10:50:14,582] Change_Password - Step 17: Input to password textbox with new value: 123465
-[2023-07-28 10:50:14,613] Change_Password - Step 18: Click to Login button
-[2023-07-28 10:50:15,232] Change_Password - Step 19: Verify successful messsage
-[2023-07-28 10:50:18,288]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:18,292] Create_New_Review - Step 01: Click to My Account link
-[2023-07-28 10:50:18,326] Create_New_Review - Step 02: Click to Computers Link
-[2023-07-28 10:50:18,819] Create_New_Review - Step 03: Click to Desktop Link
-[2023-07-28 10:50:19,196] Create_New_Review - Step 04: Click to A Product
-[2023-07-28 10:50:19,688] Create_New_Review - Step 05: Click to Add Your Review
-[2023-07-28 10:50:20,054] Create_New_Review - Step 06: Input to review title textbox with value: First review952
-[2023-07-28 10:50:20,111] Create_New_Review - Step 07: Input to review body textarea with value: First review bacd952
-[2023-07-28 10:50:20,152] Create_New_Review - Step 08: Click to rating checkbox
-[2023-07-28 10:50:20,439] Create_New_Review - Step 09: Click to Add Your Button
-[2023-07-28 10:50:20,785] Create_New_Review - Step 10: Verify is Product review added successfully
-[2023-07-28 10:50:20,822]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:20,823] Create_New_Review - Step 11: Click to My Account Link
-[2023-07-28 10:50:20,849] Create_New_Review - Step 12: Click to my product review link
-[2023-07-28 10:50:22,339] Create_New_Review - Step 13: Veriry After Update Review
-[2023-07-28 10:50:22,376]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:22,398]  -------------------------- PASSED -------------------------- 
-[2023-07-28 10:50:22,401] OS name = windows 10
-[2023-07-28 10:50:22,401] Driver instance name = firefoxdriver: firefox on windows (083d5efe-e557-42ed-b2b3-97ff9f32b17c)
+[2023-07-28 15:38:35,950] Run on FIREFOX
+[2023-07-28 15:38:39,680] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 15:38:40,630] Pre-Condition - Step 02: Login page 
+[2023-07-28 15:38:42,658] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 15:38:45,753] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 15:38:45,791]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:45,791] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 15:38:46,874] Search_Empty_Data - Step 01: Click to 'Search' button
+[2023-07-28 15:38:47,285] Search_Empty_Data - Step 02: Verify message 'Search term minimum length is 3 characters' displayed
+[2023-07-28 15:38:47,331]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:47,388] Search_Data_Not_Exits - Step 01: Refresh page
+[2023-07-28 15:38:49,398] Search_Data_Not_Exits - Step 02: Input keyword to search textbox with value: macbook pro 2025
+[2023-07-28 15:38:49,451] Search_Data_Not_Exits - Step 03: Click to 'Search' button
+[2023-07-28 15:38:49,906] Search_Data_Not_Exits - Step 04: Verify message 'No products were found' displayed
+[2023-07-28 15:38:49,955]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:49,960] Search_Product_Name_Relative - Step 01: Refresh page
+[2023-07-28 15:38:51,971] Search_Product_Name_Relative - Step 02: Input keyword to search textbox with value: lenovo
+[2023-07-28 15:38:52,019] Search_Product_Name_Relative - Step 03: Click to 'Search' button
+[2023-07-28 15:38:52,433] Search_Product_Name_Relative - Step 04: Verify result
+[2023-07-28 15:38:52,455]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:52,459]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:52,463] Search_Product_Name_Absolute - Step 01: Refresh page
+[2023-07-28 15:38:54,474] Search_Product_Name_Absolute - Step 02: Input keyword to search textbox with value: apple macbook pro
+[2023-07-28 15:38:54,512] Search_Product_Name_Absolute - Step 03: Click to 'Search' button
+[2023-07-28 15:38:54,895] Search_Product_Name_Absolute - Step 04: Verify result
+[2023-07-28 15:38:54,922]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:54,928]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:54,931] Advanced_Search_Parent_Categories - Step 01: Refresh page
+[2023-07-28 15:38:56,939] Advanced_Search_Parent_Categories - Step 02: Input keyword to search textbox with value: apple macbook pro
+[2023-07-28 15:38:56,977] Advanced_Search_Parent_Categories - Step 03: Click to 'Advanced search' checkbox
+[2023-07-28 15:38:58,011] Advanced_Search_Parent_Categories - Step 04: Select category with value: Computers
+[2023-07-28 15:38:59,268] Advanced_Search_Parent_Categories - Step 05: Click to 'Search' button
+[2023-07-28 15:38:59,757] Advanced_Search_Parent_Categories - Step 06: Verify message 'No products were found' displayed
+[2023-07-28 15:38:59,804]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:38:59,811] Advanced_Search_Sub_Categories - Step 01: Refresh page
+[2023-07-28 15:39:01,819] Advanced_Search_Sub_Categories - Step 02: Input keyword to search textbox with value: apple macbook pro
+[2023-07-28 15:39:01,869] Advanced_Search_Sub_Categories - Step 03: Click to 'Advanced search' checkbox
+[2023-07-28 15:39:02,902] Advanced_Search_Sub_Categories - Step 04: Select category with value: Computers
+[2023-07-28 15:39:04,158] Advanced_Search_Sub_Categories - Step 05: Click to sub category checkbox
+[2023-07-28 15:39:04,404] Advanced_Search_Sub_Categories - Step 06: Click to 'Search' button
+[2023-07-28 15:39:04,856] Advanced_Search_Sub_Categories - Step 07: Verify result
+[2023-07-28 15:39:04,884]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:39:04,889]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:39:04,893] Advanced_Search_Incorrect_Manufacturer - Step 01: Refresh page
+[2023-07-28 15:39:06,900] Advanced_Search_Incorrect_Manufacturer - Step 02: Input keyword to search textbox with value: apple macbook pro
+[2023-07-28 15:39:06,941] Advanced_Search_Incorrect_Manufacturer - Step 03: Click to 'Advanced search' checkbox
+[2023-07-28 15:39:07,989] Advanced_Search_Incorrect_Manufacturer - Step 04: Select category with value: Computers
+[2023-07-28 15:39:09,246] Advanced_Search_Incorrect_Manufacturer - Step 05: Select manufacturer with value: HP
+[2023-07-28 15:39:10,492] Advanced_Search_Sub_Categories - Step 06: Click to 'Search' button
+[2023-07-28 15:39:10,915] Advanced_Search_Sub_Categories - Step 07: Verify message 'No products were found' displayed
+[2023-07-28 15:39:10,966]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:39:10,969] Advanced_Search_Correct_Manufacturer - Step 01: Refresh page
+[2023-07-28 15:39:12,978] Advanced_Search_Correct_Manufacturer - Step 02: Input keyword to search textbox with value: apple macbook pro
+[2023-07-28 15:39:13,026] Advanced_Search_Correct_Manufacturer - Step 03: Click to 'Advanced search' checkbox
+[2023-07-28 15:39:14,063] Advanced_Search_Correct_Manufacturer - Step 04: Select category with value: Computers
+[2023-07-28 15:39:15,313] Advanced_Search_Correct_Manufacturer - Step 05: Select manufacturer with value: Apple
+[2023-07-28 15:39:16,567] Advanced_Search_Correct_Manufacturer - Step 06: Click to 'Search' button
+[2023-07-28 15:39:16,997] Advanced_Search_Sub_Categories - Step 07: Verify message 'No products were found' displayed
+[2023-07-28 15:39:17,046]  -------------------------- PASSED -------------------------- 
+[2023-07-28 15:39:17,049] OS name = windows 10
+[2023-07-28 15:39:17,049] Driver instance name = firefoxdriver: firefox on windows (4fc2240c-835a-4756-9356-7d4b84568be4)

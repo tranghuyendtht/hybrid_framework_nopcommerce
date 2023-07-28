@@ -57,4 +57,10 @@ public class UserHomePageObject extends BasePage {
 
 	}
 
+	public UserSearchKeywordPageObject clickToLinkTextOnFooterByText(String textValue) {
+		waitForElementClickable(driver, UserHomePageUI.SEARCH_LINKTEXT_ON_FOOTER, textValue);
+		clickToElement(driver, UserHomePageUI.SEARCH_LINKTEXT_ON_FOOTER, textValue);
+		return PageGeneratorManager.getUserSearchKeywordPage(driver);
+	}
+
 }
