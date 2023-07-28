@@ -2,6 +2,7 @@ package com.nopcommerce.user;
 
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -46,7 +47,7 @@ public class User_My_Account extends BaseTest {
 		fakeNumber = fakeNumber();
 		emailAddress = "automation" + fakeNumber + "@mail.com";
 		firstName = "automation";
-		newEmail = "Automation" + fakeNumber + "@mail.com";
+		newEmail = "edit_automation" + fakeNumber + "@mail.com";
 		lastName = "fc";
 		password = "123456";
 		newFirstName = "Automation";
@@ -69,23 +70,54 @@ public class User_My_Account extends BaseTest {
 		confirmNewPassword = "123465";
 		reviewTitle = "First review" + fakeNumber;
 		reviewBody = "First review bacd" + fakeNumber;
-
-		log.info("Pre-Condition - Step 01: Go to Login page ");
-		userLoginPage = userHomePage.openLoginPage();
-
-		log.info("Pre-Condition - Step 02: Login page ");
-		userLoginPage.setCookies(driver, Common_01_Register_Cookie.loggedCookies);
-
-		log.info("Pre-Condition - Step 03: Refresh page ");
-		userLoginPage.refreshPage(driver);
-		//userHomePage = PageGeneratorManager.getUserHomePage(driver);
+//
+//		log.info("Pre-Condition - Step 01: Go to Login page ");
+//		userLoginPage = userHomePage.openLoginPage();
+//
+//		log.info("Pre-Condition - Step 02: Login page ");
+//		userLoginPage.setCookies(driver, Common_01_Register_Cookie.loggedCookies);
+//
+//		log.info("Pre-Condition - Step 03: Refresh page ");
+//		userLoginPage.refreshPage(driver);
+//		//userHomePage = PageGeneratorManager.getUserHomePage(driver);
+//		
+//		log.info("Pre-Condition - Step 04: Verify login successfully ");
+//		verifyTrue(userHomePage.isMyAccountLinkIsDisplay());
 		
-		log.info("Pre-Condition - Step 04: Verify login successfully ");
-		verifyTrue(userHomePage.isMyAccountLinkIsDisplay());
+		// Register
+				System.out.println("Pre-Condition - Step 01: Click to register link ");
+				userRegisterPage = userHomePage.clickToRegisterLink();
+
+				System.out.println("Pre-Condition - Step 02: Input data to required fields ");
+				userRegisterPage.inputToFirstNameTextbox(firstName);
+				userRegisterPage.inputToLastNameTextbox(lastName);
+				userRegisterPage.inputToEmailTextbox(emailAddress);
+				userRegisterPage.inputToPasswordTextbox(password);
+				userRegisterPage.inputToConfirmPasswordTextbox(password);
+
+				System.out.println("Pre-Condition - Step 03: Click to register button ");
+				userRegisterPage.clickToRegisterButton();
+
+				System.out.println("Pre-Condition - Step 04: Verify success register message ");
+				Assert.assertEquals(userRegisterPage.getRegisterSuccessMessage(), "Your registration completed");
+
+				// Login
+				System.out.println("Pre-Condition - Step 05: Click to login link ");
+				userLoginPage = userHomePage.openLoginPage();
+
+				System.out.println("Pre-Condition - Step 06: Input data to required fields ");
+				userLoginPage.inputToEmailTextbox(emailAddress);
+				userLoginPage.inputToPasswordTextbox(password);
+
+				System.out.println("Pre-Condition - Step 07: Click to login button ");
+				userHomePage = userLoginPage.clickToLoginButton();
+
+				System.out.println("Pre-Condition - Step 08: Verify successful login message ");
+				verifyTrue(userHomePage.isMyAccountLinkIsDisplay());
 	}
 
-	//@Test
-	public void Customer_Info_001_Update_Info() {
+	@Test
+	public void User_My_Account_001_Update_Info() {
 		log.info("Update_Info - Step 01: Click to My Account Link");
 		userMyAccount = userHomePage.openMyAccountPage(driver);
 
@@ -136,7 +168,7 @@ public class User_My_Account extends BaseTest {
 	}
 
 	@Test
-	public void Address_002_Add_Address() {
+	public void User_My_Account_002_Add_Address() {
 		log.info("Update_Info - Step 01: Click to My Account Link");
 		userMyAccount = userHomePage.openMyAccountPage(driver);
 
@@ -197,7 +229,7 @@ public class User_My_Account extends BaseTest {
 	}
 
 	@Test
-	public void Change_Password_003() {
+	public void User_My_Account_003_Change_Password() {
 
 		log.info("Change_Password - Step 01: Click to change password link");
 		userCustomerInfoPage.clickToChangePasswordLink();
@@ -229,8 +261,8 @@ public class User_My_Account extends BaseTest {
 		log.info("Change_Password - Step 10: Click to login link");
 		userLoginPage = userHomePage.openLoginPage();
 
-		log.info("Change_Password - Step 11: Input to email textbox with value: " + emailAddress);
-		userLoginPage.inputToEmailTextbox(emailAddress);
+		log.info("Change_Password - Step 11: Input to email textbox with value: " + newEmail);
+		userLoginPage.inputToEmailTextbox(newEmail);
 
 		log.info("Change_Password - Step 12: Input to password textbox with old value: " + password);
 		userLoginPage.inputToPasswordTextbox(password);
@@ -244,23 +276,22 @@ public class User_My_Account extends BaseTest {
 		log.info("Change_Password - Step 15: Refresh page");
 		userLoginPage.navigateToUrlByJS(driver, "https://demo.nopcommerce.com/login");
 
-		log.info("Change_Password - Step 16: Input to email textbox with value: " + emailAddress);
-		userLoginPage.inputToEmailTextbox(emailAddress);
+		log.info("Change_Password - Step 16: Input to email textbox with value: " + newEmail);
+		userLoginPage.inputToEmailTextbox(newEmail);
 
 		log.info("Change_Password - Step 17: Input to password textbox with new value: " + newPassword);
 		userLoginPage.inputToPasswordTextbox(newPassword);
 
 		log.info("Change_Password - Step 18: Click to Login button");
-		userLoginPage.clickToLoginButton();
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = userLoginPage.clickToLoginButton();
 
 		log.info("Change_Password - Step 19: Verify successful messsage");
-		fgđfg userHomePage.getLoginSuccessMessage();
+		verifyTrue(userHomePage.isWelComePageDisplayed());
 
 	}
 
 	@Test
-	public void My_Product_Views_004_Create_New_Review() {
+	public void User_My_Account_004_Create_New_Review() {
 		log.info("Create_New_Review - Step 01: Click to My Account link");
 		userMyAccount = userHomePage.openMyAccountPage(driver);
 		

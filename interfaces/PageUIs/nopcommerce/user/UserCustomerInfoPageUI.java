@@ -8,7 +8,7 @@ public class UserCustomerInfoPageUI {
 	public static final String DATE_OF_BIRTH_DAY_DROPDOWN_LIST = "css=select[name ='DateOfBirthDay']";
 	public static final String DATE_OF_BIRTH_MONTH_DROPDOWN_LIST = "css=select[name ='DateOfBirthMonth']";
 	public static final String DATE_OF_BIRTH_YEAR_DROPDOWN_LIST = "css=select[name ='DateOfBirthYear']";
-	public static final String EMAIL_TEXTBOX = "id=Email";
+	public static final String EMAIL_TEXTBOX = "css=input[id='Email']";
 	public static final String COMPANY_TEXTBOX = "id=Company";
 	public static final String SAVE_BUTTON = "id=save-info-button";
 	public static final String POPUP = "css=span[class ='close']";

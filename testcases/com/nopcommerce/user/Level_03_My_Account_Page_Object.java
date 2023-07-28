@@ -87,7 +87,7 @@ public class Level_03_My_Account_Page_Object extends BasePage{
 		loginPage.clickToLoginButton();
 
 		System.out.println("Pre-Condition - Step 08: Verify successful login message ");
-		homePage.getLoginSuccessMessage();
+		homePage.isWelComePageDisplayed();
 	}
 
 	@Test
@@ -221,7 +221,7 @@ public class Level_03_My_Account_Page_Object extends BasePage{
 		loginPage.clickToLoginButton();
 		
 		System.out.println("Change Password - Step 109.4: Verify successful messsage");
-		homePage.getLoginSuccessMessage();
+		homePage.isWelComePageDisplayed();
 	}
 
 	@Test

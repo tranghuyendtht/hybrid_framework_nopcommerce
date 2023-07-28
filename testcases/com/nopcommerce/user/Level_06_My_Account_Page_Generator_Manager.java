@@ -84,7 +84,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		System.out.println("Pre-Condition - Step 08: Verify successful login message ");
-		homePage.getLoginSuccessMessage();
+		homePage.isWelComePageDisplayed();
 	}
 
 	@Test
@@ -215,7 +215,7 @@ public class Level_06_My_Account_Page_Generator_Manager extends BaseTest {
 		loginPage.clickToLoginButton();
 
 		System.out.println("Change Password - Step 109.4: Verify successful messsage");
-		homePage.getLoginSuccessMessage();
+		homePage.isWelComePageDisplayed();
 	}
 
 	@Test

@@ -38,9 +38,10 @@ public class UserHomePageObject extends BasePage {
 		return PageGeneratorManager.getUserMyAccountPage(driver);
 	}
 
-	public String getLoginSuccessMessage() {
+	public boolean isWelComePageDisplayed() {
+		sleepInSecond(3);
 		waitForElementVisible(driver, UserHomePageUI.LOGIN_SUCCESS_MESSAGE);
-		return getElementText(driver, UserHomePageUI.LOGIN_SUCCESS_MESSAGE);
+		return isElementDisplayed(driver, UserHomePageUI.LOGIN_SUCCESS_MESSAGE);
 	}
 
 	@Step("Verify success message displayed")

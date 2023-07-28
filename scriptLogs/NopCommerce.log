@@ -6151,3 +6151,857 @@ Session ID: bb692d10-df06-43f2-9a08-2840286998cb
 [2023-07-27 17:34:34,849] Create_New_Review - Step 01: Click to My Account link
 [2023-07-27 17:34:54,977] OS name = windows 10
 [2023-07-27 17:34:54,977] Driver instance name = firefoxdriver: firefox on windows (17217380-b8ee-47d5-8742-914459980c57)
+[2023-07-28 10:30:17,313] Run on FIREFOX
+[2023-07-28 10:30:20,654] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 10:30:21,556] Pre-Condition - Step 02: Login page 
+[2023-07-28 10:30:23,581] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 10:30:26,706] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 10:30:26,748]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:26,945] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:30:26,980] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:30:27,646] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:30:31,031] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:30:31,430] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:30:31,486] Add_Address - Step 04: Input data to lastname textbox with value: FC8825
+[2023-07-28 10:30:31,524] Add_Address - Step 05: Input data to email textbox with value: FC8825@mail.com
+[2023-07-28 10:30:31,561] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:30:31,812] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:30:31,851] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:30:31,885] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:30:31,919] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:30:31,951] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:30:31,985] Add_Address - Step 12: Click to save button
+[2023-07-28 10:30:32,700] Add_Address - Step 13: Verify result
+[2023-07-28 10:30:32,714]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,738]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,762]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,786]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,807]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,831]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,853]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,874]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,896]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,918]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:32,918] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:30:33,318] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:30:33,677] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:30:33,733] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:30:33,769] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:30:33,801] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:30:35,157] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:30:35,192]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:35,192] Change_Password - Step 07: Close the bar
+[2023-07-28 10:30:35,423] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:30:35,462] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:30:36,117]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:36,117] Change_Password - Step 10: Click to login link
+[2023-07-28 10:30:36,437] Change_Password - Step 11: Input to email textbox with value: automation8825@mail.com
+[2023-07-28 10:30:36,488] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:30:36,540] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:30:36,866] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:30:36,908]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:30:36,908] Change_Password - Step 15: Refresh page
+[2023-07-28 10:30:37,918] Change_Password - Step 16: Input to email textbox with value: automation8825@mail.com
+[2023-07-28 10:30:37,969] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:30:38,001] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:30:38,863] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:30:59,034] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:31:07,624] OS name = windows 10
+[2023-07-28 10:31:07,625] Driver instance name = firefoxdriver: firefox on windows (4602f5e9-a385-40ce-9800-806e620ea8b9)
+[2023-07-28 10:31:07,629] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12820, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4602f5e9-a385-40ce-9800-806e620ea8b9
+[2023-07-28 10:31:18,718] Run on FIREFOX
+[2023-07-28 10:31:22,046] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 10:31:22,518] Pre-Condition - Step 02: Login page 
+[2023-07-28 10:31:24,542] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 10:31:27,128] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 10:31:27,171]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:27,225] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:31:27,264] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:31:28,461] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:31:31,812] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:31:32,229] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:31:32,282] Add_Address - Step 04: Input data to lastname textbox with value: FC3917
+[2023-07-28 10:31:32,323] Add_Address - Step 05: Input data to email textbox with value: FC3917@mail.com
+[2023-07-28 10:31:32,369] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:31:32,622] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:31:32,655] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:31:32,688] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:31:32,721] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:31:32,753] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:31:32,787] Add_Address - Step 12: Click to save button
+[2023-07-28 10:31:33,421] Add_Address - Step 13: Verify result
+[2023-07-28 10:31:33,440]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,467]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,488]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,509]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,531]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,553]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,575]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,598]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,620]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,642]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:33,642] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:31:33,937] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:31:34,311] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:31:34,364] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:31:34,402] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:31:34,436] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:31:35,775] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:31:35,815]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:35,815] Change_Password - Step 07: Close the bar
+[2023-07-28 10:31:36,044] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:31:36,104] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:31:36,710]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:36,710] Change_Password - Step 10: Click to login link
+[2023-07-28 10:31:37,054] Change_Password - Step 11: Input to email textbox with value: automation3917@mail.com
+[2023-07-28 10:31:37,107] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:31:37,143] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:31:37,480] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:31:37,521]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:31:37,521] Change_Password - Step 15: Refresh page
+[2023-07-28 10:31:38,537] Change_Password - Step 16: Input to email textbox with value: automation3917@mail.com
+[2023-07-28 10:31:38,587] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:31:38,620] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:31:39,443] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:31:42,173] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:31:42,271] OS name = windows 10
+[2023-07-28 10:31:42,271] Driver instance name = firefoxdriver: firefox on windows (e53e035d-7dad-4c21-b869-10170528e52a)
+[2023-07-28 10:31:42,273] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2568, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e53e035d-7dad-4c21-b869-10170528e52a
+[2023-07-28 10:34:11,185] Run on FIREFOX
+[2023-07-28 10:34:17,478]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:17,526] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:34:17,555] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:34:18,254] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:34:21,610] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:34:22,005] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:34:22,060] Add_Address - Step 04: Input data to lastname textbox with value: FC5658
+[2023-07-28 10:34:22,112] Add_Address - Step 05: Input data to email textbox with value: FC5658@mail.com
+[2023-07-28 10:34:22,152] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:34:22,419] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:34:22,454] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:34:22,489] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:34:22,521] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:34:22,555] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:34:22,588] Add_Address - Step 12: Click to save button
+[2023-07-28 10:34:23,235] Add_Address - Step 13: Verify result
+[2023-07-28 10:34:23,254]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,282]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,305]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,329]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,352]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,375]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,399]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,420]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,441]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,463]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:23,463] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:34:23,753] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:34:24,111] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:34:24,160] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:34:24,195] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:34:24,228] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:34:25,574] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:34:25,612]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:25,612] Change_Password - Step 07: Close the bar
+[2023-07-28 10:34:25,841] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:34:25,874] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:34:26,489]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:26,489] Change_Password - Step 10: Click to login link
+[2023-07-28 10:34:26,844] Change_Password - Step 11: Input to email textbox with value: automation5658@mail.com
+[2023-07-28 10:34:26,905] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:34:26,939] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:34:27,357] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:34:27,402]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:27,402] Change_Password - Step 15: Refresh page
+[2023-07-28 10:34:28,410] Change_Password - Step 16: Input to email textbox with value: automation5658@mail.com
+[2023-07-28 10:34:28,457] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:34:28,488] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:34:29,600] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:34:29,647]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:34:29,652] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:34:29,681] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-28 10:34:30,746] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-28 10:34:31,150] Create_New_Review - Step 04: Click to A Product
+[2023-07-28 10:34:32,230] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-28 10:34:32,329] OS name = windows 10
+[2023-07-28 10:34:32,329] Driver instance name = firefoxdriver: firefox on windows (39c6d278-6065-4794-b49c-8cad5a341215)
+[2023-07-28 10:35:10,740] Run on FIREFOX
+[2023-07-28 10:35:17,565]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:17,622] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:35:17,653] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:35:18,324] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:35:21,655] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:35:22,002] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:35:22,054] Add_Address - Step 04: Input data to lastname textbox with value: FC3466
+[2023-07-28 10:35:22,094] Add_Address - Step 05: Input data to email textbox with value: FC3466@mail.com
+[2023-07-28 10:35:22,131] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:35:22,385] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:35:22,496] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:35:22,533] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:35:22,567] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:35:22,599] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:35:22,633] Add_Address - Step 12: Click to save button
+[2023-07-28 10:35:23,949] Add_Address - Step 13: Verify result
+[2023-07-28 10:35:23,964]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:23,991]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,013]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,035]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,056]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,078]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,100]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,121]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,141]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,165]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:24,165] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:35:24,466] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:35:24,825] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:35:24,885] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:35:24,920] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:35:24,951] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:35:26,298] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:35:26,354]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:26,354] Change_Password - Step 07: Close the bar
+[2023-07-28 10:35:26,582] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:35:26,629] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:35:27,240]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:27,240] Change_Password - Step 10: Click to login link
+[2023-07-28 10:35:27,555] Change_Password - Step 11: Input to email textbox with value: automation3466@mail.com
+[2023-07-28 10:35:27,606] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:35:27,642] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:35:27,977] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:35:28,024]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:28,024] Change_Password - Step 15: Refresh page
+[2023-07-28 10:35:29,038] Change_Password - Step 16: Input to email textbox with value: automation3466@mail.com
+[2023-07-28 10:35:29,080] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:35:29,112] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:35:30,213] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:35:30,262]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:30,267] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:35:30,294] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-28 10:35:31,386] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-28 10:35:32,566] Create_New_Review - Step 04: Click to A Product
+[2023-07-28 10:35:34,534] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-28 10:35:34,943] Create_New_Review - Step 06: Input to review title textbox with value: First review3466
+[2023-07-28 10:35:35,013] Create_New_Review - Step 07: Input to review body textarea with value: First review bacd3466
+[2023-07-28 10:35:35,056] Create_New_Review - Step 08: Click to rating checkbox
+[2023-07-28 10:35:35,345] Create_New_Review - Step 09: Click to Add Your Button
+[2023-07-28 10:35:35,775] Create_New_Review - Step 10: Verify is Product review added successfully
+[2023-07-28 10:35:35,813]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:35:35,813] Create_New_Review - Step 11: Click to My Account Link
+[2023-07-28 10:35:35,840] Create_New_Review - Step 12: Click to my product review link
+[2023-07-28 10:35:36,510] Create_New_Review - Step 13: Veriry After Update Review
+[2023-07-28 10:35:56,826] OS name = windows 10
+[2023-07-28 10:35:56,827] Driver instance name = firefoxdriver: firefox on windows (f60e1ee1-e2e9-4844-a723-525cec5bd954)
+[2023-07-28 10:38:26,195] Run on FIREFOX
+[2023-07-28 10:38:33,170]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:33,221] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:38:33,252] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:38:33,934] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:38:37,291] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:38:37,703] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:38:37,769] Add_Address - Step 04: Input data to lastname textbox with value: FC5523
+[2023-07-28 10:38:37,807] Add_Address - Step 05: Input data to email textbox with value: FC5523@mail.com
+[2023-07-28 10:38:37,842] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:38:38,100] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:38:38,148] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:38:38,185] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:38:38,220] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:38:38,254] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:38:38,287] Add_Address - Step 12: Click to save button
+[2023-07-28 10:38:39,649] Add_Address - Step 13: Verify result
+[2023-07-28 10:38:39,657]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,680]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,701]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,723]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,746]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,768]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,789]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,811]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,832]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,857]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:39,857] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:38:40,160] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:38:40,511] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:38:40,569] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:38:40,605] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:38:40,636] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:38:41,999] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:38:42,037]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:42,037] Change_Password - Step 07: Close the bar
+[2023-07-28 10:38:42,269] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:38:42,306] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:38:42,943]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:42,943] Change_Password - Step 10: Click to login link
+[2023-07-28 10:38:43,286] Change_Password - Step 11: Input to email textbox with value: automation5523@mail.com
+[2023-07-28 10:38:43,336] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:38:43,371] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:38:43,715] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:38:43,756]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:43,756] Change_Password - Step 15: Refresh page
+[2023-07-28 10:38:44,765] Change_Password - Step 16: Input to email textbox with value: automation5523@mail.com
+[2023-07-28 10:38:44,809] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:38:44,841] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:38:45,938] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:38:46,007]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:46,012] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:38:46,044] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:38:46,714] Update_Info - Step 03: Choose Gender
+[2023-07-28 10:38:46,964] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-28 10:38:47,018] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-28 10:38:47,051] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-28 10:38:47,306] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-28 10:38:47,558] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-28 10:38:47,801] Update_Info - Step 09: Input to email textbox with value: Automation5523@mail.com
+[2023-07-28 10:38:47,851] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-28 10:38:47,886] Update_Info - Step 11: Click to save button
+[2023-07-28 10:38:49,496] Update_Info - Step 12: Verify result
+[2023-07-28 10:38:49,530]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,539]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,548]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,557]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,580]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,602]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,731]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,740]  -------------------------- FAILED -------------------------- 
+[2023-07-28 10:38:49,749]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:49,749] Update_Info - Step 13: Close popup
+[2023-07-28 10:38:50,041] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:38:50,073] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-28 10:38:50,697] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-28 10:38:51,137] Create_New_Review - Step 04: Click to A Product
+[2023-07-28 10:38:51,629] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-28 10:38:52,000] Create_New_Review - Step 06: Input to review title textbox with value: First review5523
+[2023-07-28 10:38:52,050] Create_New_Review - Step 07: Input to review body textarea with value: First review bacd5523
+[2023-07-28 10:38:52,089] Create_New_Review - Step 08: Click to rating checkbox
+[2023-07-28 10:38:52,380] Create_New_Review - Step 09: Click to Add Your Button
+[2023-07-28 10:38:52,739] Create_New_Review - Step 10: Verify is Product review added successfully
+[2023-07-28 10:38:52,778]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:52,778] Create_New_Review - Step 11: Click to My Account Link
+[2023-07-28 10:38:52,804] Create_New_Review - Step 12: Click to my product review link
+[2023-07-28 10:38:53,471] Create_New_Review - Step 13: Veriry After Update Review
+[2023-07-28 10:38:53,514]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:53,535]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:38:53,537] OS name = windows 10
+[2023-07-28 10:38:53,538] Driver instance name = firefoxdriver: firefox on windows (29ad2941-279a-4708-9cc6-e8b45ea750ad)
+[2023-07-28 10:41:42,146] Run on FIREFOX
+[2023-07-28 10:41:48,516]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:48,569] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:41:48,600] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:41:49,265] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:41:52,638] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:41:53,034] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:41:53,086] Add_Address - Step 04: Input data to lastname textbox with value: FC262
+[2023-07-28 10:41:53,125] Add_Address - Step 05: Input data to email textbox with value: FC262@mail.com
+[2023-07-28 10:41:53,162] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:41:53,419] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:41:53,452] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:41:53,486] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:41:53,520] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:41:53,570] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:41:53,605] Add_Address - Step 12: Click to save button
+[2023-07-28 10:41:54,275] Add_Address - Step 13: Verify result
+[2023-07-28 10:41:54,293]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,322]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,344]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,367]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,390]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,411]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,434]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,456]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,477]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,502]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:54,502] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:41:54,802] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:41:55,156] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:41:55,210] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:41:55,245] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:41:55,275] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:41:56,617] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:41:56,648]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:56,648] Change_Password - Step 07: Close the bar
+[2023-07-28 10:41:56,877] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:41:56,927] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:41:57,557]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:41:57,557] Change_Password - Step 10: Click to login link
+[2023-07-28 10:41:57,885] Change_Password - Step 11: Input to email textbox with value: automation262@mail.com
+[2023-07-28 10:41:57,946] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:41:57,981] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:42:00,426] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:42:00,467]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:00,468] Change_Password - Step 15: Refresh page
+[2023-07-28 10:42:01,493] Change_Password - Step 16: Input to email textbox with value: automation262@mail.com
+[2023-07-28 10:42:01,541] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:42:01,576] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:42:02,685] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:42:02,736]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:02,741] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:42:02,770] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:42:03,431] Update_Info - Step 03: Choose Gender
+[2023-07-28 10:42:03,680] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-28 10:42:03,744] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-28 10:42:03,780] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-28 10:42:04,025] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-28 10:42:04,269] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-28 10:42:04,538] Update_Info - Step 09: Input to email textbox with value: Automation262@mail.com
+[2023-07-28 10:42:04,585] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-28 10:42:04,618] Update_Info - Step 11: Click to save button
+[2023-07-28 10:42:06,205] Update_Info - Step 12: Verify result
+[2023-07-28 10:42:06,248]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,258]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,305]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,314]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,338]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,360]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,490]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,500]  -------------------------- FAILED -------------------------- 
+[2023-07-28 10:42:06,508]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:06,508] Update_Info - Step 13: Close popup
+[2023-07-28 10:42:06,808] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:42:06,843] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-28 10:42:07,909] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-28 10:42:08,286] Create_New_Review - Step 04: Click to A Product
+[2023-07-28 10:42:09,751] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-28 10:42:10,116] Create_New_Review - Step 06: Input to review title textbox with value: First review262
+[2023-07-28 10:42:10,165] Create_New_Review - Step 07: Input to review body textarea with value: First review bacd262
+[2023-07-28 10:42:10,204] Create_New_Review - Step 08: Click to rating checkbox
+[2023-07-28 10:42:10,491] Create_New_Review - Step 09: Click to Add Your Button
+[2023-07-28 10:42:10,879] Create_New_Review - Step 10: Verify is Product review added successfully
+[2023-07-28 10:42:10,916]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:10,916] Create_New_Review - Step 11: Click to My Account Link
+[2023-07-28 10:42:10,944] Create_New_Review - Step 12: Click to my product review link
+[2023-07-28 10:42:11,609] Create_New_Review - Step 13: Veriry After Update Review
+[2023-07-28 10:42:11,647]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:11,666]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:42:11,668] OS name = windows 10
+[2023-07-28 10:42:11,668] Driver instance name = firefoxdriver: firefox on windows (2c50f024-de67-42f4-b9fa-bd86465e6dc4)
+[2023-07-28 10:43:26,363] Run on FIREFOX
+[2023-07-28 10:43:33,273]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:33,324] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:43:33,355] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:43:34,026] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:43:37,381] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:43:37,755] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:43:37,816] Add_Address - Step 04: Input data to lastname textbox with value: FC1431
+[2023-07-28 10:43:37,855] Add_Address - Step 05: Input data to email textbox with value: FC1431@mail.com
+[2023-07-28 10:43:37,985] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:43:38,242] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:43:38,274] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:43:38,309] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:43:38,344] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:43:38,376] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:43:38,411] Add_Address - Step 12: Click to save button
+[2023-07-28 10:43:39,082] Add_Address - Step 13: Verify result
+[2023-07-28 10:43:39,098]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,127]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,149]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,172]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,194]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,216]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,240]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,262]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,283]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,307]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:39,307] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:43:39,614] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:43:39,945] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:43:39,999] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:43:40,038] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:43:40,075] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:43:41,436] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:43:41,475]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:41,475] Change_Password - Step 07: Close the bar
+[2023-07-28 10:43:41,704] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:43:41,737] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:43:42,381]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:42,381] Change_Password - Step 10: Click to login link
+[2023-07-28 10:43:42,728] Change_Password - Step 11: Input to email textbox with value: automation1431@mail.com
+[2023-07-28 10:43:42,777] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:43:42,813] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:43:43,153] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:43:43,195]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:43,195] Change_Password - Step 15: Refresh page
+[2023-07-28 10:43:44,206] Change_Password - Step 16: Input to email textbox with value: automation1431@mail.com
+[2023-07-28 10:43:44,256] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:43:44,290] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:43:45,428] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:43:45,473]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:45,481] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:43:45,508] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:43:46,183] Update_Info - Step 03: Choose Gender
+[2023-07-28 10:43:46,431] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-28 10:43:46,497] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-28 10:43:46,532] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-28 10:43:46,776] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-28 10:43:47,035] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-28 10:43:47,272] Update_Info - Step 09: Input to email textbox with value: Automation1431@mail.com
+[2023-07-28 10:43:47,314] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-28 10:43:47,350] Update_Info - Step 11: Click to save button
+[2023-07-28 10:43:48,965] Update_Info - Step 12: Verify result
+[2023-07-28 10:43:49,004]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,014]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,023]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,033]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,057]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,081]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,209]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,218]  -------------------------- FAILED -------------------------- 
+[2023-07-28 10:43:49,227]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:49,227] Update_Info - Step 13: Close popup
+[2023-07-28 10:43:49,533] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:43:49,565] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-28 10:43:50,134] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-28 10:43:50,524] Create_New_Review - Step 04: Click to A Product
+[2023-07-28 10:43:51,002] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-28 10:43:51,352] Create_New_Review - Step 06: Input to review title textbox with value: First review1431
+[2023-07-28 10:43:51,404] Create_New_Review - Step 07: Input to review body textarea with value: First review bacd1431
+[2023-07-28 10:43:51,443] Create_New_Review - Step 08: Click to rating checkbox
+[2023-07-28 10:43:51,732] Create_New_Review - Step 09: Click to Add Your Button
+[2023-07-28 10:43:52,080] Create_New_Review - Step 10: Verify is Product review added successfully
+[2023-07-28 10:43:52,121]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:52,121] Create_New_Review - Step 11: Click to My Account Link
+[2023-07-28 10:43:52,147] Create_New_Review - Step 12: Click to my product review link
+[2023-07-28 10:43:52,802] Create_New_Review - Step 13: Veriry After Update Review
+[2023-07-28 10:43:52,839]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:52,860]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:43:52,866] OS name = windows 10
+[2023-07-28 10:43:52,866] Driver instance name = firefoxdriver: firefox on windows (a8e153ca-3290-49ba-b7ad-2dc4b52612e6)
+[2023-07-28 10:44:40,846] Run on FIREFOX
+[2023-07-28 10:44:47,722]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:47,774] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:44:47,805] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:44:48,513] Update_Info - Step 03: Choose Gender
+[2023-07-28 10:44:48,762] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-28 10:44:48,804] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-28 10:44:48,842] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-28 10:44:49,094] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-28 10:44:49,343] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-28 10:44:49,587] Update_Info - Step 09: Input to email textbox with value: Automation9600@mail.com
+[2023-07-28 10:44:49,634] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-28 10:44:49,670] Update_Info - Step 11: Click to save button
+[2023-07-28 10:44:51,269] Update_Info - Step 12: Verify result
+[2023-07-28 10:44:51,310]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,319]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,329]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,338]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,363]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,387]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,532]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,541]  -------------------------- FAILED -------------------------- 
+[2023-07-28 10:44:51,551]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:51,551] Update_Info - Step 13: Close popup
+[2023-07-28 10:44:51,889] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:44:51,919] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:44:52,789] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:44:56,190] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:44:56,653] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:44:56,707] Add_Address - Step 04: Input data to lastname textbox with value: FC9600
+[2023-07-28 10:44:56,745] Add_Address - Step 05: Input data to email textbox with value: FC9600@mail.com
+[2023-07-28 10:44:56,779] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:44:57,027] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:44:57,069] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:44:57,100] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:44:57,133] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:44:57,163] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:44:57,196] Add_Address - Step 12: Click to save button
+[2023-07-28 10:44:57,292] Add_Address - Step 13: Verify result
+[2023-07-28 10:44:57,368] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:44:57,717] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:44:57,771] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:44:57,808] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:44:57,839] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:44:59,214] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:44:59,253]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:44:59,253] Change_Password - Step 07: Close the bar
+[2023-07-28 10:44:59,482] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:44:59,516] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:45:00,135]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:00,136] Change_Password - Step 10: Click to login link
+[2023-07-28 10:45:00,457] Change_Password - Step 11: Input to email textbox with value: automation9600@mail.com
+[2023-07-28 10:45:00,504] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:45:00,541] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:45:00,885] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:45:00,927]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:00,928] Change_Password - Step 15: Refresh page
+[2023-07-28 10:45:01,947] Change_Password - Step 16: Input to email textbox with value: automation9600@mail.com
+[2023-07-28 10:45:01,988] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:45:02,020] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:45:02,654] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:45:02,702]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:02,711] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:45:02,739] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-28 10:45:03,364] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-28 10:45:03,796] Create_New_Review - Step 04: Click to A Product
+[2023-07-28 10:45:04,337] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-28 10:45:04,680] Create_New_Review - Step 06: Input to review title textbox with value: First review9600
+[2023-07-28 10:45:04,731] Create_New_Review - Step 07: Input to review body textarea with value: First review bacd9600
+[2023-07-28 10:45:04,772] Create_New_Review - Step 08: Click to rating checkbox
+[2023-07-28 10:45:05,075] Create_New_Review - Step 09: Click to Add Your Button
+[2023-07-28 10:45:05,427] Create_New_Review - Step 10: Verify is Product review added successfully
+[2023-07-28 10:45:05,467]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:05,467] Create_New_Review - Step 11: Click to My Account Link
+[2023-07-28 10:45:05,494] Create_New_Review - Step 12: Click to my product review link
+[2023-07-28 10:45:06,160] Create_New_Review - Step 13: Veriry After Update Review
+[2023-07-28 10:45:06,198]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:06,220]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:06,226] OS name = windows 10
+[2023-07-28 10:45:06,226] Driver instance name = firefoxdriver: firefox on windows (07c1669b-b1cc-42a5-bdd8-18c5d1f3af29)
+[2023-07-28 10:45:32,264] Run on FIREFOX
+[2023-07-28 10:45:39,299]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:39,351] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:45:39,382] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:45:40,030] Update_Info - Step 03: Choose Gender
+[2023-07-28 10:45:40,282] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-28 10:45:40,323] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-28 10:45:40,363] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-28 10:45:40,615] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-28 10:45:40,863] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-28 10:45:41,107] Update_Info - Step 09: Input to email textbox with value: edit_automation9326@mail.com
+[2023-07-28 10:45:41,158] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-28 10:45:41,196] Update_Info - Step 11: Click to save button
+[2023-07-28 10:45:42,827] Update_Info - Step 12: Verify result
+[2023-07-28 10:45:42,866]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:42,875]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:42,885]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:42,895]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:42,919]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:42,945]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:43,085]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:43,094]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:43,103]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:43,104] Update_Info - Step 13: Close popup
+[2023-07-28 10:45:43,382] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:45:43,413] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:45:44,298] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:45:47,667] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:45:48,071] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:45:48,139] Add_Address - Step 04: Input data to lastname textbox with value: FC9326
+[2023-07-28 10:45:48,176] Add_Address - Step 05: Input data to email textbox with value: FC9326@mail.com
+[2023-07-28 10:45:48,211] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:45:48,458] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:45:48,490] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:45:48,522] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:45:48,555] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:45:48,585] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:45:48,619] Add_Address - Step 12: Click to save button
+[2023-07-28 10:45:49,280] Add_Address - Step 13: Verify result
+[2023-07-28 10:45:49,296]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,320]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,342]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,363]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,385]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,407]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,429]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,450]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,473]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,494]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:49,494] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:45:49,790] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:45:50,150] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:45:50,198] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:45:50,233] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:45:50,266] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:45:51,610] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:45:51,650]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:51,650] Change_Password - Step 07: Close the bar
+[2023-07-28 10:45:51,879] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:45:51,929] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:45:52,547]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:52,547] Change_Password - Step 10: Click to login link
+[2023-07-28 10:45:52,925] Change_Password - Step 11: Input to email textbox with value: automation9326@mail.com
+[2023-07-28 10:45:52,973] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:45:53,008] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:45:53,333] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:45:53,374]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:45:53,374] Change_Password - Step 15: Refresh page
+[2023-07-28 10:45:54,390] Change_Password - Step 16: Input to email textbox with value: automation9326@mail.com
+[2023-07-28 10:45:54,435] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:45:54,468] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:45:54,803] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:46:14,887] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:46:34,960] OS name = windows 10
+[2023-07-28 10:46:34,960] Driver instance name = firefoxdriver: firefox on windows (634e6a2e-8633-4f66-aa6e-3ff3a3bbb5f2)
+[2023-07-28 10:47:16,004] Run on FIREFOX
+[2023-07-28 10:47:22,814]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:22,868] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:47:22,899] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:47:23,524] Update_Info - Step 03: Choose Gender
+[2023-07-28 10:47:23,776] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-28 10:47:23,816] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-28 10:47:23,853] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-28 10:47:24,105] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-28 10:47:24,362] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-28 10:47:24,604] Update_Info - Step 09: Input to email textbox with value: edit_automation3012@mail.com
+[2023-07-28 10:47:24,653] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-28 10:47:24,689] Update_Info - Step 11: Click to save button
+[2023-07-28 10:47:26,253] Update_Info - Step 12: Verify result
+[2023-07-28 10:47:26,284]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,294]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,303]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,313]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,338]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,362]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,502]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,510]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,519]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:26,519] Update_Info - Step 13: Close popup
+[2023-07-28 10:47:26,801] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:47:26,830] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:47:27,664] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:47:31,000] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:47:31,356] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:47:31,412] Add_Address - Step 04: Input data to lastname textbox with value: FC3012
+[2023-07-28 10:47:31,449] Add_Address - Step 05: Input data to email textbox with value: FC3012@mail.com
+[2023-07-28 10:47:31,484] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:47:31,730] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:47:31,768] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:47:31,804] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:47:31,836] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:47:31,866] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:47:31,900] Add_Address - Step 12: Click to save button
+[2023-07-28 10:47:32,534] Add_Address - Step 13: Verify result
+[2023-07-28 10:47:32,553]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,580]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,601]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,622]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,645]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,666]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,688]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,709]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,732]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,753]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:32,753] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:47:33,003] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:47:33,521] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:47:33,569] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:47:33,605] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:47:33,638] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:47:34,998] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:47:35,037]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:35,037] Change_Password - Step 07: Close the bar
+[2023-07-28 10:47:35,267] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:47:35,303] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:47:35,921]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:35,921] Change_Password - Step 10: Click to login link
+[2023-07-28 10:47:36,237] Change_Password - Step 11: Input to email textbox with value: automation3012@mail.com
+[2023-07-28 10:47:36,287] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:47:36,332] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:47:36,678] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:47:36,719]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:47:36,719] Change_Password - Step 15: Refresh page
+[2023-07-28 10:47:37,730] Change_Password - Step 16: Input to email textbox with value: automation3012@mail.com
+[2023-07-28 10:47:37,775] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:47:37,807] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:47:38,128] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:48:01,220] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:48:21,289] OS name = windows 10
+[2023-07-28 10:48:21,289] Driver instance name = firefoxdriver: firefox on windows (583134c8-cd5d-4557-b607-3bd5064dcb7f)
+[2023-07-28 10:49:36,021] Run on FIREFOX
+[2023-07-28 10:49:50,240] OS name = windows 10
+[2023-07-28 10:49:50,240] Driver instance name = firefoxdriver: firefox on windows (a6fdc19f-c792-412d-9d45-345fde9c6e10)
+[2023-07-28 10:49:50,334] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11228, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a6fdc19f-c792-412d-9d45-345fde9c6e10
+[2023-07-28 10:49:52,590] Run on FIREFOX
+[2023-07-28 10:49:59,400]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:49:59,454] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:49:59,486] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:50:00,148] Update_Info - Step 03: Choose Gender
+[2023-07-28 10:50:00,400] Update_Info - Step 04: Input to firstname textbox with value: Automation
+[2023-07-28 10:50:00,461] Update_Info - Step 05: Input to lastname textbox with value: FC
+[2023-07-28 10:50:00,499] Update_Info - Step 06: Select day of birth with value: 1
+[2023-07-28 10:50:00,751] Update_Info - Step 07: Select month of birth with value: February
+[2023-07-28 10:50:00,999] Update_Info - Step 08: Select year of birth with value: 1988
+[2023-07-28 10:50:01,242] Update_Info - Step 09: Input to email textbox with value: edit_automation952@mail.com
+[2023-07-28 10:50:01,285] Update_Info - Step 10: Input to company name textbox with value: Automation FC
+[2023-07-28 10:50:01,319] Update_Info - Step 11: Click to save button
+[2023-07-28 10:50:02,962] Update_Info - Step 12: Verify result
+[2023-07-28 10:50:02,991]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,001]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,010]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,020]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,045]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,068]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,208]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,216]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,226]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:03,226] Update_Info - Step 13: Close popup
+[2023-07-28 10:50:03,528] Update_Info - Step 01: Click to My Account Link
+[2023-07-28 10:50:03,559] Update_Info - Step 02: Click to Customer Info Link
+[2023-07-28 10:50:04,439] Add_Address - Step 01: Click to Address Linktext
+[2023-07-28 10:50:07,816] Add_Address - Step 02: Click to Add new button
+[2023-07-28 10:50:08,232] Add_Address - Step 03: Input data to firstname textbox with value: automation
+[2023-07-28 10:50:08,286] Add_Address - Step 04: Input data to lastname textbox with value: FC952
+[2023-07-28 10:50:08,325] Add_Address - Step 05: Input data to email textbox with value: FC952@mail.com
+[2023-07-28 10:50:08,375] Add_Address - Step 06: Select Country with value: Albania
+[2023-07-28 10:50:08,635] Add_Address - Step 07: Input data to city textbox with value: HaNoi
+[2023-07-28 10:50:08,681] Add_Address - Step 08: Input data to address 1 textbox with value: HoanKiem
+[2023-07-28 10:50:08,712] Add_Address - Step 09: Input data to address 2 textbox with value: HoanKiem
+[2023-07-28 10:50:08,745] Add_Address - Step 10: Input data to postal code textbox with value: 100000
+[2023-07-28 10:50:08,777] Add_Address - Step 11: Input data to phonenumber textbox with value: 03588452134
+[2023-07-28 10:50:08,811] Add_Address - Step 12: Click to save button
+[2023-07-28 10:50:09,505] Add_Address - Step 13: Verify result
+[2023-07-28 10:50:09,522]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,547]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,568]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,589]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,611]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,631]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,652]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,674]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,696]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,718]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:09,718] Add_Address - Step 14: Click to close noti bar
+[2023-07-28 10:50:09,962] Change_Password - Step 01: Click to change password link
+[2023-07-28 10:50:10,318] Change_Password - Step 02: Input to old password textbox with value: 123456
+[2023-07-28 10:50:10,367] Change_Password - Step 03: Input to new password textbox with value: 123465
+[2023-07-28 10:50:10,402] Change_Password - Step 04: Input to confirm password textbox with value: 123465
+[2023-07-28 10:50:10,433] Change_Password - Step 05: Click to Change Password button
+[2023-07-28 10:50:11,781] Change_Password - Step 06: Verify Successful Notification At Bar
+[2023-07-28 10:50:11,812]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:11,813] Change_Password - Step 07: Close the bar
+[2023-07-28 10:50:12,040] Change_Password - Step 08: Click to  logout link
+[2023-07-28 10:50:12,070] Change_Password - Step 09: Verify register link is displayed
+[2023-07-28 10:50:12,683]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:12,683] Change_Password - Step 10: Click to login link
+[2023-07-28 10:50:13,038] Change_Password - Step 11: Input to email textbox with value: edit_automation952@mail.com
+[2023-07-28 10:50:13,087] Change_Password - Step 12: Input to password textbox with old value: 123456
+[2023-07-28 10:50:13,124] Change_Password - Step 13: Click to Login button
+[2023-07-28 10:50:13,482] Change_Password - Step 14: Verify error messsage for incorrect input
+[2023-07-28 10:50:13,520]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:13,521] Change_Password - Step 15: Refresh page
+[2023-07-28 10:50:14,539] Change_Password - Step 16: Input to email textbox with value: edit_automation952@mail.com
+[2023-07-28 10:50:14,582] Change_Password - Step 17: Input to password textbox with new value: 123465
+[2023-07-28 10:50:14,613] Change_Password - Step 18: Click to Login button
+[2023-07-28 10:50:15,232] Change_Password - Step 19: Verify successful messsage
+[2023-07-28 10:50:18,288]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:18,292] Create_New_Review - Step 01: Click to My Account link
+[2023-07-28 10:50:18,326] Create_New_Review - Step 02: Click to Computers Link
+[2023-07-28 10:50:18,819] Create_New_Review - Step 03: Click to Desktop Link
+[2023-07-28 10:50:19,196] Create_New_Review - Step 04: Click to A Product
+[2023-07-28 10:50:19,688] Create_New_Review - Step 05: Click to Add Your Review
+[2023-07-28 10:50:20,054] Create_New_Review - Step 06: Input to review title textbox with value: First review952
+[2023-07-28 10:50:20,111] Create_New_Review - Step 07: Input to review body textarea with value: First review bacd952
+[2023-07-28 10:50:20,152] Create_New_Review - Step 08: Click to rating checkbox
+[2023-07-28 10:50:20,439] Create_New_Review - Step 09: Click to Add Your Button
+[2023-07-28 10:50:20,785] Create_New_Review - Step 10: Verify is Product review added successfully
+[2023-07-28 10:50:20,822]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:20,823] Create_New_Review - Step 11: Click to My Account Link
+[2023-07-28 10:50:20,849] Create_New_Review - Step 12: Click to my product review link
+[2023-07-28 10:50:22,339] Create_New_Review - Step 13: Veriry After Update Review
+[2023-07-28 10:50:22,376]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:22,398]  -------------------------- PASSED -------------------------- 
+[2023-07-28 10:50:22,401] OS name = windows 10
+[2023-07-28 10:50:22,401] Driver instance name = firefoxdriver: firefox on windows (083d5efe-e557-42ed-b2b3-97ff9f32b17c)
