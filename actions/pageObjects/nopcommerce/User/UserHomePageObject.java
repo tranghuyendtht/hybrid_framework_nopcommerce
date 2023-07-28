@@ -63,4 +63,10 @@ public class UserHomePageObject extends BasePage {
 		return PageGeneratorManager.getUserSearchKeywordPage(driver);
 	}
 
+	public UserComputerProductPageObject clickToLinkTextOnHeaderMenuByText(String parentTitleName) {
+		waitForElementClickable(driver, UserHomePageUI.MENU_LINKTEXT, parentTitleName);
+		clickToElement(driver, UserHomePageUI.MENU_LINKTEXT, parentTitleName);
+		return PageGeneratorManager.getUserComputerProductPage(driver);
+	}
+
 }

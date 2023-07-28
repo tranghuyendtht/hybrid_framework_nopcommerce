@@ -15,6 +15,7 @@ import pageObjects.nopcommerce.Admin.AdminProductPageObject;
 import pageObjects.nopcommerce.User.UserAddressPageObject;
 import pageObjects.nopcommerce.User.UserBackInStockSubscriptionsPageObject;
 import pageObjects.nopcommerce.User.UserChangePasswordPageObject;
+import pageObjects.nopcommerce.User.UserComputerProductPageObject;
 import pageObjects.nopcommerce.User.UserCustomerInfoPageObject;
 import pageObjects.nopcommerce.User.UserDownloadableProductPageObject;
 import pageObjects.nopcommerce.User.UserHomePageObject;
@@ -82,6 +83,10 @@ public class PageGeneratorManager {
 	
 	public static UserSearchKeywordPageObject getUserSearchKeywordPage(WebDriver driver) {
 		return new UserSearchKeywordPageObject(driver);
+	}
+	
+	public static UserComputerProductPageObject getUserComputerProductPage(WebDriver driver) {
+		return new UserComputerProductPageObject(driver);
 	}
 	
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {

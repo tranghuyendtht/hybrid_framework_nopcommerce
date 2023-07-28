@@ -7517,3 +7517,261 @@ Session ID: 847819cc-69ab-434b-a873-a37dd63af95d
 [2023-07-28 15:39:17,046]  -------------------------- PASSED -------------------------- 
 [2023-07-28 15:39:17,049] OS name = windows 10
 [2023-07-28 15:39:17,049] Driver instance name = firefoxdriver: firefox on windows (4fc2240c-835a-4756-9356-7d4b84568be4)
+[2023-07-28 16:29:27,117] Run on FIREFOX
+[2023-07-28 16:29:30,414] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:29:30,817] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:29:32,843] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:29:35,903] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:29:35,944]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:29:35,944] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 16:29:51,109] OS name = windows 10
+[2023-07-28 16:29:51,109] Driver instance name = firefoxdriver: firefox on windows (ddee2ef3-06bb-4b3d-a641-1f74d39af10a)
+[2023-07-28 16:29:51,112] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8784, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ddee2ef3-06bb-4b3d-a641-1f74d39af10a
+[2023-07-28 16:32:29,407] Run on FIREFOX
+[2023-07-28 16:32:32,766] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:32:33,751] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:32:35,776] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:32:38,883] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:32:38,930]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:32:38,930] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 16:32:47,133] OS name = windows 10
+[2023-07-28 16:32:47,133] Driver instance name = firefoxdriver: firefox on windows (7d17b60e-6c23-4749-b2a6-784c39c27277)
+[2023-07-28 16:32:47,136] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17108, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d17b60e-6c23-4749-b2a6-784c39c27277
+[2023-07-28 16:33:07,633] Run on FIREFOX
+[2023-07-28 16:33:11,172] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:33:12,163] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:33:14,188] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:33:17,321] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:33:17,359]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:33:17,408] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 16:33:17,630] OS name = windows 10
+[2023-07-28 16:33:17,630] Driver instance name = firefoxdriver: firefox on windows (135451fc-52cb-46eb-98b8-a94994ea19ae)
+[2023-07-28 16:36:49,324] Run on FIREFOX
+[2023-07-28 16:36:52,714] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:36:53,689] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:36:55,716] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:36:58,865] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:36:58,904]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:36:58,904] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 16:37:20,445] OS name = windows 10
+[2023-07-28 16:37:20,445] Driver instance name = firefoxdriver: firefox on windows (04f07d73-6c9c-43f1-a5ac-1b8f6c8de43f)
+[2023-07-28 16:40:19,118] Run on FIREFOX
+[2023-07-28 16:40:22,489] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:40:23,456] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:40:25,480] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:40:28,783] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:40:28,868]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:40:28,868] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 16:40:31,164] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 16:40:31,421] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 16:40:31,615] OS name = windows 10
+[2023-07-28 16:40:31,615] Driver instance name = firefoxdriver: firefox on windows (c3af9e84-c89a-461e-913f-c3fe55521a99)
+[2023-07-28 16:41:01,906] Run on FIREFOX
+[2023-07-28 16:41:05,319] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:41:06,262] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:41:08,288] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:41:11,412] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:41:11,453]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:41:11,453] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 16:41:13,643] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 16:41:18,906] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 16:41:19,100] OS name = windows 10
+[2023-07-28 16:41:19,100] Driver instance name = firefoxdriver: firefox on windows (37b28174-c1d2-4a9b-bdf7-5e7a5d0a2e22)
+[2023-07-28 16:46:01,955] OS name = windows 10
+[2023-07-28 16:46:01,956] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-28 16:46:11,758] Run on FIREFOX
+[2023-07-28 16:46:15,049] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:46:16,045] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:46:18,073] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:46:21,233] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:46:21,267]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:46:21,267] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 16:46:25,728] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 16:46:30,993] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 16:46:31,079] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 16:46:36,333] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 16:46:36,382] OS name = windows 10
+[2023-07-28 16:46:36,382] Driver instance name = firefoxdriver: firefox on windows (c09c8459-32a3-4c83-b406-c7e9f2d76f53)
+[2023-07-28 16:56:36,870] Run on FIREFOX
+[2023-07-28 16:56:40,223] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 16:56:41,211] Pre-Condition - Step 02: Login page 
+[2023-07-28 16:56:43,235] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 16:56:46,366] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 16:56:46,413]  -------------------------- PASSED -------------------------- 
+[2023-07-28 16:56:46,413] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 16:56:50,867] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 16:56:56,130] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 16:56:56,221] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 16:57:01,478] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 16:57:01,584] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 16:57:06,845] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 16:57:07,039] OS name = windows 10
+[2023-07-28 16:57:07,040] Driver instance name = firefoxdriver: firefox on windows (0a40cbe8-adfa-4954-9b25-b8a3645797cb)
+[2023-07-28 17:00:16,073] OS name = windows 10
+[2023-07-28 17:00:16,074] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-28 17:00:26,128] Run on FIREFOX
+[2023-07-28 17:00:29,477] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:00:30,423] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:00:32,449] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:00:35,586] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:00:35,623]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:00:35,623] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:00:39,997] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:00:45,263] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:00:45,345] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:00:50,596] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:00:50,642] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:00:55,897] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:00:56,048] OS name = windows 10
+[2023-07-28 17:00:56,048] Driver instance name = firefoxdriver: firefox on windows (7950cbcd-8d45-4496-871c-5016fd3166a6)
+[2023-07-28 17:03:02,876] Run on FIREFOX
+[2023-07-28 17:03:06,186] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:03:07,107] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:03:09,132] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:03:12,317] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:03:12,351]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:03:12,351] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:03:16,884] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:03:22,142] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:03:22,230] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:03:27,483] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:03:27,518] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:03:32,769] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:03:32,919] OS name = windows 10
+[2023-07-28 17:03:32,920] Driver instance name = firefoxdriver: firefox on windows (206ebb44-75f1-41d1-8168-dde7d91645d4)
+[2023-07-28 17:06:34,156] OS name = windows 10
+[2023-07-28 17:06:34,156] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-28 17:07:17,746] Run on FIREFOX
+[2023-07-28 17:07:21,308] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:07:22,285] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:07:24,308] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:07:27,482] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:07:27,519]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:07:27,520] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:07:31,493] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:07:36,756] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:07:36,843] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:07:42,091] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:07:42,129] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:07:47,384] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:07:47,538] OS name = windows 10
+[2023-07-28 17:07:47,538] Driver instance name = firefoxdriver: firefox on windows (885bcc28-a324-4eb5-b3b6-846448341328)
+[2023-07-28 17:08:55,180] Run on FIREFOX
+[2023-07-28 17:08:58,422] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:08:59,382] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:09:01,406] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:09:04,559] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:09:04,597]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:09:04,597] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:09:09,009] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:09:14,272] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:09:14,356] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:09:19,613] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:09:19,651] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:09:24,903] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:09:25,136] OS name = windows 10
+[2023-07-28 17:09:25,137] Driver instance name = firefoxdriver: firefox on windows (74a90c74-fed7-4bfa-9804-1306a5adf9e1)
+[2023-07-28 17:10:41,460] Run on FIREFOX
+[2023-07-28 17:10:44,734] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:10:45,717] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:10:47,745] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:10:51,066] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:10:51,103]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:10:51,103] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:10:56,346] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:11:01,608] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:11:01,687] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:11:06,937] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:11:07,039] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:11:12,289] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:11:12,450] OS name = windows 10
+[2023-07-28 17:11:12,451] Driver instance name = firefoxdriver: firefox on windows (92592cb9-820a-4edd-b4a8-777b1d4cb738)
+[2023-07-28 17:13:15,133] Run on FIREFOX
+[2023-07-28 17:13:18,867] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:13:19,806] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:13:21,831] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:13:24,968] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:13:25,003]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:13:25,003] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:13:29,398] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:13:34,661] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:13:34,750] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:13:40,006] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:13:40,103] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:13:45,353] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:13:45,532] OS name = windows 10
+[2023-07-28 17:13:45,532] Driver instance name = firefoxdriver: firefox on windows (0e9c4a36-45a7-4e74-99a3-33c00b0e4418)
+[2023-07-28 17:14:25,088] Run on FIREFOX
+[2023-07-28 17:14:28,534] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:14:29,568] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:14:31,593] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:14:34,782] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:14:34,821]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:14:34,821] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:14:38,754] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:14:44,020] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:14:44,099] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:14:49,346] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:14:49,379] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:14:54,641] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:14:54,885] OS name = windows 10
+[2023-07-28 17:14:54,885] Driver instance name = firefoxdriver: firefox on windows (822515f5-e30c-4775-8768-c7a33e1ca4e5)
+[2023-07-28 17:16:31,636] Run on FIREFOX
+[2023-07-28 17:16:35,012] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:16:36,005] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:16:38,029] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:16:41,147] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:16:41,185]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:16:41,185] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:16:45,112] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:16:50,377] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:16:50,461] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:16:55,710] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:16:55,741] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:17:00,994] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:17:01,235] OS name = windows 10
+[2023-07-28 17:17:01,235] Driver instance name = firefoxdriver: firefox on windows (aeac5c37-c45b-407f-b9a8-34eb4dda3a85)
+[2023-07-28 17:17:54,997] Run on FIREFOX
+[2023-07-28 17:17:58,268] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:17:59,194] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:18:01,218] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:18:04,311] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:18:04,347]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:18:04,348] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:18:08,838] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:18:14,105] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:18:14,194] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:18:19,450] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:18:19,483] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:18:24,732] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:18:24,815] OS name = windows 10
+[2023-07-28 17:18:24,815] Driver instance name = firefoxdriver: firefox on windows (f0b20475-029d-4787-8e08-418775516dc1)
+[2023-07-28 17:20:08,281] OS name = windows 10
+[2023-07-28 17:20:08,281] Cannot invoke "Object.toString()" because "this.driver" is null
+[2023-07-28 17:20:17,985] Run on FIREFOX
+[2023-07-28 17:20:21,382] Pre-Condition - Step 01: Go to Login page 
+[2023-07-28 17:20:22,306] Pre-Condition - Step 02: Login page 
+[2023-07-28 17:20:24,333] Pre-Condition - Step 03: Refresh page 
+[2023-07-28 17:20:27,460] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-28 17:20:27,501]  -------------------------- PASSED -------------------------- 
+[2023-07-28 17:20:27,502] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-28 17:20:31,950] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:20:37,213] Sort_Name_AZ - Step 02: Verify product name is sorted
+[2023-07-28 17:20:37,307] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
+[2023-07-28 17:20:42,562] Sort_Name_ZA - Step 02: Verify product name is sorted
+[2023-07-28 17:20:42,602] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:20:47,850] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
+[2023-07-28 17:20:47,903] Sort_Price_High_To_Low - Step 01: Select product sort order by 'Price: Low to High'
+[2023-07-28 17:20:53,152] Sort_Price_High_To_Low - Step 02: Verify product price is sorted
+[2023-07-28 17:20:53,190] OS name = windows 10
+[2023-07-28 17:20:53,190] Driver instance name = firefoxdriver: firefox on windows (5434f57e-957f-4f66-b9db-453802817c2a)

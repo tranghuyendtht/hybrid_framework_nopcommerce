@@ -15,7 +15,7 @@
 		
 		<classes>
 			<class name="com.nopcommerce.common.Common_01_Register_Cookie"/> 
-			<class name="com.nopcommerce.user.User_Search_Advance_Search" />
+			<class name="com.nopcommerce.user.User_Sort_Display_Paging" />
 		</classes>
 	</test>
 
