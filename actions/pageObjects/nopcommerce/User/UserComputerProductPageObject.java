@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import com.google.common.collect.Ordering;
 
+import PageUIs.nopcommerce.admin.AdminCustomerPageUI;
 import PageUIs.nopcommerce.user.UserComputerProductPageUI;
 import PageUIs.nopcommerce.user.UserHomePageUI;
 import commons.BasePage;
@@ -87,5 +88,66 @@ public class UserComputerProductPageObject extends BasePage{
 		selectItemInDefaultDropDown(driver, UserComputerProductPageUI.PRODUCT_PAGE_SIZE, numberOfRecord);
 		sleepInSecond(5);
 		
+	}
+
+	public boolean isNumberOfProductDisplayedMatch(int maxSize) {
+		int numberOfProduct = 0;
+		boolean pass = true;
+		int numberOfPage = getNumberofPage();
+		
+		for (int i = 1; i <= numberOfPage; i++) {
+			waitForElementClickable(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, String.valueOf(i));
+			clickToElement(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, String.valueOf(i));
+			sleepInSecond(3);
+			
+			List<WebElement> numberOfProductPerPage = getElements(driver, UserComputerProductPageUI.NUMBER_OF_PRODUCT_PER_PAGE);
+			numberOfProduct = numberOfProductPerPage.size();
+			
+			if(numberOfProduct <= maxSize) {
+				pass = true;
+			} else {
+				pass = false;
+			}
+		}
+		return pass;
+		
+	}
+	
+	public int getNumberofPage() {
+		int numberOfPage = 0;
+		List<WebElement> listAllPage = getElements(driver, UserComputerProductPageUI.TOTAL_PAGE);
+		if (listAllPage.size()== 3) {
+			numberOfPage = 2;
+		} else if (listAllPage.size()>3) {
+			numberOfPage = listAllPage.size() - 2;
+		}
+		return numberOfPage;
+	}
+
+	public boolean isNextPageIconDisplayedWhenStayInFirstPage(String numberOfPage) {
+		boolean pass = true;
+		waitForElementClickable(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
+		clickToElement(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
+		sleepInSecond(3);
+		return isElementDisplayed(driver, UserComputerProductPageUI.NEXT_PAGE_ICON);
+		
+	}
+
+	public boolean isPreviousPageIconDisplayedWhenStayInSecondPage(String numberOfPage) {
+		boolean pass = true;
+		waitForElementClickable(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
+		clickToElement(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
+		sleepInSecond(3);
+		return isElementDisplayed(driver, UserComputerProductPageUI.PRIVIOUS_PAGE_ICON);
+		
+		
+	}
+
+	public boolean isPreviousPagingUndisplayed() {
+		return isElementUndisplayed(driver, UserComputerProductPageUI.PRIVIOUS_PAGE_ICON);
+	}
+	
+	public boolean isNextPagingUndisplayed() {
+		return isElementUndisplayed(driver, UserComputerProductPageUI.NEXT_PAGE_ICON);
 	}
 }

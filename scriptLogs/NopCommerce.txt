@@ -1,17 +1,27 @@
-[2023-07-28 17:20:17,985] Run on FIREFOX
-[2023-07-28 17:20:21,382] Pre-Condition - Step 01: Go to Login page 
-[2023-07-28 17:20:22,306] Pre-Condition - Step 02: Login page 
-[2023-07-28 17:20:24,333] Pre-Condition - Step 03: Refresh page 
-[2023-07-28 17:20:27,460] Pre-Condition - Step 04: Verify login successfully 
-[2023-07-28 17:20:27,501]  -------------------------- PASSED -------------------------- 
-[2023-07-28 17:20:27,502] Pre-Condition - Step 05: Open 'Search' page on footer page 
-[2023-07-28 17:20:31,950] Sort_Name_AZ - Step 01: Select product sort order by name A-Z
-[2023-07-28 17:20:37,213] Sort_Name_AZ - Step 02: Verify product name is sorted
-[2023-07-28 17:20:37,307] Sort_Name_ZA - Step 01: Select product sort order by name A-Z
-[2023-07-28 17:20:42,562] Sort_Name_ZA - Step 02: Verify product name is sorted
-[2023-07-28 17:20:42,602] Sort_Price_Low_To_High - Step 01: Select product sort order by 'Price: Low to High'
-[2023-07-28 17:20:47,850] Sort_Price_Low_To_High - Step 02: Verify product price is sorted
-[2023-07-28 17:20:47,903] Sort_Price_High_To_Low - Step 01: Select product sort order by 'Price: Low to High'
-[2023-07-28 17:20:53,152] Sort_Price_High_To_Low - Step 02: Verify product price is sorted
-[2023-07-28 17:20:53,190] OS name = windows 10
-[2023-07-28 17:20:53,190] Driver instance name = firefoxdriver: firefox on windows (5434f57e-957f-4f66-b9db-453802817c2a)
+[2023-07-29 16:38:35,032] Run on FIREFOX
+[2023-07-29 16:38:38,419] Pre-Condition - Step 01: Go to Login page 
+[2023-07-29 16:38:39,443] Pre-Condition - Step 02: Login page 
+[2023-07-29 16:38:41,469] Pre-Condition - Step 03: Refresh page 
+[2023-07-29 16:38:44,617] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-29 16:38:44,652]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:38:44,652] Pre-Condition - Step 05: Open 'Search' page on footer page 
+[2023-07-29 16:38:48,818] Display_3_Products - Step 01: Refresh Page
+[2023-07-29 16:38:50,834] Display_3_Products - Step 02: Select product page size with 3 records/page
+[2023-07-29 16:38:56,094] Display_3_Products - Step 03: Verify product price is sorted
+[2023-07-29 16:39:02,602]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:39:05,870]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:39:09,137]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:39:09,189] Display_6_Products - Step 01: Refresh Page
+[2023-07-29 16:39:11,200] Display_6_Products - Step 02: Select product page size with 6 records/page
+[2023-07-29 16:39:16,237] Display_6_Products - Step 03: Verify product price is sorted
+[2023-07-29 16:39:36,257]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:39:41,315]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:39:46,333]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:39:46,393] Display_9_Products - Step 01: Refresh Page
+[2023-07-29 16:39:48,410] Display_9_Products - Step 02: Select product page size with 9 records/page
+[2023-07-29 16:39:53,675] Display_9_Products - Step 03: Verify product price is sorted
+[2023-07-29 16:40:13,686]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:40:18,707]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:40:23,732]  -------------------------- PASSED -------------------------- 
+[2023-07-29 16:40:23,737] OS name = windows 10
+[2023-07-29 16:40:23,738] Driver instance name = firefoxdriver: firefox on windows (351dcdee-4931-4101-8ac0-1a474799bb1e)
