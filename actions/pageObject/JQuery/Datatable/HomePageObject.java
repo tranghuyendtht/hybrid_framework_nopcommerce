@@ -67,30 +67,30 @@ public class HomePageObject extends BasePage {
 	public List<String> getValueColumnByTitleName(String titleName) {
 		int totalPage = getElementSize(driver, HomePageUI.TOTAL_PAGINATION);
 		System.out.println("Total Size = " + totalPage);
-		List<String> allRowValueAllPage = new ArrayList<String>();
+		List<String> allColumnValueAllPage = new ArrayList<String>();
 
 		// Duyệt qua từng page
 		for (int i = 1; i <= totalPage; i++) {
 			waitForElementClickable(driver, HomePageUI.PAGINATION_PAGE_INDEX, String.valueOf(i));
 			clickToElement(driver, HomePageUI.PAGINATION_PAGE_INDEX, String.valueOf(i));
 
-			// Duyệt qua từng row để lấy các value và đưa vào arraylist
-			List<WebElement> allRowEachPage = getElements(driver, HomePageUI.COLUMN_BY_TITLENAME, titleName);
-			for (WebElement eachRow : allRowEachPage) {
+			// Duyệt qua từng column để lấy các value và đưa vào arraylist
+			List<WebElement> allColumnEachPage = getElements(driver, HomePageUI.COLUMN_BY_TITLENAME, titleName);
+			for (WebElement eachColumn : allColumnEachPage) {
 
-				allRowValueAllPage.add(eachRow.getText());
-				System.out.println(eachRow.getText());
+				allColumnValueAllPage.add(eachColumn.getText());
+				System.out.println(eachColumn.getText());
 			}
 
 		}
 
 		// In các giá trị của các row tất cả page
-		for (String value : allRowValueAllPage) {
+		for (String value : allColumnValueAllPage) {
 
 			System.out.println(value);
 		}
 
-		return allRowValueAllPage;
+		return allColumnValueAllPage;
 	}
 
 	public void enterToTextboxAtRowNumberByColumnName(String columnName, String rowNumber, String inputValue) {

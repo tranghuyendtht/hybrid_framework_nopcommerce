@@ -1,27 +1,30 @@
-[2023-07-29 16:38:35,032] Run on FIREFOX
-[2023-07-29 16:38:38,419] Pre-Condition - Step 01: Go to Login page 
-[2023-07-29 16:38:39,443] Pre-Condition - Step 02: Login page 
-[2023-07-29 16:38:41,469] Pre-Condition - Step 03: Refresh page 
-[2023-07-29 16:38:44,617] Pre-Condition - Step 04: Verify login successfully 
-[2023-07-29 16:38:44,652]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:38:44,652] Pre-Condition - Step 05: Open 'Search' page on footer page 
-[2023-07-29 16:38:48,818] Display_3_Products - Step 01: Refresh Page
-[2023-07-29 16:38:50,834] Display_3_Products - Step 02: Select product page size with 3 records/page
-[2023-07-29 16:38:56,094] Display_3_Products - Step 03: Verify product price is sorted
-[2023-07-29 16:39:02,602]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:39:05,870]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:39:09,137]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:39:09,189] Display_6_Products - Step 01: Refresh Page
-[2023-07-29 16:39:11,200] Display_6_Products - Step 02: Select product page size with 6 records/page
-[2023-07-29 16:39:16,237] Display_6_Products - Step 03: Verify product price is sorted
-[2023-07-29 16:39:36,257]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:39:41,315]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:39:46,333]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:39:46,393] Display_9_Products - Step 01: Refresh Page
-[2023-07-29 16:39:48,410] Display_9_Products - Step 02: Select product page size with 9 records/page
-[2023-07-29 16:39:53,675] Display_9_Products - Step 03: Verify product price is sorted
-[2023-07-29 16:40:13,686]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:40:18,707]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:40:23,732]  -------------------------- PASSED -------------------------- 
-[2023-07-29 16:40:23,737] OS name = windows 10
-[2023-07-29 16:40:23,738] Driver instance name = firefoxdriver: firefox on windows (351dcdee-4931-4101-8ac0-1a474799bb1e)
+[2023-07-31 17:56:21,109] Run on FIREFOX
+[2023-07-31 17:56:26,550] Pre-Condition - Step 01: Go to Login page 
+[2023-07-31 17:56:27,478] Pre-Condition - Step 02: Login page 
+[2023-07-31 17:56:29,503] Pre-Condition - Step 03: Refresh page 
+[2023-07-31 17:56:32,667] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-31 17:56:32,705]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:32,705] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-07-31 17:56:32,752] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-07-31 17:56:33,805] Pre-Condition - Step 06: Click to prroduct
+[2023-07-31 17:56:34,429] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-07-31 17:56:34,666] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-07-31 17:56:34,773]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:34,773] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-07-31 17:56:35,159] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:56:35,181]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,206]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,217]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,228]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,244]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,254]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,254] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-07-31 17:56:38,610] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:56:38,639]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,663]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,674]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,684]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,695]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,704]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,834] OS name = windows 10
+[2023-07-31 17:56:38,834] Driver instance name = firefoxdriver: firefox on windows (97de4a5d-3dc8-42f7-b268-11440370f663)

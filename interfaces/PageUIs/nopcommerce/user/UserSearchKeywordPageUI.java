@@ -9,4 +9,5 @@ public class UserSearchKeywordPageUI {
 	public static final String CATEGORY_DROPDOWN_LIST = "xpath=//select[@id='cid']";
 	public static final String SUB_CATEGORY_DROPDOWN_LIST = "xpath=//select[@id='mid']";
 	public static final String SUB_CATEGORY_CHECKBOX = "xpath=//input[@id='isc']";
+	public static final String PRODUCT_TITLE = "xpath=//h2[@class='product-title']//a[text()='%s']";
 }

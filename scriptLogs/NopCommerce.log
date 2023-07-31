@@ -7945,3 +7945,124 @@ Session ID: 7d17b60e-6c23-4749-b2a6-784c39c27277
 [2023-07-29 16:40:23,732]  -------------------------- PASSED -------------------------- 
 [2023-07-29 16:40:23,737] OS name = windows 10
 [2023-07-29 16:40:23,738] Driver instance name = firefoxdriver: firefox on windows (351dcdee-4931-4101-8ac0-1a474799bb1e)
+[2023-07-31 17:28:06,245] Run on FIREFOX
+[2023-07-31 17:28:09,097] Pre-Condition - Step 01: Go to Login page 
+[2023-07-31 17:28:10,030] Pre-Condition - Step 02: Login page 
+[2023-07-31 17:28:12,055] Pre-Condition - Step 03: Refresh page 
+[2023-07-31 17:28:15,214] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-31 17:28:15,257]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:28:15,257] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-07-31 17:28:15,309] Pre-Condition - Step 06: Click to prroduct
+[2023-07-31 17:28:29,217] OS name = windows 10
+[2023-07-31 17:28:29,217] Driver instance name = firefoxdriver: firefox on windows (47450b7f-a7cb-4a03-9389-ddbc6f1a5ed4)
+[2023-07-31 17:28:29,304] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13204, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 47450b7f-a7cb-4a03-9389-ddbc6f1a5ed4
+[2023-07-31 17:31:13,174] Run on FIREFOX
+[2023-07-31 17:31:16,557] Pre-Condition - Step 01: Go to Login page 
+[2023-07-31 17:31:17,498] Pre-Condition - Step 02: Login page 
+[2023-07-31 17:31:19,523] Pre-Condition - Step 03: Refresh page 
+[2023-07-31 17:31:22,660] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-31 17:31:22,707]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:31:22,708] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-07-31 17:31:22,754] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-07-31 17:31:23,746] Pre-Condition - Step 06: Click to prroduct
+[2023-07-31 17:31:24,514] OS name = windows 10
+[2023-07-31 17:31:24,514] Driver instance name = firefoxdriver: firefox on windows (e73f37e6-1366-4a27-8b98-77875e182d80)
+[2023-07-31 17:32:18,368] Run on FIREFOX
+[2023-07-31 17:32:21,720] Pre-Condition - Step 01: Go to Login page 
+[2023-07-31 17:32:22,650] Pre-Condition - Step 02: Login page 
+[2023-07-31 17:32:24,674] Pre-Condition - Step 03: Refresh page 
+[2023-07-31 17:32:27,785] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-31 17:32:27,824]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:32:27,824] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-07-31 17:32:27,871] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-07-31 17:32:28,904] Pre-Condition - Step 06: Click to prroduct
+[2023-07-31 17:32:29,560] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-07-31 17:32:29,798] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-07-31 17:32:29,880]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:32:29,880] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-07-31 17:32:30,920] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:32:30,936]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:32:31,175] OS name = windows 10
+[2023-07-31 17:32:31,176] Driver instance name = firefoxdriver: firefox on windows (24099059-426f-4a24-af77-c9fc50b98e0c)
+[2023-07-31 17:35:40,107] Run on FIREFOX
+[2023-07-31 17:35:43,480] Pre-Condition - Step 01: Go to Login page 
+[2023-07-31 17:35:44,457] Pre-Condition - Step 02: Login page 
+[2023-07-31 17:35:46,482] Pre-Condition - Step 03: Refresh page 
+[2023-07-31 17:35:49,611] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-31 17:35:49,645]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:35:49,645] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-07-31 17:35:49,689] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-07-31 17:35:51,279] Pre-Condition - Step 06: Click to prroduct
+[2023-07-31 17:35:52,649] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-07-31 17:35:52,885] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-07-31 17:35:53,005]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:35:53,006] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-07-31 17:35:54,042] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:35:54,056]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:35:54,273] OS name = windows 10
+[2023-07-31 17:35:54,273] Driver instance name = firefoxdriver: firefox on windows (590ddf53-3d3b-4c93-97a5-1b071d3135d2)
+[2023-07-31 17:55:34,173] Run on FIREFOX
+[2023-07-31 17:55:37,505] Pre-Condition - Step 01: Go to Login page 
+[2023-07-31 17:55:38,474] Pre-Condition - Step 02: Login page 
+[2023-07-31 17:55:40,503] Pre-Condition - Step 03: Refresh page 
+[2023-07-31 17:55:43,649] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-31 17:55:43,686]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:43,686] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-07-31 17:55:43,734] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-07-31 17:55:44,787] Pre-Condition - Step 06: Click to prroduct
+[2023-07-31 17:55:45,460] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-07-31 17:55:45,701] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-07-31 17:55:45,826]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:45,826] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-07-31 17:55:46,204] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:55:46,238]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,263]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,274]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,284]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,300]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,310]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,310] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-07-31 17:55:46,661] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:55:46,680]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,703]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,713]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,723]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,732]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,742]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:55:46,820] OS name = windows 10
+[2023-07-31 17:55:46,820] Driver instance name = firefoxdriver: firefox on windows (ee684cdf-38bb-4ef4-b2bf-5729414a899f)
+[2023-07-31 17:56:21,109] Run on FIREFOX
+[2023-07-31 17:56:26,550] Pre-Condition - Step 01: Go to Login page 
+[2023-07-31 17:56:27,478] Pre-Condition - Step 02: Login page 
+[2023-07-31 17:56:29,503] Pre-Condition - Step 03: Refresh page 
+[2023-07-31 17:56:32,667] Pre-Condition - Step 04: Verify login successfully 
+[2023-07-31 17:56:32,705]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:32,705] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-07-31 17:56:32,752] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-07-31 17:56:33,805] Pre-Condition - Step 06: Click to prroduct
+[2023-07-31 17:56:34,429] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-07-31 17:56:34,666] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-07-31 17:56:34,773]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:34,773] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-07-31 17:56:35,159] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:56:35,181]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,206]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,217]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,228]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,244]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,254]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:35,254] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-07-31 17:56:38,610] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-07-31 17:56:38,639]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,663]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,674]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,684]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,695]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,704]  -------------------------- PASSED -------------------------- 
+[2023-07-31 17:56:38,834] OS name = windows 10
+[2023-07-31 17:56:38,834] Driver instance name = firefoxdriver: firefox on windows (97de4a5d-3dc8-42f7-b268-11440370f663)

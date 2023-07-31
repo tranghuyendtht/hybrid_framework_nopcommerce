@@ -8,6 +8,7 @@ import pageObjects.nopcommerce.User.UserProductListPageObject;
 import pageObjects.nopcommerce.User.UserRegisterPageObject;
 import pageObjects.nopcommerce.User.UserRewardPointsPageObject;
 import pageObjects.nopcommerce.User.UserSearchKeywordPageObject;
+import pageObjects.nopcommerce.User.UserWishListPageObject;
 import pageObjects.Facebook.LoginPageObject;
 import pageObjects.nopcommerce.Admin.AdminDashboardPageObject;
 import pageObjects.nopcommerce.Admin.AdminLoginPageObject;
@@ -89,6 +90,10 @@ public class PageGeneratorManager {
 		return new UserComputerProductPageObject(driver);
 	}
 	
+	public static UserWishListPageObject getUserWishListPage(WebDriver driver) {
+		return new UserWishListPageObject(driver);
+	}
+	
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
 		return new AdminLoginPageObject(driver);
 	}
@@ -100,5 +105,7 @@ public class PageGeneratorManager {
 	public static AdminProductPageObject getAdminProductPage(WebDriver driver) {
 		return new AdminProductPageObject(driver);
 	}
+	
+	
 
 }

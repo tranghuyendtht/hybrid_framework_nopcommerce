@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import PageUIs.nopcommerce.user.UserProductDetailUI;
 import commons.BasePage;
+import commons.PageGeneratorManager;
 
 public class UserProductDetailPageObject extends BasePage{
 	private WebDriver driver;
@@ -43,6 +44,33 @@ public class UserProductDetailPageObject extends BasePage{
 	public String getSuccessfulReviewMessage() {
 		waitForElementVisible(driver, UserProductDetailUI.REVIEW_SUCCESS_MESSAGE);
 		return getElementText(driver, UserProductDetailUI.REVIEW_SUCCESS_MESSAGE);
+	}
+
+	public void clickToAddToWishlistButton() {
+		waitForElementClickable(driver, UserProductDetailUI.ADD_TO_WISHLISH_BUTTON);
+		clickToElement(driver, UserProductDetailUI.ADD_TO_WISHLISH_BUTTON);
+		
+	}
+
+	public String isSuccessMessageDisplayed() {
+		waitForElementVisible(driver, UserProductDetailUI.ADDED_SUCCESS_MESSAGE);
+		return getElementText(driver, UserProductDetailUI.ADDED_SUCCESS_MESSAGE);
+	}
+
+	public UserWishListPageObject clickToWishlistLinkText() {
+		waitForElementClickable(driver, UserProductDetailUI.WISHLIST_LINKTEXT);
+		clickToElement(driver, UserProductDetailUI.WISHLIST_LINKTEXT);
+		return PageGeneratorManager.getUserWishListPage(driver);
+	}
+
+	public String getSKUProduct() {
+		waitForElementVisible(driver, UserProductDetailUI.SKU_PRODUCT);
+		return getElementText(driver, UserProductDetailUI.SKU_PRODUCT);
+	}
+
+	public String getPriceProduct() {
+		waitForElementVisible(driver, UserProductDetailUI.PRICE_PRODUCT);
+		return getElementText(driver, UserProductDetailUI.PRICE_PRODUCT);
 	}
 
 }

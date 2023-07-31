@@ -9,6 +9,7 @@ import org.testng.Assert;
 
 import PageUIs.nopcommerce.user.UserSearchKeywordPageUI;
 import commons.BasePage;
+import commons.PageGeneratorManager;
 
 public class UserSearchKeywordPageObject extends BasePage {
 	
@@ -79,5 +80,13 @@ public class UserSearchKeywordPageObject extends BasePage {
 		selectItemInDefaultDropDown(driver, UserSearchKeywordPageUI.SUB_CATEGORY_DROPDOWN_LIST, textValue);
 		sleepInSecond(1);
 	}
+
+	public UserProductDetailPageObject clickToProductTitle(String productTitle) {
+		waitForElementClickable(driver, UserSearchKeywordPageUI.PRODUCT_TITLE, productTitle);
+		clickToElement(driver, UserSearchKeywordPageUI.PRODUCT_TITLE, productTitle);
+		return PageGeneratorManager.getUserAProductInfoDetail(driver);
+	}
+
+		
 
 }
