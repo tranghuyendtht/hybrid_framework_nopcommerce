@@ -8066,3 +8066,81 @@ Session ID: 47450b7f-a7cb-4a03-9389-ddbc6f1a5ed4
 [2023-07-31 17:56:38,704]  -------------------------- PASSED -------------------------- 
 [2023-07-31 17:56:38,834] OS name = windows 10
 [2023-07-31 17:56:38,834] Driver instance name = firefoxdriver: firefox on windows (97de4a5d-3dc8-42f7-b268-11440370f663)
+[2023-08-02 16:02:00,613] Run on FIREFOX
+[2023-08-02 16:02:08,150] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-02 16:02:08,337] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-02 16:02:11,118] Pre-Condition - Step 06: Click to prroduct
+[2023-08-02 16:02:12,569] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-02 16:02:12,809] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-02 16:02:12,896]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:12,896] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-02 16:02:13,941] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-02 16:02:14,030]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,057]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,068]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,079]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,097]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,107]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,107] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-02 16:02:14,456] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-02 16:02:14,479]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,506]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,516]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,526]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,536]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,545]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:14,672] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-02 16:02:14,907] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-02 16:02:16,210] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-02 16:02:16,226]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:16,249]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:16,260]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:16,272]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:16,288]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:16,298]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:02:16,298] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-02 16:02:16,640] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-02 16:02:36,829] OS name = windows 10
+[2023-08-02 16:02:36,829] Driver instance name = firefoxdriver: firefox on windows (74183eff-13ea-4f32-917f-f8710855be16)
+[2023-08-02 16:03:22,863] Run on FIREFOX
+[2023-08-02 16:03:26,725] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-02 16:03:26,822] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-02 16:03:27,938] Pre-Condition - Step 06: Click to prroduct
+[2023-08-02 16:03:29,316] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-02 16:03:29,557] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-02 16:03:29,635]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:29,635] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-02 16:03:30,708] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-02 16:03:30,723]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:30,751]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:30,762]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:30,773]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:30,792]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:30,804]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:30,804] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-02 16:03:31,161] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-02 16:03:31,181]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:31,206]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:31,217]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:31,228]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:31,237]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:31,246]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:31,304] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-02 16:03:36,541] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-02 16:03:37,475] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-02 16:03:37,493]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:37,519]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:37,530]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:37,541]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:37,562]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:37,572]  -------------------------- PASSED -------------------------- 
+[2023-08-02 16:03:37,572] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-02 16:03:37,924] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-02 16:03:46,219] OS name = windows 10
+[2023-08-02 16:03:46,219] Driver instance name = firefoxdriver: firefox on windows (95854d97-7bd7-4f56-ae74-0791d30469fb)
+[2023-08-02 16:03:46,315] Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15488, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 95854d97-7bd7-4f56-ae74-0791d30469fb

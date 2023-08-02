@@ -18,6 +18,7 @@ import pageObjects.nopcommerce.User.UserHomePageObject;
 import pageObjects.nopcommerce.User.UserLoginPageObject;
 import pageObjects.nopcommerce.User.UserProductDetailPageObject;
 import pageObjects.nopcommerce.User.UserSearchKeywordPageObject;
+import pageObjects.nopcommerce.User.UserShoppingCartPageObject;
 import pageObjects.nopcommerce.User.UserWishListPageObject;
 
 public class User_Wishlist_Compare_RecentView extends BaseTest {
@@ -29,6 +30,7 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 	UserSearchKeywordPageObject userSearchKeywordPage;
 	UserProductDetailPageObject userProductDetailPage;
 	UserWishListPageObject userWishListPage;
+	UserShoppingCartPageObject userShoppingCartPage;
 	
 	String productNotebooksUrl;
 	String keyword, skuProduct, priceProduct;
@@ -44,18 +46,18 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 		keyword = "Lenovo IdeaCentre 600 All-in-One PC";
 		quantityProduct = 1;
 
-		log.info("Pre-Condition - Step 01: Go to Login page ");
-		userLoginPage = userHomePage.openLoginPage();
-
-		log.info("Pre-Condition - Step 02: Login page ");
-		userLoginPage.setCookies(driver, Common_01_Register_Cookie.loggedCookies);
-
-		log.info("Pre-Condition - Step 03: Refresh page ");
-		userLoginPage.refreshPage(driver);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
-
-		log.info("Pre-Condition - Step 04: Verify login successfully ");
-		verifyTrue(userHomePage.isMyAccountLinkIsDisplay());
+//		log.info("Pre-Condition - Step 01: Go to Login page ");
+//		userLoginPage = userHomePage.openLoginPage();
+//
+//		log.info("Pre-Condition - Step 02: Login page ");
+//		userLoginPage.setCookies(driver, Common_01_Register_Cookie.loggedCookies);
+//
+//		log.info("Pre-Condition - Step 03: Refresh page ");
+//		userLoginPage.refreshPage(driver);
+//		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+//
+//		log.info("Pre-Condition - Step 04: Verify login successfully ");
+//		verifyTrue(userHomePage.isMyAccountLinkIsDisplay());
 
 		log.info("Pre-Condition - Step 05: Search product on 'Search' textbox");
 		userHomePage.inputKeywordToSearchTextbox(keyword);
@@ -108,13 +110,29 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 		
 	}
 
-	//@Test
+	@Test
 	public void TC_02_Add_Product_To_Cart_From_Wishlist_Page() {
 		log.info("Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product");
+		
+		userWishListPage.clickToAddToCartCheckbox();
+		
 		log.info("Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page");
+		
+		userShoppingCartPage = userWishListPage.clickToAddToCartButton();
+		
 		log.info("Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart");
+		verifyTrue(userShoppingCartPage.isSKUProductAddedOnWishlistPage(skuProduct));
+		verifyTrue(userShoppingCartPage.isImageDisplayed());
+		verifyTrue(userShoppingCartPage.isProductNameAddedOnWishlistPage(keyword));
+		verifyTrue(userShoppingCartPage.isProductPriceAddedOnWishlistPage(priceProduct));
+		verifyTrue(userShoppingCartPage.isProductQuantityAddedOnWishlistPage(quantityProduct));
+		verifyTrue(userShoppingCartPage.isProductTotalAddedOnWishlistPage(priceProduct));
+		
 		log.info("Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer");
+		userWishListPage = userShoppingCartPage.clickToWishlistLinktext();
+		
 		log.info("Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page");
+		verifyTrue(userWishListPage.isProductUndisplayed());
 		
 	}
 
