@@ -10,4 +10,8 @@ public class UserSearchKeywordPageUI {
 	public static final String SUB_CATEGORY_DROPDOWN_LIST = "xpath=//select[@id='mid']";
 	public static final String SUB_CATEGORY_CHECKBOX = "xpath=//input[@id='isc']";
 	public static final String PRODUCT_TITLE = "xpath=//h2[@class='product-title']//a[text()='%s']";
+	public static final String PRICE_PRODUCT = "xpath=//span[@class='price actual-price']";
+	public static final String ADD_TO_COMPARE_LIST_ICON_BY_PRODUCT_NAME = "xpath=//a[text()='%s']//parent::h2//following-sibling::div[@class='add-info']//button[@class='button-2 add-to-compare-list-button']";
+	public static final String ADDED_SUCCESS_MESSAGE = "xpath=//div[@class='bar-notification success']//p";
+	public static final String COMPARISON_PRODUCT_LINKTEXT = "xpath=//a[text()='product comparison']";
 }

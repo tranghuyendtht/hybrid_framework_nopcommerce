@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import PageUIs.nopcommerce.admin.AdminDashboardPageUI;
 import pageObjects.nopcommerce.User.UserProductDetailPageObject;
 import pageObjects.nopcommerce.User.UserProductListPageObject;
+import pageObjects.nopcommerce.User.UserRecentlyViewedProductsPageObject;
 import pageObjects.nopcommerce.User.UserRegisterPageObject;
 import pageObjects.nopcommerce.User.UserRewardPointsPageObject;
 import pageObjects.nopcommerce.User.UserSearchKeywordPageObject;
@@ -17,6 +18,7 @@ import pageObjects.nopcommerce.Admin.AdminProductPageObject;
 import pageObjects.nopcommerce.User.UserAddressPageObject;
 import pageObjects.nopcommerce.User.UserBackInStockSubscriptionsPageObject;
 import pageObjects.nopcommerce.User.UserChangePasswordPageObject;
+import pageObjects.nopcommerce.User.UserCompareProductsPageObject;
 import pageObjects.nopcommerce.User.UserComputerProductPageObject;
 import pageObjects.nopcommerce.User.UserCustomerInfoPageObject;
 import pageObjects.nopcommerce.User.UserDownloadableProductPageObject;
@@ -97,6 +99,14 @@ public class PageGeneratorManager {
 	
 	public static UserShoppingCartPageObject getUserShoppingCartPage(WebDriver driver) {
 		return new UserShoppingCartPageObject(driver);
+	}
+	
+	public static UserCompareProductsPageObject getUserCompareProductsPage(WebDriver driver) {
+		return new UserCompareProductsPageObject(driver);
+	}
+	
+	public static UserRecentlyViewedProductsPageObject getUserRecentlyViewedProductsPage(WebDriver driver) {
+		return new UserRecentlyViewedProductsPageObject(driver);
 	}
 	
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {

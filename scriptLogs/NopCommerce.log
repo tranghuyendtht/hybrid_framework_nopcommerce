@@ -8144,3 +8144,945 @@ System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.ar
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15488, moz:profile: C:\Users\HOANGT~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 95854d97-7bd7-4f56-ae74-0791d30469fb
+[2023-08-03 11:11:47,469] Run on IE
+[2023-08-03 11:16:53,641] OS name = windows 10
+[2023-08-03 11:16:53,641] Driver instance name = internetexplorerdriver: internet explorer on windows (6324a024-93e6-495e-a12b-f10738c36d71)
+[2023-08-03 11:16:54,418] java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:38967
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TRANGDTH', ip: '192.168.1.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+[2023-08-03 11:17:20,334] Run on EDGE
+[2023-08-03 11:17:29,791] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 11:17:29,946] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 11:17:31,335] Pre-Condition - Step 06: Click to prroduct
+[2023-08-03 11:17:32,810] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 11:17:32,881] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 11:17:33,195]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:33,195] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 11:17:34,284] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 11:17:34,397]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:34,437]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:34,460]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:34,483]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:34,517]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:34,540]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:34,540] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 11:17:34,931] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 11:17:34,951]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:34,984]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:35,006]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:35,026]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:35,049]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:35,065]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:35,118] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 11:17:35,183] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 11:17:36,632] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 11:17:36,667]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:36,697]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:36,715]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:36,733]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:36,753]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:36,772]  -------------------------- PASSED -------------------------- 
+[2023-08-03 11:17:36,772] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 11:17:37,139] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 11:17:57,301] OS name = windows 10
+[2023-08-03 11:17:57,301] Driver instance name = edgedriver: msedge on windows (59bbb878f7b9730980f1bdaa0158dec0)
+[2023-08-03 16:03:06,985] Run on CHROME
+[2023-08-03 16:03:10,546] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:03:10,702] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:03:11,981] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:03:13,430] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:03:13,497] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:03:13,888]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:13,888] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:03:14,326] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:03:14,356]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,398]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,423]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,447]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,473]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,497]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,497] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:03:14,884] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:03:14,910]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,943]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,963]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:14,982]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:15,005]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:15,025]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:15,079] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:03:15,149] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:03:16,596] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:03:16,617]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:16,652]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:16,671]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:16,692]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:16,711]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:16,730]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:16,730] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:03:17,121] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:03:37,284] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:03:37,374] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:03:37,832] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:03:38,316] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:03:38,371] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:03:38,731]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:03:38,731] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:03:39,119] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:03:39,528] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:03:59,634] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:03:59,742] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:04:00,183] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:04:00,244] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:04:00,540]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:04:00,540] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:04:00,626] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:04:21,286] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:04:21,375] OS name = windows 10
+[2023-08-03 16:04:21,375] Driver instance name = chromedriver: chrome on windows (afb03679d5b3ed7fe28075bd261b0cb3)
+[2023-08-03 16:06:41,693] Run on FIREFOX
+[2023-08-03 16:06:47,237] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:06:47,330] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:06:49,128] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:06:49,983] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:06:50,221] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:06:50,405]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:50,405] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:06:50,855] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:06:50,873]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:50,898]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:50,909]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:50,919]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:50,936]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:50,947]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:50,947] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:06:51,328] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:06:51,345]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:51,368]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:51,378]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:51,389]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:51,398]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:51,407]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:51,541] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:06:51,776] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:06:52,553] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:06:52,573]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:52,598]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:52,609]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:52,620]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:52,636]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:52,646]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:06:52,646] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:06:53,527] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:07:13,634] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:07:13,681] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:07:14,866] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:07:15,309] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:07:15,559] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:07:15,673]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:07:15,673] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:07:16,079] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:07:18,612] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:07:38,692] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:07:38,742] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:07:39,198] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:07:39,451] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:07:39,550]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:07:39,550] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:07:39,590] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:08:00,097] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:08:00,157] OS name = windows 10
+[2023-08-03 16:08:00,157] Driver instance name = firefoxdriver: firefox on windows (b7bae4f1-e2ff-4f03-9a0a-dc5bb24c186c)
+[2023-08-03 16:11:56,561] Run on FIREFOX
+[2023-08-03 16:12:00,526] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:12:00,630] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:12:01,725] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:12:03,055] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:12:03,299] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:12:03,379]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:03,379] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:12:04,505] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:12:04,521]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:04,548]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:04,559]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:04,570]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:04,587]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:04,598]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:04,598] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:12:04,954] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:12:04,976]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:05,003]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:05,013]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:05,023]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:05,033]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:05,043]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:05,101] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:12:05,338] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:12:06,712] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:12:06,733]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:06,761]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:06,774]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:06,784]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:06,805]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:06,813]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:06,814] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:12:07,159] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:12:27,253] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:12:27,298] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:12:28,402] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:12:28,808] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:12:29,060] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:12:29,134]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:29,134] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:12:29,480] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:12:29,873] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:12:29,922]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:29,925] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:12:29,965] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:12:30,401] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:12:30,644] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:12:30,711]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:30,711] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:12:30,748] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:12:31,261] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:12:31,505] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:12:31,587]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:31,587] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:12:31,964] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:12:32,006]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:12:32,179] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:12:34,537] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:12:34,541]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:12:34,649] OS name = windows 10
+[2023-08-03 16:12:34,649] Driver instance name = firefoxdriver: firefox on windows (c38add10-44bd-4047-9d61-a5a9eb8a0f1e)
+[2023-08-03 16:16:47,422] Run on FIREFOX
+[2023-08-03 16:16:51,284] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:16:51,380] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:16:52,529] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:16:53,227] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:16:53,470] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:16:53,587]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:53,587] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:16:54,013] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:16:54,040]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,068]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,080]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,091]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,110]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,121]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,121] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:16:54,504] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:16:54,526]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,551]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,561]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,571]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,581]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,590]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:54,649] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:16:54,883] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:16:55,643] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:16:55,668]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:55,692]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:55,702]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:55,711]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:55,727]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:55,736]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:16:55,736] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:16:56,595] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:17:16,696] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:17:16,740] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:17:17,191] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:17:17,655] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:17:17,907] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:17:18,031]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:18,031] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:17:18,413] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:17:18,798] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:17:18,846]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:18,853] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:17:18,901] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:17:19,312] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:17:19,558] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:17:19,641]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:19,641] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:17:19,680] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:17:20,149] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:17:20,383] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:17:20,445]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:20,445] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:17:20,812] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:17:20,859]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:20,863]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:17:20,866]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:17:20,897]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:20,928]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:20,958]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:20,988]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:20,988] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:17:21,024] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:17:21,641]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:17:21,694] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:17:24,093] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:17:24,096]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:17:24,272] OS name = windows 10
+[2023-08-03 16:17:24,272] Driver instance name = firefoxdriver: firefox on windows (5b721e15-80fa-491f-a814-3d90c84306be)
+[2023-08-03 16:18:50,484] Run on FIREFOX
+[2023-08-03 16:18:54,310] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:18:54,404] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:18:55,576] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:18:56,297] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:18:56,539] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:18:56,666]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:56,666] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:18:57,074] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:18:57,098]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,127]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,139]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,150]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,168]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,178]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,178] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:18:57,544] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:18:57,566]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,591]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,601]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,611]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,620]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,630]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:57,748] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:18:57,980] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:18:58,683] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:18:58,705]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:58,730]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:58,740]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:58,749]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:58,764]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:58,774]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:18:58,774] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:18:59,635] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:19:19,739] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:19:19,783] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:19:20,222] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:19:20,669] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:19:20,924] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:19:21,023]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:21,024] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:19:21,411] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:19:21,811] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:19:21,869]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:21,872] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:19:21,911] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:19:22,307] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:19:22,548] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:19:22,608]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:22,608] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:19:22,651] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:19:23,137] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:19:23,369] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:19:23,434]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:23,434] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:19:23,796] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:19:23,834]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:23,838]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:19:23,842]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:19:23,875]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:23,905]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:23,936]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:23,965]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:23,965] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:19:23,999] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:19:24,630]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:19:24,713] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:19:27,086] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:19:27,090]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:19:27,189] OS name = windows 10
+[2023-08-03 16:19:27,189] Driver instance name = firefoxdriver: firefox on windows (f52316ee-155d-4f12-8eeb-f2fac688b94c)
+[2023-08-03 16:20:43,939] Run on FIREFOX
+[2023-08-03 16:20:47,896] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:20:47,992] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:20:49,207] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:20:49,913] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:20:50,155] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:20:50,250]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:50,250] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:20:50,667] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:20:50,693]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:50,721]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:50,732]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:50,743]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:50,762]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:50,773]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:50,773] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:20:51,226] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:20:51,248]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:51,273]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:51,283]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:51,294]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:51,305]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:51,314]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:51,368] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:20:51,600] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:20:52,317] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:20:52,341]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:52,366]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:52,376]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:52,386]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:52,401]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:52,410]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:20:52,411] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:20:53,234] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:21:13,419] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:21:13,464] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:21:13,930] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:21:14,346] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:21:14,600] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:21:14,696]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:14,696] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:21:15,048] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:21:15,432] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:21:15,494]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:15,501] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:21:15,539] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:21:15,933] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:21:16,174] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:21:16,270]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:16,270] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:21:16,306] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:21:16,794] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:21:17,025] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:21:17,083]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:17,084] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:21:17,440] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:21:17,479]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:17,483]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:21:17,515]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:17,544]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:17,576]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:17,606]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:17,606] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:21:17,638] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:21:18,247]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:18,297] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:21:20,698] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:21:20,708]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:21:20,819] OS name = windows 10
+[2023-08-03 16:21:20,819] Driver instance name = firefoxdriver: firefox on windows (169f18ea-1d89-4a09-b0d8-e596c524c6cf)
+[2023-08-03 16:26:34,608] Run on FIREFOX
+[2023-08-03 16:26:38,596] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:26:38,694] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:26:39,807] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:26:40,585] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:26:40,825] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:26:40,967]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:40,967] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:26:41,353] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:26:41,385]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,414]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,426]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,437]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,455]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,466]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,466] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:26:41,813] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:26:41,835]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,861]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,871]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,882]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,892]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,900]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:41,958] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:26:42,192] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:26:42,936] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:26:42,959]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:42,984]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:42,995]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:43,003]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:43,019]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:43,029]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:26:43,029] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:26:43,859] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:27:04,011] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:27:04,056] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:27:04,487] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:27:04,901] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:27:05,152] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:27:05,257]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:05,258] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:27:05,607] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:27:05,969] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:27:06,016]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:06,020] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:27:06,060] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:27:06,453] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:27:06,706] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:27:06,760]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:06,761] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:27:06,799] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:27:07,221] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:27:07,453] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:27:07,506]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:07,506] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:27:07,863] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:27:07,899]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:07,903]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:27:07,932]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:07,965]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:07,996]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:08,027]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:08,027] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:27:08,066] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:27:08,660]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:08,726] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:27:11,094] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:27:11,098]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:11,196] OS name = windows 10
+[2023-08-03 16:27:11,196] Driver instance name = firefoxdriver: firefox on windows (254e610b-a7d1-4fd5-a8b2-602fd0a3a8bc)
+[2023-08-03 16:27:48,026] Run on FIREFOX
+[2023-08-03 16:27:51,912] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:27:52,005] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:27:53,129] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:27:53,777] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:27:54,016] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:27:54,124]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:54,124] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:27:54,553] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:27:54,579]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:54,606]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:54,619]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:54,630]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:54,646]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:54,657]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:54,657] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:27:55,025] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:27:55,046]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:55,072]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:55,082]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:55,092]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:55,102]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:55,111]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:55,165] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:27:55,399] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:27:56,101] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:27:56,134]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:56,159]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:56,169]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:56,178]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:56,193]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:56,202]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:27:56,203] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:27:57,035] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:28:17,138] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:28:17,182] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:28:18,285] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:28:18,723] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:28:18,977] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:28:19,070]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:19,070] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:28:19,430] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:28:19,833] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:28:19,880]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:19,884] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:28:19,926] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:28:20,354] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:28:20,597] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:28:20,653]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:20,653] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:28:20,689] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:28:21,124] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:28:21,354] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:28:21,935]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:21,935] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:28:22,329] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:28:22,387]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:22,391]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:28:22,424]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:22,457]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:22,491]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:22,521]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:22,521] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:28:22,558] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:28:23,186]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:23,319] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:28:25,681] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:28:25,684]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:28:25,785] OS name = windows 10
+[2023-08-03 16:28:25,785] Driver instance name = firefoxdriver: firefox on windows (04bf5742-be11-4961-97b1-10e7048465ce)
+[2023-08-03 16:34:29,428] Run on FIREFOX
+[2023-08-03 16:34:33,388] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:34:33,484] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:34:34,647] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:34:35,365] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:34:35,608] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:34:35,721]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:35,721] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:34:36,140] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:34:36,159]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,186]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,197]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,208]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,226]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,237]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,237] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:34:36,591] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:34:36,610]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,635]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,644]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,655]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,664]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,673]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:36,728] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:34:36,960] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:34:37,695] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:34:37,708]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:37,732]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:37,742]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:37,751]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:37,767]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:37,776]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:37,776] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:34:38,616] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:34:58,780] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:34:58,825] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:34:59,270] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:34:59,661] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:34:59,913] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:34:59,989]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:34:59,989] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:35:00,353] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:35:00,718] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:35:00,772]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:00,779] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:35:00,823] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:35:01,246] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:35:01,495] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:35:01,562]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:01,562] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:35:01,598] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:35:02,017] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:35:02,250] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:35:02,312]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:02,312] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:35:02,673] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:35:02,712]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:02,716]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:35:02,747]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:02,778]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:02,808]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:02,838]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:02,838] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:35:02,870] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:35:03,474]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:03,524] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:35:05,876] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:35:05,897]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:35:05,999] OS name = windows 10
+[2023-08-03 16:35:05,999] Driver instance name = firefoxdriver: firefox on windows (9d2961d1-fb94-4190-872d-5bb9bbef7012)
+[2023-08-03 16:37:22,875] Run on FIREFOX
+[2023-08-03 16:37:27,389] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:37:27,482] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:37:28,867] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:37:29,614] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:37:29,855] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:37:50,040] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:37:50,169] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:37:50,278] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:37:50,382] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:37:50,599] OS name = windows 10
+[2023-08-03 16:37:50,599] Driver instance name = firefoxdriver: firefox on windows (a88b931f-3e2a-415f-811c-05af273fb5e9)
+[2023-08-03 16:37:56,509] Run on FIREFOX
+[2023-08-03 16:38:00,431] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:38:00,527] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:38:01,650] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:38:02,280] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:38:02,521] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:38:02,621]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:02,621] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:38:03,002] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:38:03,024]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,052]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,063]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,074]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,093]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,104]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,104] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:38:03,468] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:38:03,489]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,514]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,524]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,534]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,544]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,552]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:03,670] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:38:03,903] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:38:04,575] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:38:04,604]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:04,630]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:04,639]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:04,649]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:04,665]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:04,673]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:04,673] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:38:05,521] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:38:25,608] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:38:25,656] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:38:26,109] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:38:26,553] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:38:26,804] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:38:26,893]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:26,894] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:38:27,280] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:38:27,651] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:38:27,703]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:27,706] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:38:27,745] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:38:28,175] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:38:30,416] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:38:30,440]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:30,440] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:38:30,475] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:38:30,915] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:38:33,162] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:38:33,183]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:33,183] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:38:35,542] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:38:35,570]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:35,575]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:38:35,607]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:35,637]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:35,669]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:35,699]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:35,699] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:38:35,737] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:38:36,337]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:36,390] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:38:38,745] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:38:38,758]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:38:38,865] OS name = windows 10
+[2023-08-03 16:38:38,865] Driver instance name = firefoxdriver: firefox on windows (b5452998-890a-497f-ba29-e1cb68b2a991)
+[2023-08-03 16:41:52,700] Run on FIREFOX
+[2023-08-03 16:41:56,598] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:41:56,696] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:41:57,822] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:41:58,495] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:41:58,737] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:41:58,846]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:58,846] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:41:59,266] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:41:59,290]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,318]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,331]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,343]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,360]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,371]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,371] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:41:59,731] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:41:59,749]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,775]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,786]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,795]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,805]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,814]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:41:59,872] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:42:00,105] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:42:00,794] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:42:00,819]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:00,844]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:00,854]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:00,863]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:00,879]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:00,888]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:00,888] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:42:01,744] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:42:21,837] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:42:21,881] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:42:22,326] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:42:22,741] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:42:22,993] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:42:23,092]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:23,092] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:42:23,453] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:42:23,854] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:42:23,903]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:23,906] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:42:23,946] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:42:24,370] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:42:26,614] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:42:26,640]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:26,640] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:42:26,676] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:42:27,133] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:42:29,365] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:42:29,386]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:29,386] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:42:31,758] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:42:31,789]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:31,793]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:42:31,824]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:31,856]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:31,887]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:31,917]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:31,917] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:42:31,954] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:42:32,571]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:32,634] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:42:35,016] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:42:35,020]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:35,060]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:35,093]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:42:35,181] OS name = windows 10
+[2023-08-03 16:42:35,181] Driver instance name = firefoxdriver: firefox on windows (bebddf97-aba7-4042-8cdc-9c0353251be0)
+[2023-08-03 16:45:16,653] Run on FIREFOX
+[2023-08-03 16:45:20,519] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:45:20,612] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:45:21,230] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:45:21,881] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:45:22,121] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:45:22,222]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:22,222] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:45:22,625] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:45:22,655]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:22,684]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:22,695]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:22,706]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:22,724]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:22,735]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:22,735] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:45:23,107] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:45:23,125]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:23,151]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:23,161]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:23,171]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:23,180]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:23,190]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:23,322] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:45:23,565] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:45:24,291] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:45:24,313]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:24,338]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:24,348]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:24,357]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:24,373]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:24,382]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:24,382] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:45:25,241] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:45:45,338] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:45:45,382] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:45:45,826] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:45:46,252] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:45:46,506] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:45:46,618]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:46,618] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:45:46,982] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:45:47,392] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:45:47,440]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:47,443] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:45:47,489] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:45:47,923] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:45:50,166] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:45:50,190]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:50,190] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:45:50,233] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:45:50,697] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:45:52,929] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:45:52,967]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:52,967] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:45:55,320] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:45:55,341]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:55,344]  -------------------------- FAILED -------------------------- 
+[2023-08-03 16:45:55,376]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:55,406]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:55,438]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:55,469]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:55,469] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:45:55,508] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:45:56,134]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:56,255] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:45:58,615] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:45:58,618]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,645]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,679]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,714]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,748]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,783]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,817]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,855]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:45:58,857] OS name = windows 10
+[2023-08-03 16:45:58,857] Driver instance name = firefoxdriver: firefox on windows (787b59ab-13a6-4726-bd76-23976f89bb50)
+[2023-08-03 16:53:32,521] Run on FIREFOX
+[2023-08-03 16:53:36,457] Pre-Condition - Step 05: Search product on 'Search' textbox
+[2023-08-03 16:53:36,550] Pre-Condition - Step 06: Click to 'Search' textbox
+[2023-08-03 16:53:37,660] Pre-Condition - Step 06: Click to product
+[2023-08-03 16:53:38,828] Add_To_Wishlist - Step 01: Click to 'Add to Wishlist' button
+[2023-08-03 16:53:39,068] Add_To_Wishlist - Step 01: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:53:39,159]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:39,159] Add_To_Wishlist - Step 01: Click to 'Wishlist' linktext
+[2023-08-03 16:53:39,549] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:53:39,567]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:39,594]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:39,606]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:39,617]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:39,635]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:39,646]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:39,646] Add_To_Wishlist - Step 01: View wishlist from URL sharing by click Url
+[2023-08-03 16:53:40,011] Add_To_Wishlist - Step 01: Verify added product in wishlist page
+[2023-08-03 16:53:40,031]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:40,057]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:40,067]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:40,077]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:40,086]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:40,095]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:40,153] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to checkbox on product
+[2023-08-03 16:53:40,388] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Add to cart' button form wishlist page
+[2023-08-03 16:53:41,112] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product in shopping cart
+[2023-08-03 16:53:41,130]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:41,155]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:41,165]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:41,176]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:41,191]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:41,200]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:53:41,200] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Click to 'Wishlist' linktext on footer
+[2023-08-03 16:53:42,086] Add_Product_To_Cart_From_Wishlist_Page - Step 01: Verify product is removed from wishlist page
+[2023-08-03 16:54:02,192] Remove_Product_In_Wishlist_Page - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:54:02,235] Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox
+[2023-08-03 16:54:02,680] Remove_Product_In_Wishlist_Page - Step 03: Click to product
+[2023-08-03 16:54:03,110] Remove_Product_In_Wishlist_Page - Step 04: Click to 'Add to Wishlist' button
+[2023-08-03 16:54:03,362] Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed
+[2023-08-03 16:54:03,488]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:03,488] Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext
+[2023-08-03 16:54:03,877] Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon
+[2023-08-03 16:54:04,268] Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page
+[2023-08-03 16:54:04,314]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:04,318] Add_Product_To_Compare - Step 01: Search product on 'Search' textbox
+[2023-08-03 16:54:04,364] Add_Product_To_Compare - Step 02: Click to 'Search' textbox
+[2023-08-03 16:54:04,769] Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon
+[2023-08-03 16:54:07,017] Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:54:07,037]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:07,037] Add_Product_To_Compare - Step 04: Search product on 'Search' textbox
+[2023-08-03 16:54:07,073] Add_Product_To_Compare - Step 05: Click to 'Search' textbox
+[2023-08-03 16:54:07,521] Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon
+[2023-08-03 16:54:09,755] Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.
+[2023-08-03 16:54:09,779]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:09,779] Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext
+[2023-08-03 16:54:12,134] Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page
+[2023-08-03 16:54:12,160]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,184]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,207]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,237]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,266]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,296]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,326]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,326] Add_Product_To_Compare - Step 10: Click to 'Clear list' button
+[2023-08-03 16:54:12,363] Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed
+[2023-08-03 16:54:12,961]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:12,965] Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page
+[2023-08-03 16:54:15,311] Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed
+[2023-08-03 16:54:15,323]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,351]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,383]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,417]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,452]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,485]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,518]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,550]  -------------------------- PASSED -------------------------- 
+[2023-08-03 16:54:15,556] OS name = windows 10
+[2023-08-03 16:54:15,556] Driver instance name = firefoxdriver: firefox on windows (4ad091c4-3fb1-43ea-9bab-5614100a3276)

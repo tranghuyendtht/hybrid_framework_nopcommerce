@@ -197,4 +197,9 @@ public class UserWishListPageObject extends BasePage {
 		
 	}
 
+	public void clickToRemoveIcon() {
+		waitForElementClickable(driver, UserWishListPageUI.REMOVE_ICON);
+		clickToElement(driver, UserWishListPageUI.REMOVE_ICON);
+	}
+
 }

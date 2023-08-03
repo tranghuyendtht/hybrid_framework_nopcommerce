@@ -7,15 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import PageUIs.nopcommerce.user.UserProductDetailUI;
 import PageUIs.nopcommerce.user.UserSearchKeywordPageUI;
 import commons.BasePage;
 import commons.PageGeneratorManager;
 
 public class UserSearchKeywordPageObject extends BasePage {
-	
+
 	private WebDriver driver;
-	
-	public UserSearchKeywordPageObject (WebDriver driver) {
+
+	public UserSearchKeywordPageObject(WebDriver driver) {
 		this.driver = driver;
 	}
 
@@ -32,8 +33,7 @@ public class UserSearchKeywordPageObject extends BasePage {
 	public boolean isMessageNoProductFound() {
 		waitForElementVisible(driver, UserSearchKeywordPageUI.MESSAGE_NO_PRODUCT_FOUND);
 		return isElementDisplayed(driver, UserSearchKeywordPageUI.MESSAGE_NO_PRODUCT_FOUND);
-	} 
-	
+	}
 
 	public boolean isResultMatched(String keyword) {
 		boolean pass = true;
@@ -48,13 +48,13 @@ public class UserSearchKeywordPageObject extends BasePage {
 			}
 		}
 		return pass;
-		
+
 	}
 
 	public int isNumberOfResultTrue() {
 		List<WebElement> listTitle = getElements(driver, UserSearchKeywordPageUI.LIST_PRODUCT_TITLE);
 		return listTitle.size();
-		
+
 	}
 
 	public void clickToAdvancedSearchCheckbox() {
@@ -72,7 +72,7 @@ public class UserSearchKeywordPageObject extends BasePage {
 	public void clickToSubCategoryCheckbox() {
 		waitForElementClickable(driver, UserSearchKeywordPageUI.SUB_CATEGORY_CHECKBOX);
 		clickToElement(driver, UserSearchKeywordPageUI.SUB_CATEGORY_CHECKBOX);
-		
+
 	}
 
 	public void selectSubCategoryDropdownlistByValue(String textValue) {
@@ -87,6 +87,27 @@ public class UserSearchKeywordPageObject extends BasePage {
 		return PageGeneratorManager.getUserAProductInfoDetail(driver);
 	}
 
-		
+	public String getPriceProduct() {
+		waitForElementVisible(driver, UserSearchKeywordPageUI.PRICE_PRODUCT);
+		return getElementText(driver, UserSearchKeywordPageUI.PRICE_PRODUCT);
+	}
+
+	public void clickToAddCompareListIconByProductName(String productName) {
+		waitForElementClickable(driver, UserSearchKeywordPageUI.ADD_TO_COMPARE_LIST_ICON_BY_PRODUCT_NAME, productName);
+		clickToElement(driver, UserSearchKeywordPageUI.ADD_TO_COMPARE_LIST_ICON_BY_PRODUCT_NAME, productName);
+		sleepInSecond(2);
+	}
+
+	public String verifySuccessMessageDisplay() {
+		waitForElementVisible(driver, UserSearchKeywordPageUI.ADDED_SUCCESS_MESSAGE);
+		return getElementText(driver, UserSearchKeywordPageUI.ADDED_SUCCESS_MESSAGE);
+	}
+
+	public UserCompareProductsPageObject clickToProductCompariSonLinkText() {
+		waitForElementClickable(driver, UserSearchKeywordPageUI.COMPARISON_PRODUCT_LINKTEXT);
+		clickToElement(driver, UserSearchKeywordPageUI.COMPARISON_PRODUCT_LINKTEXT);
+		sleepInSecond(2);
+		return PageGeneratorManager.getUserCompareProductsPage(driver);
+	}
 
 }
