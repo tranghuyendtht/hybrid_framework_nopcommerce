@@ -73,13 +73,15 @@ public class BaseTest {
 		switch (browserName) {
 		case "FIREFOX":
 			driver = WebDriverManager.firefoxdriver().create();
-			
 			break;
 		case "CHROME":
 			driver = WebDriverManager.chromedriver().create();
 			break;
 		case "EDGE":
 			driver = WebDriverManager.edgedriver().create();
+			break;
+		case "IE": 
+			driver = WebDriverManager.iedriver().arch32().create();
 			break;
 		case "COCCOC":
 			ChromeOptions options = new ChromeOptions();

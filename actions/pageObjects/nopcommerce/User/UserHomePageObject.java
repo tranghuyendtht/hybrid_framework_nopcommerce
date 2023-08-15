@@ -69,16 +69,6 @@ public class UserHomePageObject extends BasePage {
 		return PageGeneratorManager.getUserComputerProductPage(driver);
 	}
 
-//	public void inputKeywordToSearchTextbox(String keyword) {
-//		waitForElementVisible(driver, UserHomePageUI.SEARCH_TEXTBOX);
-//		sendkeyToElement(driver, UserHomePageUI.SEARCH_TEXTBOX, keyword);
-//	}
-//
-//	public UserSearchKeywordPageObject clickToSearchButton() {
-//		waitForElementClickable(driver, UserHomePageUI.SEARCH_BUTTON);
-//		clickToElement(driver, UserHomePageUI.SEARCH_BUTTON);
-//		return PageGeneratorManager.getUserSearchKeywordPage(driver);
-//	}
 	
 
 }

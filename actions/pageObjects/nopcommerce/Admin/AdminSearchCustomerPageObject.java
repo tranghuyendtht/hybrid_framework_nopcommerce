@@ -132,4 +132,9 @@ public class AdminSearchCustomerPageObject extends BasePage {
 
 	}
 
+	public boolean isCustomerCreatedSuccessfully(String emailAddress) {
+		waitForElementVisible(driver, AdminCustomerPageUI.TEXT_EMAIL_ON_CUSTOMER_TABLE, emailAddress);
+		return isElementDisplayed(driver, AdminCustomerPageUI.TEXT_EMAIL_ON_CUSTOMER_TABLE, emailAddress);
+	}
+
 }

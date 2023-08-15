@@ -10,5 +10,6 @@ public class UserComputerProductPageUI {
 	public static final String PRIVIOUS_PAGE_ICON = "xpath=//li[@class='previous-page']";
 	public static final String TOTAL_PAGE = "xpath=//div[@class='pager']//li";
 	public static final String NUMBER_OF_PRODUCT_PER_PAGE = "xpath=//div[@class='item-grid']/div[@class='item-box']";
+	public static final String PRODUCT_NAME_BY_NAME = "xpath=//div[@class='product-item']//a[text()='%s']";
 	
 }

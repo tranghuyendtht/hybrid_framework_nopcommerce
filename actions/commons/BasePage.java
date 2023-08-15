@@ -21,6 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import PageUIs.nopcommerce.user.BasePageUI;
 import PageUIs.nopcommerce.admin.AdminBasePageUI;
 import PageUIs.nopcommerce.user.UserCustomerInfoPageUI;
+import PageUIs.nopcommerce.user.UserHomePageUI;
 import PageUIs.nopcommerce.user.UserLoginPageUI;
 import PageUIs.nopcommerce.user.UserRegisterPageUI;
 import io.qameta.allure.Step;
@@ -35,7 +36,9 @@ import pageObjects.nopcommerce.User.UserHomePageObject;
 import pageObjects.nopcommerce.User.UserMyAccountPageObject;
 import pageObjects.nopcommerce.User.UserMyProductReviewsPageObject;
 import pageObjects.nopcommerce.User.UserOrderPageObject;
+import pageObjects.nopcommerce.User.UserRecentlyViewedProductsPageObject;
 import pageObjects.nopcommerce.User.UserRewardPointsPageObject;
+import pageObjects.nopcommerce.User.UserSearchKeywordPageObject;
 
 public class BasePage {
 
@@ -406,11 +409,11 @@ public class BasePage {
 
 	public void hoverMouseToElement(WebDriver driver, String locatorType) {
 		Actions action = new Actions(driver);
-		action.moveToElement(getElement(driver, locatorType));
+		action.moveToElement(getElement(driver, locatorType)).perform();
 	}
 	public void hoverMouseToElement(WebDriver driver, String locatorType, String...dynamicParams) {
 		Actions action = new Actions(driver);
-		action.moveToElement(getElement(driver, getDynamicXpath(locatorType, dynamicParams)));
+		action.moveToElement(getElement(driver, getDynamicXpath(locatorType, dynamicParams))).perform();
 	}
 
 	public void pressKeyToElement (WebDriver driver, String locatorType, Keys key) {
@@ -429,9 +432,10 @@ public class BasePage {
 	}
 
 	public void navigateToUrlByJS(WebDriver driver, String url) {
-		sleepInSecond(1);
+		
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("window.location = '" + url + "'");
+		sleepInSecond(2);
 	}
 
 	public void highlightElement(WebDriver driver, String locatorType, String...dynamicParams) {
@@ -755,4 +759,26 @@ public class BasePage {
 		clickToElementByJS(driver,AdminBasePageUI.DYNAMIC_CATEGORY_LINKTEXT_BY_NAME, parentMenuName, subMenuName);
 		sleepInSecond(3);
 	}
+	
+	// Nopcommerce User - Search textbox
+	public void inputKeywordToSearchTextbox(WebDriver driver, String keyword) {
+		waitForElementVisible(driver, AdminBasePageUI.SEARCH_TEXTBOX);
+		sendkeyToElement(driver, AdminBasePageUI.SEARCH_TEXTBOX, keyword);
+	}
+
+	public UserSearchKeywordPageObject clickToSearchButton(WebDriver driver) {
+		waitForElementClickable(driver, AdminBasePageUI.SEARCH_BUTTON);
+		clickToElement(driver, AdminBasePageUI.SEARCH_BUTTON);
+		return PageGeneratorManager.getUserSearchKeywordPage(driver);
+	}
+	
+	// Nopcommerce User - Click to menu on footer page
+	public UserRecentlyViewedProductsPageObject clickToRecentlyViewedProducts(WebDriver driver, String textValue) {
+		waitForElementClickable(driver, AdminBasePageUI.RECENTLY_VIEWED_PRODUCTS,textValue);
+		clickToElement(driver, AdminBasePageUI.RECENTLY_VIEWED_PRODUCTS, textValue);
+		sleepInSecond(2);
+		return PageGeneratorManager.getUserRecentlyViewedProductsPage(driver);
+	}
+	
+	
 }

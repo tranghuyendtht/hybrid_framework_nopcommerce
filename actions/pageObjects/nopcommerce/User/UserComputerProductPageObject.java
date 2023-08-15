@@ -125,19 +125,17 @@ public class UserComputerProductPageObject extends BasePage{
 	}
 
 	public boolean isNextPageIconDisplayedWhenStayInFirstPage(String numberOfPage) {
-		boolean pass = true;
 		waitForElementClickable(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
 		clickToElement(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
-		sleepInSecond(3);
+		sleepInSecond(1);
 		return isElementDisplayed(driver, UserComputerProductPageUI.NEXT_PAGE_ICON);
 		
 	}
 
 	public boolean isPreviousPageIconDisplayedWhenStayInSecondPage(String numberOfPage) {
-		boolean pass = true;
 		waitForElementClickable(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
 		clickToElement(driver, UserComputerProductPageUI.NUMBER_OF_PAGE, numberOfPage);
-		sleepInSecond(3);
+		sleepInSecond(1);
 		return isElementDisplayed(driver, UserComputerProductPageUI.PRIVIOUS_PAGE_ICON);
 		
 		
@@ -149,5 +147,11 @@ public class UserComputerProductPageObject extends BasePage{
 	
 	public boolean isNextPagingUndisplayed() {
 		return isElementUndisplayed(driver, UserComputerProductPageUI.NEXT_PAGE_ICON);
+	}
+
+	public UserProductDetailPageObject clickToProductByName(String productName) {
+		waitForElementClickable(driver, UserComputerProductPageUI.PRODUCT_NAME_BY_NAME, productName);
+		clickToElement(driver, UserComputerProductPageUI.PRODUCT_NAME_BY_NAME, productName);
+		return PageGeneratorManager.getUserAProductInfoDetail(driver);
 	}
 }

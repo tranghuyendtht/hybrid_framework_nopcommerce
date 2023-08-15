@@ -110,4 +110,16 @@ public class UserSearchKeywordPageObject extends BasePage {
 		return PageGeneratorManager.getUserCompareProductsPage(driver);
 	}
 
+	public void clickAddToCartButton() {
+		waitForElementClickable(driver, UserSearchKeywordPageUI.ADD_TO_CART_BUTTON);
+		clickToElement(driver, UserSearchKeywordPageUI.ADD_TO_CART_BUTTON);
+
+	}
+
+	public UserShoppingCartPageObject clickToShoppingCartLinktext() {
+		waitForElementClickable(driver, UserSearchKeywordPageUI.SHOPPING_CART_LINKTEXT);
+		clickToElement(driver, UserSearchKeywordPageUI.SHOPPING_CART_LINKTEXT);
+		return PageGeneratorManager.getUserShoppingCartPage(driver);
+	}
+
 }

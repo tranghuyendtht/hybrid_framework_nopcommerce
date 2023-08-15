@@ -151,5 +151,107 @@ public class UserShoppingCartPageObject extends BasePage{
 		return PageGeneratorManager.getUserWishListPage(driver);
 	}
 
+	public void inputProductQuantityToQtyTextbox(String productQuantity) {
+		waitForElementVisible(driver, UserShoppingCartPageUI.PRODUCT_QUANTITY_ON_SHOPPING_CART_PAGE);
+		sendkeyToElement(driver, UserShoppingCartPageUI.PRODUCT_QUANTITY_ON_SHOPPING_CART_PAGE, productQuantity);
+	}
+
+	public void clickToUpdateShoppingCartButton() {
+		waitForElementClickable(driver, UserShoppingCartPageUI.UPDATE_SHOPPING_CART_BUTTON);
+		clickToElement(driver, UserShoppingCartPageUI.UPDATE_SHOPPING_CART_BUTTON);
+	}
+
+	public String isQuantityFieldUpdated() {
+		waitForElementVisible(driver, UserShoppingCartPageUI.PRODUCT_QUANTITY_ON_SHOPPING_CART_PAGE);
+		return getElementAtribute(driver, UserShoppingCartPageUI.PRODUCT_QUANTITY_ON_SHOPPING_CART_PAGE, "value");
+	}
+
+	public boolean isSubTotalFieldUpdated(String productPrice, String productQuantity) {
+		boolean pass = true;
+		waitForElementVisible(driver, UserShoppingCartPageUI.SUB_TOTAL);
+		String subTotalS = getElementText(driver, UserShoppingCartPageUI.SUB_TOTAL);
+		int subTotalF = Integer.valueOf(subTotalS.replaceAll("[^A-Za-z0-9]",""));
+		int productPriceF = Integer.valueOf(productPrice.replaceAll("[^A-Za-z0-9]",""));
+		int productQuantityI = Integer.valueOf(productQuantity);
+		if(subTotalF == productPriceF*productQuantityI) {
+			pass = true;
+		} else {
+			pass = false;
+		}
+		return pass;
+	}
+	public boolean isTotalFieldUpdated(String productPrice, String productQuantity) {
+		boolean pass = true;
+		waitForElementVisible(driver, UserShoppingCartPageUI.TOTAL_SHOPPING_CART_TABLE);
+		String subTotalS = getElementText(driver, UserShoppingCartPageUI.TOTAL_SHOPPING_CART_TABLE);
+		int subTotalF = Integer.valueOf(subTotalS.replaceAll("[^A-Za-z0-9]",""));
+		int productPriceF = Integer.valueOf(productPrice.replaceAll("[^A-Za-z0-9]",""));
+		int productQuantityI = Integer.valueOf(productQuantity);
+		if(subTotalF == productPriceF*productQuantityI) {
+			 pass = true;
+		} else {
+			 pass = false;
+		}
+		return pass;
+	}
+
+	public boolean isTotalFieldUpdated(String productPrice, String productQuantity, String shipping, String tax) {
+		boolean pass = true;
+		waitForElementVisible(driver, UserShoppingCartPageUI.SUB_TOTAL);
+		String subTotalS = getElementText(driver, UserShoppingCartPageUI.SUB_TOTAL);
+		int subTotalF = Integer.valueOf(subTotalS.replaceAll("[^A-Za-z0-9]",""));
+		int productPriceF = Integer.valueOf(productPrice.replaceAll("[^A-Za-z0-9]",""));
+		int shippingF = Integer.valueOf(shipping.replaceAll("[^A-Za-z0-9]",""));
+		int taxF = Integer.valueOf(tax.replaceAll("[^A-Za-z0-9]",""));
+		
+		int productQuantityI = Integer.valueOf(productQuantity);
+		if(subTotalF == productPriceF*productQuantityI + shippingF + taxF) {
+			 pass = true;
+		} else {
+			 pass = false;
+		}
+		return pass;
+	}
+
+	public void clickToRemoveButton() {
+		waitForElementClickable(driver, UserShoppingCartPageUI.REMOVE_BUTTON);
+		clickToElement(driver, UserShoppingCartPageUI.REMOVE_BUTTON);
+		
+	}
+
+	public boolean isEmptyShoppingCartMessageDisplayed() {
+		waitForElementVisible(driver, UserShoppingCartPageUI.EMPTY_SHOPPING_CART_MESSAGE);
+		return isElementDisplayed(driver, UserShoppingCartPageUI.EMPTY_SHOPPING_CART_MESSAGE);
+	}
+	
+
+	public String getProductPriceOnShoppingCartTable() {
+		waitForElementVisible(driver, UserShoppingCartPageUI.PRODUCT_PRICE_SHOPPING_CART);
+		return getElementText(driver, UserShoppingCartPageUI.PRODUCT_PRICE_SHOPPING_CART);
+	}
+
+	public void selectGiftWrapping(String giftWrapping) {
+		waitForElementClickable(driver, UserShoppingCartPageUI.GIFT_WRAPPING);
+		clickToElement(driver, UserShoppingCartPageUI.GIFT_WRAPPING);
+	}
+
+	public boolean isGiftWrappingDisplayed() {
+		waitForElementVisible(driver, UserShoppingCartPageUI.GIFT_WRAPPING_STATUS);
+		return isElementDisplayed(driver, UserShoppingCartPageUI.GIFT_WRAPPING_STATUS);
+		
+	}
+
+	public void clickToAgreeTermCheckbox() {
+		waitForElementClickable(driver, UserShoppingCartPageUI.AGREE_TERM_CHECKBOX);
+		clickToElement(driver, UserShoppingCartPageUI.AGREE_TERM_CHECKBOX);
+		
+	}
+
+	public UserCheckoutPageObject clickToCheckoutButton() {
+		waitForElementClickable(driver, UserShoppingCartPageUI.CHECKOUT_BUTTON);
+		clickToElement(driver, UserShoppingCartPageUI.CHECKOUT_BUTTON);
+		return PageGeneratorManager.getUserCheckoutPage(driver);
+	}
+
 
 }

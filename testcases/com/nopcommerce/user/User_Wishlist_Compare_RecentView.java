@@ -55,8 +55,8 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 
 		log.info("Pre-Condition - Step 06: Click to product");
 		userProductDetailPage = userSearchKeywordPage.clickToProductTitle(productName1);
-		skuProduct = userProductDetailPage.getSKUProduct();
-		priceProduct1 = userProductDetailPage.getPriceProduct();
+		skuProduct = userProductDetailPage.getProductSKU();
+		priceProduct1 = userProductDetailPage.getProductPrice();
 	}
 
 	@Test

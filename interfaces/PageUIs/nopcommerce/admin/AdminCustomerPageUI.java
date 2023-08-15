@@ -17,6 +17,7 @@ public class AdminCustomerPageUI {
 	public static final String DATE_OF_BIRTH_DROPDOWN_LIST_BY_ID = "xpath=//select[@id='%s']";
 	public static final String EDIT_BUTTON_ON_COLUMN = "xpath=//a[@class='btn btn-default' and contains(string(),'Edit')]";
 	public static final String SUCCESS_MESSAGE_CREATE_NEW_CUSTOMER = "xpath=//div[@class='content-wrapper']//div[contains(string(),'%s')]";
+	public static final String TEXT_EMAIL_ON_CUSTOMER_TABLE = "xpath=//table[@id='customers-grid']//tbody//td[text()='%s']";
 	
 	public static final String CARD_TITLE_ON_DETAIL_CUSTOMER_BY_TEXT = "xpath=//div[@class='card-title' and contains(string(),'%s')]";
 	public static final String DYNAMIC_BUTTON_BY_TEXT = "xpath=//button[contains(text(),'%s')]";
