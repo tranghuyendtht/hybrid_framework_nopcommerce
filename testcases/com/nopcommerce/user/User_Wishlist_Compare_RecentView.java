@@ -3,6 +3,7 @@ package com.nopcommerce.user;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -36,10 +37,13 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 	String productName1, productName2, skuProduct, priceProduct1, priceProduct2;
 	int quantityProduct;
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browser", "ipAddress", "portNumber", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName,
+			@Optional("chrome") String browserName, @Optional("localhost") String ipAddress,
+			@Optional("4444") String portNumber, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+		driver = getBrowserDrivers(envName, browserName, osName, serverName, ipAddress, portNumber, osVersion);
+		
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 
 		productNotebooksUrl = "https://demo.nopcommerce.com/notebooks";
@@ -128,7 +132,7 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 
 		log.info("Remove_Product_In_Wishlist_Page - Step 02: Click to 'Search' textbox");
 		userSearchKeywordPage = userWishListPage.clickToSearchButton(driver);
-		
+
 		log.info("Remove_Product_In_Wishlist_Page - Step 03: Click to product");
 		userProductDetailPage = userSearchKeywordPage.clickToProductTitle(productName1);
 
@@ -136,16 +140,17 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 
 		userProductDetailPage.clickToAddToWishlistButton();
 
-		log.info("Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed");
+		log.info(
+				"Remove_Product_In_Wishlist_Page - Step 05: Verify success message 'The product has been added to your wishlist' is displayed");
 
 		verifyEquals(userProductDetailPage.isSuccessMessageDisplayed(), "The product has been added to your wishlist");
 
 		log.info("Remove_Product_In_Wishlist_Page - Step 06: Click to 'Wishlist' linktext");
 		userWishListPage = userProductDetailPage.clickToWishlistLinkText();
-		
+
 		log.info("Remove_Product_In_Wishlist_Page - Step 07: Click to remove icon");
 		userWishListPage.clickToRemoveIcon();
-		
+
 		log.info("Remove_Product_In_Wishlist_Page - Step 08: Verify product is removed from wishlist page");
 		verifyTrue(userWishListPage.isProductUndisplayed());
 
@@ -159,30 +164,34 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 
 		log.info("Add_Product_To_Compare - Step 02: Click to 'Search' textbox");
 		userSearchKeywordPage = userWishListPage.clickToSearchButton(driver);
-		
+
 		log.info("Add_Product_To_Compare - Step 03: Click to 'Add to compare list' icon");
 		userSearchKeywordPage.clickToAddCompareListIconByProductName(productName1);
-		
-		log.info("Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.");
-	
-		verifyEquals(userSearchKeywordPage.verifySuccessMessageDisplay(), "The product has been added to your product comparison");
-		
+
+		log.info(
+				"Add_Product_To_Compare - Step 03: Verify success message 'The product has been added to your product comparison' displayed.");
+
+		verifyEquals(userSearchKeywordPage.verifySuccessMessageDisplay(),
+				"The product has been added to your product comparison");
+
 		log.info("Add_Product_To_Compare - Step 04: Search product on 'Search' textbox");
 		userSearchKeywordPage.inputKeywordToSearchTextbox(driver, productName2);
 
 		log.info("Add_Product_To_Compare - Step 05: Click to 'Search' textbox");
 		userSearchKeywordPage.clickToSearchButton(driver);
 		priceProduct2 = userSearchKeywordPage.getPriceProduct();
-		
+
 		log.info("Add_Product_To_Compare - Step 06: Click to 'Add to compare list' icon");
 		userSearchKeywordPage.clickToAddCompareListIconByProductName(productName2);
-		
-		log.info("Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.");
-		verifyEquals(userSearchKeywordPage.verifySuccessMessageDisplay(), "The product has been added to your product comparison");
-				
+
+		log.info(
+				"Add_Product_To_Compare - Step 07: Verify success message 'The product has been added to your product comparison' displayed.");
+		verifyEquals(userSearchKeywordPage.verifySuccessMessageDisplay(),
+				"The product has been added to your product comparison");
+
 		log.info("Add_Product_To_Compare - Step 08: Click to 'Product comparison' linktext");
 		userCompareProductsPage = userSearchKeywordPage.clickToProductCompariSonLinkText();
-				
+
 		log.info("Add_Product_To_Compare - Step 09: Verify product info in Product Comparison Page");
 		verifyTrue(userCompareProductsPage.isRemoveIconDisplayed());
 		verifyTrue(userCompareProductsPage.isImageProductDisplayedByProductName(productName1));
@@ -191,10 +200,10 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 		verifyTrue(userCompareProductsPage.isNameProductDisplayedByProductName(productName1));
 		verifyTrue(userCompareProductsPage.isPriceProductDisplayedByProductName(priceProduct1));
 		verifyTrue(userCompareProductsPage.isPriceProductDisplayedByProductName(priceProduct2));
-		
+
 		log.info("Add_Product_To_Compare - Step 10: Click to 'Clear list' button");
 		userCompareProductsPage.clickToClearListButton();
-		
+
 		log.info("Add_Product_To_Compare - Step 11: Verify 'You have no items to compare.' message displayed");
 		verifyTrue(userCompareProductsPage.verifyNoDataMessageDisplayed());
 	}
@@ -202,8 +211,9 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 	@Test
 	public void TC_05_Recently_Viewed_Product() {
 		log.info("Recently_Viewed_Product - Step 01: Click to 'Recently Viewed Products' linktext on footer page");
-		userRecentlyViewedProductsPage = userCompareProductsPage.clickToRecentlyViewedProducts(driver, "Recently viewed products");
-		
+		userRecentlyViewedProductsPage = userCompareProductsPage.clickToRecentlyViewedProducts(driver,
+				"Recently viewed products");
+
 		log.info("Recently_Viewed_Product - Step 02: Verify 3 lastest products displayed");
 		verifyTrue(userRecentlyViewedProductsPage.verifyIsThreeLastestProductsDisplayed());
 		verifyTrue(userRecentlyViewedProductsPage.verifyIsImageDisplayed("picture"));
@@ -214,7 +224,6 @@ public class User_Wishlist_Compare_RecentView extends BaseTest {
 		verifyTrue(userRecentlyViewedProductsPage.verifyIsFeatureNameDisplayedByText("Add to compare list"));
 		verifyTrue(userRecentlyViewedProductsPage.verifyIsFeatureNameDisplayedByText("Add to wishlist"));
 	}
-
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {

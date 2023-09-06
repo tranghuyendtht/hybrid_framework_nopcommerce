@@ -1,5 +1,5 @@
 package commons;
 
-public enum EnvironmentList {
+public enum ServerList {
 	DEV, TESTING, STAGING, PRODUCTION;
 }

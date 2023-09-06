@@ -26,6 +26,10 @@ public class GlobalConstants {
 	public static final long LONG_TIMEOUT = 20;
 	public static final long RETRY_TEST_FAIl = 3;
 	
+	public static final String LAMBDA_USERNAME = "trangdth202";
+	public static final String LAMBDA_ACCESS_KEY = "wDlIqtM4YYXFz7zaiODRWMwTIlFsNHhgX5YjD2WbUV8ezT3Xxs";
+	public static final String LAMBDA_URL = "https://" + LAMBDA_USERNAME + ":" + LAMBDA_ACCESS_KEY + "@hub.lambdatest.com/wd/hub";
+	
 	
 	
 	

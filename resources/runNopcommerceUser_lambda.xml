@@ -9,13 +9,16 @@
 		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" />-->
 		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
 	</listeners>
-	<test name="Run on Firefox">
-		<parameter name="browser" value="firefox" />
-		<parameter name="environment" value="DEV" />
+	<test name="Run on Chrome">
+		<parameter name="envName" value="lambda" />
+		<parameter name="serverName" value="DEV" />
+		 <parameter name="browser" value="firefox" />
+        <parameter name="osName" value="Windows 10" />
+        <parameter name="osVersion" value="117.0" />
 		
 		<classes>
-			<class name="com.nopcommerce.common.Common_01_Register_Cookie"/>
-			<class name="com.nopcommerce.user.Level_21_User_Register_Multiple_Env_Owner" />
+			<!--<class name="com.nopcommerce.common.Common_01_Register_Cookie"/> -->
+			<class name="com.nopcommerce.user.User_Wishlist_Compare_RecentView" />
 		</classes>
 	</test>
 
