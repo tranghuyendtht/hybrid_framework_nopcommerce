@@ -13,6 +13,7 @@ import pageObjects.nopcommerce.User.UserHomePageObject;
 import pageObjects.nopcommerce.User.UserRegisterPageObject;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.util.Random;
@@ -37,11 +38,13 @@ public class User_Register extends BaseTest {
 	private String adminUsername, adminPassword;
 	private int fakeNumber;
 
-	@Parameters({"browser", "url"})
+	@Parameters({ "envName", "serverName", "browser", "ipAddress", "portNumber", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appUrl) {
-		log.info("Pre-Condition - Step 01: Go page");
-		driver = getBrowserDriver(browserName, appUrl);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName,
+			@Optional("chrome") String browserName, @Optional("localhost") String ipAddress,
+			@Optional("4444") String portNumber, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+		driver = getBrowserDrivers(envName, browserName, osName, serverName, ipAddress, portNumber, osVersion);
+
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 
 		fakeNumber = fakeNumber();
@@ -86,7 +89,7 @@ public class User_Register extends BaseTest {
 
 	}
 
-	//@Test
+	// @Test
 	public void TC_02_Register_Invalid_Email() {
 		log.info("Register_Invalid_Email - Step 01: Refresh Page");
 		userRegisterPage.refreshPage(driver);
@@ -192,7 +195,7 @@ public class User_Register extends BaseTest {
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 	}
 
-	//@Test
+	// @Test
 	public void TC_04_Register_Existing_Email() {
 		log.info("Register_Existing_Email - Step 01: Refresh page");
 		userRegisterPage.navigateToUrlByJS(driver, "https://demo.nopcommerce.com/register");
@@ -232,12 +235,12 @@ public class User_Register extends BaseTest {
 
 	}
 
-	//@Test
+	// @Test
 	public void TC_05_Register_Password_Less_Than_6_Chars() {
 
 		log.info("Register_Password_Less_Than_6_Chars - Step 01: Refresh page");
 		userRegisterPage.navigateToUrlByJS(driver, "https://demo.nopcommerce.com/register");
-		
+
 		log.info("Register_Password_Less_Than_6_Chars - Step 02: Input to firstName textbox with value: " + firstName);
 		userRegisterPage.inputToTextboxByIdTextbox(driver, "FirstName", firstName);
 
@@ -260,7 +263,8 @@ public class User_Register extends BaseTest {
 				+ companyName);
 		userRegisterPage.inputToTextboxByIdTextbox(driver, "Company", companyName);
 
-		log.info("Register_Password_Less_Than_6_Chars - Step 09: Input to password textbox with value: " + errorPassword);
+		log.info("Register_Password_Less_Than_6_Chars - Step 09: Input to password textbox with value: "
+				+ errorPassword);
 		userRegisterPage.inputToTextboxByIdTextbox(driver, "Password", errorPassword);
 
 		log.info("Register_Password_Less_Than_6_Chars - Step 10: Input to confirmPassword textbox with value: "
@@ -277,7 +281,7 @@ public class User_Register extends BaseTest {
 
 	}
 
-	//@Test
+	// @Test
 	public void TC_06_Register_Invalid_Confirm_Password() {
 
 		log.info("Register_Invalid_Confirm_Password - Step 01: Refresh page");

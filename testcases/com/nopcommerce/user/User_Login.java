@@ -11,6 +11,7 @@ import pageObjects.nopcommerce.User.UserLoginPageObject;
 import pageObjects.nopcommerce.User.UserRegisterPageObject;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -25,12 +26,14 @@ public class User_Login extends BaseTest {
 	String firstName, lastName, password, invalidEmail, notFoundEmail;
 	String appUrl;
 
-	@Parameters({"browser", "url"})
+	@Parameters({ "envName", "serverName", "browser", "ipAddress", "portNumber", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName,
+			@Optional("chrome") String browserName, @Optional("localhost") String ipAddress,
+			@Optional("4444") String portNumber, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+		driver = getBrowserDrivers(envName, browserName, osName, serverName, ipAddress, portNumber, osVersion);
+		
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
-		this.appUrl = appUrl;
 
 		emailAddress = "automation" + fakeNumber() + "@mail.com";
 		firstName = "Automation";

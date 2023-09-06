@@ -13,6 +13,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -35,12 +36,13 @@ public class User_Sort_Display_Paging extends BaseTest {
 	
 	String productNotebooksUrl;
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browser", "ipAddress", "portNumber", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appUrl) {
-		driver = getBrowserDriver(browserName, appUrl);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
-
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName,
+			@Optional("chrome") String browserName, @Optional("localhost") String ipAddress,
+			@Optional("4444") String portNumber, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+		driver = getBrowserDrivers(envName, browserName, osName, serverName, ipAddress, portNumber, osVersion);
+		
 		productNotebooksUrl = "https://demo.nopcommerce.com/notebooks";
 
 		log.info("Pre-Condition - Step 01: Go to Login page ");

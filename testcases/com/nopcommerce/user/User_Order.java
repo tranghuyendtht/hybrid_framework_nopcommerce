@@ -3,6 +3,7 @@ package com.nopcommerce.user;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -39,11 +40,13 @@ public class User_Order extends BaseTest {
 	String firstName, lastName, emailAddress, country, state, city, address1, zipCode, phoneNumber;
 	String orderNumber;
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "envName", "serverName", "browser", "ipAddress", "portNumber", "osName", "osVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String appUrl) {
-		log.info("Pre-Condition: Go to page");
-		driver = getBrowserDriver(browserName, appUrl);
+	public void beforeClass(@Optional("local") String envName, @Optional("dev") String serverName,
+			@Optional("chrome") String browserName, @Optional("localhost") String ipAddress,
+			@Optional("4444") String portNumber, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+		driver = getBrowserDrivers(envName, browserName, osName, serverName, ipAddress, portNumber, osVersion);
+		
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 		fakeData = DataHelper.getData();
 
